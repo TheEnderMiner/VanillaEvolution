@@ -1,0 +1,24 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:copper_ingot",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:knife",
+    "data": 0
+  }
+}

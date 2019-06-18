@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:energetic_orb"
+        },
+        "title": {
+            "translate": "advancements.story.energized.title"
+        },
+        "description": {
+            "translate": "advancements.story.energized.description"
+        }
+    },
+    "parent": "evep:evolved/not_the_end",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:energetic_orb"
+                    }
+                ]
+            }
+        }
+    }
+}

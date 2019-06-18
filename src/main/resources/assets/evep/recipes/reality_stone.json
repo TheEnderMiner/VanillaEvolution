@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APA",
+    "MMM",
+    "APA"  ],
+  "key": {
+    "P": [
+      {
+        "item": "evep:ruby",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:meteorite_shard",
+        "data": 0
+      }
+    ],
+     "A": [
+      {
+        "item": "evep:silver_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:reality_stone",
+    "data": 0
+  }
+}

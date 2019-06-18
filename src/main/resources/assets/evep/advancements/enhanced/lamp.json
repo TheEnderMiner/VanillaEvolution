@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:red_lamp"
+        },
+        "title": {
+            "translate": "advancements.story.lamp.title"
+        },
+        "description": {
+            "translate": "advancements.story.lamp.description"
+        }
+    },
+    "parent": "evep:enhanced/gneiss",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:red_lamp"
+                    }
+                ]
+            }
+        }
+    }
+}

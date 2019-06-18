@@ -1,0 +1,26 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 1
+    },
+    {
+      "item": "minecraft:dye",
+       "data": 15
+    },
+ {
+      "item": "evep:knife",
+       "data": 0
+    },
+    {
+      "item": "minecraft:leaves2",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:maple_seed",
+    "data": 0
+  }
+}

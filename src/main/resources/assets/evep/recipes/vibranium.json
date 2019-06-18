@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:vibranium",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:vibranium_block",
+    "data": 0
+  }
+}

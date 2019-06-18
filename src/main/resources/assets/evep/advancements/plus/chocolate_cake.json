@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:chocolate_cake"
+        },
+        "title": {
+            "translate": "advancements.plus.chocolate_cake.title"
+        },
+        "description": {
+            "translate": "advancements.plus.chocolate_cake.description"
+        }
+    },
+    "parent": "evep:plus/chocolate",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:chocolate_cake"
+                    }
+                ]
+            }
+        }
+    }
+}

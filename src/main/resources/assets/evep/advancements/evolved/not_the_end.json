@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:enderite_ore"
+        },
+        "title": {
+            "translate": "advancements.story.not_the_end.title"
+        },
+        "description": {
+            "translate": "advancements.story.not_the_end.description"
+        }
+    },
+    "parent": "evep:evolved/nether_stop_mining",
+   "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:enderite"
+                    }
+                ]
+            }
+        }
+    }
+}

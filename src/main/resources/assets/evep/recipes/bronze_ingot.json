@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:copper_ingot",
+      "data": 0
+    },
+     {
+      "item": "evep:copper_ingot",
+      "data": 0
+    },
+     {
+      "item": "evep:copper_ingot",
+      "data": 0
+    },
+    {
+      "item": "evep:tin_ingot",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:bronze_ingot",
+    "data": 0,
+    "count": 1
+  }
+}

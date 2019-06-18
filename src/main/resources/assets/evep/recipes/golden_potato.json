@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GFG",
+    "GGG"  ],
+  "key": {
+    "F": [
+      {
+        "item": "minecraft:potato",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:golden_potato",
+    "data": 0
+  }
+}

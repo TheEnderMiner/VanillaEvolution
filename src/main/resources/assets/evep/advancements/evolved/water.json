@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:water_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.water.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.water.description"
+        }
+    },
+    "parent": "evep:evolved/element",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:water_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

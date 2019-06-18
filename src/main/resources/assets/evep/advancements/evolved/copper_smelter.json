@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:copper_ingot"
+        },
+        "title": {
+            "translate": "advancements.story.copper_smelter.title"
+        },
+        "description": {
+            "translate": "advancements.story.copper_smelter.description"
+        }
+    },
+    "parent": "evep:evolved/tin_man",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:copper_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

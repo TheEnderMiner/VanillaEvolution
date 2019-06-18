@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "P P",
+    "   "  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:dye",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "minecraft:dye",
+        "data": 5
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ppajama_helmet",
+    "data": 0
+  }
+}

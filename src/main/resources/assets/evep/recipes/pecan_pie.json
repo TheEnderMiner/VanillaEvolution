@@ -1,0 +1,55 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "SEB",
+    "CVC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+    "P": [
+      {
+        "item": "evep:pecan",
+        "data": 0
+      }
+    ],
+       "D": [
+      {
+        "item": "evep:dark_corn_syrup",
+        "data": 0
+      }
+    ],
+      "B": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+      "V": [
+      {
+        "item": "evep:vanilla",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:pecan_pie",
+    "data": 0
+  }
+}

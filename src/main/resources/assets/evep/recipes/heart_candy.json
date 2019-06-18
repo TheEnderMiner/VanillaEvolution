@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "CCC",
+    "DCD"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:heart_candy",
+    "data": 0,
+    "count": 3
+  }
+}

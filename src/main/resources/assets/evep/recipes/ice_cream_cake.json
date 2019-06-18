@@ -1,0 +1,49 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RVR",
+    "SHS",
+    "CEC"  ],
+  "key": {
+    "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "evep:cream",
+        "data": 0
+      }
+    ],
+       "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+      "V": [
+      {
+        "item": "evep:vanilla",
+        "data": 0
+      }
+    ],
+      "H": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ice_cream_cake",
+    "data": 0
+  }
+}

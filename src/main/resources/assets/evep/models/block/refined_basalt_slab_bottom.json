@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "evep:blocks/refined_basalt",
+        "top": "evep:blocks/refined_basalt",
+        "side": "evep:blocks/refined_basalt"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:double_chocolate_cookie"
+        },
+        "title": {
+            "translate": "advancements.plus.dchocolate.title"
+        },
+        "description": {
+            "translate": "advancements.plus.dchocolate.description"
+        }
+    },
+    "parent": "evep:plus/chocolate",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:double_chocolate_cookie"
+                    }
+                ]
+            }
+        }
+    }
+}

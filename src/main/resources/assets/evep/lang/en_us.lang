@@ -1,0 +1,783 @@
+item.malachite_ingot.name=Malachite Ingot
+item.malachite_sword.name=Malachite Sword
+item.malachite_pickaxe.name=Malachite Pickaxe
+item.malachite_axe.name=Malachite Axe
+item.malachite_shovel.name=Malachite Shovel
+item.malachite_hoe.name=Malachite Hoe
+item.meteorite_shard.name=Meteorite Shard
+item.nickel_ingot.name=Nickel Ingot
+item.aluminum_ingot.name=Aluminum Ingot
+item.silver_ingot.name=Silver Ingot
+item.lead_ingot.name=Lead Ingot
+item.zinc_ingot.name=Zinc Ingot
+item.carbon_ingot.name=Carbon Ingot
+item.tin_ingot.name=Tin Ingot
+item.copper_ingot.name=Copper Ingot
+item.cobalt_ingot.name=Cobalt Ingot
+item.enderite.name=Enderite
+item.ultrafood_gem.name=Ultrafood Gem
+item.superfood_gem.name=Superfood Gem
+item.amber.name=Amber
+item.onyx.name=Onyx
+item.seasonal_gem.name=Seasonal Gem
+item.ruby.name=Ruby
+item.peridot.name=Peridot
+item.amethyst.name=Amethyst
+item.adamantium_ingot.name=Adamantium Ingot
+item.vibranium.name=Vibranium
+item.dwarf_star_alloy.name=Dwarf Star Alloy
+item.slime_gem.name=Slime Gem
+item.energetic_orb.name=Energetic Orb
+item.ancient_locket.name=Ancient Locket
+item.elemental_ingot.name=Elemental Ingot
+item.selenite.name=Selenite
+item.enderite_sword.name=Enderite Sword
+item.enderite_pickaxe.name=Enderite Pickaxe
+item.peridot_sword.name=Peridot Sword
+item.peridot_pickaxe.name=Peridot Pickaxe
+item.peridot_axe.name=Peridot Axe
+item.peridot_shovel.name=Peridot Shovel
+item.peridot_hoe.name=Peridot Hoe
+item.amethyst_sword.name=Amethyst Sword
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.amethyst_axe.name=Amethyst Axe
+item.amethyst_shovel.name=Amethyst Shovel
+item.amethyst_hoe.name=Amethyst Hoe
+item.amethyst_pickhoxel.name=Amethyst Pickhoxel
+item.beryl.name=Beryl
+item.magnetite_ingot.name=Magnetite Ingot
+item.bronze_ingot.name=Bronze Ingot
+item.iridium_ingot.name=Iridium Ingot
+item.enchanted_slime_gem.name=Enchanted Slime Gem
+item.infused_slime_gem.name=Infused Slime Gem
+item.magical_slime_gem.name=Magical Slime Gem
+item.evolved_slime_gem.name=Evolved Slime Gem
+item.imbued_rod.name=Imbued Rod
+item.slime_sword.name=Slime Sword
+item.bronze_sword.name=Bronze Sword
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_axe.name=Bronze Axe
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_hoe.name=Bronze Hoe
+item.bronze_pickhoxel.name=Bronze Pickhoxel
+item.selenite_sword.name=Selenite Sword
+item.selenite_pickaxe.name=Selenite Pickaxe
+item.onyx_pickaxe.name=Onyx Pickaxe
+item.remarkable_slimeball.name=Remarkable Slimeball
+item.mythical_slimeball.name=Mythical Slimeball
+item.ruby_sword.name=Ruby Sword
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_axe.name=Ruby Axe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_hoe.name=Ruby Hoe
+item.amber_locket.name=Amber Locket
+item.steel_ingot.name=Steel Ingot
+item.graphite.name=Graphite
+item.silicon_chunk.name=Silicon Chunk
+item.silicon.name=Silicon
+item.concrete_dust.name=Concrete Dust
+item.aluminum_sheet.name=Aluminum Sheet
+item.nickel_sheet.name=Nickel Sheet
+item.polymer.name=Polymer
+item.electronic.name=Electronic
+item.computer_chip.name=Computer Chip
+item.control_panel.name=Control Panel
+item.visor.name=Visor
+item.aluminum_wire.name=Aluminum Wire
+item.copper_wire.name=Copper Wire
+item.basic_wire.name=Basic Wire
+item.advanced_wire.name=Advanced Wire
+item.prominent_wire.name=Prominent Wire
+item.basic_battery.name=Basic Battery
+item.advanced_battery.name=Advanced Battery
+item.prominent_battery.name=Prominent Battery
+item.tech_arm.name=Tech Arm
+item.knife.name=Knife
+item.animal_fat.name=Animal Fat
+item.grease.name=Grease
+item.bacon.name=Bacon
+item.tomato_seed.name=Tomato Seed
+item.tomato.name=Tomato
+item.strawberry.name=Strawberry
+item.blueberry.name=Blueberry
+item.cherry.name=Cherry
+item.strawberry_seed.name=Strawberry Seed
+item.cherry_seed.name=Cherry Seed
+item.blueberry_seed.name=Blueberry Seed
+item.cotton.name=Cotton
+item.corn.name=Corn
+item.mint.name=Mint
+item.banana.name=Banana
+item.vanilla.name=Vanilla
+item.maple.name=Maple
+item.cinnamon.name=Cinnamon
+item.barley.name=Barley
+item.oat.name=Oat
+item.rye.name=Rye
+item.corn_seed.name=Corn Seed
+item.mint_seed.name=Mint Seed
+item.banana_seed.name=Banana Sapling
+item.vanilla_seed.name=Vanilla Orchid Seed
+item.maple_seed.name=Maple Sapling
+item.cinnamon_seed.name=Cinnamon Seed
+item.barley_seed.name=Barley Seed
+item.oat_seed.name=Oat Seed
+item.rye_seed.name=Rye Seed
+item.ginger.name=Ginger
+item.peanut.name=Peanut
+item.pecan.name=Pecan
+item.walnut.name=Walnut
+item.rhubarb.name=Rhubarb
+item.peanut_seed.name=Peanut Seed
+item.pecan_seed.name=Pecan Seed
+item.walnut_seed.name=Walnut Seed
+item.rhubarb_seed.name=Rhubarb Seed
+item.whisk.name=Whisk
+item.cream.name=Cream
+item.whipped_cream.name=Whipped Cream
+item.butter.name=Butter
+item.cream_cheese.name=Cream Cheese
+item.cheese.name=Cheese
+item.crust.name=Crust
+item.chocolate.name=Chocolate
+item.flour.name=Flour
+item.salt.name=Salt
+item.cornstarch.name=Cornstarch
+item.baking_soda.name=Baking Soda
+item.baking_powder.name=Baking Powder
+item.vegetable_oil.name=Vegetable Oil
+item.funnel_cake_mixture.name=Funnel Cake Mixture
+item.brown_sugar.name=Brown Sugar
+item.graham_cracker.name=Graham Cracker
+item.marshmallow.name=Marshmallow
+item.ice_cream_cone.name=Ice Cream Cone
+item.molasses.name=Molasses
+item.syrup.name=Syrup
+item.corn_syrup.name=Corn Syrup
+item.dark_corn_syrup.name=Dark Corn Syrup
+item.fudge.name=Fudge
+item.brownie.name=Brownie
+item.mint_brownie.name=Mint Brownie
+item.blondie.name=Blondie
+item.smore.name=S'more
+item.cupcake.name=Cupcake
+item.banana_bread.name=Banana Bread
+item.vanilla_ice_cream.name=Vanilla Ice Cream
+item.chocolate_ice_cream.name=Chocolate Ice Cream
+item.mint_ice_cream.name=Mint Ice Cream
+item.strawberry_ice_cream.name=Strawberry Ice Cream
+item.cookies_and_cream_ice_cream.name=Cookies and Cream Ice Cream
+item.funnel_cake.name=Funnel Cake
+item.cheesecake.name=Cheesecake
+item.chocolate_cake.name=Chocolate Cake
+item.angel_food_cake.name=Angel Food Cake
+item.ice_cream_cake.name=Ice Cream Cake
+item.apple_pie.name=Apple Pie
+item.pecan_pie.name=Pecan Pie
+item.blueberry_pie.name=Blueberry Pie
+item.cherry_pie.name=Cherry Pie
+item.strawberry_pie.name=Strawberry Pie
+item.french_silk_pie.name=French Silk Pie
+item.rhubarb_pie.name=Rhubarb Pie
+item.double_chocolate_cookie.name=Double Chocolate Cookie
+item.smore_cookie.name=S'more Cookie
+item.earth_shard.name=Earth Shard
+item.earth_ingot.name=Earth Ingot
+item.earth_pickaxe.name=Earth Pickaxe
+item.water_shard.name=Water Shard
+item.water_ingot.name=Water Ingot
+item.water_shovel.name=Water Shovel
+item.air_shard.name=Air Shard
+item.air_ingot.name=Air Ingot
+item.air_axe.name=Air Axe
+item.fire_shard.name=Fire Shard
+item.fire_ingot.name=Fire Ingot
+item.fire_sword.name=Fire Sword
+item.shattered_soul.name=Shattered Soul
+item.soul.name=Soul
+item.power_stone.name=Power Stone
+item.space_stone.name=Space Stone
+item.reality_stone.name=Reality Stone
+item.soul_stone.name=Soul Stone
+item.time_stone.name=Time Stone
+item.mind_stone.name=Mind Stone
+item.infinity_gauntlet.name=Infinity Gauntlet
+item.wolverine_claws.name=Wolverine Claws
+item.panther_claws.name=Black Panther Claws
+item.ballistic_nylon.name=Ballistic Nylon
+item.captain_shield.name=Captain America's Shield
+item.portal_stone.name=Portal Stone
+item.ender_stone.name=Ender Stone
+item.ender_sword.name=Ender Sword
+item.curious_powder.name=Curious Powder
+item.curiosity.name=Curiosity
+item.terrorizer.name=The Terrorizer
+item.blue_moon_quartz.name=Blue Moon Quartz
+item.assassin.name=The Assassin
+item.pulverizer.name=The Pulverizer
+item.atomic_splicer.name=Atomic Splicer
+item.charged_atomic_splicer.name=Charged Atomic Splicer
+item.atom.name=Atom
+item.winter_gem.name=Winter Gem
+item.spring_gem.name=Spring Gem
+item.summer_gem.name=Summer Gem
+item.autumn_gem.name=Autumn Gem
+item.heart_gem.name=Heart Gem
+item.heart_candy.name=Heart Candy
+item.heart_sword.name=Heart Sword
+item.eggplant.name=Eggplant
+item.peach.name=Peach
+item.pineapple.name=Pineapple
+item.raspberry.name=Raspberry
+item.eggplant_seed.name=Eggplant Seed
+item.peach_seed.name=Peach Seed
+item.pineapple_seed.name=Pineapple Seed
+item.raspberry_seed.name=Raspberry Seed
+item.golden_potato.name=Golden Potato
+item.golden_beetroot.name=Golden Beetroot
+item.golden_eggplant.name=Golden Eggplant
+item.golden_peach.name=Golden Peach
+item.golden_pineapple.name=Golden Pineapple
+item.peach_cobbler.name=Peach Cobbler
+item.ultra_potato.name=Ultra Potato
+item.ultra_berry.name=Ultra Berry
+item.sugared_flesh.name=Sugared Flesh
+item.night_steel.name=Night Steel
+item.enderic_alloy.name=Enderic Alloy
+item.charged_beryl.name=Charged Beryl
+item.mysterious_moss_ball.name=Mysterious Moss Ball
+item.axe_of_capitalism.name=Axe of Capitalism
+item.oculus.name=Oculus
+item.dragonglass.name=Dragonglass
+item.valyrian_steel.name=Valyrian Steel
+item.longclaw.name=Longclaw
+item.ice.name=Ice
+item.oathkeeper.name=Oathkeeper
+item.widow_wail.name=Widow's Wail
+item.dragonglass_arakh.name=Dragonglass Arakh
+item.dragonglass_spear.name=Dragonglass Spear
+item.dragonglass_axe.name=Dragonglass Axe
+item.needle.name=Needle
+item.catspaw_dagger.name=Catspaw Dagger
+item.mjolnir.name=Mjolnir
+item.stormbreaker.name=Stormbreaker
+item.kyber_crystal.name=Kyber Crystal
+item.saber_blue.name=Blue Lightsaber
+item.saber_green.name=Green Lightsaber
+item.saber_purple.name=Purple Lightsaber
+item.saber_red.name=Red Lightsaber
+item.enderic_pickhoxel.name=Enderic Pickhoxel
+item.frozen_flesh.name=Frozen Flesh
+
+item.enderite_helmet.name=Enderite Helmet
+item.enderite_chestplate.name=Enderite Chestplate
+item.enderite_leggings.name=Enderite Leggings
+item.enderite_boots.name=Enderite Boots
+
+item.slime_helmet.name=Slime Helmet
+item.slime_chestplate.name=Slime Chestplate
+item.slime_leggings.name=Slime Leggings
+item.slime_boots.name=Slime Boots
+
+item.selenite_helmet.name=Selenite Helmet
+item.selenite_chestplate.name=Selenite Chestplate
+item.selenite_leggings.name=Selenite Leggings
+item.selenite_boots.name=Selenite Boots
+
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
+item.cobalt_helmet.name=Cobalt Helmet
+item.cobalt_chestplate.name=Cobalt Chestplate
+item.cobalt_leggings.name=Cobalt Leggings
+item.cobalt_boots.name=Cobalt Boots
+
+item.tech_helmet.name=Basic Exosuit Helmet
+item.tech_chestplate.name=Basic Exosuit Chestplate
+item.tech_leggings.name=Basic Exosuit Leggings
+item.tech_boots.name=Basic Exosuit Boots
+
+item.element_helmet.name=Water Helmet
+item.element_chestplate.name=Earth Chestplate
+item.element_leggings.name=Fire Leggings
+item.element_boots.name=Air Boots
+
+item.ppajama_helmet.name=Purple Pajama Cap
+item.ppajama_chestplate.name=Purple Pajama Shirt
+item.ppajama_leggings.name=Purple Pajama Pants
+item.ppajama_boots.name=Purple Pajama Slippers
+
+item.bpajama_helmet.name=Blue Pajama Cap
+item.bpajama_chestplate.name=Blue Pajama Shirt
+item.bpajama_leggings.name=Blue Pajama Pants
+item.bpajama_boots.name=Blue Pajama Slippers
+
+item.flash_helmet.name=Flash Helmet
+item.flash_chestplate.name=Flash Chestplate
+item.flash_leggings.name=Flash Leggings
+item.flash_boots.name=Flash Boots
+
+item.wolverine_helmet.name=Wolverine Helmet
+item.wolverine_chestplate.name=Wolverine Chestplate
+item.wolverine_leggings.name=Wolverine Leggings
+item.wolverine_boots.name=Wolverine Boots
+
+item.panther_helmet.name=Black Panther Helmet
+item.panther_chestplate.name=Black Panther Chestplate
+item.panther_leggings.name=Black Panther Leggings
+item.panther_boots.name=Black Panther Boots
+
+item.captain_helmet.name=Captain America Helmet
+item.captain_chestplate.name=Captain America Chestplate
+item.captain_leggings.name=Captain America Leggings
+item.captain_boots.name=Captain America Boots
+
+item.purge_mask.name=Purge Mask
+
+item.aexosuit_helmet.name=Advanced Exosuit Helmet
+item.aexosuit_chestplate.name=Advanced Exosuit Chestplate
+item.aexosuit_leggings.name=Advanced Exosuit Leggings
+item.aexosuit_boots.name=Advanced Exosuit Boots
+
+item.cloak_helmet.name=Midnight Cloak Hood
+item.cloak_chestplate.name=Midnight Cloak
+item.cloak_leggings.name=Midnight Cloak Pants
+item.cloak_boots.name=Midnight Cloak Shoes
+
+item.ender_helmet.name=Ender Overlord Helmet
+
+item.nights_watch_chestplate.name=Night's Watch Cloak
+item.nights_watch_leggings.name=Night's Watch Pants
+item.nights_watch_boots.name=Night's Watch Boots
+
+item.pexosuit_helmet.name=Prominent Exosuit Helmet
+item.pexosuit_chestplate.name=Prominent Exosuit Chestplate
+item.pexosuit_leggings.name=Prominent Exosuit Leggings
+item.pexosuit_boots.name=Prominent Exosuit Boots
+
+tile.malachite_ore.name=Malachite Ore
+tile.bacon_ore.name=Bacon Ore
+tile.torch_ore.name=Torch Ore
+tile.wood_ore.name=Wood Ore
+tile.limestone.name=Limestone
+tile.basalt.name=Basalt
+tile.gneiss.name=Gneiss
+tile.shale.name=Shale
+tile.nickel_ore.name=Nickel Ore
+tile.bauxite_ore.name=Bauxite Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.silver_ore.name=Silver Ore
+tile.lead_ore.name=Lead Ore
+tile.zinc_ore.name=Zinc Ore
+tile.carbon_ore.name=Carbon Ore
+tile.tin_ore.name=Tin Ore
+tile.copper_ore.name=Copper Ore
+tile.cobalt_ore.name=Cobalt Ore
+tile.meteorite_ore.name=Meteorite Ore
+tile.enderite_ore.name=Enderite Ore
+tile.ultrafood_ore.name=Ultrafood Ore
+tile.superfood_ore.name=Superfood Ore
+tile.amber_ore.name=Amber Ore
+tile.onyx_ore.name=Onyx Ore
+tile.seasonal_ore.name=Seasonal Ore
+tile.ruby_ore.name=Ruby Ore
+tile.peridot_ore.name=Peridot Ore
+tile.amethyst_ore.name=Amethyst Ore
+tile.adamantium_ore.name=Adamantium Ore
+tile.vibranium_ore.name=Vibranium Ore
+tile.dwarf_star_alloy_ore.name=Dwarf Star Alloy Ore
+tile.slime_ore.name=Slime Ore
+tile.energetic_ore.name=Energetic Ore
+tile.ancient_ore.name=Ancient Ore
+tile.elemental_ore.name=Elemental Ore
+tile.selenite_ore.name=Selenite Ore
+tile.marble.name=Marble
+tile.beryl_ore.name=Beryl Ore
+tile.magnetite_ore.name=Magnetite Ore
+tile.refined_basalt.name=Refined Basalt
+tile.refined_gneiss.name=Refined Gneiss
+tile.refined_marble.name=Refined Marble
+tile.refined_shale.name=Refined Shale
+tile.basalt_bricks.name=Basalt Bricks
+tile.gneiss_bricks.name=Gneiss Bricks
+tile.marble_bricks.name=Marble Bricks
+tile.shale_bricks.name=Shale Bricks
+tile.adamantium_block.name=Adamantium Block
+tile.aluminum_block.name=Aluminum Block
+tile.amber_block.name=Amber Block
+tile.amethyst_block.name=Amethyst Block
+tile.beryl_block.name=Beryl Block
+tile.bronze_block.name=Bronze Block
+tile.carbon_block.name=Carbon Block
+tile.cobalt_block.name=Cobalt Block
+tile.copper_block.name=Copper Block
+tile.dwarf_star_alloy_block.name=Dwarf Star Alloy Block
+tile.elemental_block.name=Elemental Block
+tile.enderite_block.name=Enderite Block
+tile.energetic_block.name=Energetic Block
+tile.iridium_block.name=Iridium Block
+tile.lead_block.name=Lead Block
+tile.magnetite_block.name=Magnetite Block
+tile.malachite_block.name=Malachite Block
+tile.nickel_block.name=Nickel Block
+tile.onyx_block.name=Onyx Block
+tile.peridot_block.name=Peridot Block
+tile.ruby_block.name=Ruby Block
+tile.selenite_block.name=Selenite Block
+tile.silver_block.name=Silver Block
+tile.slimey_block.name=Slimey Block
+tile.tin_block.name=Tin Block
+tile.vibranium_block.name=Vibranium Block
+tile.zinc_block.name=Zinc Block
+tile.reinforced_sand.name=Reinforced Sand
+tile.magenta_lamp.name=Magenta Lamp
+tile.red_lamp.name=Red Lamp
+tile.blue_lamp.name=Blue Lamp
+tile.green_lamp.name=Green Lamp
+tile.yellow_lamp.name=Yellow Lamp
+tile.white_lamp.name=White Lamp
+tile.scaffolding.name=Scaffolding
+tile.blue_moon_quartz_block.name=Blue Moon Quartz Block
+tile.blue_moon_quartz_bricks.name=Blue Moon Quartz Bricks
+tile.lead_bricks.name=Lead Bricks
+tile.refined_basalt_slab_half.name=Refined Basalt Slab
+tile.nickel_furnace.name=Nickel Furnace
+tile.model.name=3D Model Test
+tile.test_chest.name=Tech Chest
+tile.ultrafood_block.name=Ultrafood Block
+tile.superfood_block.name=Superfood Block
+tile.seasonal_block.name=Seasonal Block
+tile.evolved_sand.name=Evolved Sand
+tile.evolved_sandstone.name=Evolved Sandstone
+
+itemGroup.resourcetab=Resources
+itemGroup.toolstab=Tools
+itemGroup.elementtab=Elements
+itemGroup.seasontab=Seasons
+itemGroup.herotab=Super Hero
+itemGroup.foodtab=Food Crafting
+itemGroup.desserttab=Desserts
+itemGroup.seedtab=Seeds
+itemGroup.supertab=Super Foods
+itemGroup.orestab=Ores
+itemGroup.buildingtab=Building
+itemGroup.blockstab=Blocks
+
+container.nickel_furnace=Nickel Furnace
+container.test_chest=Tech Chest
+
+advancements.story.novice_miner.title=Novice Miner
+advancements.story.novice_miner.description=Mine Malachite Ore
+
+advancements.story.tin_man.title=Tin Man
+advancements.story.tin_man.description=Mine Tin Ore
+
+advancements.story.copper_smelter.title=Copper Smelter
+advancements.story.copper_smelter.description=Smelt Copper Ore
+
+advancements.story.bronze_age.title=Bronze Age
+advancements.story.bronze_age.description=Craft a Bronze Ingot
+
+advancements.story.advanced_miner.title=Advanced Miner
+advancements.story.advanced_miner.description=Mine Carbon Ore
+
+advancements.story.above_diamond.title=Above Diamond
+advancements.story.above_diamond.description=Mine Ruby
+
+advancements.story.element.title=The Elements
+advancements.story.element.description=Mine Element Ore with an Enderite Pickaxe
+
+advancements.story.energized.title=Energized
+advancements.story.energized.description=Mine Energetic Ore with an Enderite Pickaxe
+
+advancements.story.powerful_gem.title=Powerful Gem
+advancements.story.powerful_gem.description=Mine Selenite Ore with an Enderite Pickaxe
+
+advancements.story.strange_power.title=Strange Power
+advancements.story.strange_power.description=Mine Ancient Ore with an Enderite Pickaxe
+
+advancements.story.nether_stop_mining.title=Nether Stop Mining
+advancements.story.nether_stop_mining.description=Mine Beryl in the Nether
+
+advancements.story.not_the_end.title=This Isn't the End
+advancements.story.not_the_end.description=Mine Enderite in the End
+
+advancements.story.slime.title=A Slimey Sword
+advancements.story.slime.description=Craft a Slime Sword
+
+advancements.story.technology.title=Technological Advances
+advancements.story.technology.description=Enter the technology age by crafting Reinforced Sand
+
+advancements.story.silicon.title=Pro or Silicon?
+advancements.story.silicon.description=Smelt your Reinforced Sand all the way to Silicon
+
+advancements.story.eletronic.title=Eletronics!
+advancements.story.eletronic.description=Craft an Eletronic
+
+advancements.story.polymer.title=Fabulously Fabricated
+advancements.story.polymer.description=Craft Polymer
+
+advancements.story.computer_chip.title=Beep Boop
+advancements.story.computer_chip.description=Use Eletronics and Polymer to craft a Computer Chip
+
+advancements.story.control_panel.title=Controlling Item
+advancements.story.control_panel.description=Craft a Control Panel
+
+advancements.story.wiring.title=Wired
+advancements.story.wiring.description=Craft an Aluminum Wire
+
+advancements.story.visor.title=Visor of Vision
+advancements.story.visor.description=Begin your journey to Exosuits by making a Visor
+
+advancements.story.prominent_wiring.title=Top Notch Wires
+advancements.story.prominent_wiring.description=Craft all the way to Prominent Wires
+
+advancements.story.battery1.title=Assault and Basic Battery
+advancements.story.battery1.description=Craft a Basic Battery
+
+advancements.story.battery2.title=Charged
+advancements.story.battery2.description=Craft an Advanced Battery
+
+advancements.story.battery3.title=Battery of Gods
+advancements.story.battery3.description=Craft a Prominent Battery
+
+advancements.story.arm.title=Robotic Arm
+advancements.story.arm.description=Craft the Powerful Tech Arm
+
+advancements.story.thelmet.title=Basic Exosuit Helmet
+advancements.story.thelmet.description=Craft the Basic Exosuit Helmet
+
+advancements.story.tchestplate.title=Basic Exosuit Chestplate
+advancements.story.tchestplate.description=Craft the Basic Exosuit Chestplate
+
+advancements.story.tleggings.title=Basic Exosuit Leggings
+advancements.story.tleggings.description=Craft the Basic Exosuit Leggings
+
+advancements.story.tboots.title=Basic Exosuit Boots
+advancements.story.tboots.description=Craft the Basic Exosuit Boots
+
+advancements.story.enhanced.title=Enhance Your Building
+advancements.story.enhanced.description=Craft Scaffolding with a piece of dirt
+
+advancements.story.gneiss.title=A Gneiss Rock
+advancements.story.gneiss.description=Mine Gneiss
+
+advancements.story.lamp.title=Light Up Your World
+advancements.story.lamp.description=Craft a Red Lamp
+
+advancements.husbandry.knife.title=Foods Plus
+advancements.husbandry.knife.description=Craft a Knife with Copper
+
+advancements.husbandry.bacon.title=The Greatest Smell Known to Man
+advancements.husbandry.bacon.description=Craft Bacon!
+
+advancements.husbandry.tomato_seed.title=Seeds for Everyone!
+advancements.husbandry.tomato_seed.description=Craft a Tomato Seed
+
+advancements.husbandry.corn.title=Versatile Vegetable
+advancements.husbandry.corn.description=Obtain Corn through Farming
+
+advancements.husbandry.banana.title=Not Actually a Tree
+advancements.husbandry.banana.description=Craft a Banana Sapling (Works like a seed)
+
+advancements.husbandry.maple.title=Works Like a Charm
+advancements.husbandry.maple.description=Craft a Maple Seed [Actually Works like a Sapling]
+
+advancements.husbandry.barley.title=Grains
+advancements.husbandry.barley.description=Grow Barley
+
+advancements.husbandry.oat.title=More Grains
+advancements.husbandry.oat.description=Grow Oat
+
+advancements.husbandry.rye.title=Extra Grains
+advancements.husbandry.rye.description=Grow Rye
+
+advancements.enhanced.root.title=Enhanced Building
+advancements.enhanced.root.description=Your Building Must be Enhanced
+
+advancements.plus.root.title=Food Plus
+advancements.plus.root.description=Time to Make Some Food!
+
+advancements.evolved.root.title=Vanilla Evolved
+advancements.evolved.root.description=Evolution Shall Begin
+
+advancements.plus.peanut_seed.title=Don't Go Nuts
+advancements.plus.peanut_seed.description=Craft Peanut Seeds
+
+advancements.plus.walnut.title=Not Floornuts
+advancements.plus.walnut.description=Not Ceilingnuts Either
+
+advancements.plus.whisk.title=Time to Whisk Some Milk!
+advancements.plus.whisk.description=Craft a Whisk with a Stick and Steel Ingot
+
+advancements.plus.butter.title=On Your Favorite Foods
+advancements.plus.butter.description=Fully Whisk Milk until you get Butter
+
+advancements.plus.chocolate.title=Absolutely Delicious
+advancements.plus.chocolate.description=Craft Chocolate and Enjoy the Amazing Taste!
+
+advancements.plus.baking_powder.title=Baking Time!
+advancements.plus.baking_powder.description=Craft Baking Powder to Prepare to Bake
+
+advancements.plus.cornstarch.title=Maybe This Won't be Healthy...
+advancements.plus.cornstarch.description=Craft Cornstarch to Sweeten your Baked Goods
+
+advancements.plus.brown_sugar.title=Sugary Sugar
+advancements.plus.brown_sugar.description=Craft Brown Sugar
+
+advancements.plus.syrup.title=Viscosity
+advancements.plus.syrup.description=Grow and Smelt Maple
+
+advancements.plus.brownie.title=Baked Goods
+advancements.plus.brownie.description=Craft a Brownie
+
+advancements.plus.ice_cream.title=Cold Dessert
+advancements.plus.ice_cream.description=Craft Vanilla Ice Cream
+
+advancements.plus.chocolate_cake.title=Too Much Chocolate
+advancements.plus.chocolate_cake.description=Craft a Chocolate Cake
+
+advancements.plus.french.title=Cake or Pie?
+advancements.plus.french.description=Craft a French Silk Pie, the Greatest Dessert in Existence
+
+advancements.plus.dchocolate.title=Not Enough Chocolate
+advancements.plus.dchocolate.description=Craft a Double Chocolate Cookie
+
+advancements.plus.smore.title=You Need S'more
+advancements.plus.smore.description=Craft a S'more, then Make Some More!
+
+advancements.plus.salt.title=Are You Salty?
+advancements.plus.salt.description=Craft Salt or Die and Rage Quit
+
+advancements.evolved.water.title=H20
+advancements.evolved.water.description=Control Water by Crafting a Water Ingot
+
+advancements.evolved.earth.title=The Ground
+advancements.evolved.earth.description=Control the Earth by Crafting an Earth Ingot
+
+advancements.evolved.fire.title=Flames of the Nether
+advancements.evolved.fire.description=Control Fire by Crafting a Fire Ingot
+
+advancements.evolved.air.title=The Great Skies
+advancements.evolved.air.description=Control the Air by Crafting an Air Ingot
+
+advancements.evolved.power_stone.title=A Powerful Object
+advancements.evolved.power_stone.description=Craft a Power Stone
+
+advancements.evolved.space_stone.title=Dimensional Connection
+advancements.evolved.space_stone.description=Craft a Space Stone
+
+advancements.evolved.reality_stone.title=R E A L I T Y
+advancements.evolved.reality_stone.description=When will the next Concept be released?
+
+advancements.evolved.soul_stone.title=Channeled Spirits
+advancements.evolved.soul_stone.description=Craft a Soul Stone
+
+advancements.evolved.time_stone.title=Is Time Malleable?
+advancements.evolved.time_stone.description=Attempt to Control Time by Crafting a Time Stone
+
+advancements.evolved.mind_stone.title=Control of the Mind
+advancements.evolved.mind_stone.description=Craft a Mind Stone
+
+advancements.evolved.hero.title=The Age of Heroes
+advancements.evolved.hero.description=Find and Mine Vibranium
+
+advancements.evolved.infinity.title=All Six Stones
+advancements.evolved.infinity.description=Craft an Infinity Gauntlet
+
+advancements.evolved.claws1.title=Adamantium Scratch
+advancements.evolved.claws1.description=Craft Wolverine's Claws
+
+advancements.evolved.claws2.title=Wakanda Forever
+advancements.evolved.claws2.description=Craft Black Panther's Claws
+
+advancements.evolved.shield.title='Murica!
+advancements.evolved.shield.description=Craft Captain America's Shield
+
+advancements.evolved.purge.title=It's Killing Time!
+advancements.evolved.purge.description=Craft a Purge Mask
+
+advancements.evolved.ahelmet.title=Advanced Exosuit Helmet
+advancements.evolved.ahelmet.description=Continue to the Next Stage of Technology
+
+advancements.evolved.achestplate.title=Advanced Exosuit Chestplate
+advancements.evolved.achestplate.description=Continue to the Next Stage of Technology
+
+advancements.evolved.aleggings.title=Advanced Exosuit Leggings
+advancements.evolved.aleggings.description=Continue to the Next Stage of Technology
+
+advancements.evolved.aboots.title=Advanced Exosuit Boots
+advancements.evolved.aboots.description=Continue to the Next Stage of Technology
+
+advancements.evolved.ender_sword.title=The Ender Miner's Sword
+advancements.evolved.ender_sword.description=Revive the Legends by Crafting The Ender Miner's Sword
+
+advancements.evolved.curiosity.title=This is Curious
+advancements.evolved.curiosity.description=Craft the Sword of the SSJW'S Leader
+
+advancements.evolved.assassin.title=Lucky Assassinations
+advancements.evolved.assassin.description=Craft the Sword of the SSJW'S Founder
+
+advancements.evolved.terrorizer.title=Fire's Rage
+advancements.evolved.terrorizer.description=Craft the Sword of the SSJW'S Enforcer
+
+advancements.evolved.pulverizer.title=Non-Flying Ninja Star
+advancements.evolved.pulverizer.description=Craft the Weapon of the Fabled Rogue
+
+advancements.evolved.atom.title=Atomic Sciences
+advancements.evolved.atom.description=Splice a Material into Atoms
+
+advancements.evolved.season.title=Solstice or Equinox
+advancements.evolved.season.description=Get a Seasonal Gem
+
+advancements.evolved.wseason.title=Colder Times
+advancements.evolved.wseason.description=Craft a Winter Gem
+
+advancements.evolved.spseason.title=A New Start
+advancements.evolved.spseason.description=Craft a Spring Gem
+
+advancements.evolved.suseason.title=Hotter Times
+advancements.evolved.suseason.description=Craft a Summer Gem
+
+advancements.evolved.aseason.title=Harvest Season
+advancements.evolved.aseason.description=Craft an Autumn Gem
+
+advancements.evolved.heart.title=Happy Valentines Day!
+advancements.evolved.heart.description=Craft a Heart Gem
+
+advancements.plus.golden_potato.title=Quest for the Golden Potato
+advancements.plus.golden_potato.description=Craft a Golden Potato
+
+advancements.plus.ultrafood_gem.title=Some Pretty Good Food
+advancements.plus.ultrafood_gem.description=Mine Ultrafood
+
+advancements.plus.superfood_gem.title=Some Pretty Amazing Food
+advancements.plus.superfood_gem.description=Mine Superfood
+
+advancements.plus.ultra_potato.title=The Best Potato
+advancements.plus.ultra_potato.description=Craft an Ultra Potato
+
+advancements.plus.ultra_berry.title=Loads of Berries
+advancements.plus.ultra_berry.description=Craft Some Ultra Berries
+
+advancements.plus.sugared_flesh.title=No Longer Rotten
+advancements.plus.sugared_flesh.description=Craft the Superfood of Night Vision
+
+advancements.enhanced.refined_gneiss.title=Even More Kindness
+advancements.enhanced.refined_gneiss.description=Refine Gneiss
+
+advancements.enhanced.gneiss_bricks.title=Bricks of Nice
+advancements.enhanced.gneiss_bricks.description=Craft Gneiss Bricks
+
+advancements.evolved.got.title=Game of Resources
+advancements.evolved.got.description=A Song of Dragonglass and Valyrian Steel
+
+advancements.evolved.nights_watch.title=I am the Sword in the Darkness
+advancements.evolved.nights_watch.description=Craft a Piece of Night's Watch Armor
+
+generator.Evolved Desert=Evolved Desert
+
+entity.frost_zombie.name=Frost Zombie
+entity.lizard.name=Lizard

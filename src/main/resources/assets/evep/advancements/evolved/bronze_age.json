@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:bronze_ingot"
+        },
+        "title": {
+            "translate": "advancements.story.bronze_age.title"
+        },
+        "description": {
+            "translate": "advancements.story.bronze_age.description"
+        }
+    },
+    "parent": "evep:evolved/copper_smelter",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:bronze_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

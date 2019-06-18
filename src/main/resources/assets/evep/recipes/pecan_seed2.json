@@ -1,0 +1,14 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:pecan",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:pecan_seed",
+    "data": 0
+  }
+}

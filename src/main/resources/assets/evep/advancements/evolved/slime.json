@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:slime_sword"
+        },
+        "title": {
+            "translate": "advancements.story.slime.title"
+        },
+        "description": {
+            "translate": "advancements.story.slime.description"
+        }
+    },
+    "parent": "evep:evolved/above_diamond",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:slime_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

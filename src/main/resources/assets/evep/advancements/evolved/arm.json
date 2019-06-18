@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tech_arm"
+        },
+        "title": {
+            "translate": "advancements.story.arm.title"
+        },
+        "description": {
+            "translate": "advancements.story.arm.description"
+        }
+    },
+    "parent": "evep:evolved/visor",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_arm"
+                    }
+                ]
+            }
+        }
+    }
+}

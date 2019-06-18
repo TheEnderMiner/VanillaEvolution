@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "GSG",
+    "SGS"  ],
+  "key": {
+    "G": [
+      {
+        "item": "evep:slime_gem",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:slime_ball",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:remarkable_slimeball",
+    "data": 0
+  }
+}

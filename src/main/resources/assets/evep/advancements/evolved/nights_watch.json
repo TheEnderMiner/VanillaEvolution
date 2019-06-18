@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:nights_watch_chestplate"
+        },
+        "title": {
+            "translate": "advancements.evolved.nights_watch.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.nights_watch.description"
+        }
+    },
+    "parent": "evep:evolved/got",
+    "criteria": {
+        "nights_watch_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nights_watch_chestplate"
+                    }
+                ]
+            }
+        },
+        "nights_watch_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nights_watch_leggings"
+                    }
+                ]
+            }
+        },
+        "nights_watch_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nights_watch_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nights_watch_chestplate",
+            "nights_watch_leggings",
+            "nights_watch_boots"
+        ]
+    ]
+}

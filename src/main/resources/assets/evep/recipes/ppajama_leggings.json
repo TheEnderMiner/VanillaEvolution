@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "I I",
+    "C C"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:dye",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "minecraft:dye",
+        "data": 5
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ppajama_leggings",
+    "data": 0
+  }
+}

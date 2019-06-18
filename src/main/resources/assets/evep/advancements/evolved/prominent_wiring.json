@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:prominent_wire"
+        },
+        "title": {
+            "translate": "advancements.story.prominent_wiring.title"
+        },
+        "description": {
+            "translate": "advancements.story.prominent_wiring.description"
+        }
+    },
+    "parent": "evep:evolved/wiring",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:prominent_wire"
+                    }
+                ]
+            }
+        }
+    }
+}

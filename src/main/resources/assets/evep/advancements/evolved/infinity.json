@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:infinity_gauntlet"
+        },
+        "title": {
+            "translate": "advancements.evolved.infinity.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.infinity.description"
+        }
+    },
+    "parent": "evep:evolved/soul_stone",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:infinity_gauntlet"
+                    }
+                ]
+            }
+        }
+    }
+}

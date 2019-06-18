@@ -1,0 +1,55 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "BTV",
+    "EFE"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+      "B": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:salt",
+        "data": 0
+      }
+    ],
+      "V": [
+      {
+        "item": "evep:vanilla",
+        "data": 0
+      }
+    ],
+      "F": [
+      {
+        "item": "evep:flour",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:brownie",
+    "data": 0
+  }
+}

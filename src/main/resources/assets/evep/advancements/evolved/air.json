@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:air_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.air.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.air.description"
+        }
+    },
+    "parent": "evep:evolved/element",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:air_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

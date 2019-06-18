@@ -1,0 +1,13 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:pineapple",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:pineapple_seed",
+    "data": 0
+  }
+}

@@ -1,0 +1,22 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 11
+    },
+ {
+      "item": "evep:knife",
+       "data": 0
+    },
+    {
+      "item": "minecraft:sapling",
+       "data": 3
+    }
+  ],
+  "result": {
+    "item": "evep:banana_seed",
+    "data": 0
+  }
+}

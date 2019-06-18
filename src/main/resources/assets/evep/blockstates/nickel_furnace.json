@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "burning=false,facing=north": { "model": "evep:nickel_furnace" },
+        "burning=false,facing=south": { "model": "evep:nickel_furnace", "y": 180 },
+        "burning=false,facing=west":  { "model": "evep:nickel_furnace", "y": 270 },
+        "burning=false,facing=east":  { "model": "evep:nickel_furnace", "y": 90 },
+        "burning=true,facing=north": { "model": "evep:lit_nickel_furnace" },
+        "burning=true,facing=south": { "model": "evep:lit_nickel_furnace", "y": 180 },
+        "burning=true,facing=west":  { "model": "evep:lit_nickel_furnace", "y": 270 },
+        "burning=true,facing=east":  { "model": "evep:lit_nickel_furnace", "y": 90 }
+    }
+}

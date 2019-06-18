@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " BB",
+    " BB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:refined_shale",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:shale_bricks",
+        "count": 4
+    }
+}

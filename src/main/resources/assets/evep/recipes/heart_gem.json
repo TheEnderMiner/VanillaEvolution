@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DWD",
+    "SWS",
+    "DWD"  ],
+  "key": {
+    "W": [
+      {
+        "item": "evep:winter_gem",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    ],
+     "S": [
+      {
+        "item": "evep:soul",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:heart_gem",
+    "data": 0
+  }
+}

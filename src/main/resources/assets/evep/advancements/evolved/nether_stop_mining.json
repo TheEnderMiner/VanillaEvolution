@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:beryl_ore"
+        },
+        "title": {
+            "translate": "advancements.story.nether_stop_mining.title"
+        },
+        "description": {
+            "translate": "advancements.story.nether_stop_mining.description"
+        }
+    },
+    "parent": "evep:evolved/advanced_miner",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:beryl"
+                    }
+                ]
+            }
+        }
+    }
+}

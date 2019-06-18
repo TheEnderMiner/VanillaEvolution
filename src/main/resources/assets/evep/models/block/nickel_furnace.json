@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "evep:blocks/nickel_furnace_front_off",
+        "up": "evep:blocks/nickel_furnace_top",
+        "down": "evep:blocks/nickel_furnace_top",
+        "north": "evep:blocks/nickel_furnace_front_off",
+        "east": "evep:blocks/nickel_furnace_side",
+        "south": "evep:blocks/nickel_furnace_side",
+        "west": "evep:blocks/nickel_furnace_side"
+    }
+}

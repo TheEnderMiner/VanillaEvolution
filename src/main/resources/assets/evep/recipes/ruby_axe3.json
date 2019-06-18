@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    "SM ",
+    "S  "  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:ruby",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ruby_axe",
+    "data": 0
+  }
+}

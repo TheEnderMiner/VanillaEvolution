@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+       {
+      "item": "evep:molasses",
+       "data": 0
+    },
+      {
+      "item": "evep:syrup",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:dark_corn_syrup",
+    "data": 0,
+    "count": 1
+  }
+}

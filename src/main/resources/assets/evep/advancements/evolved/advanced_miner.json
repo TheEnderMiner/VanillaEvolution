@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:carbon_ore"
+        },
+        "title": {
+            "translate": "advancements.story.advanced_miner.title"
+        },
+        "description": {
+            "translate": "advancements.story.advanced_miner.description"
+        }
+    },
+    "parent": "evep:evolved/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:carbon_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

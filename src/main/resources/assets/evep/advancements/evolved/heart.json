@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:heart_gem"
+        },
+        "title": {
+            "translate": "advancements.evolved.heart.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.heart.description"
+        }
+    },
+    "parent": "evep:evolved/wseason",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:heart_gem"
+                    }
+                ]
+            }
+        }
+    }
+}

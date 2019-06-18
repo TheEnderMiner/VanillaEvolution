@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E",
+    "   "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:selenite_boots",
+    "data": 0
+  }
+}

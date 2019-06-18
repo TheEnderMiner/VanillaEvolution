@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  M",
+    "  M",
+    "  S"  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:fire_ingot",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:fire_sword",
+    "data": 0
+  }
+}

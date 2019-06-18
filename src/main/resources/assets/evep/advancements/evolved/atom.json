@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:atom"
+        },
+        "title": {
+            "translate": "advancements.evolved.atom.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.atom.description"
+        }
+    },
+    "parent": "evep:evolved/technology",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:atom"
+                    }
+                ]
+            }
+        }
+    }
+}

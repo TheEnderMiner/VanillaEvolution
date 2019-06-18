@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "evep:blocks/tomato_stage_2"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:soul_stone"
+        },
+        "title": {
+            "translate": "advancements.evolved.soul_stone.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.soul_stone.description"
+        }
+    },
+    "parent": "evep:evolved/above_diamond",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:soul_stone"
+                    }
+                ]
+            }
+        }
+    }
+}

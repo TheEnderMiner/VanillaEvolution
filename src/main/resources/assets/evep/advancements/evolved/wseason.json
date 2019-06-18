@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:winter_gem"
+        },
+        "title": {
+            "translate": "advancements.evolved.wseason.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.wseason.description"
+        }
+    },
+    "parent": "evep:evolved/season",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:winter_gem"
+                    }
+                ]
+            }
+        }
+    }
+}

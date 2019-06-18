@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:selenite"
+        },
+        "title": {
+            "translate": "advancements.story.powerful_gem.title"
+        },
+        "description": {
+            "translate": "advancements.story.powerful_gem.description"
+        }
+    },
+    "parent": "evep:evolved/not_the_end",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:selenite"
+                    }
+                ]
+            }
+        }
+    }
+}

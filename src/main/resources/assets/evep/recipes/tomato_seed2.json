@@ -1,0 +1,14 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:tomato",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:tomato_seed",
+    "data": 0
+  }
+}

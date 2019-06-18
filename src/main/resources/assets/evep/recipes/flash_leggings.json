@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DRD",
+    "D D",
+    "D D"  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dwarf_star_alloy",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:flash_leggings",
+    "data": 0
+  }
+}

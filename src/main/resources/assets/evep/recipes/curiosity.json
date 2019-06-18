@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "ICI",
+    " R "  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:curious_powder",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ],
+     "I": [
+      {
+        "item": "evep:cobalt_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:curiosity",
+    "data": 0
+  }
+}

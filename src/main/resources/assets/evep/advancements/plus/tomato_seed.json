@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tomato_seed"
+        },
+        "title": {
+            "translate": "advancements.husbandry.tomato_seed.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.tomato_seed.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tomato_seed"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "PTP",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:magnetite_ingot",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:aexosuit_chestplate",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:control_panel",
+        "data": 0
+      }
+    ],
+       "P": [
+      {
+        "item": "evep:computer_chip",
+        "data": 0
+      }
+    ],
+    "A": [
+      {
+        "item": "evep:prominent_battery",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:pexosuit_chestplate",
+    "data": 0
+  }
+}

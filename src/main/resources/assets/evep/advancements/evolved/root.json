@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:enderite_sword"
+        },
+        "title": {
+            "translate": "advancements.evolved.root.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.root.description"
+        },
+        "background": "evep:textures/gui/advancements/backgrounds/evolved.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "scaffolding": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:malachite_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

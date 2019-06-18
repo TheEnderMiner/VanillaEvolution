@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SBS",
+    "ISI"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:seasonal_gem",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:sapling",
+        "data": 2
+      }
+    ],
+     "I": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:summer_gem",
+    "data": 0
+  }
+}

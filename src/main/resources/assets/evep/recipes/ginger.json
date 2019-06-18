@@ -1,0 +1,22 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 14
+    },
+     {
+      "item": "minecraft:dye",
+       "data": 15
+    },
+ {
+      "item": "evep:knife",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:ginger",
+    "data": 0
+  }
+}

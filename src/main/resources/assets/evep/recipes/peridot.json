@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:peridot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:peridot_block",
+    "data": 0
+  }
+}

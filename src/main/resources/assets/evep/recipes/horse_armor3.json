@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    "ISI",
+    "III"  ],
+  "key": {
+    "I": [
+      {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:saddle",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "data": 0
+  }
+}

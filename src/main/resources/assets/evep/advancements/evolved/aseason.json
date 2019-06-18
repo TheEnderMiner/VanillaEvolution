@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:autumn_gem"
+        },
+        "title": {
+            "translate": "advancements.evolved.aseason.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.aseason.description"
+        }
+    },
+    "parent": "evep:evolved/season",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:autumn_gem"
+                    }
+                ]
+            }
+        }
+    }
+}

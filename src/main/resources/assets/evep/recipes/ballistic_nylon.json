@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    "VLV",
+    " V "  ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:vibranium",
+        "data": 0
+      }
+    ],
+      "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:ballistic_nylon",
+        "count": 4
+    }
+}

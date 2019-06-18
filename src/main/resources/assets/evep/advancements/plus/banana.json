@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:banana_seed"
+        },
+        "title": {
+            "translate": "advancements.husbandry.banana.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.banana.description"
+        }
+    },
+    "parent": "evep:plus/tomato_seed",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:banana_seed"
+                    }
+                ]
+            }
+        }
+    }
+}

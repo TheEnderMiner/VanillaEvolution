@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:chocolate"
+        },
+        "title": {
+            "translate": "advancements.plus.chocolate.title"
+        },
+        "description": {
+            "translate": "advancements.plus.chocolate.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:chocolate"
+                    }
+                ]
+            }
+        }
+    }
+}

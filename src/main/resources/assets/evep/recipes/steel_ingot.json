@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ALA",
+    " A "  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:carbon_ingot",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:iron_nugget",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:steel_ingot",
+    "data": 0
+  }
+}

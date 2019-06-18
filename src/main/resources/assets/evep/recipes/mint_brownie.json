@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "MMM",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:mint",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:mint_brownie",
+    "data": 0
+  }
+}

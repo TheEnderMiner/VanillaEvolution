@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:elemental_ingot"
+        },
+        "title": {
+            "translate": "advancements.story.element.title"
+        },
+        "description": {
+            "translate": "advancements.story.element.description"
+        }
+    },
+    "parent": "evep:evolved/not_the_end",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:elemental_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

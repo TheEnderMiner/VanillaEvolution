@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:water_ingot",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:water_shovel",
+    "data": 0
+  }
+}

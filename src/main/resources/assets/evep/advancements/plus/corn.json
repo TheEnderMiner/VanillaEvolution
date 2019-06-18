@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:corn"
+        },
+        "title": {
+            "translate": "advancements.husbandry.corn.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.corn.description"
+        }
+    },
+    "parent": "evep:plus/tomato_seed",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:corn"
+                    }
+                ]
+            }
+        }
+    }
+}

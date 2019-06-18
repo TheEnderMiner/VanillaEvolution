@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "evep:blocks/rhubarb_stage_3"
+    }
+}

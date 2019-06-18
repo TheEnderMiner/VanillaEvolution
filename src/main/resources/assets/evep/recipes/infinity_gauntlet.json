@@ -1,0 +1,55 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSR",
+    "OTM",
+    "GGG"  ],
+  "key": {
+    "G": [
+      {
+        "item": "minecraft:gold_block",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:power_stone",
+        "data": 0
+      }
+    ],
+     "R": [
+      {
+        "item": "evep:reality_stone",
+        "data": 0
+      }
+    ],
+     "O": [
+      {
+        "item": "evep:soul_stone",
+        "data": 0
+      }
+    ],
+     "T": [
+      {
+        "item": "evep:time_stone",
+        "data": 0
+      }
+    ],
+     "M": [
+      {
+        "item": "evep:mind_stone",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:space_stone",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:infinity_gauntlet",
+    "data": 0
+  }
+}

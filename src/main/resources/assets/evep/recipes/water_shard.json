@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:elemental_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "minecraft:water_bucket",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:water_shard",
+    "data": 0
+  }
+}

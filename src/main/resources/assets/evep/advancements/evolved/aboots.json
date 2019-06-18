@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:aexosuit_boots"
+        },
+        "title": {
+            "translate": "advancements.evolved.aboots.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.aboots.description"
+        }
+    },
+    "parent": "evep:evolved/tboots",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:aexosuit_boots"
+                    }
+                ]
+            }
+        }
+    }
+}

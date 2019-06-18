@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "V",
+    "L",
+    "L"  ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:widow_wail",
+    "data": 0
+  }
+}

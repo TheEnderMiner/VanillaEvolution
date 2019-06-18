@@ -1,0 +1,22 @@
+{
+    "entity.frozen_zombie.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.frozen_zombie.ambient",
+    "sounds": [{ "name":"evep:mobs/frozen_zombie/ambient", "stream": true}]
+    },
+    
+     "entity.frozen_zombie.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.frozen_zombie.hurt",
+    "sounds": [{ "name":"evep:mobs/frozen_zombie/hurt", "stream": true}]
+    },
+    
+     "entity.frozen_zombie.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.frozen_zombie.death",
+    "sounds": [{ "name":"evep:mobs/frozen_zombie/death", "stream": true}]
+    }
+}

@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "ESE",
+    "ESE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:enderic_alloy",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:enderic_pickhoxel",
+    "data": 0
+  }
+}

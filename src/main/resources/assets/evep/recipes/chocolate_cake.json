@@ -1,0 +1,46 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:crust",
+       "data": 0
+    },
+      {
+      "item": "evep:chocolate",
+       "data": 0
+    },
+      {
+      "item": "evep:chocolate",
+       "data": 0
+    },
+      {
+      "item": "evep:baking_powder",
+       "data": 0
+    },
+      {
+      "item": "evep:vegetable_oil",
+       "data": 0
+    },
+      {
+      "item": "evep:vanilla",
+       "data": 0
+    },
+    {
+      "item": "minecraft:sugar",
+       "data": 0
+    },
+     {
+      "item": "minecraft:milk_bucket",
+       "data": 0
+    },
+    {
+      "item": "minecraft:egg",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:chocolate_cake",
+    "data": 0,
+    "count": 1
+  }
+}

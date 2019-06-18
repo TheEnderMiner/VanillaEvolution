@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    " V ",
+    "LVL"  ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ice",
+    "data": 0
+  }
+}

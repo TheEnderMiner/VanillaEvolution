@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ESE",
+    "SPS",
+    "ESE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:electronic",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:polymer",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:silicon",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:computer_chip",
+    "data": 0
+  }
+}

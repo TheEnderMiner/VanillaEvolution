@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "BSR",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:ultrafood_gem",
+        "data": 0
+      }
+    ],
+      "B": [
+      {
+        "item": "evep:blueberry",
+        "data": 0
+      }
+    ],
+      "S": [
+      {
+        "item": "evep:strawberry",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "evep:raspberry",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ultra_berry",
+    "data": 0
+  }
+}

@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DD",
+    "D ",
+    "S "  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dragonglass",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dragonglass_arakh",
+    "data": 0
+  }
+}

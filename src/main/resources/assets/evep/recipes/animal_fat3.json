@@ -1,0 +1,20 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:knife",
+       "data": 0
+    },
+
+    {
+      "item": "minecraft:mutton",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:animal_fat",
+    "data": 0,
+    "count": 3
+  }
+}

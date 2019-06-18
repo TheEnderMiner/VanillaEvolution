@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:ender_sword"
+        },
+        "title": {
+            "translate": "advancements.evolved.ender_sword.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.ender_sword.description"
+        }
+    },
+    "parent": "evep:evolved/not_the_end",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ender_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

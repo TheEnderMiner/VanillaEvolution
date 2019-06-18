@@ -1,0 +1,22 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:nickel_ingot",
+       "data": 0
+    },
+    {
+      "item": "evep:nickel_ingot",
+       "data": 0
+    },
+    {
+      "item": "evep:nickel_ingot",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:nickel_sheet",
+    "data": 0
+  }
+}

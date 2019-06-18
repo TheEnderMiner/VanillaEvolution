@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "age=0": { "model": "evep:maple_stage_0" },
+        "age=1": { "model": "evep:maple_stage_1" },
+        "age=2": { "model": "evep:maple_stage_2" },
+        "age=3": { "model": "evep:maple_stage_3" },
+        "age=4": { "model": "evep:maple_stage_4" }
+    }
+}

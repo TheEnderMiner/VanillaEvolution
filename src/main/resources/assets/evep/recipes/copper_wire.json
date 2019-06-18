@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "RRR",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:copper_ingot",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:redstone",
+        "data": 0
+      }
+     ]
+  },
+   "result": {
+        "item": "evep:copper_wire",
+        "count": 3
+    }
+}

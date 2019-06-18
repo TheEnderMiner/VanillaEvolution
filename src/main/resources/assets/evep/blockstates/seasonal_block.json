@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "evep:seasonal_block" }
+        ]
+    }
+}

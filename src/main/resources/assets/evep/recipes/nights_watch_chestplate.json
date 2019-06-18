@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "NNN",
+    "NNN"  ],
+  "key": {
+    "N": [
+      {
+        "item": "evep:night_steel",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:nights_watch_chestplate",
+    "data": 0
+  }
+}

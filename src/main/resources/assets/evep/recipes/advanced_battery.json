@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBL",
+    "NBN",
+    "LBL"  ],
+  "key": {
+    "L": [
+      {
+        "item": "evep:lead_ingot",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:nickel_sheet",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:basic_battery",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:advanced_battery",
+    "data": 0
+  }
+}

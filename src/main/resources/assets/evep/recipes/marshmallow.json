@@ -1,0 +1,27 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket",
+       "data": 0
+    },
+     {
+      "item": "minecraft:egg",
+       "data": 0
+    },
+       {
+      "item": "evep:cornstarch",
+       "data": 0
+    },
+    {
+      "item": "minecraft:sugar",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:marshmallow",
+    "data": 0,
+    "count": 1
+  }
+}

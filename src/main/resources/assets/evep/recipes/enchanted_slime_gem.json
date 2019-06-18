@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "GSG",
+    "BGB"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:slime_gem",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:slime_ball",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:enchanted_slime_gem",
+    "data": 0
+  }
+}

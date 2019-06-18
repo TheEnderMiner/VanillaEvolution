@@ -1,0 +1,23 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:cream",
+       "data": 0
+    },
+      {
+      "item": "evep:baking_soda",
+       "data": 0
+    },
+    {
+      "item": "evep:cornstarch",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:baking_powder",
+    "data": 0,
+    "count": 1
+  }
+}

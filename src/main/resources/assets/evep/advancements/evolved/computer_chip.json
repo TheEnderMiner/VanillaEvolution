@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:computer_chip"
+        },
+        "title": {
+            "translate": "advancements.story.computer_chip.title"
+        },
+        "description": {
+            "translate": "advancements.story.computer_chip.description"
+        }
+    },
+    "parent": "evep:evolved/polymer",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:computer_chip"
+                    }
+                ]
+            }
+        }
+    }
+}

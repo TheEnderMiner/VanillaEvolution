@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tin_ore"
+        },
+        "title": {
+            "translate": "advancements.story.tin_man.title"
+        },
+        "description": {
+            "translate": "advancements.story.tin_man.description"
+        }
+    },
+    "parent": "evep:evolved/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tin_ore"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "E",
+    "I"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:enderic_alloy",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:oculus",
+    "data": 0
+  }
+}

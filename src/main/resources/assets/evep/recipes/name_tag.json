@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " PP",
+    " GP",
+    "P  "  ],
+  "key": {
+    "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ],
+    "P": [
+      {
+        "item": "minecraft:paper",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:name_tag",
+    "data": 0
+  }
+}

@@ -1,0 +1,18 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 4
+    },
+    {
+      "item": "minecraft:torch",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:blue_lamp",
+    "data": 0
+  }
+}

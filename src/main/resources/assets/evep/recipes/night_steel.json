@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:elemental_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "evep:onyx",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:night_steel",
+    "data": 0
+  }
+}

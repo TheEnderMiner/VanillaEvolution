@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "RVR",
+    "DDD"  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:vibranium",
+        "data": 0
+      }
+    ],
+       "V": [
+      {
+        "item": "evep:visor",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:dye",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:panther_helmet",
+    "data": 0
+  }
+}

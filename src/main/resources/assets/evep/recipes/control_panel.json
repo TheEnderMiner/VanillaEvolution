@@ -1,0 +1,46 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:computer_chip",
+       "data": 0
+    },
+    {
+      "item": "evep:electronic",
+       "data": 0
+    },
+{
+      "item": "evep:electronic",
+       "data": 0
+    },
+{
+      "item": "evep:electronic",
+       "data": 0
+    },
+{
+      "item": "evep:aluminum_wire",
+       "data": 0
+    },
+{
+      "item": "evep:aluminum_wire",
+       "data": 0
+    },
+{
+      "item": "evep:aluminum_wire",
+       "data": 0
+    },
+{
+      "item": "evep:aluminum_wire",
+       "data": 0
+    },
+    {
+      "item": "evep:zinc_ingot",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:control_panel",
+    "data": 0
+  }
+}

@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NSN",
+    "SDS",
+    "NSN"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:silver_ingot",
+        "data": 0
+      }
+    ],
+    "N": [
+      {
+        "item": "evep:night_steel",
+        "data": 0
+      }
+    ],
+     "D": [
+      {
+        "item": "minecraft:dragon_breath",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:valyrian_steel",
+    "data": 0
+  }
+}

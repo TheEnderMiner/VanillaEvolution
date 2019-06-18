@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:brown_sugar"
+        },
+        "title": {
+            "translate": "advancements.plus.brown_sugar.title"
+        },
+        "description": {
+            "translate": "advancements.plus.brown_sugar.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:brown_sugar"
+                    }
+                ]
+            }
+        }
+    }
+}

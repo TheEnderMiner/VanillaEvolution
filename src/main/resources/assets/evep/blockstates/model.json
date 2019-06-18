@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": {"model": "evep:model" },
+    "facing=north": { "model": "evep:model" },
+    "facing=south": { "model": "evep:model" "y": 180},
+    "facing=west": { "model": "evep:model" "y": 270},
+    "facing=east": { "model": "evep:model" "y": 90}
+
+     }
+}

@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:energetic_orb",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:energetic_block",
+    "data": 0
+  }
+}

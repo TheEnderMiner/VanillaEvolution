@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:aluminum_wire"
+        },
+        "title": {
+            "translate": "advancements.story.wiring.title"
+        },
+        "description": {
+            "translate": "advancements.story.wiring.description"
+        }
+    },
+    "parent": "evep:evolved/technology",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:aluminum_wire"
+                    }
+                ]
+            }
+        }
+    }
+}

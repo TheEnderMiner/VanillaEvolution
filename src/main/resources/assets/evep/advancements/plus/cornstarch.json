@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:cornstarch"
+        },
+        "title": {
+            "translate": "advancements.plus.cornstarch.title"
+        },
+        "description": {
+            "translate": "advancements.plus.cornstarch.description"
+        }
+    },
+    "parent": "evep:plus/corn",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cornstarch"
+                    }
+                ]
+            }
+        }
+    }
+}

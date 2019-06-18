@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "BMB",
+    "PCP"  ],
+  "key": {
+    "P": [
+      {
+        "item": "evep:peanut",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+     "B": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:milk_bucket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:fudge",
+    "data": 0
+  }
+}

@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:adamantium_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:adamantium_ingot",
+    "data": 0,
+    "count": 9
+  }
+}

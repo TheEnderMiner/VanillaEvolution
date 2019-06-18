@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:baking_powder"
+        },
+        "title": {
+            "translate": "advancements.plus.baking_powder.title"
+        },
+        "description": {
+            "translate": "advancements.plus.baking_powder.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:baking_powder"
+                    }
+                ]
+            }
+        }
+    }
+}

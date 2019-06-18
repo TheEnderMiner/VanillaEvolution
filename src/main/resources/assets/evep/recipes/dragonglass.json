@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "OSO",
+    " O "  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ],
+     "O": [
+      {
+        "item": "minecraft:obsidian",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dragonglass",
+    "data": 0
+  }
+}

@@ -1,0 +1,13 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:eggplant",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:eggplant_seed",
+    "data": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:peanut_seed"
+        },
+        "title": {
+            "translate": "advancements.plus.peanut_seed.title"
+        },
+        "description": {
+            "translate": "advancements.plus.peanut_seed.description"
+        }
+    },
+    "parent": "evep:plus/corn",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:peanut_seed"
+                    }
+                ]
+            }
+        }
+    }
+}

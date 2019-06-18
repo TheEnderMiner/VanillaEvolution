@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:prominent_battery"
+        },
+        "title": {
+            "translate": "advancements.story.battery3.title"
+        },
+        "description": {
+            "translate": "advancements.story.battery3.description"
+        }
+    },
+    "parent": "evep:evolved/battery2",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:prominent_battery"
+                    }
+                ]
+            }
+        }
+    }
+}

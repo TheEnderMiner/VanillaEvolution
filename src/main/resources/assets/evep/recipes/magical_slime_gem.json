@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EGE",
+    "GIG",
+    "SGS"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:slime_gem",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ],
+     "I": [
+      {
+        "item": "evep:infused_slime_gem",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:emerald",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:magical_slime_gem",
+    "data": 0
+  }
+}

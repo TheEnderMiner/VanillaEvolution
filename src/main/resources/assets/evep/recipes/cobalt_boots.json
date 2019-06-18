@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E",
+    "   "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:cobalt_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cobalt_boots",
+    "data": 0
+  }
+}

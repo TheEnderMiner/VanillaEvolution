@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:corn"
+        },
+        "title": {
+            "translate": "advancements.plus.root.title"
+        },
+        "description": {
+            "translate": "advancements.plus.root.description"
+        },
+        "background": "evep:textures/gui/advancements/backgrounds/plus.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "scaffolding": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:knife"
+                    }
+                ]
+            }
+        }
+    }
+}

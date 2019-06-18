@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z Z",
+    "W W",
+    "Z Z"  ],
+  "key": {
+    "Z": [
+      {
+        "item": "evep:magnetite_ingot",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "evep:basic_wire",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:tech_boots",
+    "data": 0
+  }
+}

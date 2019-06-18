@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:selenite_block",
+    "data": 0
+  }
+}

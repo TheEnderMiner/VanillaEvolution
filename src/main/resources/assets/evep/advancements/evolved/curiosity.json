@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:curiosity"
+        },
+        "title": {
+            "translate": "advancements.evolved.curiosity.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.curiosity.description"
+        }
+    },
+    "parent": "evep:evolved/tin_man",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:curiosity"
+                    }
+                ]
+            }
+        }
+    }
+}

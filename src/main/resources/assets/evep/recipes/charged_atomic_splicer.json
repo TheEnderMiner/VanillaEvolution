@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RAR",
+    "RRR"  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:atomic_splicer",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:redstone",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:charged_atomic_splicer",
+    "data": 0
+  }
+}

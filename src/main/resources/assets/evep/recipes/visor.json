@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "SSS",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:bronze_ingot",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:glass",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:computer_chip",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:visor",
+    "data": 0
+  }
+}

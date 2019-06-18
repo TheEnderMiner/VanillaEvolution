@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "evep:refined_basalt_slab_bottom" },
+        "half=top": { "model": "evep:refined_basalt_slab_top" }
+    }
+}

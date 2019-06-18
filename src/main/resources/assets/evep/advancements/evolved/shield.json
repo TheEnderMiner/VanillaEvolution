@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:captain_shield"
+        },
+        "title": {
+            "translate": "advancements.evolved.shield.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.shield.description"
+        }
+    },
+    "parent": "evep:evolved/hero",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:captain_shield"
+                    }
+                ]
+            }
+        }
+    }
+}

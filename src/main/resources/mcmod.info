@@ -1,0 +1,31 @@
+[
+
+{
+  
+"modid": "evep",
+  
+"name": "Vanilla Evolution",
+  
+"description": "Adds new ores, tools, foods, structures, biomes, mobs, and building blocks.",
+  
+"version": "1.0",
+  
+"mcversion": "1.12.2",
+  
+"url": "https://theenderminer24.wixsite.com/vanilla-evolution",
+  
+"updateUrl": "https://www.planetminecraft.com/mod/vanilla-evolution-4239314/",
+  
+"authorList": ["TheEnderMiner"],
+  
+"credits": "Mr. Crayfish, Minecraft Forums, Jabelar, SupperGerrie2",
+  
+"logoFile": "",
+  
+"screenshots": [],
+  
+"dependencies": []
+
+}
+
+]

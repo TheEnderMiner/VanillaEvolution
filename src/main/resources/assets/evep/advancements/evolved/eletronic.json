@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:electronic"
+        },
+        "title": {
+            "translate": "advancements.story.eletronic.title"
+        },
+        "description": {
+            "translate": "advancements.story.eletronic.description"
+        }
+    },
+    "parent": "evep:evolved/silicon",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:electronic"
+                    }
+                ]
+            }
+        }
+    }
+}

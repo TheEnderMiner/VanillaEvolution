@@ -1,0 +1,55 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "WMW",
+    "FGE"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:marshmallow",
+        "data": 0
+      }
+    ],
+       "F": [
+      {
+        "item": "evep:flour",
+        "data": 0
+      }
+    ],
+      "G": [
+      {
+        "item": "evep:graham_cracker",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ],
+      "W": [
+      {
+        "item": "minecraft:wheat",
+        "data": 0
+      }
+    ],
+     "B": [
+      {
+        "item": "minecraft:dye",
+        "data": 3
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:smore_cookie",
+    "data": 0
+  }
+}

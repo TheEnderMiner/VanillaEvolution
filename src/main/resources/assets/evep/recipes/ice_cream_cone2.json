@@ -1,0 +1,20 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "G G",
+    " G "  ],
+  "key": {
+    "G": [
+      {
+        "item": "evep:graham_cracker",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ice_cream_cone",
+    "data": 0,
+    "count": 3
+  }
+}

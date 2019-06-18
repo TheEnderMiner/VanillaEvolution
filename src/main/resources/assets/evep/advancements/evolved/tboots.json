@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tech_boots"
+        },
+        "title": {
+            "translate": "advancements.story.tboots.title"
+        },
+        "description": {
+            "translate": "advancements.story.tboots.description"
+        }
+    },
+    "parent": "evep:evolved/visor",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_boots"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:aexosuit_chestplate"
+        },
+        "title": {
+            "translate": "advancements.evolved.achestplate.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.achestplate.description"
+        }
+    },
+    "parent": "evep:evolved/tchestplate",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:aexosuit_chestplate"
+                    }
+                ]
+            }
+        }
+    }
+}

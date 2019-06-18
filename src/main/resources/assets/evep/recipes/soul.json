@@ -1,0 +1,27 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:shattered_soul",
+       "data": 0
+    },
+      {
+      "item": "evep:shattered_soul",
+       "data": 0
+    },
+     {
+      "item": "evep:shattered_soul",
+       "data": 0
+    },
+     {
+      "item": "evep:shattered_soul",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:soul",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:cobalt_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cobalt_chestplate",
+    "data": 0
+  }
+}

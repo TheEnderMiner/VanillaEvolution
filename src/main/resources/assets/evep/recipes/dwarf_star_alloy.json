@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:dwarf_star_alloy",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dwarf_star_alloy_block",
+    "data": 0
+  }
+}

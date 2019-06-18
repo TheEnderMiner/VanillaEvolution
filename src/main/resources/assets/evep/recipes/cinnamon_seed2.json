@@ -1,0 +1,14 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:cinnamon",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:cinnamon_seed",
+    "data": 0
+  }
+}

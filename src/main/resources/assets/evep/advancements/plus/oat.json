@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:oat"
+        },
+        "title": {
+            "translate": "advancements.husbandry.oat.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.oat.description"
+        }
+    },
+    "parent": "evep:plus/barley",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:oat"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "SGS",
+    "GSG"
+    ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:evolved_sand",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:tnt",
+    "data": 0
+  }
+}

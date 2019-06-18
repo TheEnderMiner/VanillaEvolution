@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:silicon"
+        },
+        "title": {
+            "translate": "advancements.story.silicon.title"
+        },
+        "description": {
+            "translate": "advancements.story.silicon.description"
+        }
+    },
+    "parent": "evep:evolved/technology",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:silicon"
+                    }
+                ]
+            }
+        }
+    }
+}

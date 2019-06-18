@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "evep:blocks/maple_stage_3"
+    }
+}

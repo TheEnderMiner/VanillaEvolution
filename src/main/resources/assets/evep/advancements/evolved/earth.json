@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earth_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.earth.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.earth.description"
+        }
+    },
+    "parent": "evep:evolved/element",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:earth_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

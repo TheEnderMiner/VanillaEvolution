@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:syrup"
+        },
+        "title": {
+            "translate": "advancements.plus.syrup.title"
+        },
+        "description": {
+            "translate": "advancements.plus.syrup.description"
+        }
+    },
+    "parent": "evep:plus/maple",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:syrup"
+                    }
+                ]
+            }
+        }
+    }
+}

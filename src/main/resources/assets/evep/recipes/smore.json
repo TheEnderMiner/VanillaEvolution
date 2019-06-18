@@ -1,0 +1,23 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:graham_cracker",
+       "data": 0
+    },
+      {
+      "item": "evep:marshmallow",
+       "data": 0
+    },
+    {
+      "item": "evep:chocolate",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:smore",
+    "data": 0,
+    "count": 1
+  }
+}

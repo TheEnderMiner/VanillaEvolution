@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "EEE",
+    " E "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:fire_shard",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:fire_ingot",
+    "data": 0
+  }
+}

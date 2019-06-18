@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:vibranium"
+        },
+        "title": {
+            "translate": "advancements.evolved.hero.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.hero.description"
+        }
+    },
+    "parent": "evep:evolved/above_diamond",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vibranium"
+                    }
+                ]
+            }
+        }
+    }
+}

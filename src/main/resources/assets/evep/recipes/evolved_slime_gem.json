@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DMD",
+    "MNM",
+    "DMD"  ],
+  "key": {
+    "N": [
+      {
+        "item": "evep:nickel_ingot",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    ],
+     "M": [
+      {
+        "item": "evep:magical_slime_gem",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:evolved_slime_gem",
+    "data": 0
+  }
+}

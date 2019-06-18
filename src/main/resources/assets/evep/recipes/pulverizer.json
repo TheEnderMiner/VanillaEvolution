@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MCM",
+    "COC",
+    "MCM"  ],
+  "key": {
+    "M": [
+      {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      }
+    ],
+    "O": [
+      {
+        "item": "evep:onyx_block",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:pulverizer",
+    "data": 0
+  }
+}

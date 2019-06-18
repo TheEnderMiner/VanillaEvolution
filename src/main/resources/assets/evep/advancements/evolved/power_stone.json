@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:power_stone"
+        },
+        "title": {
+            "translate": "advancements.evolved.power_stone.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.power_stone.description"
+        }
+    },
+    "parent": "evep:evolved/above_diamond",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:power_stone"
+                    }
+                ]
+            }
+        }
+    }
+}

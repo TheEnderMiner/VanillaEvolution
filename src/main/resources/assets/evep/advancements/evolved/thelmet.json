@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tech_helmet"
+        },
+        "title": {
+            "translate": "advancements.story.thelmet.title"
+        },
+        "description": {
+            "translate": "advancements.story.thelmet.description"
+        }
+    },
+    "parent": "evep:evolved/visor",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_helmet"
+                    }
+                ]
+            }
+        }
+    }
+}

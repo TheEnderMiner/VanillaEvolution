@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GFG",
+    "GGG"  ],
+  "key": {
+    "F": [
+      {
+        "item": "minecraft:beetroot",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:golden_beetroot",
+    "data": 0
+  }
+}

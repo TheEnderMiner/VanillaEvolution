@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "evep:blocks/dwarf_star_alloy_ore"
+    }
+}

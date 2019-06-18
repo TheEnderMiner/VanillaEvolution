@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "QQQ",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:beryl",
+        "data": 0
+      }
+    ],
+     "Q": [
+      {
+        "item": "minecraft:quartz",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:blue_moon_quartz",
+    "data": 0,
+    "count": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:terrorizer"
+        },
+        "title": {
+            "translate": "advancements.evolved.terrorizer.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.terrorizer.description"
+        }
+    },
+    "parent": "evep:evolved/assassin",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:terrorizer"
+                    }
+                ]
+            }
+        }
+    }
+}

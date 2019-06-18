@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "UFU",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:brown_sugar",
+        "data": 0
+      }
+    ],
+       "F": [
+      {
+        "item": "evep:flour",
+        "data": 0
+      }
+    ],
+      "U": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+     "A": [
+      {
+        "item": "minecraft:apple",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:apple_pie",
+    "data": 0
+  }
+}

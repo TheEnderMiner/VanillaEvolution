@@ -1,0 +1,18 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 11
+    },
+    {
+      "item": "minecraft:torch",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:yellow_lamp",
+    "data": 0
+  }
+}

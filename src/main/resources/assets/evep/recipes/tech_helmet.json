@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "IVI",
+    "NNN"  ],
+  "key": {
+    "I": [
+      {
+        "item": "evep:iridium_ingot",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:magnetite_ingot",
+        "data": 0
+      }
+    ],
+    "V": [
+      {
+        "item": "evep:visor",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:tech_helmet",
+    "data": 0
+  }
+}

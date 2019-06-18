@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "EBE",
+    "PEP"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:enderite_block",
+        "data": 0
+      }
+    ],
+    "P": [
+      {
+        "item": "minecraft:chorus_fruit_popped",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:ender_pearl",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:portal_stone",
+    "data": 0
+  }
+}

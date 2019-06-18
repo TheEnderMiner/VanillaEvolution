@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E",
+    "   "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:mythical_slimeball",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:slime_boots",
+    "data": 0
+  }
+}

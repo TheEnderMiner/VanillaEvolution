@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "EEE",
+    " I "  ],
+  "key": {
+    "I": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "evep:ender_stone",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ender_sword",
+    "data": 0
+  }
+}

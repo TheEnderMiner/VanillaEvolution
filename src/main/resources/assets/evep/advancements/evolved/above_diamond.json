@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:ruby"
+        },
+        "title": {
+            "translate": "advancements.story.above_diamond.title"
+        },
+        "description": {
+            "translate": "advancements.story.above_diamond.description"
+        }
+    },
+    "parent": "evep:evolved/advanced_miner",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ruby"
+                    }
+                ]
+            }
+        }
+    }
+}

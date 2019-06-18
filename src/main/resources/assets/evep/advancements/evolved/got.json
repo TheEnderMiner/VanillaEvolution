@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:valyrian_steel"
+        },
+        "title": {
+            "translate": "advancements.evolved.got.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.got.description"
+        }
+    },
+    "parent": "evep:evolved/powerful_gem",
+    "criteria": {
+        "dragonglass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:dragonglass"
+                    }
+                ]
+            }
+        },
+        "valyrian_steel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:valyrian_steel"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dragonglass",
+            "valyrian_steel"
+        ]
+    ]
+}

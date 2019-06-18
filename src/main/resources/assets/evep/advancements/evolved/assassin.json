@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:assassin"
+        },
+        "title": {
+            "translate": "advancements.evolved.assassin.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.assassin.description"
+        }
+    },
+    "parent": "evep:evolved/curiosity",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:assassin"
+                    }
+                ]
+            }
+        }
+    }
+}

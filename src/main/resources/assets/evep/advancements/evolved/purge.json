@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:purge_mask"
+        },
+        "title": {
+            "translate": "advancements.evolved.purge.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.purge.description"
+        }
+    },
+    "parent": "evep:evolved/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:purge_mask"
+                    }
+                ]
+            }
+        }
+    }
+}

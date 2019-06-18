@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "BTB",
+    "BCB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:beryl",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:tech_chestplate",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:control_panel",
+        "data": 0
+      }
+    ],
+    "A": [
+      {
+        "item": "evep:advanced_battery",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:aexosuit_chestplate",
+    "data": 0
+  }
+}

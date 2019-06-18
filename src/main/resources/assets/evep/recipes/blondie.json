@@ -1,0 +1,47 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:butter",
+       "data": 0
+    },
+      {
+      "item": "evep:brown_sugar",
+       "data": 0
+    },
+     {
+      "item": "evep:walnut",
+       "data": 0
+    },
+     {
+      "item": "minecraft:egg",
+       "data": 0
+    },
+     {
+      "item": "evep:vanilla",
+       "data": 0
+    },
+     {
+      "item": "evep:flour",
+       "data": 0
+    },
+     {
+      "item": "evep:cornstarch",
+       "data": 0
+    },
+     {
+      "item": "evep:baking_powder",
+       "data": 0
+    },
+    {
+      "item": "evep:chocolate",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:blondie",
+    "data": 0,
+    "count": 1
+  }
+}

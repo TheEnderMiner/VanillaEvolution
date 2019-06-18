@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:space_stone"
+        },
+        "title": {
+            "translate": "advancements.evolved.space_stone.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.space_stone.description"
+        }
+    },
+    "parent": "evep:evolved/above_diamond",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:space_stone"
+                    }
+                ]
+            }
+        }
+    }
+}

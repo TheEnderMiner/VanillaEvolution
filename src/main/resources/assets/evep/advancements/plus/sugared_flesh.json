@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:sugared_flesh"
+        },
+        "title": {
+            "translate": "advancements.plus.sugared_flesh.title"
+        },
+        "description": {
+            "translate": "advancements.plus.sugared_flesh.description"
+        }
+    },
+    "parent": "evep:plus/superfood_gem",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:sugared_flesh"
+                    }
+                ]
+            }
+        }
+    }
+}

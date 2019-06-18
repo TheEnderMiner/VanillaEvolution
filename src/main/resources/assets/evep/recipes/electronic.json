@@ -1,0 +1,34 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:aluminum_sheet",
+       "data": 0
+    },
+    {
+      "item": "evep:aluminum_sheet",
+       "data": 0
+    },
+     {
+      "item": "evep:silicon",
+       "data": 0
+    },
+     {
+      "item": "evep:silicon",
+       "data": 0
+    },
+     {
+      "item": "evep:silicon",
+       "data": 0
+    },
+     {
+      "item": "minecraft:redstone",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:electronic",
+    "data": 0
+  }
+}

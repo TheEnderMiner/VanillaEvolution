@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:vanilla_ice_cream"
+        },
+        "title": {
+            "translate": "advancements.plus.ice_cream.title"
+        },
+        "description": {
+            "translate": "advancements.plus.ice_cream.description"
+        }
+    },
+    "parent": "evep:plus/whisk",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vanilla_ice_cream"
+                    }
+                ]
+            }
+        }
+    }
+}

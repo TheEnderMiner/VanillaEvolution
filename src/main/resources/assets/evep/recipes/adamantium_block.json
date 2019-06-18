@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:adamantium_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:adamantium_block",
+    "data": 0
+  }
+}

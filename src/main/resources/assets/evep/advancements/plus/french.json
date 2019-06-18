@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:french_silk_pie"
+        },
+        "title": {
+            "translate": "advancements.plus.french.title"
+        },
+        "description": {
+            "translate": "advancements.plus.french.description"
+        }
+    },
+    "parent": "evep:plus/chocolate",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:french_silk_pie"
+                    }
+                ]
+            }
+        }
+    }
+}

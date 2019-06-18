@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SBS",
+    "ISI"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:seasonal_gem",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:tallgrass",
+        "data": 1
+      }
+    ],
+     "I": [
+      {
+        "item": "minecraft:red_flower",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:spring_gem",
+    "data": 0
+  }
+}

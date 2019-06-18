@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:butter"
+        },
+        "title": {
+            "translate": "advancements.plus.butter.title"
+        },
+        "description": {
+            "translate": "advancements.plus.butter.description"
+        }
+    },
+    "parent": "evep:plus/whisk",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:butter"
+                    }
+                ]
+            }
+        }
+    }
+}

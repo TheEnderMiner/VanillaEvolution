@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:basic_battery"
+        },
+        "title": {
+            "translate": "advancements.story.battery1.title"
+        },
+        "description": {
+            "translate": "advancements.story.battery1.description"
+        }
+    },
+    "parent": "evep:evolved/technology",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:basic_battery"
+                    }
+                ]
+            }
+        }
+    }
+}

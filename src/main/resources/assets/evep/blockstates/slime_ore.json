@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "evep:slime_ore" }
+        ]
+    }
+}

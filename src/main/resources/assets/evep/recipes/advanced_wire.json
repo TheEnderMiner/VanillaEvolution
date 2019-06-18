@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "BNB",
+    "SCS"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:silver_ingot",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:copper_wire",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:nickel_sheet",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:basic_wire",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:advanced_wire",
+    "data": 0
+  }
+}

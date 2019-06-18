@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:reinforced_sand"
+        },
+        "title": {
+            "translate": "advancements.story.technology.title"
+        },
+        "description": {
+            "translate": "advancements.story.technology.description"
+        }
+    },
+    "parent": "evep:evolved/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:reinforced_sand"
+                    }
+                ]
+            }
+        }
+    }
+}

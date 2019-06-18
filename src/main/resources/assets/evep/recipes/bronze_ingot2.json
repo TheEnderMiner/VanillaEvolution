@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:bronze_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:bronze_ingot",
+    "data": 0,
+    "count": 9
+  }
+}

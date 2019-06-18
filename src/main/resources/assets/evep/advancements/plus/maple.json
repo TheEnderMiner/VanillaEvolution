@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:maple_seed"
+        },
+        "title": {
+            "translate": "advancements.husbandry.maple.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.maple.description"
+        }
+    },
+    "parent": "evep:plus/banana",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:maple_seed"
+                    }
+                ]
+            }
+        }
+    }
+}

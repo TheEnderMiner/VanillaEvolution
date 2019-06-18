@@ -1,0 +1,49 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "BFU",
+    "CPC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:peach",
+        "data": 0
+      }
+    ],
+       "P": [
+      {
+        "item": "evep:baking_powder",
+        "data": 0
+      }
+    ],
+      "B": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+      "F": [
+      {
+        "item": "evep:flour",
+        "data": 0
+      }
+    ],
+     "U": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:peach_cobbler",
+    "data": 0
+  }
+}

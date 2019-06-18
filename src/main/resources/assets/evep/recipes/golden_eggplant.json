@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GFG",
+    "GGG"  ],
+  "key": {
+    "F": [
+      {
+        "item": "evep:eggplant",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:golden_eggplant",
+    "data": 0
+  }
+}

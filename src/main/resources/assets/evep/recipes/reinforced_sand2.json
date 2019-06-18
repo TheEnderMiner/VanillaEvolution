@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ALA",
+    " A "  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:quartz",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "evep:evolved_sandstone",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:reinforced_sand",
+    "data": 0
+  }
+}

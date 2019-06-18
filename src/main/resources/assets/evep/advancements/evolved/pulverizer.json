@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:pulverizer"
+        },
+        "title": {
+            "translate": "advancements.evolved.pulverizer.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.pulverizer.description"
+        }
+    },
+    "parent": "evep:evolved/terrorizer",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pulverizer"
+                    }
+                ]
+            }
+        }
+    }
+}

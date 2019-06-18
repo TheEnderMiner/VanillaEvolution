@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:energetic_orb",
+       "data": 0
+    },
+
+    {
+      "item": "evep:beryl",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:charged_beryl",
+    "data": 0
+  }
+}

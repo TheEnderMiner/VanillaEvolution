@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "evep:blocks/refined_basalt_slab_top",
+        "side": "evep:blocks/refined_basalt_slab_side"
+    }
+}

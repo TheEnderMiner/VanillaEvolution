@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "evep:energetic_ore" }
+        ]
+    }
+}

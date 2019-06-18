@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:ruby",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ruby_leggings",
+    "data": 0
+  }
+}

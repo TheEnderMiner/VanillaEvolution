@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:ultra_potato"
+        },
+        "title": {
+            "translate": "advancements.plus.ultra_potato.title"
+        },
+        "description": {
+            "translate": "advancements.plus.ultra_potato.description"
+        }
+    },
+    "parent": "evep:plus/ultrafood_gem",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ultra_potato"
+                    }
+                ]
+            }
+        }
+    }
+}

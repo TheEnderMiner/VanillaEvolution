@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:whisk"
+        },
+        "title": {
+            "translate": "advancements.plus.whisk.title"
+        },
+        "description": {
+            "translate": "advancements.plus.whisk.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:whisk"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "EAE",
+    "RVR"  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:cream_cheese",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "evep:cheese",
+        "data": 0
+      }
+    ],
+       "R": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+        "V": [
+      {
+        "item": "evep:vanilla",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cheesecake",
+    "data": 0
+  }
+}

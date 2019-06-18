@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:aexosuit_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.ahelmet.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.ahelmet.description"
+        }
+    },
+    "parent": "evep:evolved/thelmet",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:aexosuit_helmet"
+                    }
+                ]
+            }
+        }
+    }
+}

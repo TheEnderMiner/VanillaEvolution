@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:polymer"
+        },
+        "title": {
+            "translate": "advancements.story.polymer.title"
+        },
+        "description": {
+            "translate": "advancements.story.polymer.description"
+        }
+    },
+    "parent": "evep:evolved/silicon",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:polymer"
+                    }
+                ]
+            }
+        }
+    }
+}

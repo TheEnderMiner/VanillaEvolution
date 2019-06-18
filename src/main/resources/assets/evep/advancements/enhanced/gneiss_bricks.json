@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:gneiss_bricks"
+        },
+        "title": {
+            "translate": "advancements.enhanced.gneiss_bricks.title"
+        },
+        "description": {
+            "translate": "advancements.enhanced.gneiss_bricks.description"
+        }
+    },
+    "parent": "evep:enhanced/refined_gneiss",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:gneiss_bricks"
+                    }
+                ]
+            }
+        }
+    }
+}

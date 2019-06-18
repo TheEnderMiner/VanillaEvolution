@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APA",
+    "MMM",
+    "APA"  ],
+  "key": {
+    "P": [
+      {
+        "item": "minecraft:chorus_fruit_popped",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:meteorite_shard",
+        "data": 0
+      }
+    ],
+     "A": [
+      {
+        "item": "evep:amethyst",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:power_stone",
+    "data": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:tech_chestplate"
+        },
+        "title": {
+            "translate": "advancements.story.tchestplate.title"
+        },
+        "description": {
+            "translate": "advancements.story.tchestplate.description"
+        }
+    },
+    "parent": "evep:evolved/visor",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_chestplate"
+                    }
+                ]
+            }
+        }
+    }
+}

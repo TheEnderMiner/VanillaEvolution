@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    " K ",
+    "DOD"  ],
+  "key": {
+    "K": [
+      {
+        "item": "evep:kyber_crystal",
+        "data": 0
+      }
+    ],
+     "D": [
+      {
+        "item": "minecraft:dye",
+        "data": 5
+      }
+    ],
+    "O": [
+      {
+        "item": "minecraft:obsidian",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:saber_purple",
+    "data": 0
+  }
+}

@@ -1,0 +1,49 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "TUT",
+    "ECE"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "evep:whipped_cream",
+        "data": 0
+      }
+    ],
+       "S": [
+      {
+        "item": "evep:strawberry",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:salt",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ],
+     "U": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:angel_food_cake",
+    "data": 0
+  }
+}

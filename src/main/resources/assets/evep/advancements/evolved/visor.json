@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:visor"
+        },
+        "title": {
+            "translate": "advancements.story.visor.title"
+        },
+        "description": {
+            "translate": "advancements.story.visor.description"
+        }
+    },
+    "parent": "evep:evolved/technology",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:visor"
+                    }
+                ]
+            }
+        }
+    }
+}

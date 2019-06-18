@@ -1,0 +1,22 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 3
+    },
+ {
+      "item": "evep:knife",
+       "data": 0
+    },
+    {
+      "item": "minecraft:reeds",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:cinnamon_seed",
+    "data": 0
+  }
+}

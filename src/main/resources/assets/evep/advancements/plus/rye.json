@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:rye"
+        },
+        "title": {
+            "translate": "advancements.husbandry.rye.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.rye.description"
+        }
+    },
+    "parent": "evep:plus/oat",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:rye"
+                    }
+                ]
+            }
+        }
+    }
+}

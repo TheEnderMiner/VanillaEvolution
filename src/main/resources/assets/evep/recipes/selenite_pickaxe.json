@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:selenite_pickaxe",
+    "data": 0
+  }
+}

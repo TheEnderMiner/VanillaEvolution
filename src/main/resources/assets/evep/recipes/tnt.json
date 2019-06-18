@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+    ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:evolved_sand",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:evolved_sandstone",
+    "data": 0
+  }
+}

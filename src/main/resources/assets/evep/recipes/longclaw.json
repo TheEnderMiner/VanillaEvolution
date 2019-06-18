@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    " V ",
+    "LNL"  ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:night_steel",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:longclaw",
+    "data": 0
+  }
+}

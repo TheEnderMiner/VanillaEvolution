@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:brownie"
+        },
+        "title": {
+            "translate": "advancements.plus.brownie.title"
+        },
+        "description": {
+            "translate": "advancements.plus.brownie.description"
+        }
+    },
+    "parent": "evep:plus/chocolate",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:brownie"
+                    }
+                ]
+            }
+        }
+    }
+}

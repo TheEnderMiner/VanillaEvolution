@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:elemental_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "minecraft:vine",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:mysterious_moss_ball",
+    "data": 0
+  }
+}

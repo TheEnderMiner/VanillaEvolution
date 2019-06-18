@@ -1,0 +1,22 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:amethyst_pickaxe",
+      "data": 0
+    },
+     {
+      "item": "evep:amethyst_axe",
+      "data": 0
+    },
+    {
+      "item": "evep:amethyst_shovel",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:amethyst_pickhoxel",
+    "data": 0,
+    "count": 1
+  }
+}

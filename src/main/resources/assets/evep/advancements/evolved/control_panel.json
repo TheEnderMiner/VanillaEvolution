@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:control_panel"
+        },
+        "title": {
+            "translate": "advancements.story.control_panel.title"
+        },
+        "description": {
+            "translate": "advancements.story.control_panel.description"
+        }
+    },
+    "parent": "evep:evolved/computer_chip",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:control_panel"
+                    }
+                ]
+            }
+        }
+    }
+}

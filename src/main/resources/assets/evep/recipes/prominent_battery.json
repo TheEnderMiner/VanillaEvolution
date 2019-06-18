@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "EAE",
+    "EAE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:magnetite_ingot",
+        "data": 0
+      }
+    ],
+     "A": [
+      {
+        "item": "evep:advanced_battery",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:prominent_battery",
+    "data": 0
+  }
+}

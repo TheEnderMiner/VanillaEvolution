@@ -1,0 +1,44 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "FTF",
+    "BPB"  ],
+  "key": {
+    "F": [
+      {
+        "item": "evep:flour",
+        "data": 0
+      }
+    ],
+     "T": [
+      {
+        "item": "evep:butter",
+        "data": 0
+      }
+    ],
+     "B": [
+      {
+        "item": "evep:banana",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:baking_powder",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:wheat",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:banana_bread",
+    "data": 0,
+    "count": 4
+  }
+}

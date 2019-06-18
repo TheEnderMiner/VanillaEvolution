@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LOL",
+    "OBO",
+    "LOL"  ],
+  "key": {
+    "O": [
+      {
+        "item": "minecraft:obsidian",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:blaze_rod",
+        "data": 0
+      }
+    ],
+     "L": [
+      {
+        "item": "minecraft:gold_nugget",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:imbued_rod",
+    "data": 0
+  }
+}

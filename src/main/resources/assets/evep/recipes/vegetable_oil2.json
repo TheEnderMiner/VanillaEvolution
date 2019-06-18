@@ -1,0 +1,14 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:peanut_seed",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:vegetable_oil",
+    "data": 0
+  }
+}

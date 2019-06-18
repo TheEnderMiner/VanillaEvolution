@@ -1,0 +1,24 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "V",
+    "D" ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "evep:dragonglass",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:catspaw_dagger",
+    "data": 0
+  }
+}

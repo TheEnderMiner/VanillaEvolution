@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "ASA",
+    "TTT"  ],
+  "key": {
+    "T": [
+      {
+        "item": "evep:tin_ingot",
+        "data": 0
+      }
+    ],
+     "A": [
+      {
+        "item": "evep:advanced_wire",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:silver_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:prominent_wire",
+    "data": 0
+  }
+}

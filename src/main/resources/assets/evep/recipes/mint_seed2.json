@@ -1,0 +1,14 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:mint",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:mint_seed",
+    "data": 0
+  }
+}

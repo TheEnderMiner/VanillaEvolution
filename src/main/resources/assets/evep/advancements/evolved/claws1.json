@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:wolverine_claws"
+        },
+        "title": {
+            "translate": "advancements.evolved.claws1.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.claws1.description"
+        }
+    },
+    "parent": "evep:evolved/hero",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:wolverine_claws"
+                    }
+                ]
+            }
+        }
+    }
+}

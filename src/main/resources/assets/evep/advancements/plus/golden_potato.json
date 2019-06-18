@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:golden_potato"
+        },
+        "title": {
+            "translate": "advancements.plus.golden_potato.title"
+        },
+        "description": {
+            "translate": "advancements.plus.golden_potato.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:golden_potato"
+                    }
+                ]
+            }
+        }
+    }
+}

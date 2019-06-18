@@ -1,0 +1,6 @@
+{
+    "parent": "evep:item/largehandheld",
+    "textures": {
+        "layer0": "evep:items/axe_of_capitalism"
+    }
+}

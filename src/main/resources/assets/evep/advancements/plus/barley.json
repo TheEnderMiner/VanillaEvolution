@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:barley"
+        },
+        "title": {
+            "translate": "advancements.husbandry.barley.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.barley.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:barley"
+                    }
+                ]
+            }
+        }
+    }
+}

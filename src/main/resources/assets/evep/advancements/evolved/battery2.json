@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:advanced_battery"
+        },
+        "title": {
+            "translate": "advancements.story.battery2.title"
+        },
+        "description": {
+            "translate": "advancements.story.battery2.description"
+        }
+    },
+    "parent": "evep:evolved/battery1",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:advanced_battery"
+                    }
+                ]
+            }
+        }
+    }
+}

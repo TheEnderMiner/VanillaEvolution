@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MIM",
+    " I "  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:meteorite_shard",
+        "data": 0
+      }
+    ],
+     "I": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:stormbreaker",
+    "data": 0
+  }
+}

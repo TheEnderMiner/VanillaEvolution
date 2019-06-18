@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:fire_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.fire.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.fire.description"
+        }
+    },
+    "parent": "evep:evolved/element",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:fire_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

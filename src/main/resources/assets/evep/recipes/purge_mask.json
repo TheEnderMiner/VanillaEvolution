@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "CCC",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:string",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:purge_mask",
+    "data": 0
+  }
+}

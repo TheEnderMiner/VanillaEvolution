@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:vibranium_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:vibranium",
+    "data": 0,
+    "count": 9
+  }
+}

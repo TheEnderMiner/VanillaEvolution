@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "V V",
+    " D "  ],
+  "key": {
+    "V": [
+      {
+        "item": "evep:vibranium",
+        "data": 0
+      }
+    ],
+      "B": [
+      {
+        "item": "evep:ballistic_nylon",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "minecraft:dye",
+        "data": 15
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:captain_helmet",
+    "data": 0
+  }
+}

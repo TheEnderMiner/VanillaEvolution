@@ -1,0 +1,23 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS" ],
+  "key": {
+    "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ],
+     "R": [
+      {
+        "item": "minecraft:reeds",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:brown_sugar",
+    "data": 0
+  }
+}

@@ -1,0 +1,49 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "RTI",
+    "CSC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:crust",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:rhubarb",
+        "data": 0
+      }
+    ],
+       "R": [
+      {
+        "item": "evep:cornstarch",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:salt",
+        "data": 0
+      }
+    ],
+      "I": [
+      {
+        "item": "evep:cinnamon",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:rhubarb_pie",
+    "data": 0
+  }
+}

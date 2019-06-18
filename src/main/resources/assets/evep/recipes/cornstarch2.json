@@ -1,0 +1,23 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:corn",
+       "data": 0
+    },
+    {
+      "item": "minecraft:red_mushroom",
+       "data": 0
+    },
+    {
+      "item": "minecraft:sugar",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:cornstarch",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:seasonal_gem"
+        },
+        "title": {
+            "translate": "advancements.evolved.season.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.season.description"
+        }
+    },
+    "parent": "evep:evolved/advanced_miner",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:seasonal_gem"
+                    }
+                ]
+            }
+        }
+    }
+}

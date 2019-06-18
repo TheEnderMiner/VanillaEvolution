@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:superfood_gem"
+        },
+        "title": {
+            "translate": "advancements.plus.superfood_gem.title"
+        },
+        "description": {
+            "translate": "advancements.plus.superfood_gem.description"
+        }
+    },
+    "parent": "evep:plus/ultrafood_gem",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:superfood_gem"
+                    }
+                ]
+            }
+        }
+    }
+}
