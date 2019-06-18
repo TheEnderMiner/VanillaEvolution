@@ -29,5 +29,4 @@ public class BlockBase extends Block implements IHasModel
 	{
 		VanillaEvolutionMod.proxy.registerModel(Item.getItemFromBlock(this), 0);
 	}
-
 }
