@@ -73,8 +73,6 @@ public class RegistryHandler
 	
 	public static void preInitRegistries(){
 		VanillaEvolutionBiomes.registerBiomes();
-		VanillaEvolutionEntities.registerEntities();
-	//	RenderHandler.registerEntityRenders();
 		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 	}
 	

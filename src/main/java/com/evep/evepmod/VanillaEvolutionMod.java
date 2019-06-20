@@ -5,8 +5,7 @@ import org.apache.logging.log4j.Logger;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 import com.evep.evepmod.init.VanillaEvolutionCrafting;
 import com.evep.evepmod.init.VanillaEvolutionItems;
-import com.evep.evepmod.proxy.IProxy;
-import com.evep.evepmod.proxy.ServerProxy;
+import com.evep.evepmod.proxy.CommonProxy;
 import com.evep.evepmod.tabs.BlocksTab;
 import com.evep.evepmod.tabs.BuildingTab;
 import com.evep.evepmod.tabs.DessertTab;
@@ -38,8 +37,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod(modid = VanillaEvolutionMod.MODID, name = VanillaEvolutionMod.NAME, version = VanillaEvolutionMod.VERSION, acceptedMinecraftVersions = VanillaEvolutionMod.ACCEPTED_MINECRAFT_VERSIONS)
 public class VanillaEvolutionMod{
 	
-	@SidedProxy(modId=VanillaEvolutionMod.MODID,clientSide=VanillaEvolutionMod.CLIENT_PROXY_CLASS, serverSide=VanillaEvolutionMod.SERVER_PROXY_CLASS)
-	public static IProxy proxy;
+//	@SidedProxy(modId=VanillaEvolutionMod.MODID,clientSide=VanillaEvolutionMod.CLIENT_PROXY_CLASS, serverSide=VanillaEvolutionMod.SERVER_PROXY_CLASS)
+//	public static IProxy proxy;
+	
+	@SidedProxy(clientSide = VanillaEvolutionMod.CLIENT_PROXY_CLASS, serverSide = VanillaEvolutionMod.COMMON_PROXY_CLASS)
+	public static CommonProxy proxy;
 	
 	public static final CreativeTabs resourcetab = new ResourceTab("resourcetab");
 	public static final CreativeTabs toolstab = new ToolsTab("toolstab");
@@ -59,11 +61,11 @@ public class VanillaEvolutionMod{
 	
     public static final String MODID = "evep";
     public static final String NAME = "Vanilla Evolution";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "[1.12.2]";
    
 	public static final String CLIENT_PROXY_CLASS = "com.evep.evepmod.proxy.ClientProxy";
-	public static final String SERVER_PROXY_CLASS = "com.evep.evepmod.proxy.ServerProxy";
+	public static final String COMMON_PROXY_CLASS = "com.evep.evepmod.proxy.CommonProxy";
 	
 	public static final int ENTITY_FROST_ZOMBIE = 1;
 
@@ -76,6 +78,7 @@ public class VanillaEvolutionMod{
         VanillaEvolutionItems.init();
         VanillaEvolutionBlocks.init();
         RegistryHandler.preInitRegistries();
+        proxy.preInit();
     }
 
     @EventHandler
