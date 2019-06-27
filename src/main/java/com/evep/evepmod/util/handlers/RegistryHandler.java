@@ -38,7 +38,6 @@ public class RegistryHandler
 	public static void registerBlocks(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(VanillaEvolutionBlocks.BLOCKS.toArray(new Block[0]));
-		TileEntityHandler.registerTileEntities();
 	//	ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestChest.class, new RenderTestChest());
 	}
 	
@@ -67,8 +66,7 @@ public class RegistryHandler
 		for(Block block: VanillaEvolutionBlocks.BLOCKS){
 			if(block instanceof IHasModel){
 				((IHasModel)block).registerModels();
-			}
-		}
+			}		}
 	}
 	
 	public static void preInitRegistries(){
@@ -97,7 +95,6 @@ public class RegistryHandler
 	
 	public static void initRegistries(FMLInitializationEvent event)
 	{
-		NetworkRegistry.INSTANCE.registerGuiHandler(VanillaEvolutionMod.instance, new GuiHandler());
 		SoundsHandler.registerSounds();
 	}
 	

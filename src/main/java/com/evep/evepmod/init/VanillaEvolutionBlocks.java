@@ -71,8 +71,6 @@ import com.evep.evepmod.blocks.BlockVibraniumOre;
 import com.evep.evepmod.blocks.BlockWalnutCrop;
 import com.evep.evepmod.blocks.BlockWoodOre;
 import com.evep.evepmod.blocks.BlockZincOre;
-import com.evep.evepmod.blocks.furnaces.BlockNickelFurnace;
-import com.evep.evepmod.blocks.models.BlockModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -92,10 +90,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class VanillaEvolutionBlocks {
 	
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
-	
-	public static final Block model = new BlockModel ("model");
-//	public static final Block test_chest = new BlockTestChest ("test_chest");
-	public static final Block nickel_furnace = new BlockNickelFurnace("nickel_furnace"); 
 	
 	public static Block malachite_ore;
 	public static Block bacon_ore;
@@ -187,9 +181,6 @@ public class VanillaEvolutionBlocks {
 	public static Block seasonal_block;
 	public static Block evolved_sand;
 	public static Block evolved_sandstone;
-	
-//	public static RefinedBasaltHalfSlab refined_basalt_slab_half;
-//	public static RefinedBasaltDoubleSlab refined_basalt_slab_double;
 	
 	static Block tomato_crop;
 	static Block strawberry_crop;
@@ -477,9 +468,6 @@ public class VanillaEvolutionBlocks {
 		white_lamp = new BlockLamp("white_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		scaffolding = new BlockScaffolding("scaffolding", Material.WOOD).setHardness(0f).setResistance(0f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
-	//	refined_basalt_slab_half = (RefinedBasaltHalfSlab) new RefinedBasaltHalfSlab("refined_basalt_slab_half").setHardness(5F).setResistance(20F);
-	//	refined_basalt_slab_double = (RefinedBasaltDoubleSlab) new RefinedBasaltDoubleSlab("refined_basalt_slab_double").setHardness(5F).setResistance(20F);
-		
 		tomato_crop = new BlockTomatoCrop("tomato_crop");
 		strawberry_crop = new BlockStrawberryCrop("strawberry_crop");
 		cherry_crop = new BlockCherryCrop("cherry_crop");
@@ -611,9 +599,6 @@ public class VanillaEvolutionBlocks {
 		event.getRegistry().registerAll(new ItemBlock(seasonal_block).setRegistryName(seasonal_block.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(evolved_sand).setRegistryName(evolved_sand.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(evolved_sandstone).setRegistryName(evolved_sandstone.getRegistryName()));
-
-	//	event.getRegistry().registerAll(new ItemBlock(refined_basalt_slab_half).setRegistryName(refined_basalt_slab_half.getRegistryName()));
-	//	event.getRegistry().registerAll(new ItemBlock(refined_basalt_slab_double).setRegistryName(refined_basalt_slab_double.getRegistryName()));
 
 		VanillaEvolutionItems.tomato_seed = new ItemSeeds(VanillaEvolutionBlocks.tomato_crop, Blocks.FARMLAND).setRegistryName("tomato_seed").setUnlocalizedName("tomato_seed").setCreativeTab(VanillaEvolutionMod.seedtab);
 		event.getRegistry().register(VanillaEvolutionItems.tomato_seed);
@@ -779,19 +764,8 @@ public class VanillaEvolutionBlocks {
 		registerRender(Item.getItemFromBlock(evolved_sandstone));
 		
 
-	//	registerRender(Item.getItemFromBlock(refined_basalt_slab_half));
-    //		registerRender(Item.getItemFromBlock(refined_basalt_slab_double));
+
 	}
-	
-//	public static void register(){
-//		registerBlock(refined_basalt_slab_half, new ItemSlab(refined_basalt_slab_half, refined_basalt_slab_half, refined_basalt_slab_double));
-//	}
-//	
-//	public static void registerBlock(Block block, ItemBlock itemblock){
-//		ForgeRegistries.BLOCKS.register(block);
-//		itemblock.setRegistryName(block.getRegistryName());
-//		ForgeRegistries.ITEMS.register(itemblock);
-//	}
 	
 	public static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));
