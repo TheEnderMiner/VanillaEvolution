@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "AYA",
-    "L L",
-    "   "  ],
+    "L L"],
   "key": {
     "A": [
       {

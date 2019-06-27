@@ -17,6 +17,8 @@
   ],
   "result": {
     "item": "evep:nickel_sheet",
-    "data": 0
+      "data": 0,
+    "count": 2
+
   }
 }

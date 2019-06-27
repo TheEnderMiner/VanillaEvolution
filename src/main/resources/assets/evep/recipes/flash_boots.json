@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "R R",
-    "D D",
-    "   "  ],
+    "D D"],
   "key": {
     "D": [
       {

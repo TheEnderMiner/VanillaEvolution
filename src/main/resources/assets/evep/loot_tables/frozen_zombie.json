@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:arrow",
+                    "name": "minecraft:feather",
                     "weight": 1,
                     "functions": [
                         {
@@ -31,15 +31,20 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:bone",
+                    "name": "minecraft:chicken",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 2
-                            }
+                            "function": "furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "properties": {
+                                        "on_fire": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "function": "looting_enchant",
