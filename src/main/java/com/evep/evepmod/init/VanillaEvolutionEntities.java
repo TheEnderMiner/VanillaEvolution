@@ -17,5 +17,4 @@ public class VanillaEvolutionEntities {
 	private static void registerEntities(String name, Class<? extends Entity> entity, int id, int range, int color1, int color2){
 		EntityRegistry.registerModEntity(new ResourceLocation(VanillaEvolutionMod.MODID + ":" + name), entity, name, id, VanillaEvolutionMod.instance, range, 1, true, color1, color2);
 	}
-
 }

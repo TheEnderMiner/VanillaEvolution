@@ -20,6 +20,7 @@ import net.minecraft.entity.monster.EntityPigZombie;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
@@ -51,11 +52,17 @@ public class EntityFrostZombie extends EntityZombie{
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(4.5D);
 	}
 	
-	@Override
-	protected ResourceLocation getLootTable() 
-	{
+	@Nullable
+    protected ResourceLocation getLootTable()
+    {
 		return LootTableHandler.FROZEN_ZOMBIE;
-	}
+    }
+	
+//	@Override
+//	protected ResourceLocation getLootTable() 
+//	{
+//		return LootTableList.ENTITIES_ZOMBIE;
+//	}
 	
 	@Override
 	protected SoundEvent getAmbientSound() {

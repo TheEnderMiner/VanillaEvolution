@@ -56,12 +56,12 @@ public class VanillaEvolutionMod{
 	public static final CreativeTabs buildingtab = new BuildingTab("buildingtab");
 	public static final CreativeTabs blockstab = new BlocksTab("blockstab");
 	
-	public static final int gui_nickel_furnace = 0;
+//	public static final int gui_nickel_furnace = 0;
 //	public static final int gui_test_chest = 1;
 	
     public static final String MODID = "evep";
     public static final String NAME = "Vanilla Evolution";
-    public static final String VERSION = "1.0.2";
+    public static final String VERSION = "1.0.3";
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "[1.12.2]";
    
 	public static final String CLIENT_PROXY_CLASS = "com.evep.evepmod.proxy.ClientProxy";

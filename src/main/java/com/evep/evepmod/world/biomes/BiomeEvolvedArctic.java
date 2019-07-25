@@ -1,5 +1,7 @@
 package com.evep.evepmod.world.biomes;
 
+import java.util.Random;
+
 import com.evep.evepmod.entity.EntityFrostZombie;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
@@ -27,12 +29,14 @@ import net.minecraft.entity.passive.EntitySheep;
 import net.minecraft.entity.passive.EntityWolf;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+import net.minecraft.world.gen.feature.WorldGenTaiga2;
 
 public class BiomeEvolvedArctic extends Biome{
 	
 	public BiomeEvolvedArctic(){
-		super(new BiomeProperties("Evolved Arctic").setBaseHeight(0.2F).setHeightVariation(0.2F).setTemperature(0.1F).setSnowEnabled().setWaterColor(40666));
+		super(new BiomeProperties("Evolved Arctic").setBaseHeight(0.2F).setHeightVariation(0.2F).setTemperature(0.0F).setSnowEnabled().setWaterColor(40666));
 		this.isSnowyBiome();
 		
 		topBlock = Blocks.SNOW.getDefaultState();
@@ -66,5 +70,10 @@ public class BiomeEvolvedArctic extends Biome{
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityVindicator.class, 35, 2, 4));
 		this.spawnableCreatureList.add(new SpawnListEntry(EntityWolf.class, 40, 2, 4));
 	}
+	
+	 public WorldGenAbstractTree getRandomTreeFeature(Random rand)
+	    {
+	        return new WorldGenTaiga2(false);
+	    }
 
 }

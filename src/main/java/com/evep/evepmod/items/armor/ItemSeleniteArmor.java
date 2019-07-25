@@ -8,11 +8,10 @@ import com.evep.evepmod.util.IHasModel;
 
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.init.Items;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.world.World;
 
 public class ItemSeleniteArmor extends ItemArmor implements IHasModel{
@@ -38,11 +37,8 @@ public class ItemSeleniteArmor extends ItemArmor implements IHasModel{
 		tooltip.add(I18n.format("An extremely powerful set of armor"));
 
 	}
-
 	@Override
 	public void registerModels() {
 		VanillaEvolutionMod.proxy.registerModel(this, 0);
-		
 	}
-
 }

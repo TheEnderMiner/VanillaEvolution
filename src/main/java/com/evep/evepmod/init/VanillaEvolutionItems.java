@@ -6,11 +6,9 @@ import java.util.List;
 import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.items.*;
 import com.evep.evepmod.items.armor.ItemCAArmor;
-import com.evep.evepmod.items.armor.ItemCloakArmor;
 import com.evep.evepmod.items.armor.ItemCobaltArmor;
 import com.evep.evepmod.items.armor.ItemElementArmor;
 import com.evep.evepmod.items.armor.ItemElementArmor2;
-import com.evep.evepmod.items.armor.ItemEnderHelmet;
 import com.evep.evepmod.items.armor.ItemEnderiteArmor;
 import com.evep.evepmod.items.armor.ItemExosuitArmor;
 import com.evep.evepmod.items.armor.ItemFlashArmor;
@@ -443,11 +441,6 @@ public class VanillaEvolutionItems {
 	public static ItemTechArmor aexosuit_leggings;
 	public static ItemTechArmor aexosuit_boots;
 
-	public static ItemCloakArmor cloak_helmet;
-	public static ItemCloakArmor cloak_chestplate;
-	public static ItemCloakArmor cloak_leggings;
-	public static ItemCloakArmor cloak_boots;
-
 	public static ItemNightsWatchArmor nights_watch_chestplate;
 	public static ItemNightsWatchArmor nights_watch_leggings;
 	public static ItemNightsWatchArmor nights_watch_boots;
@@ -456,8 +449,6 @@ public class VanillaEvolutionItems {
 	public static ItemProminentArmor pexosuit_chestplate;
 	public static ItemProminentArmor pexosuit_leggings;
 	public static ItemProminentArmor pexosuit_boots;
-
-	public static ItemEnderHelmet ender_helmet;
 	
 	public static void init(){
 		malachite_ingot = (ItemMalachiteIngot) new ItemMalachiteIngot("malachite_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -780,13 +771,6 @@ public class VanillaEvolutionItems {
 		aexosuit_leggings = (ItemTechArmor) new ItemTechArmor("aexosuit_leggings", AExosuitArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		aexosuit_boots =  (ItemTechArmor)new ItemTechArmor("aexosuit_boots", AExosuitArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		cloak_helmet = (ItemCloakArmor) new ItemCloakArmor("cloak_helmet", CloakArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
-		cloak_chestplate = (ItemCloakArmor) new ItemCloakArmor("cloak_chestplate", CloakArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
-		cloak_leggings = (ItemCloakArmor) new ItemCloakArmor("cloak_leggings", CloakArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
-		cloak_boots =  (ItemCloakArmor)new ItemCloakArmor("cloak_boots", CloakArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
-		
-		ender_helmet = (ItemEnderHelmet) new ItemEnderHelmet("ender_helmet", EnderArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
-		
 		nights_watch_chestplate = (ItemNightsWatchArmor) new ItemNightsWatchArmor("nights_watch_chestplate", NightArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
 		nights_watch_leggings = (ItemNightsWatchArmor) new ItemNightsWatchArmor("nights_watch_leggings", NightArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		nights_watch_boots =  (ItemNightsWatchArmor)new ItemNightsWatchArmor("nights_watch_boots", NightArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -822,10 +806,10 @@ public class VanillaEvolutionItems {
 				captain_helmet, captain_chestplate, captain_leggings, captain_boots, purge_mask, aexosuit_helmet, aexosuit_chestplate, aexosuit_leggings, aexosuit_boots, portal_stone, ender_stone,
 				ender_sword, curious_powder, curiosity, terrorizer, blue_moon_quartz, assassin, pulverizer, atomic_splicer, charged_atomic_splicer, atom, winter_gem, spring_gem, summer_gem,
 				autumn_gem, heart_gem, heart_candy, heart_sword, eggplant, peach, pineapple, raspberry, golden_potato, golden_beetroot, golden_eggplant, golden_peach, golden_pineapple,
-				peach_cobbler, ultra_potato, ultra_berry, sugared_flesh, night_steel, enderic_alloy, charged_beryl, mysterious_moss_ball, cloak_helmet, cloak_chestplate, cloak_leggings, 
-				cloak_boots, axe_of_capitalism, ender_helmet, oculus, dragonglass, valyrian_steel, nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper,
-				widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, 
-				saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, enderic_pickhoxel, frozen_flesh);
+				peach_cobbler, ultra_potato, ultra_berry, sugared_flesh, night_steel, enderic_alloy, charged_beryl, mysterious_moss_ball, axe_of_capitalism, oculus, dragonglass, valyrian_steel, 
+				nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper, widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, 
+				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
+				enderic_pickhoxel, frozen_flesh);
 	}
 	
 	@SubscribeEvent
@@ -1174,13 +1158,6 @@ public class VanillaEvolutionItems {
 		registerRender(aexosuit_leggings);
 		registerRender(aexosuit_boots);
 		
-		registerRender(cloak_helmet);
-		registerRender(cloak_chestplate);
-		registerRender(cloak_leggings);
-		registerRender(cloak_boots);
-
-		registerRender(ender_helmet);
-		
 		registerRender(nights_watch_chestplate);
 		registerRender(nights_watch_leggings);
 		registerRender(nights_watch_boots);
@@ -1193,41 +1170,41 @@ public class VanillaEvolutionItems {
 	
 													//Name, Harvest Level, Durability, Efficiency, Damage, Enchantibility
 	public static final ToolMaterial MalachiteTools = EnumHelper.addToolMaterial("MalachiteTools", 2, 905, 7f, 2.5f, 12);
-	public static final ToolMaterial BronzeTools = EnumHelper.addToolMaterial("BronzeTools", 2, 4000, 9f, 2f, 20);
+	public static final ToolMaterial BronzeTools = EnumHelper.addToolMaterial("BronzeTools", 2, 4000, 9f, 2.5f, 20);
 	public static final ToolMaterial AmethystTools = EnumHelper.addToolMaterial("AmethystTools", 3, 1350, 9f, 4f, 18);
 	public static final ToolMaterial RubyTools = EnumHelper.addToolMaterial("RubyTools", 3, 2000, 12f, 4f, 20);
 	public static final ToolMaterial PeridotTools = EnumHelper.addToolMaterial("PeridotTools", 3, 1750, 10f, 5f, 15);
 	public static final ToolMaterial OnyxTools = EnumHelper.addToolMaterial("OnyxTools", 3, -1, 5f, 4f, 25);
-	public static final ToolMaterial SlimeTools = EnumHelper.addToolMaterial("SlimeTools", 3, 2050, 11f, 8f, 20);
-	public static final ToolMaterial EnderiteTools = EnumHelper.addToolMaterial("EnderiteTools", 4, 5000, 15f, 7f, 25);
-	public static final ToolMaterial SeleniteTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 10f, 30);
-	public static final ToolMaterial SelenitePTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 8f, 30);
+	public static final ToolMaterial SlimeTools = EnumHelper.addToolMaterial("SlimeTools", 3, 2050, 11f, 7f, 20);
+	public static final ToolMaterial EnderiteTools = EnumHelper.addToolMaterial("EnderiteTools", 4, 5000, 15f, 6f, 25);
+	public static final ToolMaterial SeleniteTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 8f, 30);
+	public static final ToolMaterial SelenitePTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 6f, 30);
 	public static final ToolMaterial TechTools = EnumHelper.addToolMaterial("TechTools", 5, 10000, 22f, 11f, 0);
-	public static final ToolMaterial ElementTools = EnumHelper.addToolMaterial("ElementTools", 5, 12000, 25f, 12f, 30);
-	public static final ToolMaterial InfinityTools = EnumHelper.addToolMaterial("InfinityTools", 3, -1, 20f, 13.5f, 0);
-	public static final ToolMaterial WClawTools = EnumHelper.addToolMaterial("WClawTools", 3, 4000, 10f, 6f, 0);
-	public static final ToolMaterial PClawTools = EnumHelper.addToolMaterial("PClawTools", 3, 4000, 10f, 6.5f, 0);
-	public static final ToolMaterial ShieldTools = EnumHelper.addToolMaterial("ShieldTools", 3, 5000, 10f, 7f, 0);
-	public static final ToolMaterial EnderTools = EnumHelper.addToolMaterial("EnderTools", 4, 6500, 10f, 11f, 15);
+	public static final ToolMaterial ElementTools = EnumHelper.addToolMaterial("ElementTools", 5, 12000, 25f, 9f, 30);
+	public static final ToolMaterial InfinityTools = EnumHelper.addToolMaterial("InfinityTools", 3, -1, 20f, 11f, 0);
+	public static final ToolMaterial WClawTools = EnumHelper.addToolMaterial("WClawTools", 3, 4000, 10f, 5f, 0);
+	public static final ToolMaterial PClawTools = EnumHelper.addToolMaterial("PClawTools", 3, 4000, 10f, 5.5f, 0);
+	public static final ToolMaterial ShieldTools = EnumHelper.addToolMaterial("ShieldTools", 3, 5000, 10f, 6f, 0);
+	public static final ToolMaterial EnderTools = EnumHelper.addToolMaterial("EnderTools", 4, 6500, 10f, 9f, 15);
 	public static final ToolMaterial CuriousTools = EnumHelper.addToolMaterial("CuriousTools", 3, 3250, 6f, 5f, 0);
 	public static final ToolMaterial TerrorizerTools = EnumHelper.addToolMaterial("TerrorizerTools", 3, 3000, 7f, 6.5f, 0);
 	public static final ToolMaterial AssassinTools = EnumHelper.addToolMaterial("AssassinTools", 3, 6000, 8f, 6f, 0);
 	public static final ToolMaterial PulverizerTools = EnumHelper.addToolMaterial("PulverizerTools", 3, 8000, 9f, 6f, 0);
 	public static final ToolMaterial HeartTools = EnumHelper.addToolMaterial("HeartTools", 3, -1, 9f, 6f, 20);
-	public static final ToolMaterial CapitalismTools = EnumHelper.addToolMaterial("CapitalismTools", 3, 15000, 9f, 15f, 0);
-	public static final ToolMaterial OculusTools = EnumHelper.addToolMaterial("OculusTools", 3, 17500, 9f, 14f, 0);
-	public static final ToolMaterial LongclawTools = EnumHelper.addToolMaterial("LongclawTools", 3, 6000, 10f, 14f, 30);
-	public static final ToolMaterial IceTools = EnumHelper.addToolMaterial("IceTools", 3, 10000, 8f, 15f, 25);
-	public static final ToolMaterial OathkeeperTools = EnumHelper.addToolMaterial("OathkeeperTools", 3, 5000, 9f, 13f, 20);
-	public static final ToolMaterial WidowWailTools = EnumHelper.addToolMaterial("WidowWailTools", 3, 4000, 9f, 13f, 10);
-	public static final ToolMaterial DArakhTools = EnumHelper.addToolMaterial("DArakhTools", 3, -1, 9f, 13f, 10);
-	public static final ToolMaterial DSpearTools = EnumHelper.addToolMaterial("DSpearTools", 3, -1, 9f, 14f, 10);
-	public static final ToolMaterial DAxeTools = EnumHelper.addToolMaterial("DAxeTools", 3, -1, 9f, 15f, 10);
+	public static final ToolMaterial CapitalismTools = EnumHelper.addToolMaterial("CapitalismTools", 3, 15000, 9f, 13f, 0);
+	public static final ToolMaterial OculusTools = EnumHelper.addToolMaterial("OculusTools", 3, 17500, 9f, 11f, 0);
+	public static final ToolMaterial LongclawTools = EnumHelper.addToolMaterial("LongclawTools", 3, 6000, 10f, 11f, 30);
+	public static final ToolMaterial IceTools = EnumHelper.addToolMaterial("IceTools", 3, 10000, 8f, 12f, 25);
+	public static final ToolMaterial OathkeeperTools = EnumHelper.addToolMaterial("OathkeeperTools", 3, 5000, 9f, 11f, 20);
+	public static final ToolMaterial WidowWailTools = EnumHelper.addToolMaterial("WidowWailTools", 3, 4000, 9f, 10f, 10);
+	public static final ToolMaterial DArakhTools = EnumHelper.addToolMaterial("DArakhTools", 3, -1, 9f, 10f, 10);
+	public static final ToolMaterial DSpearTools = EnumHelper.addToolMaterial("DSpearTools", 3, -1, 9f, 11f, 10);
+	public static final ToolMaterial DAxeTools = EnumHelper.addToolMaterial("DAxeTools", 3, -1, 9f, 12f, 10);
 	public static final ToolMaterial NeedleTools = EnumHelper.addToolMaterial("NeedleTools", 3, 9000, 9f, 4f, 30);
-	public static final ToolMaterial CatspawTools = EnumHelper.addToolMaterial("CatspawTools", 3, -1, 9f, 14f, 30);
+	public static final ToolMaterial CatspawTools = EnumHelper.addToolMaterial("CatspawTools", 3, -1, 9f, 11f, 30);
 	public static final ToolMaterial MjolnirTools = EnumHelper.addToolMaterial("MjolnirTools", 3, -1, 9f, 4f, 0);
 	public static final ToolMaterial StormbreakerTools = EnumHelper.addToolMaterial("StormbreakerTools", 3, -1, 9f, 5f, 0);
-	public static final ToolMaterial LightsaberTools = EnumHelper.addToolMaterial("LightsaberTools", 3, -1, 9f, 13f, 0);
+	public static final ToolMaterial LightsaberTools = EnumHelper.addToolMaterial("LightsaberTools", 3, -1, 9f, 9f, 0);
 	public static final ToolMaterial EndericPhTools = EnumHelper.addToolMaterial("EndericPhTools", 5, 10000, 25f, 5f, 0);
 	
 					//Name, Texture Name, Durability, Protection: (Boots, Leggings, Chestplate, Helmet), Enchantibility, Sound, Resistance
