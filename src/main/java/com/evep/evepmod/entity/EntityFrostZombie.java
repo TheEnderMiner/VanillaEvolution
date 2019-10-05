@@ -55,7 +55,8 @@ public class EntityFrostZombie extends EntityZombie{
 	@Nullable
     protected ResourceLocation getLootTable()
     {
-		return LootTableHandler.FROZEN_ZOMBIE;
+		return LootTableList.ENTITIES_ZOMBIE;
+	//	return LootTableHandler.FROZEN_ZOMBIE;
     }
 	
 //	@Override
