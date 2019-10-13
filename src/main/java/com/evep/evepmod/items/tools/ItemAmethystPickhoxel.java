@@ -41,7 +41,7 @@ private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.PLANKS, Bl
 	}
 	@Override
 	public boolean getIsRepairable(ItemStack armor, ItemStack stack){
-		return stack.getItem() == VanillaEvolutionItems.bronze_ingot;
+		return stack.getItem() == VanillaEvolutionItems.amethyst;
 	}
 	
 	@Override
