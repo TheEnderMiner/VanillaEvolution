@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CPC",
+    " C "  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:chocolate",
+        "data": 0
+      }
+    ],
+      "P": [
+      {
+        "item": "evep:peanut_butter",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:peanut_butter_cup",
+    "data": 0,
+    "count": 2
+  }
+}

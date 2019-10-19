@@ -1,0 +1,17 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:cornstarch",
+       "data": 0
+    },
+     {
+      "item": "minecraft:sugar",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:jelly_bean_mold",
+    "data": 0
+  }
+}

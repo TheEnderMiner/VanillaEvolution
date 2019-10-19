@@ -1,0 +1,21 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:vegetable_oil",
+       "data": 0
+    },
+    {
+      "item": "minecraft:water_bucket",
+       "data": 0
+    },
+     {
+      "item": "minecraft:sugar",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:fondant",
+    "data": 0
+  }
+}

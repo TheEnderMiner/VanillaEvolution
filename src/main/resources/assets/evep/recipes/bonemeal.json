@@ -1,0 +1,14 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:dust_bone",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "minecraft:dye",
+    "data": 15,
+    "count": 4
+  }
+}

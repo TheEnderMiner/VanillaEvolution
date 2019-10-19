@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+	    "name": "arid_skeleton",
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "evep:dust_bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot"
+                }
+            ]
+        }
+    ]
+}

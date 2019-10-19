@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CPC",
+    " C "  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:caramel",
+        "data": 0
+      }
+    ],
+      "P": [
+      {
+        "item": "minecraft:apple",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:caramel_apple",
+    "data": 0,
+    "count": 1
+  }
+}

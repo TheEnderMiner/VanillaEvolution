@@ -32,6 +32,9 @@ public class VanillaEvolutionCrafting {
 		GameRegistry.addSmelting(VanillaEvolutionItems.funnel_cake_mixture, new ItemStack(VanillaEvolutionItems.funnel_cake), 1.5f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.blue_moon_quartz, new ItemStack(VanillaEvolutionBlocks.blue_moon_quartz_block), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.frozen_flesh, new ItemStack(Items.LEATHER, 3), 1f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.dust_bone, new ItemStack(VanillaEvolutionItems.silicon_chunk, 2), 0.5f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.uncooked_caramel, new ItemStack(VanillaEvolutionItems.caramel), 0.2f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.jelly_bean_mold, new ItemStack(VanillaEvolutionItems.jelly_beans), 0.4f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.lead_ingot, new ItemStack(VanillaEvolutionBlocks.lead_bricks), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.limestone, new ItemStack(VanillaEvolutionBlocks.marble, 1), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.basalt, new ItemStack(VanillaEvolutionBlocks.refined_basalt, 1), 0.2f);

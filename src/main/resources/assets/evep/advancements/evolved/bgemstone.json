@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:beast_gemstone"
+        },
+        "title": {
+            "translate": "advancements.evolved.bgemstone.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.bgemstone.description"
+        }
+    },
+    "parent": "evep:evolved/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:beast_gemstone"
+                    }
+                ]
+            }
+        }
+    }
+}

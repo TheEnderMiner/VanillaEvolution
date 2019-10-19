@@ -268,6 +268,19 @@ item.saber_purple.name=Purple Lightsaber
 item.saber_red.name=Red Lightsaber
 item.enderic_pickhoxel.name=Enderic Pickhoxel
 item.frozen_flesh.name=Frozen Flesh
+item.pulsating_shard.name=Pulsating Shard
+item.dust_bone.name=Dust Bone
+item.peanut_butter.name=Peanut Butter
+item.uncooked_caramel.name=Uncooked Caramel
+item.caramel.name=Caramel
+item.fondant.name=Fondant
+item.jelly_bean_mold.name=Jelly Bean Mold
+item.peanut_butter_cup.name=Peanut Butter Cup
+item.caramel_chocolate_bar.name=Caramel Chocolate Bar
+item.peanut_chocolate_bar.name=Peanut Chocolate Bar
+item.candy_corn.name=Candy Corn
+item.jelly_beans.name=Jelly Beans
+item.caramel_apple.name=Caramel Apple
 
 item.enderite_helmet.name=Enderite Helmet
 item.enderite_chestplate.name=Enderite Chestplate
@@ -357,6 +370,8 @@ item.pexosuit_helmet.name=Prominent Exosuit Helmet
 item.pexosuit_chestplate.name=Prominent Exosuit Chestplate
 item.pexosuit_leggings.name=Prominent Exosuit Leggings
 item.pexosuit_boots.name=Prominent Exosuit Boots
+
+item.beast_gemstone.name=Beast Gemstone
 
 tile.malachite_ore.name=Malachite Ore
 tile.bacon_ore.name=Bacon Ore
@@ -778,7 +793,13 @@ advancements.evolved.got.description=A Song of Dragonglass and Valyrian Steel
 advancements.evolved.nights_watch.title=I am the Sword in the Darkness
 advancements.evolved.nights_watch.description=Craft a Piece of Night's Watch Armor
 
+advancements.evolved.bgemstone.title=Recrafting the Gemstone
+advancements.evolved.bgemstone.description=Use Pulsating Shards to Remake the Beast Gemstone
+
+
 generator.Evolved Desert=Evolved Desert
 
 entity.frost_zombie.name=Frost Zombie
 entity.lizard.name=Lizard
+entity.beast.name=The Beast
+entity.arid_skeleton.name=Arid Skeleton

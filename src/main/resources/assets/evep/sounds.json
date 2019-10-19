@@ -18,5 +18,47 @@
     "category": "entity",
     "subtitle": "entity.frozen_zombie.death",
     "sounds": [{ "name":"evep:mobs/frozen_zombie/death", "stream": true}]
+    },
+
+     "entity.arid_skeleton.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.arid_skeleton.ambient",
+    "sounds": [{ "name":"evep:mobs/arid_skeleton/ambient", "stream": true}]
+    },
+
+  "entity.arid_skeleton.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.arid_skeleton.death",
+    "sounds": [{ "name":"evep:mobs/arid_skeleton/death", "stream": true}]
+    },
+
+  "entity.arid_skeleton.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.arid_skeleton.hurt",
+    "sounds": [{ "name":"evep:mobs/arid_skeleton/hurt", "stream": true}]
+    },
+
+   "entity.beast.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.beast.ambient",
+    "sounds": [{ "name":"evep:mobs/beast/ambient", "stream": true}]
+    },
+
+ "entity.beast.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.beast.death",
+    "sounds": [{ "name":"evep:mobs/beast/death", "stream": true}]
+    },
+
+ "entity.beast.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.beast.hurt",
+    "sounds": [{ "name":"evep:mobs/beast/hurt", "stream": true}]
     }
 }

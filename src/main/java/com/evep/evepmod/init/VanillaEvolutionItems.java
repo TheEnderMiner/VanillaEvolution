@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.items.*;
+import com.evep.evepmod.items.armor.ItemBeastArmor;
 import com.evep.evepmod.items.armor.ItemCAArmor;
 import com.evep.evepmod.items.armor.ItemCobaltArmor;
 import com.evep.evepmod.items.armor.ItemElementArmor;
@@ -368,6 +369,19 @@ public class VanillaEvolutionItems {
 	public static ItemLightsaber saber_red;
 	public static ItemEndericPickhoxel enderic_pickhoxel;
 	public static ItemFrozenFlesh frozen_flesh;
+	public static ItemPulsatingShard pulsating_shard;
+	public static ItemDustBone dust_bone;
+	public static ItemPeanutButter peanut_butter;
+	public static ItemBaking uncooked_caramel;
+	public static ItemBaking caramel;
+	public static ItemBaking fondant;
+	public static ItemBaking jelly_bean_mold;
+	public static ItemPeanutButterCup peanut_butter_cup;
+	public static ItemCaramelChocolateBar caramel_chocolate_bar;
+	public static ItemPeanutChocolateBar peanut_chocolate_bar;
+	public static ItemCandyCorn candy_corn;
+	public static ItemJellyBeans jelly_beans;
+	public static ItemCaramelApple caramel_apple;
 	
 	public static ItemEnderiteArmor enderite_helmet;
 	public static ItemEnderiteArmor enderite_chestplate;
@@ -449,6 +463,8 @@ public class VanillaEvolutionItems {
 	public static ItemProminentArmor pexosuit_chestplate;
 	public static ItemProminentArmor pexosuit_leggings;
 	public static ItemProminentArmor pexosuit_boots;
+
+	public static ItemBeastArmor beast_gemstone;
 	
 	public static void init(){
 		malachite_ingot = (ItemMalachiteIngot) new ItemMalachiteIngot("malachite_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -698,6 +714,19 @@ public class VanillaEvolutionItems {
 		saber_red = (ItemLightsaber) new ItemLightsaber("saber_red", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderic_pickhoxel = (ItemEndericPickhoxel) new ItemEndericPickhoxel("enderic_pickhoxel", EndericPhTools).setCreativeTab(VanillaEvolutionMod.toolstab);
 		frozen_flesh = (ItemFrozenFlesh) new ItemFrozenFlesh("frozen_flesh", 4, 1.1f, true).setCreativeTab(CreativeTabs.MISC);
+		pulsating_shard = (ItemPulsatingShard) new ItemPulsatingShard("pulsating_shard").setCreativeTab(CreativeTabs.MISC);
+		dust_bone = (ItemDustBone) new ItemDustBone("dust_bone").setCreativeTab(CreativeTabs.MISC);
+		peanut_butter = (ItemPeanutButter) new ItemPeanutButter("peanut_butter", 2, 0.5f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
+		uncooked_caramel = (ItemBaking) new ItemBaking("uncooked_caramel").setCreativeTab(VanillaEvolutionMod.foodtab);
+		caramel = (ItemBaking) new ItemBaking("caramel").setCreativeTab(VanillaEvolutionMod.foodtab);
+		fondant = (ItemBaking) new ItemBaking("fondant").setCreativeTab(VanillaEvolutionMod.foodtab);
+		jelly_bean_mold = (ItemBaking) new ItemBaking("jelly_bean_mold").setCreativeTab(VanillaEvolutionMod.foodtab);
+		peanut_butter_cup = (ItemPeanutButterCup) new ItemPeanutButterCup("peanut_butter_cup", 8, 0.4f, true).setCreativeTab(VanillaEvolutionMod.seasontab);
+		caramel_chocolate_bar = (ItemCaramelChocolateBar) new ItemCaramelChocolateBar("caramel_chocolate_bar", 10, 0.5f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		peanut_chocolate_bar = (ItemPeanutChocolateBar) new ItemPeanutChocolateBar("peanut_chocolate_bar", 8, 1.1f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		candy_corn = (ItemCandyCorn) new ItemCandyCorn("candy_corn", 4, 0.2f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		jelly_beans = (ItemJellyBeans) new ItemJellyBeans("jelly_beans", 8, 0.6f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		caramel_apple = (ItemCaramelApple) new ItemCaramelApple("caramel_apple", 10, 0.8f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 	
 		enderite_helmet = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderite_chestplate = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_chestplate", EnderiteArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -779,6 +808,8 @@ public class VanillaEvolutionItems {
 		pexosuit_chestplate = (ItemProminentArmor) new ItemProminentArmor("pexosuit_chestplate", PExosuitArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
 		pexosuit_leggings = (ItemProminentArmor) new ItemProminentArmor("pexosuit_leggings", PExosuitArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		pexosuit_boots =  (ItemProminentArmor)new ItemProminentArmor("pexosuit_boots", PExosuitArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+
+		beast_gemstone = (ItemBeastArmor) new ItemBeastArmor("beast_gemstone", BeastArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
 	}
 	
 	@SubscribeEvent
@@ -809,7 +840,8 @@ public class VanillaEvolutionItems {
 				peach_cobbler, ultra_potato, ultra_berry, sugared_flesh, night_steel, enderic_alloy, charged_beryl, mysterious_moss_ball, axe_of_capitalism, oculus, dragonglass, valyrian_steel, 
 				nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper, widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, 
 				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
-				enderic_pickhoxel, frozen_flesh);
+				enderic_pickhoxel, frozen_flesh, pulsating_shard, beast_gemstone, dust_bone, peanut_butter, uncooked_caramel, caramel, fondant, jelly_bean_mold, peanut_butter_cup, 
+				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple);
 	}
 	
 	@SubscribeEvent
@@ -1061,6 +1093,19 @@ public class VanillaEvolutionItems {
 		registerRender(saber_red);
 		registerRender(enderic_pickhoxel);
 		registerRender(frozen_flesh);
+		registerRender(pulsating_shard);
+		registerRender(dust_bone);	
+		registerRender(peanut_butter);	
+		registerRender(uncooked_caramel);	
+		registerRender(caramel);	
+		registerRender(fondant);	
+		registerRender(jelly_bean_mold);	
+		registerRender(peanut_butter_cup);	
+		registerRender(caramel_chocolate_bar);	
+		registerRender(peanut_chocolate_bar);	
+		registerRender(candy_corn);	
+		registerRender(jelly_beans);	
+		registerRender(caramel_apple);
 		
 		registerRender(tomato_seed);
 		registerRender(strawberry_seed);
@@ -1166,6 +1211,8 @@ public class VanillaEvolutionItems {
 		registerRender(pexosuit_chestplate);
 		registerRender(pexosuit_leggings);
 		registerRender(pexosuit_boots);
+
+		registerRender(beast_gemstone);
 	}
 	
 													//Name, Harvest Level, Durability, Efficiency, Damage, Enchantibility
@@ -1221,7 +1268,7 @@ public class VanillaEvolutionItems {
 			new int[] {3, 7, 9, 4}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2f);
 	
 	public static final ArmorMaterial CobaltArmor = EnumHelper.addArmorMaterial("cobaltarmor", VanillaEvolutionMod.MODID + ":cobalt_armor", 22, 
-			new int[] {3, 7, 5, 2}, 16, SoundEvents.ENTITY_GENERIC_SPLASH, 0f);
+			new int[] {2, 5, 7, 3}, 16, SoundEvents.ENTITY_GENERIC_SPLASH, 0f);
 	
 	public static final ArmorMaterial TechArmor = EnumHelper.addArmorMaterial("techarmor", VanillaEvolutionMod.MODID + ":tech_armor", 40, 
 			new int[] {6, 10, 12, 6}, 0, SoundEvents.BLOCK_REDSTONE_TORCH_BURNOUT, 4f);
@@ -1267,6 +1314,9 @@ public class VanillaEvolutionItems {
 	
 	public static final ArmorMaterial PExosuitArmor = EnumHelper.addArmorMaterial("pexosuitarmor", VanillaEvolutionMod.MODID + ":pexosuit_armor", 80, 
 			new int[] {8, 12, 14, 9}, 0, SoundEvents.BLOCK_NOTE_BASS, 5f);
+	
+	public static final ArmorMaterial BeastArmor = EnumHelper.addArmorMaterial("beastarmor", VanillaEvolutionMod.MODID + ":beast_armor", 60, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.AMBIENT_CAVE, 0f); //Add Beast Noise
 	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

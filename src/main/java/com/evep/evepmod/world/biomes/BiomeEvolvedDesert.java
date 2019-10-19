@@ -1,5 +1,6 @@
 package com.evep.evepmod.world.biomes;
 
+import com.evep.evepmod.entity.EntityAridSkeleton;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
 import net.minecraft.entity.monster.EntityBlaze;
@@ -40,14 +41,13 @@ public class BiomeEvolvedDesert extends Biome{
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityEvoker.class, 30, 1, 2));
 		this.spawnableCreatureList.add(new SpawnListEntry(EntityDonkey.class, 15, 1, 3));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityIllusionIllager.class, 20, 1, 4));
-		this.spawnableCreatureList.add(new SpawnListEntry(EntityLlama.class, 15, 2, 5));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntitySkeleton.class, 20, 3, 6));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntitySpellcasterIllager.class, 40, 1, 1));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityBlaze.class, 50, 3, 5));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityGhast.class, 30, 1, 3));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityPigZombie.class, 70, 5, 7));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityWitherSkeleton.class, 40, 2, 3));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityHusk.class, 90, 3, 10));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityAridSkeleton.class, 95, 4, 8));
 	}
 
 }

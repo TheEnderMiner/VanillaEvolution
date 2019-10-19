@@ -38,7 +38,6 @@ public class RegistryHandler
 	public static void registerBlocks(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(VanillaEvolutionBlocks.BLOCKS.toArray(new Block[0]));
-	//	ClientRegistry.bindTileEntitySpecialRenderer(TileEntityTestChest.class, new RenderTestChest());
 	}
 	
 	@SubscribeEvent
@@ -56,7 +55,6 @@ public class RegistryHandler
 	
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event){
-	//	VanillaEvolutionMod.proxy.registerModel(Item.getItemFromBlock(VanillaEvolutionBlocks.test_chest), 0);
 		
 		for(Item item : VanillaEvolutionItems.ITEMS){
 			if(item instanceof IHasModel){
@@ -75,22 +73,8 @@ public class RegistryHandler
 	}
 	
 	 public static void registerEntitySpawning() {
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(5));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(12));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(13));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(19));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(26));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(30));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(31));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(32));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(33));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(34));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(133));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(140));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(158));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(160));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(161));
-         EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(162));
+		 											//Weight (Bigger to Work), Min, Max
+    //     EntityRegistry.addSpawn(EntityFrostZombie.class, 1, 2, 6, EnumCreatureType.MONSTER, Biome.getBiome(5));
   }
 	
 	public static void initRegistries(FMLInitializationEvent event)

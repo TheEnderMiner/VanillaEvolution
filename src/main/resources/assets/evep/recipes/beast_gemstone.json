@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"  ],
+  "key": {
+    "P": [
+      {
+        "item": "evep:pulsating_shard",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:beast_gemstone",
+    "data": 0
+  }
+}

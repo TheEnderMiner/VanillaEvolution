@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:butter",
+       "data": 0
+    },
+    {
+      "item": "evep:vanilla",
+       "data": 0
+    },
+    {
+      "item": "minecraft:milk_bucket",
+       "data": 0
+    },
+     {
+      "item": "minecraft:sugar",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:uncooked_caramel",
+    "data": 0
+  }
+}

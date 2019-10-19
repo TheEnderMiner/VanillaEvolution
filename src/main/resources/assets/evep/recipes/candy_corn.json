@@ -1,0 +1,31 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:corn_syrup",
+       "data": 0
+    },
+     {
+      "item": "evep:fondant",
+       "data": 0
+    },
+     {
+      "item": "evep:marshmallow",
+       "data": 0
+    },
+    {
+      "item": "minecraft:sugar",
+       "data": 0
+    },
+        {
+      "item": "minecraft:water_bucket",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:candy_corn",
+    "data": 0,
+    "count": 8
+  }
+}

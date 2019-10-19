@@ -2,6 +2,7 @@ package com.evep.evepmod.world.biomes;
 
 import java.util.Random;
 
+import com.evep.evepmod.entity.EntityBeast;
 import com.evep.evepmod.entity.EntityFrostZombie;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
@@ -17,14 +18,9 @@ import net.minecraft.entity.monster.EntityStray;
 import net.minecraft.entity.monster.EntityVex;
 import net.minecraft.entity.monster.EntityVindicator;
 import net.minecraft.entity.monster.EntityWitch;
-import net.minecraft.entity.passive.EntityBat;
 import net.minecraft.entity.passive.EntityChicken;
-import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.passive.EntityHorse;
 import net.minecraft.entity.passive.EntityLlama;
-import net.minecraft.entity.passive.EntityOcelot;
-import net.minecraft.entity.passive.EntityPig;
-import net.minecraft.entity.passive.EntityRabbit;
 import net.minecraft.entity.passive.EntitySheep;
 import net.minecraft.entity.passive.EntityWolf;
 import net.minecraft.init.Blocks;
@@ -52,6 +48,7 @@ public class BiomeEvolvedArctic extends Biome{
 
 																//Weight (Lower = Less), Smallest Group, Largest Group
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityFrostZombie.class, 70, 3, 8));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityBeast.class, 2, 1, 1));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityVex.class, 50, 2, 6));
 		this.spawnableCreatureList.add(new SpawnListEntry(EntityChicken.class, 10, 1, 6));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityCaveSpider.class, 20, 1, 10));

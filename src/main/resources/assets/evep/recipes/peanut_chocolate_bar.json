@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:chocolate",
+       "data": 0
+    },
+
+    {
+      "item": "evep:peanut",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:peanut_chocolate_bar",
+    "data": 0
+  }
+}
