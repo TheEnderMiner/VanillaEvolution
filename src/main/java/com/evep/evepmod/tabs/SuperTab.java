@@ -7,12 +7,12 @@ import net.minecraft.item.ItemStack;
 
 public class SuperTab extends CreativeTabs{
 	public SuperTab(String label){
-		super("supertab");
+		super("supetab");
 	}
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(VanillaEvolutionItems.ultra_berry);
+		return new ItemStack(VanillaEvolutionItems.sugared_flesh);
 	}
 
 }

@@ -5,14 +5,14 @@ import com.evep.evepmod.init.VanillaEvolutionItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
-public class HeroTab extends CreativeTabs{
-	public HeroTab(String label){
-		super("herotab");
+public class MobTab extends CreativeTabs{
+	public MobTab(String label){
+		super("mobtab");
 	}
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(VanillaEvolutionItems.infinity_gauntlet);
+		return new ItemStack(VanillaEvolutionItems.pulsating_shard);
 	}
 
 }

@@ -2,16 +2,22 @@ package com.evep.evepmod.items;
 
 import java.util.List;
 
-import com.evep.evepmod.init.VanillaEvolutionItems;
+import com.evep.evepmod.entity.EntityBeast;
 
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.entity.effect.EntityLightningBolt;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class ItemAtomicSplicer extends Item{
+public class ItemTimeClock extends Item{
 	
-	public ItemAtomicSplicer(String name) {
+	public ItemTimeClock(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 	}
@@ -21,7 +27,7 @@ public class ItemAtomicSplicer extends Item{
 	{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
-	     tooltip.add("An interesting piece of technology");
+	     tooltip.add("Can summon a Master of Time");
 	}
 
 }

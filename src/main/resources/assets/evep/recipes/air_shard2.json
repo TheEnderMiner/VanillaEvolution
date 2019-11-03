@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:elemental_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "evep:turkey_feather",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:air_shard",
+    "data": 0
+  }
+}

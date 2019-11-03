@@ -60,5 +60,25 @@
     "category": "entity",
     "subtitle": "entity.beast.hurt",
     "sounds": [{ "name":"evep:mobs/beast/hurt", "stream": true}]
+    },
+   "entity.turkey.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.turkey.ambient",
+    "sounds": [{ "name":"evep:mobs/turkey/ambient", "stream": true}]
+    },
+
+ "entity.turkey.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.turkey.death",
+    "sounds": [{ "name":"evep:mobs/turkey/death", "stream": true}]
+    },
+
+ "entity.turkey.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.turkey.hurt",
+    "sounds": [{ "name":"evep:mobs/turkey/hurt", "stream": true}]
     }
 }

@@ -10,5 +10,6 @@ public class LootTableHandler {
 	public static final ResourceLocation FROZEN_ZOMBIE = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "frozen_zombie"));
 	public static final ResourceLocation BEAST = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "beast"));
 	public static final ResourceLocation ARID_SKELETON = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "arid_skeleton"));
+	public static final ResourceLocation TURKEY = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "turkey"));
 
 }

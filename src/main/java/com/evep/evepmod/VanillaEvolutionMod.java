@@ -11,7 +11,7 @@ import com.evep.evepmod.tabs.BuildingTab;
 import com.evep.evepmod.tabs.DessertTab;
 import com.evep.evepmod.tabs.ElementTab;
 import com.evep.evepmod.tabs.FoodTab;
-import com.evep.evepmod.tabs.HeroTab;
+import com.evep.evepmod.tabs.MobTab;
 import com.evep.evepmod.tabs.OresTab;
 import com.evep.evepmod.tabs.ResourceTab;
 import com.evep.evepmod.tabs.SeasonTab;
@@ -46,8 +46,8 @@ public class VanillaEvolutionMod{
 	public static final CreativeTabs resourcetab = new ResourceTab("resourcetab");
 	public static final CreativeTabs toolstab = new ToolsTab("toolstab");
 	public static final CreativeTabs elementtab = new ElementTab("elementtab");
-	public static final CreativeTabs herotab = new HeroTab("herotab");
 	public static final CreativeTabs seasontab = new SeasonTab("seasontab");
+	public static final CreativeTabs mobtab = new MobTab("mobtab");
 	public static final CreativeTabs foodtab = new FoodTab("foodtab");
 	public static final CreativeTabs seedtab = new SeedTab("seedtab");
 	public static final CreativeTabs dessertab = new DessertTab("dessertab");
@@ -70,6 +70,7 @@ public class VanillaEvolutionMod{
 	public static final int ENTITY_FROST_ZOMBIE = 1;
 	public static final int ENTITY_BEAST = 2;
 	public static final int ENTITY_ARID_SKELETON = 3;
+	public static final int ENTITY_TURKEY = 4;
 
     private static Logger logger;
 

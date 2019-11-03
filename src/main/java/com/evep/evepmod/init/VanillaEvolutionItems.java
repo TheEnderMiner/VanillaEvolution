@@ -382,6 +382,10 @@ public class VanillaEvolutionItems {
 	public static ItemCandyCorn candy_corn;
 	public static ItemJellyBeans jelly_beans;
 	public static ItemCaramelApple caramel_apple;
+	public static ItemWishbone wishbone;
+	public static ItemTurkeyFeather turkey_feather;
+	public static ItemRawTurkey raw_turkey;
+//	public static ItemTimeClock time_master_clock;
 	
 	public static ItemEnderiteArmor enderite_helmet;
 	public static ItemEnderiteArmor enderite_chestplate;
@@ -645,17 +649,17 @@ public class VanillaEvolutionItems {
 		fire_sword = (ItemFireSword) new ItemFireSword("fire_sword", ElementTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.elementtab);
 		shattered_soul = (ItemSoul) new ItemSoul("shattered_soul").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		soul = (ItemSoul) new ItemSoul("soul").setCreativeTab(VanillaEvolutionMod.resourcetab);
-		power_stone = (ItemPowerStone) new ItemPowerStone("power_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		space_stone = (ItemSpaceStone) new ItemSpaceStone("space_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		reality_stone = (ItemRealityStone) new ItemRealityStone("reality_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		soul_stone = (ItemSoulStone) new ItemSoulStone("soul_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		time_stone = (ItemTimeStone) new ItemTimeStone("time_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		mind_stone = (ItemMindStone) new ItemMindStone("mind_stone").setCreativeTab(VanillaEvolutionMod.herotab);
-		infinity_gauntlet = (ItemInfinityGauntlet) new ItemInfinityGauntlet("infinity_gauntlet", InfinityTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.herotab);
-		wolverine_claws = (ItemWolverineClaws) new ItemWolverineClaws("wolverine_claws", WClawTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.herotab);
-		panther_claws = (ItemPantherClaws) new ItemPantherClaws("panther_claws", PClawTools, 6.5f, 996f).setCreativeTab(VanillaEvolutionMod.herotab);
+		power_stone = (ItemPowerStone) new ItemPowerStone("power_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		space_stone = (ItemSpaceStone) new ItemSpaceStone("space_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		reality_stone = (ItemRealityStone) new ItemRealityStone("reality_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		soul_stone = (ItemSoulStone) new ItemSoulStone("soul_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		time_stone = (ItemTimeStone) new ItemTimeStone("time_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		mind_stone = (ItemMindStone) new ItemMindStone("mind_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		infinity_gauntlet = (ItemInfinityGauntlet) new ItemInfinityGauntlet("infinity_gauntlet", InfinityTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		wolverine_claws = (ItemWolverineClaws) new ItemWolverineClaws("wolverine_claws", WClawTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		panther_claws = (ItemPantherClaws) new ItemPantherClaws("panther_claws", PClawTools, 6.5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		ballistic_nylon = (ItemBallisticNylon) new ItemBallisticNylon("ballistic_nylon").setCreativeTab(VanillaEvolutionMod.resourcetab);
-		captain_shield = (ItemCAShield) new ItemCAShield("captain_shield", ShieldTools, 7f, 996f).setCreativeTab(VanillaEvolutionMod.herotab);
+		captain_shield = (ItemCAShield) new ItemCAShield("captain_shield", ShieldTools, 7f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		portal_stone = (ItemEnderResource) new ItemEnderResource("portal_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		ender_stone = (ItemEnderResource) new ItemEnderResource("ender_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		ender_sword = (ItemEnderSword) new ItemEnderSword("ender_sword", EnderTools, 11f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -666,7 +670,7 @@ public class VanillaEvolutionItems {
 		assassin = (ItemAssassin) new ItemAssassin("assassin", AssassinTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		pulverizer = (ItemPulverizer) new ItemPulverizer("pulverizer", PulverizerTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		atomic_splicer = (ItemAtomicSplicer) new ItemAtomicSplicer("atomic_splicer").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.toolstab);
-		charged_atomic_splicer = (ItemChargedAtomicSplicer) new ItemChargedAtomicSplicer("charged_atomic_splicer").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.atomic_splicer).setCreativeTab(VanillaEvolutionMod.toolstab);
+		charged_atomic_splicer = (ItemChargedAtomicSplicer) new ItemChargedAtomicSplicer("charged_atomic_splicer").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.charged_atomic_splicer).setCreativeTab(VanillaEvolutionMod.toolstab);
 		atom = (ItemAtom) new ItemAtom("atom").setMaxStackSize(128).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		winter_gem = (ItemSeasonalGem) new ItemSeasonalGem("winter_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
 		spring_gem = (ItemSeasonalGem) new ItemSeasonalGem("spring_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
@@ -713,9 +717,9 @@ public class VanillaEvolutionItems {
 		saber_purple = (ItemLightsaber) new ItemLightsaber("saber_purple", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
 		saber_red = (ItemLightsaber) new ItemLightsaber("saber_red", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderic_pickhoxel = (ItemEndericPickhoxel) new ItemEndericPickhoxel("enderic_pickhoxel", EndericPhTools).setCreativeTab(VanillaEvolutionMod.toolstab);
-		frozen_flesh = (ItemFrozenFlesh) new ItemFrozenFlesh("frozen_flesh", 4, 1.1f, true).setCreativeTab(CreativeTabs.MISC);
-		pulsating_shard = (ItemPulsatingShard) new ItemPulsatingShard("pulsating_shard").setCreativeTab(CreativeTabs.MISC);
-		dust_bone = (ItemDustBone) new ItemDustBone("dust_bone").setCreativeTab(CreativeTabs.MISC);
+		frozen_flesh = (ItemFrozenFlesh) new ItemFrozenFlesh("frozen_flesh", 4, 1.1f, true).setCreativeTab(VanillaEvolutionMod.mobtab);
+		pulsating_shard = (ItemPulsatingShard) new ItemPulsatingShard("pulsating_shard").setCreativeTab(VanillaEvolutionMod.mobtab);
+		dust_bone = (ItemDustBone) new ItemDustBone("dust_bone").setCreativeTab(VanillaEvolutionMod.mobtab);
 		peanut_butter = (ItemPeanutButter) new ItemPeanutButter("peanut_butter", 2, 0.5f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
 		uncooked_caramel = (ItemBaking) new ItemBaking("uncooked_caramel").setCreativeTab(VanillaEvolutionMod.foodtab);
 		caramel = (ItemBaking) new ItemBaking("caramel").setCreativeTab(VanillaEvolutionMod.foodtab);
@@ -727,6 +731,10 @@ public class VanillaEvolutionItems {
 		candy_corn = (ItemCandyCorn) new ItemCandyCorn("candy_corn", 4, 0.2f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 		jelly_beans = (ItemJellyBeans) new ItemJellyBeans("jelly_beans", 8, 0.6f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 		caramel_apple = (ItemCaramelApple) new ItemCaramelApple("caramel_apple", 10, 0.8f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		wishbone = (ItemWishbone) new ItemWishbone("wishbone").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.mobtab);
+		turkey_feather = (ItemTurkeyFeather) new ItemTurkeyFeather("turkey_feather").setCreativeTab(VanillaEvolutionMod.mobtab);
+		raw_turkey = (ItemRawTurkey) new ItemRawTurkey("raw_turkey", 2, 0.3f, true).setCreativeTab(VanillaEvolutionMod.mobtab);
+//		time_master_clock = (ItemTimeClock) new ItemTimeClock("time_master_clock").setCreativeTab(VanillaEvolutionMod.resourcetab);
 	
 		enderite_helmet = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderite_chestplate = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_chestplate", EnderiteArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -773,25 +781,25 @@ public class VanillaEvolutionItems {
 		bpajama_leggings = (ItemPajamaArmor) new ItemPajamaArmor("bpajama_leggings", BPajamaArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		bpajama_boots =  (ItemPajamaArmor)new ItemPajamaArmor("bpajama_boots", BPajamaArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		flash_helmet = (ItemFlashArmor) new ItemFlashArmor("flash_helmet", FlashArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.herotab);
-		flash_chestplate = (ItemFlashArmor) new ItemFlashArmor("flash_chestplate", FlashArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.herotab);
-		flash_leggings = (ItemFlashArmor) new ItemFlashArmor("flash_leggings", FlashArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.herotab);
-		flash_boots =  (ItemFlashArmor)new ItemFlashArmor("flash_boots", FlashArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.herotab);
+		flash_helmet = (ItemFlashArmor) new ItemFlashArmor("flash_helmet", FlashArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		flash_chestplate = (ItemFlashArmor) new ItemFlashArmor("flash_chestplate", FlashArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		flash_leggings = (ItemFlashArmor) new ItemFlashArmor("flash_leggings", FlashArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		flash_boots =  (ItemFlashArmor)new ItemFlashArmor("flash_boots", FlashArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		wolverine_helmet = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_helmet", WolverineArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.herotab);
-		wolverine_chestplate = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_chestplate", WolverineArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.herotab);
-		wolverine_leggings = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_leggings", WolverineArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.herotab);
-		wolverine_boots =  (ItemWolverineArmor)new ItemWolverineArmor("wolverine_boots", WolverineArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.herotab);
+		wolverine_helmet = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_helmet", WolverineArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		wolverine_chestplate = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_chestplate", WolverineArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		wolverine_leggings = (ItemWolverineArmor) new ItemWolverineArmor("wolverine_leggings", WolverineArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		wolverine_boots =  (ItemWolverineArmor)new ItemWolverineArmor("wolverine_boots", WolverineArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		panther_helmet = (ItemPantherArmor) new ItemPantherArmor("panther_helmet", PantherArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.herotab);
-		panther_chestplate = (ItemPantherArmor) new ItemPantherArmor("panther_chestplate", PantherArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.herotab);
-		panther_leggings = (ItemPantherArmor) new ItemPantherArmor("panther_leggings", PantherArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.herotab);
-		panther_boots =  (ItemPantherArmor)new ItemPantherArmor("panther_boots", PantherArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.herotab);
+		panther_helmet = (ItemPantherArmor) new ItemPantherArmor("panther_helmet", PantherArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		panther_chestplate = (ItemPantherArmor) new ItemPantherArmor("panther_chestplate", PantherArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		panther_leggings = (ItemPantherArmor) new ItemPantherArmor("panther_leggings", PantherArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		panther_boots =  (ItemPantherArmor)new ItemPantherArmor("panther_boots", PantherArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		captain_helmet = (ItemCAArmor) new ItemCAArmor("captain_helmet", CaptainArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.herotab);
-		captain_chestplate = (ItemCAArmor) new ItemCAArmor("captain_chestplate", CaptainArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.herotab);
-		captain_leggings = (ItemCAArmor) new ItemCAArmor("captain_leggings", CaptainArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.herotab);
-		captain_boots =  (ItemCAArmor)new ItemCAArmor("captain_boots", CaptainArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.herotab);
+		captain_helmet = (ItemCAArmor) new ItemCAArmor("captain_helmet", CaptainArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		captain_chestplate = (ItemCAArmor) new ItemCAArmor("captain_chestplate", CaptainArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		captain_leggings = (ItemCAArmor) new ItemCAArmor("captain_leggings", CaptainArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		captain_boots =  (ItemCAArmor)new ItemCAArmor("captain_boots", CaptainArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 
 		purge_mask =  (ItemPurgeMask)new ItemPurgeMask("purge_mask", PurgeArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
@@ -841,7 +849,7 @@ public class VanillaEvolutionItems {
 				nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper, widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, 
 				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
 				enderic_pickhoxel, frozen_flesh, pulsating_shard, beast_gemstone, dust_bone, peanut_butter, uncooked_caramel, caramel, fondant, jelly_bean_mold, peanut_butter_cup, 
-				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple);
+				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, turkey_feather, wishbone);
 	}
 	
 	@SubscribeEvent
@@ -1106,6 +1114,10 @@ public class VanillaEvolutionItems {
 		registerRender(candy_corn);	
 		registerRender(jelly_beans);	
 		registerRender(caramel_apple);
+		registerRender(wishbone);
+		registerRender(turkey_feather);
+		registerRender(raw_turkey);
+	//	registerRender(time_master_clock);
 		
 		registerRender(tomato_seed);
 		registerRender(strawberry_seed);

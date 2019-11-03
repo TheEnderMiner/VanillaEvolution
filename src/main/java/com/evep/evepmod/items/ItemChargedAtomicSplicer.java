@@ -2,6 +2,8 @@ package com.evep.evepmod.items;
 
 import java.util.List;
 
+import com.evep.evepmod.init.VanillaEvolutionItems;
+
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -13,6 +15,7 @@ public class ItemChargedAtomicSplicer extends Item{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 	}
+	
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn)
 	{

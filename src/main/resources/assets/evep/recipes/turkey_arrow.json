@@ -1,0 +1,32 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F",
+    "S",
+    "T"  ],
+  "key": {
+    "T": [
+      {
+        "item": "evep:turkey_feather",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ],
+   "F": [
+      {
+        "item": "minecraft:flint",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "data": 0,
+    "count": 4
+  }
+}

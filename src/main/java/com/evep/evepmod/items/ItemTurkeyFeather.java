@@ -2,16 +2,16 @@ package com.evep.evepmod.items;
 
 import java.util.List;
 
-import com.evep.evepmod.init.VanillaEvolutionItems;
-
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class ItemAtomicSplicer extends Item{
+public class ItemTurkeyFeather extends Item{
 	
-	public ItemAtomicSplicer(String name) {
+	public ItemTurkeyFeather(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 	}
@@ -21,7 +21,8 @@ public class ItemAtomicSplicer extends Item{
 	{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
-	     tooltip.add("An interesting piece of technology");
+	     tooltip.add("A feather from a turkey, rather than a chicken");
 	}
+
 
 }
