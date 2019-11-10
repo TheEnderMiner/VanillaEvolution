@@ -2,7 +2,10 @@ package com.evep.evepmod.items;
 
 import java.util.List;
 
+import com.evep.evepmod.init.VanillaEvolutionItems;
+
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -13,6 +16,12 @@ public class ItemKnife extends Item{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 	}
+	
+	@Override
+	public Item setContainerItem(Item containerItem) {
+		return VanillaEvolutionItems.knife;
+	}
+	
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn)
 	{

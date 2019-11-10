@@ -105,7 +105,11 @@ public class ModelTurkey extends ModelBase {
     	this.LeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
     	this.RightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
     	
+    	this.LeftWing.rotateAngleZ = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+    	this.RightWing.rotateAngleZ = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
+    	
     	this.Head.rotateAngleY = netHeadYaw * 0.017453292F;
     	this.Head.rotateAngleX = headPitch * 0.017453292F;
+    	
     }
 }

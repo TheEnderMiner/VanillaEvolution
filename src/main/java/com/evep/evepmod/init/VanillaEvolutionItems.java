@@ -565,7 +565,7 @@ public class VanillaEvolutionItems {
 		advanced_battery = (ItemTechnology) new ItemTechnology("advanced_battery").setMaxStackSize(8).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		prominent_battery = (ItemTechnology) new ItemTechnology("prominent_battery").setMaxStackSize(8).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		tech_arm = (ItemTechArm) new ItemTechArm("tech_arm", TechTools).setCreativeTab(VanillaEvolutionMod.toolstab);
-		knife = (ItemKnife) new ItemKnife("knife").setContainerItem(VanillaEvolutionItems.copper_ingot).setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.foodtab);
+		knife = (ItemKnife) new ItemKnife("knife").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.foodtab);
 		animal_fat = (ItemAnimalFat) new ItemAnimalFat("animal_fat", 1, 0.1f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
 		grease = (ItemGrease) new ItemGrease("grease", 1, 0.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
 		bacon = (ItemBacon) new ItemBacon("bacon", 12, 0.8f, true).setCreativeTab(VanillaEvolutionMod.foodtab);

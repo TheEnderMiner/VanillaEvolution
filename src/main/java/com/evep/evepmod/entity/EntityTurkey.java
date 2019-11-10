@@ -48,6 +48,7 @@ public class EntityTurkey extends EntityChicken{
 	      this.timeUntilNextEgg = this.rand.nextInt(6000) + 6000;
 	}
 	
+	@Override
 	 protected void initEntityAI()
 	    {
 	        this.tasks.addTask(0, new EntityAISwimming(this));
@@ -66,16 +67,19 @@ public class EntityTurkey extends EntityChicken{
 		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.252D);
 	}
 	
+	@Override
 	 public EntityTurkey createChild(EntityAgeable ageable)
 	    {
 	        return new EntityTurkey(this.world);
 	    }
 	 
+	@Override
 	    public boolean isBreedingItem(ItemStack stack)
 	    {
 	        return TEMPTATION_ITEMS.contains(stack.getItem());
 	    }
 	
+	    @Override
 	    public void onLivingUpdate()
 	    {
 	        super.onLivingUpdate();
