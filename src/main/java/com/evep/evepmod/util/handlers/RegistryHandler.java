@@ -10,6 +10,7 @@ import com.evep.evepmod.world.types.WorldTypeEvolvedDesert;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.init.Biomes;
 import net.minecraft.item.Item;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
@@ -70,14 +71,28 @@ public class RegistryHandler
 	
 	 public static void registerEntitySpawning() {
 		 											//Weight (Bigger to Work), Min, Max
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.MONSTER, Biome.getBiome(1));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(4));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(5));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(19));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(27));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(28));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(129));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(133));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(1));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(4));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(5));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(19));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(27));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(28));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(129));
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(133));
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST_HILLS);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_EDGE);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_WITH_TREES);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST_HILLS);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_EDGE);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_HILLS);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.PLAINS);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.ROOFED_FOREST);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA);
+    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA_HILLS);
   }
 	
 	public static void initRegistries(FMLInitializationEvent event)

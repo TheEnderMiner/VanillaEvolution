@@ -22,6 +22,7 @@ import com.evep.evepmod.items.armor.ItemRubyArmor;
 import com.evep.evepmod.items.armor.ItemSeleniteArmor;
 import com.evep.evepmod.items.armor.ItemSlimeArmor;
 import com.evep.evepmod.items.armor.ItemTechArmor;
+import com.evep.evepmod.items.armor.ItemWarBonnet;
 import com.evep.evepmod.items.armor.ItemWolverineArmor;
 import com.evep.evepmod.items.tools.ItemAirAxe;
 import com.evep.evepmod.items.tools.ItemAmethystAxe;
@@ -82,7 +83,6 @@ import com.evep.evepmod.items.tools.ItemWidowWail;
 import com.evep.evepmod.items.tools.ItemWolverineClaws;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -469,6 +469,8 @@ public class VanillaEvolutionItems {
 	public static ItemProminentArmor pexosuit_boots;
 
 	public static ItemBeastArmor beast_gemstone;
+
+	public static ItemWarBonnet war_bonnet;
 	
 	public static void init(){
 		malachite_ingot = (ItemMalachiteIngot) new ItemMalachiteIngot("malachite_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -818,6 +820,8 @@ public class VanillaEvolutionItems {
 		pexosuit_boots =  (ItemProminentArmor)new ItemProminentArmor("pexosuit_boots", PExosuitArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 
 		beast_gemstone = (ItemBeastArmor) new ItemBeastArmor("beast_gemstone", BeastArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+
+		war_bonnet = (ItemWarBonnet) new ItemWarBonnet("war_bonnet", BonnetArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.seasontab);
 	}
 	
 	@SubscribeEvent
@@ -849,7 +853,7 @@ public class VanillaEvolutionItems {
 				nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper, widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, 
 				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
 				enderic_pickhoxel, frozen_flesh, pulsating_shard, beast_gemstone, dust_bone, peanut_butter, uncooked_caramel, caramel, fondant, jelly_bean_mold, peanut_butter_cup, 
-				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, turkey_feather, wishbone);
+				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, turkey_feather, wishbone, war_bonnet);
 	}
 	
 	@SubscribeEvent
@@ -1117,6 +1121,7 @@ public class VanillaEvolutionItems {
 		registerRender(wishbone);
 		registerRender(turkey_feather);
 		registerRender(raw_turkey);
+		registerRender(war_bonnet);
 	//	registerRender(time_master_clock);
 		
 		registerRender(tomato_seed);
@@ -1328,7 +1333,10 @@ public class VanillaEvolutionItems {
 			new int[] {8, 12, 14, 9}, 0, SoundEvents.BLOCK_NOTE_BASS, 5f);
 	
 	public static final ArmorMaterial BeastArmor = EnumHelper.addArmorMaterial("beastarmor", VanillaEvolutionMod.MODID + ":beast_armor", 60, 
-			new int[] {0, 0, 0, 0}, 0, SoundEvents.AMBIENT_CAVE, 0f); //Add Beast Noise
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.AMBIENT_CAVE, 0f);
+	
+	public static final ArmorMaterial BonnetArmor = EnumHelper.addArmorMaterial("bonnetarmor", VanillaEvolutionMod.MODID + ":war_bonnet_armor", 30, 
+			new int[] {2, 0, 0, 0}, 0, SoundEvents.BLOCK_CLOTH_BREAK, 0f);
 	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

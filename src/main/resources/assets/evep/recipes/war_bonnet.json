@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FWF",
+    "F F"
+    ],
+  "key": {
+    "F": [
+      {
+        "item": "evep:turkey_feather",
+        "data": 0
+      }
+    ],
+ "W": [
+      {
+        "item": "evep:wishbone",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:war_bonnet",
+    "data": 0
+  }
+}
