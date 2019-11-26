@@ -1,0 +1,33 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:cooked_turkey",
+       "data": 0
+    },
+     {
+      "item": "evep:butter",
+       "data": 0
+    },
+     {
+      "item": "evep:salt",
+       "data": 0
+    },
+     {
+      "item": "evep:garlic",
+       "data": 0
+    },
+     {
+      "item": "evep:onion",
+       "data": 0
+    },
+    {
+      "item": "minecraft:bread",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:stuffing",
+    "data": 0
+  }
+}

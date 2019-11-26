@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:animal_fat",
+       "data": 0
+    },
+
+    {
+      "item": "evep:cornstarch",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:gravy",
+    "data": 0
+  }
+}

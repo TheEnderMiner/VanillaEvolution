@@ -1,0 +1,13 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+   {
+      "item": "evep:onion",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:onion_seed",
+    "data": 0
+  }
+}

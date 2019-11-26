@@ -29,8 +29,10 @@ import com.evep.evepmod.blocks.BlockEggplantCrop;
 import com.evep.evepmod.blocks.BlockElementalOre;
 import com.evep.evepmod.blocks.BlockEnderiteOre;
 import com.evep.evepmod.blocks.BlockEnergeticOre;
+import com.evep.evepmod.blocks.BlockGarlicCrop;
 import com.evep.evepmod.blocks.BlockGingerCrop;
 import com.evep.evepmod.blocks.BlockGneiss;
+import com.evep.evepmod.blocks.BlockGreenBeanCrop;
 import com.evep.evepmod.blocks.BlockLamp;
 import com.evep.evepmod.blocks.BlockLeadOre;
 import com.evep.evepmod.blocks.BlockLimestone;
@@ -42,6 +44,7 @@ import com.evep.evepmod.blocks.BlockMeteoriteOre;
 import com.evep.evepmod.blocks.BlockMintCrop;
 import com.evep.evepmod.blocks.BlockNickelOre;
 import com.evep.evepmod.blocks.BlockOatCrop;
+import com.evep.evepmod.blocks.BlockOnionCrop;
 import com.evep.evepmod.blocks.BlockOnyxOre;
 import com.evep.evepmod.blocks.BlockPeachCrop;
 import com.evep.evepmod.blocks.BlockPeanutCrop;
@@ -205,6 +208,9 @@ public class VanillaEvolutionBlocks {
 	static Block peach_crop;
 	static Block pineapple_crop;
 	static Block raspberry_crop;
+	static Block garlic_crop;
+	static Block green_bean_crop;
+	static Block onion_crop;
 	
 	public static void initSeeds(){
 		
@@ -491,6 +497,9 @@ public class VanillaEvolutionBlocks {
 		peach_crop = new BlockPeachCrop("peach_crop");
 		pineapple_crop = new BlockPineappleCrop("pineapple_crop");
 		raspberry_crop = new BlockRaspberryCrop("raspberry_crop");
+		garlic_crop = new BlockGarlicCrop("garlic_crop");
+		green_bean_crop = new BlockGreenBeanCrop("green_bean_crop");
+		onion_crop = new BlockOnionCrop("onion_crop");
 }
 	
 	@SubscribeEvent
@@ -504,7 +513,7 @@ public class VanillaEvolutionBlocks {
 				silver_block, slimey_block, tin_block, vibranium_block, zinc_block, reinforced_sand, magenta_lamp, red_lamp, blue_lamp, green_lamp, yellow_lamp, white_lamp, scaffolding,
 				tomato_crop, strawberry_crop, cherry_crop, blueberry_crop, cotton_crop, corn_crop, mint_crop, banana_crop, vanilla_crop, maple_crop, cinnamon_crop, barley_crop,
 				oat_crop, rye_crop, ginger_crop, peanut_crop, pecan_crop, walnut_crop, rhubarb_crop, blue_moon_quartz_block, blue_moon_quartz_bricks, lead_bricks, eggplant_crop, peach_crop,
-				pineapple_crop, raspberry_crop, ultrafood_block, superfood_block, seasonal_block, evolved_sand, evolved_sandstone);
+				pineapple_crop, raspberry_crop, ultrafood_block, superfood_block, seasonal_block, evolved_sand, evolved_sandstone, garlic_crop, green_bean_crop, onion_crop);
 	}
 	
 	@SubscribeEvent
@@ -668,6 +677,15 @@ public class VanillaEvolutionBlocks {
 		
 		VanillaEvolutionItems.raspberry_seed = new ItemSeeds(VanillaEvolutionBlocks.raspberry_crop, Blocks.FARMLAND).setRegistryName("raspberry_seed").setUnlocalizedName("raspberry_seed").setCreativeTab(VanillaEvolutionMod.seedtab);
 		event.getRegistry().register(VanillaEvolutionItems.raspberry_seed);
+		
+		VanillaEvolutionItems.garlic = new ItemSeeds(VanillaEvolutionBlocks.garlic_crop, Blocks.FARMLAND).setRegistryName("garlic").setUnlocalizedName("garlic").setCreativeTab(VanillaEvolutionMod.seedtab);
+		event.getRegistry().register(VanillaEvolutionItems.garlic);
+		
+		VanillaEvolutionItems.green_bean_seed = new ItemSeeds(VanillaEvolutionBlocks.green_bean_crop, Blocks.FARMLAND).setRegistryName("green_bean_seed").setUnlocalizedName("green_bean_seed").setCreativeTab(VanillaEvolutionMod.seedtab);
+		event.getRegistry().register(VanillaEvolutionItems.green_bean_seed);
+		
+		VanillaEvolutionItems.onion_seed = new ItemSeeds(VanillaEvolutionBlocks.onion_crop, Blocks.FARMLAND).setRegistryName("onion_seed").setUnlocalizedName("onion_seed").setCreativeTab(VanillaEvolutionMod.seedtab);
+		event.getRegistry().register(VanillaEvolutionItems.onion_seed);
 	}
 	
 	@SubscribeEvent
@@ -762,8 +780,6 @@ public class VanillaEvolutionBlocks {
 		registerRender(Item.getItemFromBlock(seasonal_block));
 		registerRender(Item.getItemFromBlock(evolved_sand));
 		registerRender(Item.getItemFromBlock(evolved_sandstone));
-		
-
 
 	}
 	

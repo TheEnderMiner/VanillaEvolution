@@ -1,6 +1,7 @@
 package com.evep.evepmod.world.biomes;
 
 import com.evep.evepmod.entity.EntityAridSkeleton;
+import com.evep.evepmod.entity.EntityTurkey;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
 import net.minecraft.entity.monster.EntityBlaze;
@@ -10,11 +11,9 @@ import net.minecraft.entity.monster.EntityGhast;
 import net.minecraft.entity.monster.EntityHusk;
 import net.minecraft.entity.monster.EntityIllusionIllager;
 import net.minecraft.entity.monster.EntityPigZombie;
-import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.monster.EntitySpellcasterIllager;
 import net.minecraft.entity.monster.EntityWitherSkeleton;
 import net.minecraft.entity.passive.EntityDonkey;
-import net.minecraft.entity.passive.EntityLlama;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.feature.WorldGenMinable;
@@ -48,6 +47,7 @@ public class BiomeEvolvedDesert extends Biome{
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityWitherSkeleton.class, 40, 2, 3));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityHusk.class, 90, 3, 10));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityAridSkeleton.class, 95, 4, 8));
+		this.spawnableCreatureList.add(new SpawnListEntry(EntityTurkey.class, 25, 3, 8));
 	}
 
 }

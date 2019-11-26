@@ -4,6 +4,7 @@ import java.util.Random;
 
 import com.evep.evepmod.entity.EntityBeast;
 import com.evep.evepmod.entity.EntityFrostZombie;
+import com.evep.evepmod.entity.EntityTurkey;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
 import net.minecraft.entity.monster.EntityCaveSpider;
@@ -25,6 +26,7 @@ import net.minecraft.entity.passive.EntitySheep;
 import net.minecraft.entity.passive.EntityWolf;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.Biome.SpawnListEntry;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenTaiga2;
@@ -66,6 +68,7 @@ public class BiomeEvolvedArctic extends Biome{
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityWitch.class, 25, 1, 1));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityVindicator.class, 35, 2, 4));
 		this.spawnableCreatureList.add(new SpawnListEntry(EntityWolf.class, 40, 2, 4));
+		this.spawnableCreatureList.add(new SpawnListEntry(EntityTurkey.class, 30, 3, 8));
 	}
 	
 	 public WorldGenAbstractTree getRandomTreeFeature(Random rand)

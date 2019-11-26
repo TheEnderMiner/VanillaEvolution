@@ -36,6 +36,7 @@ public class VanillaEvolutionCrafting {
 		GameRegistry.addSmelting(VanillaEvolutionItems.uncooked_caramel, new ItemStack(VanillaEvolutionItems.caramel), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.jelly_bean_mold, new ItemStack(VanillaEvolutionItems.jelly_beans), 0.4f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.lead_ingot, new ItemStack(VanillaEvolutionBlocks.lead_bricks), 0.5f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.raw_turkey, new ItemStack(VanillaEvolutionItems.cooked_turkey), 0.1f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.limestone, new ItemStack(VanillaEvolutionBlocks.marble, 1), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.basalt, new ItemStack(VanillaEvolutionBlocks.refined_basalt, 1), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.gneiss, new ItemStack(VanillaEvolutionBlocks.refined_gneiss, 1), 0.2f);

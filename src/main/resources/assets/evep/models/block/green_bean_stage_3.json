@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "evep:blocks/green_bean_stage_3"
+    }
+}

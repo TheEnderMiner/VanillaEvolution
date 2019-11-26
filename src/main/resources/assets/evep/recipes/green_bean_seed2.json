@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:knife",
+      "data": 0
+    },
+    {
+      "item": "evep:green_beans",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:green_bean_seed",
+    "data": 0,
+    "count": 3
+  }
+}

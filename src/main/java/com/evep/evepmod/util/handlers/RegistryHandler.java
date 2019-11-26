@@ -79,7 +79,7 @@ public class RegistryHandler
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(28));
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(129));
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(133));
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST);
+   EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST);
     EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST_HILLS);
     EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS);
     EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_EDGE);

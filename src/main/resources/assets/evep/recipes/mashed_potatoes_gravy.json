@@ -1,0 +1,17 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:mashed_potatoes",
+       "data": 0
+    },
+     {
+      "item": "evep:gravy",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:mashed_potatoes_gravy",
+    "data": 0
+  }
+}

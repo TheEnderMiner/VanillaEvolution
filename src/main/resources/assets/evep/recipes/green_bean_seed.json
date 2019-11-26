@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+       "data": 2
+    },
+ {
+      "item": "evep:knife",
+       "data": 0
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+       "data": 0
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:green_bean_seed",
+    "data": 0,
+    "count": 2
+  }
+}

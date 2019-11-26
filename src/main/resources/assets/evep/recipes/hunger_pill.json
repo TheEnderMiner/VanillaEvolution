@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "R",
+    "I"  ],
+  "key": {
+    "R": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:iron_nugget",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:hunger_pill",
+    "data": 0
+  }
+}

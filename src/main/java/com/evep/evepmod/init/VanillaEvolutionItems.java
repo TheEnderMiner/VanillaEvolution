@@ -83,6 +83,7 @@ import com.evep.evepmod.items.tools.ItemWidowWail;
 import com.evep.evepmod.items.tools.ItemWolverineClaws;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -385,6 +386,19 @@ public class VanillaEvolutionItems {
 	public static ItemWishbone wishbone;
 	public static ItemTurkeyFeather turkey_feather;
 	public static ItemRawTurkey raw_turkey;
+	public static ItemCookedTurkey cooked_turkey;
+	public static Item garlic;
+	public static Item green_bean_seed;
+	public static ItemGreenBeans green_beans;
+	public static Item onion_seed;
+	public static ItemOnion onion;
+	public static ItemMasher masher;
+	public static ItemGravy gravy;
+	public static ItemMPotatoes mashed_potatoes;
+	public static ItemMPotatoesG mashed_potatoes_gravy;
+	public static ItemStuffing stuffing;
+	public static ItemGBC green_bean_casserole;
+	public static ItemHungerPill hunger_pill;
 //	public static ItemTimeClock time_master_clock;
 	
 	public static ItemEnderiteArmor enderite_helmet;
@@ -736,6 +750,16 @@ public class VanillaEvolutionItems {
 		wishbone = (ItemWishbone) new ItemWishbone("wishbone").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.mobtab);
 		turkey_feather = (ItemTurkeyFeather) new ItemTurkeyFeather("turkey_feather").setCreativeTab(VanillaEvolutionMod.mobtab);
 		raw_turkey = (ItemRawTurkey) new ItemRawTurkey("raw_turkey", 2, 0.3f, true).setCreativeTab(VanillaEvolutionMod.mobtab);
+		cooked_turkey = (ItemCookedTurkey) new ItemCookedTurkey("cooked_turkey", 7, 0.8f, true).setCreativeTab(CreativeTabs.FOOD);
+		green_beans = (ItemGreenBeans) new ItemGreenBeans("green_beans", 3, 0.8f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
+		onion = (ItemOnion) new ItemOnion("onion", 4, 0.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
+		masher = (ItemMasher) new ItemMasher("masher").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.steel_ingot).setCreativeTab(VanillaEvolutionMod.foodtab);
+		gravy = (ItemGravy) new ItemGravy("gravy", 0, 0.0f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
+		mashed_potatoes = (ItemMPotatoes) new ItemMPotatoes("mashed_potatoes", 6, 0.8f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		mashed_potatoes_gravy = (ItemMPotatoesG) new ItemMPotatoesG("mashed_potatoes_gravy", 9, 1.2f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		stuffing = (ItemStuffing) new ItemStuffing("stuffing", 12, 1.6f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		green_bean_casserole = (ItemGBC) new ItemGBC("green_bean_casserole", 10, 1.5f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
+		hunger_pill = (ItemHungerPill) new ItemHungerPill("hunger_pill", 0, 0f, false).setCreativeTab(CreativeTabs.MISC);
 //		time_master_clock = (ItemTimeClock) new ItemTimeClock("time_master_clock").setCreativeTab(VanillaEvolutionMod.resourcetab);
 	
 		enderite_helmet = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -853,7 +877,8 @@ public class VanillaEvolutionItems {
 				nights_watch_chestplate, nights_watch_leggings, nights_watch_boots, longclaw, ice, oathkeeper, widow_wail, dragonglass_arakh, dragonglass_spear, dragonglass_axe, needle, 
 				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
 				enderic_pickhoxel, frozen_flesh, pulsating_shard, beast_gemstone, dust_bone, peanut_butter, uncooked_caramel, caramel, fondant, jelly_bean_mold, peanut_butter_cup, 
-				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, turkey_feather, wishbone, war_bonnet);
+				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, cooked_turkey, turkey_feather, wishbone, war_bonnet, green_beans, onion, masher, 
+				gravy, mashed_potatoes, mashed_potatoes_gravy, stuffing, green_bean_casserole, hunger_pill);
 	}
 	
 	@SubscribeEvent
@@ -1121,7 +1146,17 @@ public class VanillaEvolutionItems {
 		registerRender(wishbone);
 		registerRender(turkey_feather);
 		registerRender(raw_turkey);
+		registerRender(cooked_turkey);
 		registerRender(war_bonnet);
+		registerRender(green_beans);
+		registerRender(onion);
+		registerRender(masher);
+		registerRender(gravy);
+		registerRender(mashed_potatoes);
+		registerRender(mashed_potatoes_gravy);
+		registerRender(stuffing);
+		registerRender(green_bean_casserole);
+		registerRender(hunger_pill);
 	//	registerRender(time_master_clock);
 		
 		registerRender(tomato_seed);
@@ -1147,6 +1182,9 @@ public class VanillaEvolutionItems {
 		registerRender(peach_seed);
 		registerRender(pineapple_seed);
 		registerRender(raspberry_seed);
+		registerRender(garlic);
+		registerRender(green_bean_seed);
+		registerRender(onion_seed);
 		
 		registerRender(enderite_helmet);
 		registerRender(enderite_chestplate);

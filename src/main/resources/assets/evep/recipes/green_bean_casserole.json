@@ -1,0 +1,30 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "MOM"  ],
+  "key": {
+    "G": [
+      {
+        "item": "evep:green_beans",
+        "data": 0
+      }
+    ],
+      "O": [
+      {
+        "item": "evep:onion",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:red_mushroom",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:green_bean_casserole",
+    "data": 0
+  }
+}
