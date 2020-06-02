@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "evep:blocks/dwarven_bricks_top",
+        "side": "evep:blocks/chiseled_dwarven_bricks"
+    }
+}

@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:log_goldwood",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:goldwood_planks",
+    "data": 0,
+    "count": 4
+  }
+}

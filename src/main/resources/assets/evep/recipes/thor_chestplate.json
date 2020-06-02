@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    "EEE",
+    "EEE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:asgardian_steel",
+        "data": 0
+      }
+    ],
+  "R": [
+      {
+        "item": "minecraft:carpet",
+        "data": 14
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:thor_chestplate",
+    "data": 0
+  }
+}

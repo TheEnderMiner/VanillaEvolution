@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "HEH",
+    "PHP"  ],
+  "key": {
+    "P": [
+      {
+        "item": "evep:pelt_pile",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "evep:earth_gem_block",
+        "data": 0
+      }
+    ],
+    "H": [
+      {
+        "item": "evep:dwarven_gem",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:earth_horn",
+    "data": 0
+  }
+}

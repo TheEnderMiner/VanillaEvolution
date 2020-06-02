@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:atomic_splicer",
+       "data": 0
+    },
+
+    {
+      "item": "minecraft:glowstone_dust",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:electron_splicer",
+    "data": 0
+  }
+}

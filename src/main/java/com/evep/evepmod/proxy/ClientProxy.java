@@ -33,8 +33,10 @@
 
 package com.evep.evepmod.proxy;
 
+import com.evep.evepmod.items.gui.GuiNote;
 import com.evep.evepmod.util.handlers.RenderHandler;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
@@ -52,4 +54,10 @@ public class ClientProxy extends CommonProxy
 		super.preInit();
 		RenderHandler.registerEntityRenders();
 	}
+	
+//	@Override
+//	void openMyGui()
+//	{
+//	     Minecraft.getMinecraft().displayGuiScreen(new GuiNote());
+//	}
 }

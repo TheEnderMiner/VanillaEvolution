@@ -19,7 +19,7 @@ public class ItemCarbonIngot extends Item{
 	{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
-	     tooltip.add("Can cook very well");
+	     tooltip.add("A useful resource for technology or smelting");
 	}
 
 }

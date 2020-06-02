@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:solar_gem",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:solar_boots",
+    "data": 0
+  }
+}

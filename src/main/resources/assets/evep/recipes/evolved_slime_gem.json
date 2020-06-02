@@ -7,8 +7,8 @@
   "key": {
     "N": [
       {
-        "item": "evep:nickel_ingot",
-        "data": 0
+       "type": "forge:ore_dict",
+      "ore": "ingotNickel"
       }
     ],
     "D": [

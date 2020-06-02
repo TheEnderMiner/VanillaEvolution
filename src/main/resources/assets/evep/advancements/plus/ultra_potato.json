@@ -12,7 +12,7 @@
     },
     "parent": "evep:plus/ultrafood_gem",
    "criteria": {
-        "iron": {
+        "potato": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -21,6 +21,44 @@
                     }
                 ]
             }
+        },
+   "berry": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ultra_berry"
+                    }
+                ]
+            }
+        },
+"turkey": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ultra_turkey"
+                    }
+                ]
+            }
+        },
+   "bread": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ultra_bread"
+                    }
+                ]
+            }
         }
-    }
+    },
+"requirements": [
+        [
+            "berry",
+            "bread",
+	    "turkey",
+            "potato"
+        ]
+    ]
 }

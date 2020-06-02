@@ -1,0 +1,38 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EWE",
+    "SPS",
+    "EWE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      }
+    ],
+     "W": [
+      {
+        "item": "minecraft:obsidian",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:minor_wormhole",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:electron",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dark_matter",
+    "data": 0,
+    "count": 48
+  }
+}

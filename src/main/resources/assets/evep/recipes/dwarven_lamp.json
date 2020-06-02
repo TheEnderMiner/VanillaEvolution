@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NRN",
+    " N "  ],
+  "key": {
+    "N": [
+      {
+        "item": "evep:dwarven_nugget",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:torch",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dwarven_lamp",
+    "data": 0
+  }
+}

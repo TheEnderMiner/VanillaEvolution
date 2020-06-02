@@ -37,7 +37,7 @@ public class ItemCapitalismAxe extends ItemSword{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
 	     tooltip.add("That's what you get");
-	     tooltip.add("You get the Axe of Capitalism, right in your face");
+	     tooltip.add("You get my Axe of Capitalism, right in your face");
 	}
 	
 	@Override

@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "evep:blocks/netherrock_pillar",
+		"end": "evep:blocks/netherrock_pillar_top"
+	}
+}

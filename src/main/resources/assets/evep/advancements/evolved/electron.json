@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:electron"
+        },
+        "title": {
+            "translate": "advancements.evolved.electron.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.electron.description"
+        }
+    },
+    "parent": "evep:evolved/atom",
+    "criteria": {
+        "electron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:electron"
+                    }
+                ]
+            }
+        }
+    }
+}

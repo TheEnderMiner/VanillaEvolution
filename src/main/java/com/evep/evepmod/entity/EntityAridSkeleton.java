@@ -24,6 +24,7 @@ public class EntityAridSkeleton extends EntityZombie{
 	public EntityAridSkeleton(World worldIn){
 		super(worldIn);
 		 this.setSize(0.6F, 1.95F);
+	     this.experienceValue = 15;
 	}
 	
 	@Override

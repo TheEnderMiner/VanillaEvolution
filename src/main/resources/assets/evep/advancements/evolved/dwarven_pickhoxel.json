@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:dwarven_pickhoxel"
+        },
+        "title": {
+            "translate": "advancements.evolved.dwarven_pickhoxel.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.dwarven_pickhoxel.description"
+        }
+    },
+    "parent": "evep:evolved/kill_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:dwarven_pickhoxel"
+                    }
+                ]
+            }
+        }
+    }
+}

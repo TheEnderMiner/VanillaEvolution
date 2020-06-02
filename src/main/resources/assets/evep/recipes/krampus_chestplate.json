@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "K K",
+    "KCK",
+    "KCK"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:christmas_gem",
+        "data": 0
+      }
+    ],
+    "K": [
+      {
+        "item": "evep:krampus_cloth",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:krampus_chestplate",
+    "data": 0
+  }
+}

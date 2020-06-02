@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:air_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:air_ingot",
+    "data": 0,
+    "count": 4
+  }
+}

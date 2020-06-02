@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:elemental_ingot",
+       "data": 0
+    },
+
+    {
+       "type": "forge:ore_dict",
+      "ore": "oreCobalt"
+    }
+  ],
+  "result": {
+    "item": "evep:earth_shard",
+    "data": 0
+  }
+}

@@ -1,0 +1,36 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PVC",
+    "SSS"  ],
+  "key": {
+    "S": [
+      {
+        "item": "evep:scrambled_eggs",
+        "data": 0
+      }
+    ],
+     "V": [
+      {
+        "item": "evep:vegetable_oil",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "evep:cheese",
+        "data": 0
+      }
+    ],
+      "P": [
+      {
+        "item": "minecraft:cooked_porkchop",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:omelette",
+    "data": 0
+  }
+}

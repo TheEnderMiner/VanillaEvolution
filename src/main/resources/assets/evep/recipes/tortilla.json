@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket",
+       "data": 0
+    },
+
+    {
+      "item": "evep:corn",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:tortilla",
+    "data": 0
+  }
+}

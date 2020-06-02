@@ -1,0 +1,93 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:lion_hide"
+        },
+        "title": {
+            "translate": "advancements.evolved.kill_earth.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.kill_earth.description"
+        }
+    },
+    "parent": "evep:evolved/enter_earth",
+   "criteria": {
+        "minotaur": {
+              "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:minotaur"
+                }
+            }
+            
+        },
+   "dwarven_miner": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:dwarven_miner"
+                }
+            }
+        },
+           "dwarven_hunter": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:dwarven_hunter"
+                }
+            }
+        },
+           "dwarven_guard": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:dwarven_guard"
+                }
+            }
+        },
+           "dwarven_golem": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:dwarven_golem"
+                }
+            }
+        },
+           "winter_squire": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:winter_squire"
+                }
+            }
+        },
+           "lion": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:lion"
+                }
+            }
+        },
+   "direwolf": {
+             "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:direwolf"
+                }
+            }
+         }
+    },
+"requirements": [
+        [
+            "minotaur",
+            "dwarven_miner",
+            "dwarven_hunter",
+            "dwarven_guard",
+            "dwarven_golem",
+            "winter_squire",
+            "lion",
+            "direwolf"
+        ]
+    ]
+}

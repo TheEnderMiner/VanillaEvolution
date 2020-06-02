@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"],
+  "key": {
+    "B": [
+      {
+        "item": "evep:water_ingot",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:water_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:moon_gem",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:lunar_boots",
+    "data": 0
+  }
+}

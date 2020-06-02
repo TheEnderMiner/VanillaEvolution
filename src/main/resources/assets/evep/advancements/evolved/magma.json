@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:magma_sword"
+        },
+        "title": {
+            "translate": "advancements.evolved.magma.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.magma.description"
+        }
+    },
+    "parent": "evep:evolved/slime",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:magma_sword"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:night_king_sword"
+        },
+        "title": {
+            "translate": "advancements.evolved.nk.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.nk.description"
+        }
+    },
+    "parent": "evep:evolved/got",
+    "criteria": {
+        "sword": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:night_king_sword"
+                    }
+                ]
+            }
+        },
+        "spear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:night_king_spear"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sword",
+            "spear"
+        ]
+    ]
+}

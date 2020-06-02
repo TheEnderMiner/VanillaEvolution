@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earthen_chestplate"
+        },
+        "title": {
+            "translate": "advancements.evolved.earth_chestplate.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.earth_chestplate.description"
+        }
+    },
+    "parent": "evep:evolved/enter_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:earthen_chestplate"
+                    }
+                ]
+            }
+        }
+    }
+}

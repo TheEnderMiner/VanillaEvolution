@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:immjiri_tear",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:shadow_boots",
+    "data": 0
+  }
+}

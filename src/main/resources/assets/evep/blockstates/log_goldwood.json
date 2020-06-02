@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":   { "model": "evep:log_goldwood" },
+        "axis=z":   { "model": "evep:log_goldwood", "x": 90 },
+        "axis=x":   { "model": "evep:log_goldwood", "x": 90, "y": 90 }
+    }
+}

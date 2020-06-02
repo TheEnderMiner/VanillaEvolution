@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:uranium_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "evep:charged_atomic_splicer",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:atom",
+    "data": 0,
+    "count": 92
+  }
+}

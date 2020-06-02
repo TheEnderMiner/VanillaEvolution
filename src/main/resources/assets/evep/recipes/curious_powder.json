@@ -13,14 +13,14 @@
     ],
     "T": [
       {
-        "item": "evep:tin_ingot",
-        "data": 0
+        "type": "forge:ore_dict",
+      "ore": "ingotTin"
       }
     ],
      "C": [
       {
-        "item": "evep:cobalt_ingot",
-        "data": 0
+       "type": "forge:ore_dict",
+      "ore": "ingotCobalt"
       }
     ]
   },

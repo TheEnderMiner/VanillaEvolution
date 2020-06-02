@@ -33,7 +33,7 @@ public class EntityBeast extends EntityZombie{
 	
 	public EntityBeast(World worldIn){
 		super(worldIn);
-		 this.setSize(0.6F, 1.95F);
+		 this.setSize(1.5F, 4.3F);
 	     this.experienceValue = 40;
 	      this.setHealth(this.getMaxHealth());
 		 

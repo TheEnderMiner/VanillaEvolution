@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NMN",
+    " N "  ],
+  "key": {
+    "N": [
+      {
+        "item": "evep:netherrock",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:netherrock_lamp",
+    "data": 0
+  }
+}

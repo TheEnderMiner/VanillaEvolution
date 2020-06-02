@@ -1,0 +1,120 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:saber_blue"
+        },
+        "title": {
+            "translate": "advancements.evolved.lightsaber.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.lightsaber.description"
+        }
+    },
+    "parent": "evep:evolved/swresource",
+    "criteria": {
+        "blue": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_blue"
+                    }
+                ]
+            }
+        },
+        "green": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_green"
+                    }
+                ]
+            }
+        },
+        "purple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_purple"
+                    }
+                ]
+            }
+        },
+          "dual": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_duo"
+                    }
+                ]
+            }
+        },
+          "kylo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_kylo"
+                    }
+                ]
+            }
+        },
+          "yellow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_yellow"
+                    }
+                ]
+            }
+        },
+          "shotoy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_shoto_yellow"
+                    }
+                ]
+            }
+        },
+          "shotog": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_shoto_green"
+                    }
+                ]
+            }
+        },
+        "red": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_red"
+                    }
+                ]
+            }
+        }
+        
+    },
+    "requirements": [
+        [
+            "blue",
+            "green",
+            "purple",
+            "red",
+            "dual",
+            "kylo",
+            "yellow",
+            "shotoy",
+            "shotog"
+        ]
+    ]
+}

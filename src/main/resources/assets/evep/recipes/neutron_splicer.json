@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:atomic_splicer",
+       "data": 0
+    },
+
+    {
+      "item": "minecraft:redstone",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:neutron_splicer",
+    "data": 0
+  }
+}

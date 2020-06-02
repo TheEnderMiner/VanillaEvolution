@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  E",
+    " G ",
+    "E  "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:extraterrestrial_metal",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "evep:godly_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:thanos_glaive",
+    "data": 0
+  }
+}

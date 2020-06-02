@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "C C",
+    "E E"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:durasteel",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "evep:copper_wire",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:vader_leggings",
+    "data": 0
+  }
+}

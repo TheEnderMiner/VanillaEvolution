@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:pexosuit_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.phelmet.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.phelmet.description"
+        }
+    },
+   "parent": "evep:evolved/ahelmet",
+    "criteria": {
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pexosuit_helmet"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pexosuit_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pexosuit_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pexosuit_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

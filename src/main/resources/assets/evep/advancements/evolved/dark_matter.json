@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:dark_matter"
+        },
+        "title": {
+            "translate": "advancements.evolved.dark_matter.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.dark_matter.description"
+        }
+    },
+    "parent": "evep:evolved/mwormhole",
+    "criteria": {
+        "minor_wormhole": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:dark_matter"
+                    }
+                ]
+            }
+        }
+    }
+}

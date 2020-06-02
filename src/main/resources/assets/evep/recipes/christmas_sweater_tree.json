@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "CGC",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "evep:christmas_gem",
+        "data": 0
+      }
+    ],
+     "L": [
+      {
+        "item": "minecraft:leaves",
+        "data": 1
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:christmas_sweater_tree",
+    "data": 0
+  }
+}

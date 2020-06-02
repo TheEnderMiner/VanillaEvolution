@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+       "data": 0
+    },
+
+    {
+      "item": "evep:knife",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:sliced_potatoes",
+    "data": 0
+  }
+}

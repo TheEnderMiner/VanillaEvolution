@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HPH",
+    "HHH"  ],
+  "key": {
+    "H": [
+      {
+        "item": "evep:mane_hair",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:pelt_pile",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:hide_bundle",
+    "data": 0
+  }
+}

@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread",
+       "data": 0
+    },
+
+    {
+      "item": "evep:knife",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:bread_slice",
+    "data": 0,
+    "count": 4
+  }
+}

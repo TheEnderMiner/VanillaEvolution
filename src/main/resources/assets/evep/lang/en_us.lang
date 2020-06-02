@@ -298,6 +298,123 @@ item.mashed_potatoes_gravy.name=Mashed Potatoes and Gravy
 item.stuffing.name=Stuffing
 item.green_bean_casserole.name=Green Bean Casserole
 item.hunger_pill.name=Hunger Pill
+item.saber_duo.name=Dual Lightsaber
+item.saber_kylo.name=Kylo Ren's Lightsaber
+item.saber_yellow.name=Yellow Lightsaber
+item.saber_shoto_yellow.name=Yellow Shoto Saber
+item.saber_shoto_green.name=Green Shoto Saber
+item.ice_shard.name=Ice Shard
+item.krampus_cloth.name=Krampus Cloth
+item.christmas_gem.name=Christmas Gem
+item.mug.name=Mug
+item.christmas_cookie_dough.name=Christmas Cookie Dough
+item.eggnog.name=Eggnog
+item.hardened_scales.name=Hardened Scales
+item.basilisk_eye.name=Basilisk Eye
+item.godly_rod.name=Godly Rod
+item.infused_ice_shard.name=Infused Ice Shard
+item.night_king_sword.name=Night King's Sword
+item.night_king_spear.name=Night King's Spear
+item.magma_sword.name=Magma Sword
+item.electron_splicer.name=Electron Splicer
+item.electron.name=Electron
+item.basic_gravitional_compressor.name=Basic Gravitational Compressor
+item.minor_wormhole.name=Minor Wormhole
+item.dark_matter.name=Dark Matter
+item.moon_gem.name=Moon Gem
+item.lunar_sword.name=Lunar Sword
+item.lunar_pickaxe.name=Lunar Pickaxe
+item.lunar_axe.name=Lunar Axe
+item.lunar_shovel.name=Lunar Shovel
+item.lunar_hoe.name=Lunar Hoe
+item.lunar_pickhoxel.name=Lunar Pickhoxel
+item.extraterrestrial_metal.name=Extraterrestrial Metal
+item.asgardian_steel.name=Asgardian Steel
+item.thanos_glaive.name=Thanos' Glaive
+item.bread_slice.name=Bread Slice
+item.shortening.name=Shortening
+item.waffle_batter.name=Waffle Batter
+item.pancake_batter.name=Pancake Batter
+item.tortilla.name=Tortilla
+item.sweet_dough.name=Sweet Dough
+item.sliced_potatoes.name=Sliced Potatoes
+item.toast.name=Toast
+item.french_toast.name=French Toast
+item.scrambled_eggs.name=Scrambled Eggs
+item.omelette.name=Omelette
+item.waffle.name=Waffle
+item.pancake.name=Pancake
+item.breakfast_burrito.name=Breakfast Burrito
+item.donut.name=Donut
+item.hashbrowns.name=Hashbrowns
+item.poppy_seed_muffin.name=Poppy Seed Muffin
+item.ultra_bread.name=Ultra Bread
+item.glowing_tomato.name=Glowing Tomato
+item.carbon_nugget.name=Carbon Nugget
+item.durasteel.name=Durasteel Ingot
+item.jedi_cloth.name=Jedi Cloth
+item.sith_cloth.name=Sith Cloth
+item.dwarven_ingot.name=Dwarven Ingot
+item.dwarven_nugget.name=Dwarven Nugget
+item.dwarven_dagger.name=Dwarven Dagger
+item.dwarven_sword.name=Dwarven Sword
+item.dwarven_mace.name=Dwarven Mace
+item.dwarven_pickhoxel.name=Dwarven Pickhoxel
+item.iron_chunk.name=Iron Chunk
+item.gold_chunk.name=Gold Chunk
+item.silver_chunk.name=Silver Chunk
+item.platinum_chunk.name=Platinum Chunk
+item.platinum_ingot.name=Platinum Ingot
+item.uranium_ingot.name=Uranium Ingot
+item.titanium_ingot.name=Titanium Ingot
+item.earth_gem.name=Earth Gem
+item.neutron_splicer.name=Neutron Splicer
+item.neutron.name=Neutron
+item.plutonium_ingot.name=Plutonium Ingot
+item.frost_sword.name=Frost Sword
+item.minotaur_hide.name=Minotaur Hide
+item.minotaur_horn.name=Minotaur Horn
+item.minotaur_heart.name=Minotaur Heart
+item.overworld_locket.name=Overworld Locket
+item.earth_locket.name=Earth Locket
+item.immjiri_eye.name=The Eye of Immjiri
+item.dwarven_mechanism.name=Dwarven Mechanism
+item.note.name=Note from the Adventurer
+item.raw_lion.name=Raw Lion Meat
+item.lion_hide.name=Lion Hide
+item.lion_tooth.name=Lion Tooth
+item.cooked_lion.name=Cooked Lion Meat
+item.lion_tooth_dust.name=Lion Tooth Dust
+item.mane_hair.name=Mane Hair
+item.dwarven_gem.name=Dwarven Gem
+item.snow_leopard_hide.name=Direwolf Pelt
+item.pelt_pile.name=Pile o' Pelt
+item.hide_bundle.name=Hide Bundle
+item.dwarven_rod.name=Dwarven Rod
+item.strength_crystal_1.name=Strength Crystal (Tier I)
+item.solar_gas.name=Solar Gas
+item.solar_gem.name=Solar Gem
+item.solar_sword.name=Solar Sword
+item.solar_pickaxe.name=Solar Pickaxe
+item.solar_axe.name=Solar Axe
+item.solar_shovel.name=Solar Shovel
+item.solar_hoe.name=Solar Hoe
+item.solar_pickhoxel.name=Solar Pickhoxel
+item.platinum_sword.name=Platinum Sword
+item.platinum_pickaxe.name=Platinum Pickaxe
+item.dusk_cloth.name=Dusk Cloth
+item.fireball_staff.name=Staff of Fireballs
+item.earthen_pickhoxel.name=Earthen Pickhoxel
+item.popcorn.name=Popcorn
+item.ultra_turkey.name=Ultra Turkey
+item.celestial_cookie.name=Celestial Cookie
+item.breathtaking_mint.name=Breathtaking Mint
+item.immjiri_offering.name=Offering to Immjiri
+item.immjiri_tear.name=Tear of Immjiri
+item.darkness_blade.name=Blade of Darkness
+item.earth_horn.name=Horn of the Earth
+item.earth_tablet.name=Earth Tablet
+item.terra.name=Terra
 
 item.enderite_helmet.name=Enderite Helmet
 item.enderite_chestplate.name=Enderite Chestplate
@@ -391,6 +508,99 @@ item.pexosuit_boots.name=Prominent Exosuit Boots
 item.beast_gemstone.name=Beast Gemstone
 
 item.war_bonnet.name=War Bonnet
+
+item.krampus_helmet.name=Krampus Hood
+item.krampus_chestplate.name=Krampus Cloak
+item.krampus_leggings.name=Krampus Pants
+item.krampus_boots.name=Krampus Boots
+
+item.christmas_sweater_tree.name=Christmas Sweater (Christmas Tree)
+item.christmas_sweater_snowman.name=Christmas Sweater (Snowman)
+item.christmas_sweater_candycane.name=Christmas Sweater (Candy Cane)
+
+item.scale_helmet.name=Scale Helmet
+item.scale_chestplate.name=Scale Chestplate
+item.scale_leggings.name=Scale Leggings
+item.scale_boots.name=Scale Boots
+
+item.lunar_helmet.name=Lunar Helmet
+item.lunar_chestplate.name=Lunar Chestplate
+item.lunar_leggings.name=Lunar Leggings
+item.lunar_boots.name=Lunar Boots
+
+item.energetic_helmet.name=Energetic Helmet
+item.energetic_chestplate.name=Energetic Chestplate
+item.energetic_leggings.name=Energetic Leggings
+item.energetic_boots.name=Energetic Boots
+
+item.thanos_helmet.name=Thanos Helmet
+item.thanos_chestplate.name=Thanos Chestplate
+item.thanos_leggings.name=Thanos Leggings
+item.thanos_boots.name=Thanos Boots
+
+item.thor_chestplate.name=Thor Chestplate
+item.thor_leggings.name=Thor Leggings
+item.thor_boots.name=Thor Boots
+
+item.jedi_helmet.name=Jedi Hood
+item.jedi_chestplate.name=Jedi Cloak
+item.jedi_leggings.name=Jedi Pants
+item.jedi_boots.name=Jedi Shoes
+
+item.sith_helmet.name=Sith Hood
+item.sith_chestplate.name=Sith Cloak
+item.sith_leggings.name=Sith Pants
+item.sith_boots.name=Sith Shoes
+
+item.kylo_helmet.name=Kylo Ren's Helmet
+item.kylo_chestplate.name=Kylo Ren's Chestplate
+item.kylo_leggings.name=Kylo Ren's Leggings
+item.kylo_boots.name=Kylo Ren's Boots
+
+item.vader_helmet.name=Darth Vader's Helmet
+item.vader_chestplate.name=Darth Vader's Chestplate
+item.vader_leggings.name=Darth Vader's Leggings
+item.vader_boots.name=Darth Vader's Boots
+
+item.dwarven_helmet.name=Dwarven Helmet
+item.dwarven_chestplate.name=Dwarven Chestplate
+item.dwarven_leggings.name=Dwarven Leggings
+item.dwarven_boots.name=Dwarven Boots
+
+item.vanishing_locket.name=Locket of Vanishing
+item.brawns_locket.name=Locket of Brawns
+item.healing_locket.name=Locket of Healing
+item.fire_warding_locket.name=Locket of Fire Warding
+
+item.lion_helmet.name=Lion Helmet
+item.lion_chestplate.name=Lion Chestplate
+item.lion_leggings.name=Lion Leggings
+item.lion_boots.name=Lion Boots
+
+item.titanium_helmet.name=Titanium Helmet
+item.titanium_chestplate.name=Titanium Chestplate
+item.titanium_leggings.name=Titanium Leggings
+item.titanium_boots.name=Titanium Boots
+
+item.solar_helmet.name=Solar Helmet
+item.solar_chestplate.name=Solar Chestplate
+item.solar_leggings.name=Solar Leggings
+item.solar_boots.name=Solar Boots
+
+item.cloak_helmet.name=Midnight Cloak Hood
+item.cloak_chestplate.name=Midnight Cloak
+item.cloak_leggings.name=Midnight Cloak Pants
+item.cloak_boots.name=Midnight Cloak Boots
+
+item.earthen_helmet.name=Helmet of the Earth
+item.earthen_chestplate.name=Chestplate of the Earth
+item.earthen_leggings.name=Leggings of the Earth
+item.earthen_boots.name=Boots of the Earth
+
+item.shadow_helmet.name=Shadow Helmet
+item.shadow_chestplate.name=Shadow Chestplate
+item.shadow_leggings.name=Shadow Leggings
+item.shadow_boots.name=Shadow Boots
 
 tile.malachite_ore.name=Malachite Ore
 tile.bacon_ore.name=Bacon Ore
@@ -486,19 +696,59 @@ tile.superfood_block.name=Superfood Block
 tile.seasonal_block.name=Seasonal Block
 tile.evolved_sand.name=Evolved Sand
 tile.evolved_sandstone.name=Evolved Sandstone
+tile.earth_block.name=Earth Block
+tile.water_block.name=Water Block
+tile.air_block.name=Air Block
+tile.fire_block.name=Fire Block
+tile.salt_block.name=Salt Block
+tile.netherrock.name=Netherrock
+tile.netherrock_bricks.name=Netherrock Bricks
+tile.chiseled_netherrock_bricks.name=Chiseled Netherrock Bricks
+tile.netherrock_pillar.name=Netherrock Pillar
+tile.netherrock_lamp.name=Netherrock Lamp
+tile.earthen_dirt.name=Earthen Dirt
+tile.earthen_stone.name=Earthen Stone
+tile.earthen_stonebrick.name=Earthen Stonebrick
+tile.chiseled_earthen_stonebricks.name=Chiseled Earthen Stonebrick
+tile.log_goldwood.name=Goldwood Log
+tile.goldwood_planks.name=Goldwood Planks
+tile.dwarven_block.name=Dwarven Block
+tile.dwarven_bricks.name=Dwarven Bricks
+tile.dwarven_lamp.name=Dwarven Lamp
+tile.chiseled_dwarven_bricks.name=Chiseled Dwarven Bricks
+tile.dwarven_pillar.name=Dwarven Pillar
+tile.earth_ore.name=Earth Ore
+tile.earth_uranium_ore.name=Earth Uranium Ore
+tile.earth_titanium_ore.name=Earth Titanium Ore
+tile.earth_iron_ore.name=Earth Iron Ore
+tile.earth_diamond_ore.name=Earth Diamond Ore
+tile.earth_emerald_ore.name=Earth Emerald Ore
+tile.earth_nickel_ore.name=Earth Nickel Ore
+tile.earth_carbon_ore.name=Earth Carbon Ore
+tile.earth_meteorite_ore.name=Earth Meteorite Ore
+tile.earth_elemental_ore.name=Earth Elemental Ore
+tile.earth_ancient_ore.name=Earth Ancient Ore
+tile.earth_magnetite_ore.name=Earth Magnetite Ore
+tile.earth_energetic_ore.name=Earth Energetic Ore
+tile.earth_superfood_ore.name=Earth Superfood Ore
+tile.earth_gem_block.name=Earth Gem Block
+tile.uranium_block.name=Uranium Block
+tile.titanium_block.name=Titanium Block
+tile.platinum_block.name=Platinum Block
+tile.plutonium_block.name=Plutonium Block
+tile.block_of_return.name=Block of Return
+tile.dwarven_portal_block.name=Dwarven Portal Block
 
 itemGroup.resourcetab=Resources
 itemGroup.toolstab=Tools
-itemGroup.elementtab=Elements
 itemGroup.seasontab=Seasons
 itemGroup.mobtab=Mob Drops
 itemGroup.foodtab=Food Crafting
-itemGroup.desserttab=Desserts
-itemGroup.seedtab=Seeds
+itemGroup.desserttab=EVEP Foods
+itemGroup.seedtab=Farming
 itemGroup.orestab=Ores
 itemGroup.buildingtab=Building
 itemGroup.blockstab=Blocks
-itemGroup.supetab=Super Food
 
 container.nickel_furnace=Nickel Furnace
 container.test_chest=Tech Chest
@@ -581,17 +831,8 @@ advancements.story.battery3.description=Craft a Prominent Battery
 advancements.story.arm.title=Robotic Arm
 advancements.story.arm.description=Craft the Powerful Tech Arm
 
-advancements.story.thelmet.title=Basic Exosuit Helmet
-advancements.story.thelmet.description=Craft the Basic Exosuit Helmet
-
-advancements.story.tchestplate.title=Basic Exosuit Chestplate
-advancements.story.tchestplate.description=Craft the Basic Exosuit Chestplate
-
-advancements.story.tleggings.title=Basic Exosuit Leggings
-advancements.story.tleggings.description=Craft the Basic Exosuit Leggings
-
-advancements.story.tboots.title=Basic Exosuit Boots
-advancements.story.tboots.description=Craft the Basic Exosuit Boots
+advancements.story.thelmet.title=Basic Exosuit
+advancements.story.thelmet.description=Craft a Piece of the Basic Exosuit
 
 advancements.story.enhanced.title=Enhance Your Building
 advancements.story.enhanced.description=Craft Scaffolding with a piece of dirt
@@ -698,17 +939,8 @@ advancements.evolved.fire.description=Control Fire by Crafting a Fire Ingot
 advancements.evolved.air.title=The Great Skies
 advancements.evolved.air.description=Control the Air by Crafting an Air Ingot
 
-advancements.evolved.power_stone.title=A Powerful Object
-advancements.evolved.power_stone.description=Craft a Power Stone
-
-advancements.evolved.space_stone.title=Dimensional Connection
-advancements.evolved.space_stone.description=Craft a Space Stone
-
-advancements.evolved.reality_stone.title=R E A L I T Y
-advancements.evolved.reality_stone.description=When will the next Concept be released?
-
-advancements.evolved.soul_stone.title=Channeled Spirits
-advancements.evolved.soul_stone.description=Craft a Soul Stone
+advancements.evolved.soul_stone.title=Control the Cosmos
+advancements.evolved.soul_stone.description=Craft an Infinity Stone
 
 advancements.evolved.time_stone.title=Is Time Malleable?
 advancements.evolved.time_stone.description=Attempt to Control Time by Crafting a Time Stone
@@ -734,17 +966,8 @@ advancements.evolved.shield.description=Craft Captain America's Shield
 advancements.evolved.purge.title=It's Killing Time!
 advancements.evolved.purge.description=Craft a Purge Mask
 
-advancements.evolved.ahelmet.title=Advanced Exosuit Helmet
+advancements.evolved.ahelmet.title=Advanced Exosuit
 advancements.evolved.ahelmet.description=Continue to the Next Stage of Technology
-
-advancements.evolved.achestplate.title=Advanced Exosuit Chestplate
-advancements.evolved.achestplate.description=Continue to the Next Stage of Technology
-
-advancements.evolved.aleggings.title=Advanced Exosuit Leggings
-advancements.evolved.aleggings.description=Continue to the Next Stage of Technology
-
-advancements.evolved.aboots.title=Advanced Exosuit Boots
-advancements.evolved.aboots.description=Continue to the Next Stage of Technology
 
 advancements.evolved.ender_sword.title=The Ender Miner's Sword
 advancements.evolved.ender_sword.description=Revive the Legends by Crafting The Ender Miner's Sword
@@ -767,17 +990,8 @@ advancements.evolved.atom.description=Splice a Material into Atoms
 advancements.evolved.season.title=Solstice or Equinox
 advancements.evolved.season.description=Get a Seasonal Gem
 
-advancements.evolved.wseason.title=Colder Times
-advancements.evolved.wseason.description=Craft a Winter Gem
-
-advancements.evolved.spseason.title=A New Start
-advancements.evolved.spseason.description=Craft a Spring Gem
-
-advancements.evolved.suseason.title=Hotter Times
-advancements.evolved.suseason.description=Craft a Summer Gem
-
-advancements.evolved.aseason.title=Harvest Season
-advancements.evolved.aseason.description=Craft an Autumn Gem
+advancements.evolved.wseason.title=Winter, Spring, Summer, or Fall
+advancements.evolved.wseason.description=Craft one of the Specific Season Gems
 
 advancements.evolved.heart.title=Happy Valentines Day!
 advancements.evolved.heart.description=Craft a Heart Gem
@@ -791,14 +1005,11 @@ advancements.plus.ultrafood_gem.description=Mine Ultrafood
 advancements.plus.superfood_gem.title=Some Pretty Amazing Food
 advancements.plus.superfood_gem.description=Mine Superfood
 
-advancements.plus.ultra_potato.title=The Best Potato
-advancements.plus.ultra_potato.description=Craft an Ultra Potato
+advancements.plus.ultra_potato.title=Could be made by Gordon Ramsay
+advancements.plus.ultra_potato.description=Craft any Ultrafood
 
-advancements.plus.ultra_berry.title=Loads of Berries
-advancements.plus.ultra_berry.description=Craft Some Ultra Berries
-
-advancements.plus.sugared_flesh.title=No Longer Rotten
-advancements.plus.sugared_flesh.description=Craft the Superfood of Night Vision
+advancements.plus.sugared_flesh.title=Perfect Food
+advancements.plus.sugared_flesh.description=Craft any Superfood
 
 advancements.enhanced.refined_gneiss.title=Even More Kindness
 advancements.enhanced.refined_gneiss.description=Refine Gneiss
@@ -815,6 +1026,101 @@ advancements.evolved.nights_watch.description=Craft a Piece of Night's Watch Arm
 advancements.evolved.bgemstone.title=Recrafting the Gemstone
 advancements.evolved.bgemstone.description=Use Pulsating Shards to Remake the Beast Gemstone
 
+advancements.evolved.basilisk.title=Slay the Snake
+advancements.evolved.basilisk.description=Kill the Basilisk of the Evolved Desert
+
+advancements.evolved.scale_armor.title=Desert Shield
+advancements.evolved.scale_armor.description=Craft a Piece of Scale Armor
+
+advancements.evolved.godly_rod.title=Celestial Stick
+advancements.evolved.godly_rod.description=Craft a Godly Rod
+
+advancements.evolved.magma.title=The Sword of Yrrej
+advancements.evolved.magma.description=That's a Really Obscure Reference
+
+advancements.evolved.nk.title=Winter has Come
+advancements.evolved.nk.description=Craft one of the Night King's Weapons
+
+advancements.evolved.electron.title=Subatomic
+advancements.evolved.electron.description=Splice an Atom for an Electron
+
+advancements.evolved.mwormhole.title=Through the Wormhole
+advancements.evolved.mwormhole.description=Craft a Minor Wormhole
+
+advancements.evolved.dark_matter.title=Who Needs a Rocket?
+advancements.evolved.dark_matter.description=Retrieve Dark Matter through a Wormhole
+
+advancements.evolved.phelmet.title=Prominent Exosuit
+advancements.evolved.phelmet.description=Ascend to Prominent Status
+
+advancements.evolved.energetic.title=Energetic Exosuit
+advancements.evolved.energetic.description=Energize Your Armor
+
+advancements.plus.wafcake.title=Waffles or Pancakes?
+advancements.plus.wafcake.description=Which is better?
+
+advancements.enhanced.netherrock.title=From Rack to Rock
+advancements.enhanced.netherrock.description=Craft Netherrock
+
+advancements.evolved.swresource.title=A Long Time Ago
+advancements.evolved.swresource.description=Craft a Star Wars Resource
+
+advancements.evolved.lightsaber.title=In a Galaxy
+advancements.evolved.lightsaber.description=Craft a Lightsaber
+
+advancements.evolved.swarmor.title=Far Far Away
+advancements.evolved.swarmor.description=Craft any Star Wars Armor
+
+advancements.evolved.earth_locket.title=Power of the Earth
+advancements.evolved.earth_locket.description=Channel Earthen Powers into an Amber Locket
+
+advancements.evolved.enter_earth.title=A New Realm
+advancements.evolved.enter_earth.description=Enter the Earth Dimension
+
+advancements.evolved.titanium.title=Fire Away, Fire Away
+advancements.evolved.titanium.description=Obtain a Titanium Ingot
+
+advancements.evolved.kill_earth.title=New World, New Mobs
+advancements.evolved.kill_earth.description=Kill Any Earth Mob
+
+advancements.evolved.quick_attack.title=Minotaur Speed
+advancements.evolved.quick_attack.description=Effect Yourself with Quick Attack
+
+advancements.evolved.minotaur_heart.title=Strength of the Beast
+advancements.evolved.minotaur_heart.description=Obtain a Minotaur Heart
+
+advancements.evolved.immjiri_eye.title=The Demon Watches
+advancements.evolved.immjiri_eye.description=He Sees All - Obtain an Immjiri Eye from a Dwarven Hunter
+
+advancements.evolved.dwarven_pickhoxel.title=The Dwarven Tool
+advancements.evolved.dwarven_pickhoxel.description=Take a Dwarven Pickhoxel from a Dwarven Miner
+
+advancements.evolved.titanium_suit.title=Titanium Exosuit
+advancements.evolved.titanium_suit.description=Reinforce your Exosuit
+
+advancements.evolved.solar.title=Hot! Hot! Hot!
+advancements.evolved.solar.description=Craft Solar Gas
+
+advancements.evolved.dusk_cloth.title=Midnight Textile
+advancements.evolved.dusk_cloth.description=Craft Dusk Cloth
+
+advancements.evolved.earth_chestplate.title=You're Welcome, Mason
+advancements.evolved.earth_chestplate.description=Craft the Chesplate of the Earth
+
+advancements.evolved.immjiri_offering.title=Challenger
+advancements.evolved.immjiri_offering.description=Craft the Champion of Immjiri Summoning Item
+
+advancements.evolved.immjiri_champion.title=Bring Forth the Demon
+advancements.evolved.immjiri_champion.description=Kill the Champion of Immjiri
+
+advancements.evolved.shadow_darkness.title=Immjiri's Tools
+advancements.evolved.shadow_darkness.description=Craft Shadow Armor or the Blade of Darkness
+
+advancements.evolved.earth_horn.title=Call the Guardian
+advancements.evolved.earth_horn.description=Craft the Earth Guardian Summoning Item
+
+advancements.evolved.earth_guardian.title=Conquer the Earth Dimension
+advancements.evolved.earth_guardian.description=Defeat the Earth Guardian
 
 generator.Evolved Desert=Evolved Desert
 
@@ -823,3 +1129,22 @@ entity.lizard.name=Lizard
 entity.beast.name=The Beast
 entity.arid_skeleton.name=Arid Skeleton
 entity.turkey.name=Turkey
+entity.krampus.name=Krampus
+entity.cactus_bug.name=Cactus Bug
+entity.basilisk.name=Basilisk
+entity.minotaur.name=Minotaur
+entity.dwarven_miner.name=Dwarven Miner
+entity.dwarven_hunter.name=Dwarven Hunter
+entity.dwarven_guard.name=Dwarven Guard
+entity.dwarven_golem.name=Dwarven Golem
+entity.winter_squire.name=Winter Squire
+entity.lion.name=Lion
+entity.direwolf.name=Direwolf
+entity.immjiri_champion.name=Champion of Immjiri
+entity.earth_guardian.name=Earth Guardian
+
+effect.minotaur=Quick Attack
+potion.effect.minotaur=Potion of Quick Attack
+splash_potion.effect.minotaur=Splash Potion of Quick Attack
+lingering_potion.effect.minotaur=Lingering Potion of Quick Attack
+tipped_arrow.effect.minotaur=Arrow of Quick Attack

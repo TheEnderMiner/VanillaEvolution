@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMS",
+    "CEC",
+    " G "  ],
+  "key": {
+    "G": [
+      {
+        "item": "evep:mug",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:cream",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ],
+     "M": [
+      {
+        "item": "minecraft:milk_bucket",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "minecraft:egg",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:eggnog",
+    "data": 0
+  }
+}

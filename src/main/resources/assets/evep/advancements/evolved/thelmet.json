@@ -12,8 +12,8 @@
     },
     "parent": "evep:evolved/visor",
     "criteria": {
-        "iron": {
-            "trigger": "minecraft:inventory_changed",
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
@@ -21,6 +21,44 @@
                     }
                 ]
             }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:tech_boots"
+                    }
+                ]
+            }
         }
-    }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
 }

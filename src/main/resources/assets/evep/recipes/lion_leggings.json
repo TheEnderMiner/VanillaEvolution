@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:lion_hide",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:lion_leggings",
+    "data": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earth_locket"
+        },
+        "title": {
+            "translate": "advancements.evolved.earth_locket.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.earth_locket.description"
+        }
+    },
+    "parent": "evep:evolved/strange_power",
+    "rewards": {
+    "loot": ["evep:earth_locket"]
+    },
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:earth_locket"
+                    }
+                ]
+            }
+        }
+    }
+}

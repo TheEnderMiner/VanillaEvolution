@@ -1,25 +1,29 @@
 package com.evep.evepmod.util.handlers;
 
-import com.evep.evepmod.entity.EntityTurkey;
+import com.evep.evepmod.commands.CommandDimensionTeleport;
 import com.evep.evepmod.init.VanillaEvolutionBiomes;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
+import com.evep.evepmod.init.VanillaEvolutionDimensions;
 import com.evep.evepmod.init.VanillaEvolutionItems;
+import com.evep.evepmod.init.VanillaEvolutionPotions;
 import com.evep.evepmod.util.IHasModel;
-import com.evep.evepmod.world.gen.WorldGenCustomStructures;
+import com.evep.evepmod.util.compat.OreDictionaryCompat;
+import com.evep.evepmod.world.gen.WorldGenHunterCamp;
+import com.evep.evepmod.world.gen.WorldGenDwarvenShrine;
+import com.evep.evepmod.world.gen.WorldGenDwarvenTemple;
+import com.evep.evepmod.world.gen.WorldGenIceTemple;
 import com.evep.evepmod.world.types.WorldTypeEvolvedDesert;
 
 import net.minecraft.block.Block;
-import net.minecraft.entity.EnumCreatureType;
-import net.minecraft.init.Biomes;
 import net.minecraft.item.Item;
 import net.minecraft.world.WorldType;
-import net.minecraft.world.biome.Biome;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
@@ -64,9 +68,14 @@ public class RegistryHandler
 			}		}
 	}
 	
-	public static void preInitRegistries(){
+	public static void preInitRegistries(FMLPreInitializationEvent event){
 		VanillaEvolutionBiomes.registerBiomes();
-		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+		VanillaEvolutionDimensions.registerDimensions();
+		VanillaEvolutionPotions.registerPotions();
+		GameRegistry.registerWorldGenerator(new WorldGenDwarvenShrine(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenIceTemple(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenDwarvenTemple(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenHunterCamp(), 0);
 	}
 	
 	 public static void registerEntitySpawning() {
@@ -79,30 +88,37 @@ public class RegistryHandler
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(28));
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(129));
 //    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biome.getBiome(133));
-   EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST_HILLS);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_EDGE);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_WITH_TREES);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST_HILLS);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_EDGE);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_HILLS);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.PLAINS);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.ROOFED_FOREST);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA);
-    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA_HILLS);
+		 
+		 
+//   EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.BIRCH_FOREST_HILLS);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_EDGE);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.EXTREME_HILLS_WITH_TREES);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.FOREST_HILLS);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_EDGE);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.JUNGLE_HILLS);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.PLAINS);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.ROOFED_FOREST);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA);
+//    EntityRegistry.addSpawn(EntityTurkey.class, 100, 3, 8, EnumCreatureType.CREATURE, Biomes.TAIGA_HILLS);
   }
 	
 	public static void initRegistries(FMLInitializationEvent event)
 	{
 		SoundsHandler.registerSounds();
+		OreDictionaryCompat.registerOres();
 	}
 	
 	
 	public static void postInitRegistries(){
 		WorldType EVOLVED_DESERT = new WorldTypeEvolvedDesert();
+	}
+	
+	public static void serverRegistries(FMLServerStartingEvent event){
+		event.registerServerCommand(new CommandDimensionTeleport());
 	}
 
 }

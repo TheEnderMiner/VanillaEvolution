@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:godly_rod"
+        },
+        "title": {
+            "translate": "advancements.evolved.godly_rod.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.godly_rod.description"
+        }
+    },
+    "parent": "evep:evolved/powerful_gem",
+    "criteria": {
+        "godly_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:godly_rod"
+                    }
+                ]
+            }
+        }
+    }
+}

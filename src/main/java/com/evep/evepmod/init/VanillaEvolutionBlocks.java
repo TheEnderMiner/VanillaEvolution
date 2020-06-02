@@ -25,6 +25,22 @@ import com.evep.evepmod.blocks.BlockCopperOre;
 import com.evep.evepmod.blocks.BlockCornCrop;
 import com.evep.evepmod.blocks.BlockCottonCrop;
 import com.evep.evepmod.blocks.BlockDwarfStarAlloyOre;
+import com.evep.evepmod.blocks.BlockEAncientOre;
+import com.evep.evepmod.blocks.BlockECarbonOre;
+import com.evep.evepmod.blocks.BlockEDiamondOre;
+import com.evep.evepmod.blocks.BlockEElementalOre;
+import com.evep.evepmod.blocks.BlockEEmeraldOre;
+import com.evep.evepmod.blocks.BlockEEnergeticOre;
+import com.evep.evepmod.blocks.BlockEIronOre;
+import com.evep.evepmod.blocks.BlockEMagnetiteOre;
+import com.evep.evepmod.blocks.BlockEMeteoriteOre;
+import com.evep.evepmod.blocks.BlockENickelOre;
+import com.evep.evepmod.blocks.BlockESuperfoodOre;
+import com.evep.evepmod.blocks.BlockETitaniumOre;
+import com.evep.evepmod.blocks.BlockEUraniumOre;
+import com.evep.evepmod.blocks.BlockEarthOre;
+import com.evep.evepmod.blocks.BlockEarthenDirt;
+import com.evep.evepmod.blocks.BlockEarthenStone;
 import com.evep.evepmod.blocks.BlockEggplantCrop;
 import com.evep.evepmod.blocks.BlockElementalOre;
 import com.evep.evepmod.blocks.BlockEnderiteOre;
@@ -36,6 +52,7 @@ import com.evep.evepmod.blocks.BlockGreenBeanCrop;
 import com.evep.evepmod.blocks.BlockLamp;
 import com.evep.evepmod.blocks.BlockLeadOre;
 import com.evep.evepmod.blocks.BlockLimestone;
+import com.evep.evepmod.blocks.BlockLog;
 import com.evep.evepmod.blocks.BlockMagnetiteOre;
 import com.evep.evepmod.blocks.BlockMalachiteOre;
 import com.evep.evepmod.blocks.BlockMapleCrop;
@@ -46,10 +63,12 @@ import com.evep.evepmod.blocks.BlockNickelOre;
 import com.evep.evepmod.blocks.BlockOatCrop;
 import com.evep.evepmod.blocks.BlockOnionCrop;
 import com.evep.evepmod.blocks.BlockOnyxOre;
+import com.evep.evepmod.blocks.BlockOverworldTeleporter;
 import com.evep.evepmod.blocks.BlockPeachCrop;
 import com.evep.evepmod.blocks.BlockPeanutCrop;
 import com.evep.evepmod.blocks.BlockPecanCrop;
 import com.evep.evepmod.blocks.BlockPeridotOre;
+import com.evep.evepmod.blocks.BlockPillar;
 import com.evep.evepmod.blocks.BlockPineappleCrop;
 import com.evep.evepmod.blocks.BlockRaspberryCrop;
 import com.evep.evepmod.blocks.BlockReinforcedSand;
@@ -57,6 +76,7 @@ import com.evep.evepmod.blocks.BlockResourcesBlock;
 import com.evep.evepmod.blocks.BlockRhubarbCrop;
 import com.evep.evepmod.blocks.BlockRubyOre;
 import com.evep.evepmod.blocks.BlockRyeCrop;
+import com.evep.evepmod.blocks.BlockSaltBlock;
 import com.evep.evepmod.blocks.BlockScaffolding;
 import com.evep.evepmod.blocks.BlockSeasonalOre;
 import com.evep.evepmod.blocks.BlockSeleniteOre;
@@ -65,6 +85,7 @@ import com.evep.evepmod.blocks.BlockSilverOre;
 import com.evep.evepmod.blocks.BlockSlimeOre;
 import com.evep.evepmod.blocks.BlockStrawberryCrop;
 import com.evep.evepmod.blocks.BlockSuperfoodOre;
+import com.evep.evepmod.blocks.BlockTeleporter;
 import com.evep.evepmod.blocks.BlockTinOre;
 import com.evep.evepmod.blocks.BlockTomatoCrop;
 import com.evep.evepmod.blocks.BlockTorchOre;
@@ -72,6 +93,7 @@ import com.evep.evepmod.blocks.BlockUltrafoodOre;
 import com.evep.evepmod.blocks.BlockVanillaCrop;
 import com.evep.evepmod.blocks.BlockVibraniumOre;
 import com.evep.evepmod.blocks.BlockWalnutCrop;
+import com.evep.evepmod.blocks.BlockWood;
 import com.evep.evepmod.blocks.BlockWoodOre;
 import com.evep.evepmod.blocks.BlockZincOre;
 
@@ -88,6 +110,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 @Mod.EventBusSubscriber(modid=VanillaEvolutionMod.MODID)
 public class VanillaEvolutionBlocks {
@@ -184,6 +207,28 @@ public class VanillaEvolutionBlocks {
 	public static Block seasonal_block;
 	public static Block evolved_sand;
 	public static Block evolved_sandstone;
+	public static Block earth_block;
+	public static Block water_block;
+	public static Block air_block;
+	public static Block fire_block;
+	public static Block salt_block;
+	public static Block netherrock;
+	public static Block netherrock_bricks;
+	public static Block chiseled_netherrock_bricks;
+	public static Block netherrock_pillar;
+	public static Block netherrock_lamp;
+	public static Block earthen_dirt;
+	public static Block earthen_stone;
+	public static Block earthen_stonebrick;
+	public static Block chiseled_earthen_stonebricks;
+	public static Block goldwood_planks, log_goldwood;
+	public static Block dwarven_block, dwarven_bricks, dwarven_lamp, chiseled_dwarven_bricks, dwarven_pillar;
+	public static Block earth_ore, earth_uranium_ore, earth_titanium_ore, earth_iron_ore, earth_diamond_ore, earth_emerald_ore, earth_nickel_ore, earth_carbon_ore, earth_meteorite_ore;
+	public static Block earth_elemental_ore, earth_ancient_ore, earth_magnetite_ore, earth_energetic_ore, earth_superfood_ore;
+	public static Block earth_gem_block, uranium_block, titanium_block, platinum_block, plutonium_block;
+	public static Block block_of_return, dwarven_portal_block;
+//	public static Block log_goldwood;
+//	public static Block goldwood_planks;
 	
 	static Block tomato_crop;
 	static Block strawberry_crop;
@@ -466,13 +511,135 @@ public class VanillaEvolutionBlocks {
 		evolved_sandstone = new BlockResourcesBlock("evolved_sandstone", Material.ROCK).setHardness(8f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
 		evolved_sandstone.setHarvestLevel("pickaxe", 0);
 		
+		earth_block = new BlockResourcesBlock("earth_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		earth_block.setHarvestLevel("pickaxe", 1);
+		
+		water_block = new BlockResourcesBlock("water_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		water_block.setHarvestLevel("pickaxe", 1);
+		
+		air_block = new BlockResourcesBlock("air_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		air_block.setHarvestLevel("pickaxe", 1);
+		
+		fire_block = new BlockResourcesBlock("fire_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		fire_block.setHarvestLevel("pickaxe", 1);
+		
+		salt_block = new BlockSaltBlock("salt_block", Material.SAND).setHardness(2f).setResistance(1f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		salt_block.setHarvestLevel("shovel", -1);
+		
+		netherrock = new BlockBuildingBlock("netherrock", Material.ROCK).setHardness(3f).setResistance(20f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		netherrock.setHarvestLevel("pickaxe", 1);
+		
+		netherrock_bricks = new BlockBuildingBlock("netherrock_bricks", Material.ROCK).setHardness(5f).setResistance(20f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		netherrock_bricks.setHarvestLevel("pickaxe", 1);
+		
+		chiseled_netherrock_bricks = new BlockBuildingBlock("chiseled_netherrock_bricks", Material.ROCK).setHardness(5f).setResistance(20f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		chiseled_netherrock_bricks.setHarvestLevel("pickaxe", 1);
+		
+		netherrock_pillar = new BlockPillar("netherrock_pillar", Material.ROCK).setHardness(5f).setResistance(20f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		netherrock_pillar.setHarvestLevel("pickaxe", 1);
+		
+		earthen_dirt = new BlockEarthenDirt("earthen_dirt", Material.GROUND).setHardness(9f).setResistance(10f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		earthen_dirt.setHarvestLevel("shovel", -1);
+		
+		earthen_stone = new BlockEarthenStone("earthen_stone", Material.ROCK).setHardness(12f).setResistance(300f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		earthen_stone.setHarvestLevel("pickaxe", 1);
+		
+		earthen_stonebrick = new BlockBuildingBlock("earthen_stonebrick", Material.ROCK).setHardness(10f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		earthen_stonebrick.setHarvestLevel("pickaxe", 1);
+		
+		chiseled_earthen_stonebricks = new BlockBuildingBlock("chiseled_earthen_stonebricks", Material.ROCK).setHardness(10f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		chiseled_earthen_stonebricks.setHarvestLevel("pickaxe", 1);
+		
+		log_goldwood = new BlockLog("log_goldwood", Material.WOOD).setHardness(8f).setResistance(20f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		log_goldwood.setHarvestLevel("axe", -1);
+		
+		goldwood_planks = new BlockWood("goldwood_planks", Material.WOOD).setHardness(8f).setResistance(30f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		goldwood_planks.setHarvestLevel("axe", -1);
+		
+		dwarven_block = new BlockResourcesBlock("dwarven_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		dwarven_block.setHarvestLevel("pickaxe", 1);
+		
+		dwarven_bricks = new BlockBuildingBlock("dwarven_bricks", Material.ROCK).setHardness(8f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		dwarven_bricks.setHarvestLevel("pickaxe", 1);
+		
+		chiseled_dwarven_bricks = new BlockBuildingBlock("chiseled_dwarven_bricks", Material.ROCK).setHardness(8f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		chiseled_dwarven_bricks.setHarvestLevel("pickaxe", 1);
+		
+		dwarven_pillar = new BlockPillar("dwarven_pillar", Material.ROCK).setHardness(8f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		dwarven_pillar.setHarvestLevel("pickaxe", 1);
+		
+		earth_ore = new BlockEarthOre("earth_ore", Material.ROCK).setHardness(22f).setResistance(450f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_ore.setHarvestLevel("pickaxe", 6);
+		
+		earth_uranium_ore = new BlockEUraniumOre("earth_uranium_ore", Material.ROCK).setHardness(18f).setResistance(2000f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_uranium_ore.setHarvestLevel("pickaxe", 5);  
+		
+		earth_titanium_ore = new BlockETitaniumOre("earth_titanium_ore", Material.ROCK).setHardness(20f).setResistance(420f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_titanium_ore.setHarvestLevel("pickaxe", 5); 
+		
+		earth_iron_ore = new BlockEIronOre("earth_iron_ore", Material.ROCK).setHardness(14f).setResistance(350f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_iron_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_diamond_ore = new BlockEDiamondOre("earth_diamond_ore", Material.ROCK).setHardness(18f).setResistance(400f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_diamond_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_emerald_ore = new BlockEEmeraldOre("earth_emerald_ore", Material.ROCK).setHardness(25f).setResistance(500f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_emerald_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_nickel_ore = new BlockENickelOre("earth_nickel_ore", Material.ROCK).setHardness(14f).setResistance(340f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_nickel_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_carbon_ore = new BlockECarbonOre("earth_carbon_ore", Material.ROCK).setHardness(17f).setResistance(410f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_carbon_ore.setHarvestLevel("pickaxe", 5);
+			
+		earth_meteorite_ore = new BlockEMeteoriteOre("earth_meteorite_ore", Material.ROCK).setHardness(19f).setResistance(500f).setLightLevel(1f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_meteorite_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_elemental_ore = new BlockEElementalOre("earth_elemental_ore", Material.ROCK).setHardness(28f).setResistance(550f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_elemental_ore.setHarvestLevel("pickaxe", 6);
+		
+		earth_ancient_ore = new BlockEAncientOre("earth_ancient_ore", Material.ROCK).setHardness(30f).setResistance(2000f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_ancient_ore.setHarvestLevel("pickaxe", 6);
+		
+		earth_magnetite_ore = new BlockEMagnetiteOre("earth_magnetite_ore", Material.ROCK).setHardness(22f).setResistance(100f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_magnetite_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_energetic_ore = new BlockEEnergeticOre("earth_energetic_ore", Material.ROCK).setHardness(26f).setResistance(700f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_energetic_ore.setHarvestLevel("pickaxe", 6);
+		
+		earth_superfood_ore = new BlockESuperfoodOre("earth_superfood_ore", Material.ROCK).setHardness(22f).setResistance(600f).setCreativeTab(VanillaEvolutionMod.orestab);
+		earth_superfood_ore.setHarvestLevel("pickaxe", 5);
+		
+		earth_gem_block = new BlockResourcesBlock("earth_gem_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		earth_gem_block.setHarvestLevel("pickaxe", 1);
+		
+		uranium_block = new BlockResourcesBlock("uranium_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		uranium_block.setHarvestLevel("pickaxe", 1);
+		
+		titanium_block = new BlockResourcesBlock("titanium_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		titanium_block.setHarvestLevel("pickaxe", 1);
+		
+		platinum_block = new BlockResourcesBlock("platinum_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		platinum_block.setHarvestLevel("pickaxe", 1);
+		
+		plutonium_block = new BlockResourcesBlock("plutonium_block", Material.ROCK).setHardness(4f).setResistance(200f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		plutonium_block.setHarvestLevel("pickaxe", 1);
+		
+		block_of_return = new BlockOverworldTeleporter("block_of_return", Material.ROCK).setHardness(10f).setResistance(2000f).setLightLevel(1f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		block_of_return.setHarvestLevel("pickaxe", 3);
+	
+		dwarven_portal_block = new BlockTeleporter("dwarven_portal_block", Material.ROCK).setHardness(10f).setResistance(2000f).setLightLevel(1f).setCreativeTab(VanillaEvolutionMod.blockstab);
+		dwarven_portal_block.setHarvestLevel("pickaxe", 3);
+		
 		magenta_lamp = new BlockLamp("magenta_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		red_lamp = new BlockLamp("red_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		blue_lamp = new BlockLamp("blue_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		green_lamp = new BlockLamp("green_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		yellow_lamp = new BlockLamp("yellow_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		white_lamp = new BlockLamp("white_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
-		scaffolding = new BlockScaffolding("scaffolding", Material.WOOD).setHardness(0f).setResistance(0f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		scaffolding = new BlockScaffolding("scaffolding", Material.GRASS).setHardness(0f).setResistance(0f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		netherrock_lamp = new BlockLamp("netherrock_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
+		dwarven_lamp = new BlockLamp("dwarven_lamp", Material.REDSTONE_LIGHT).setHardness(3f).setResistance(12f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		
 		tomato_crop = new BlockTomatoCrop("tomato_crop");
 		strawberry_crop = new BlockStrawberryCrop("strawberry_crop");
@@ -513,7 +680,12 @@ public class VanillaEvolutionBlocks {
 				silver_block, slimey_block, tin_block, vibranium_block, zinc_block, reinforced_sand, magenta_lamp, red_lamp, blue_lamp, green_lamp, yellow_lamp, white_lamp, scaffolding,
 				tomato_crop, strawberry_crop, cherry_crop, blueberry_crop, cotton_crop, corn_crop, mint_crop, banana_crop, vanilla_crop, maple_crop, cinnamon_crop, barley_crop,
 				oat_crop, rye_crop, ginger_crop, peanut_crop, pecan_crop, walnut_crop, rhubarb_crop, blue_moon_quartz_block, blue_moon_quartz_bricks, lead_bricks, eggplant_crop, peach_crop,
-				pineapple_crop, raspberry_crop, ultrafood_block, superfood_block, seasonal_block, evolved_sand, evolved_sandstone, garlic_crop, green_bean_crop, onion_crop);
+				pineapple_crop, raspberry_crop, ultrafood_block, superfood_block, seasonal_block, evolved_sand, evolved_sandstone, garlic_crop, green_bean_crop, onion_crop, earth_block, 
+				water_block, air_block, fire_block, salt_block, netherrock, netherrock_bricks, chiseled_netherrock_bricks, netherrock_pillar, netherrock_lamp, earthen_dirt, earthen_stone,
+				earthen_stonebrick, chiseled_earthen_stonebricks, log_goldwood, goldwood_planks, dwarven_block, dwarven_bricks, dwarven_lamp, chiseled_dwarven_bricks, dwarven_pillar,
+				earth_ore, earth_uranium_ore, earth_titanium_ore, earth_iron_ore, earth_diamond_ore, earth_emerald_ore, earth_nickel_ore, earth_carbon_ore, earth_meteorite_ore, earth_elemental_ore,
+				earth_ancient_ore, earth_magnetite_ore, earth_energetic_ore, earth_superfood_ore, earth_gem_block, uranium_block, titanium_block, platinum_block, plutonium_block, block_of_return, 
+				dwarven_portal_block);
 	}
 	
 	@SubscribeEvent
@@ -608,6 +780,48 @@ public class VanillaEvolutionBlocks {
 		event.getRegistry().registerAll(new ItemBlock(seasonal_block).setRegistryName(seasonal_block.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(evolved_sand).setRegistryName(evolved_sand.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(evolved_sandstone).setRegistryName(evolved_sandstone.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_block).setRegistryName(earth_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(water_block).setRegistryName(water_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(air_block).setRegistryName(air_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(fire_block).setRegistryName(fire_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(salt_block).setRegistryName(salt_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(netherrock).setRegistryName(netherrock.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(netherrock_bricks).setRegistryName(netherrock_bricks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(chiseled_netherrock_bricks).setRegistryName(chiseled_netherrock_bricks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(netherrock_pillar).setRegistryName(netherrock_pillar.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(netherrock_lamp).setRegistryName(netherrock_lamp.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earthen_dirt).setRegistryName(earthen_dirt.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earthen_stone).setRegistryName(earthen_stone.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earthen_stonebrick).setRegistryName(earthen_stonebrick.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(chiseled_earthen_stonebricks).setRegistryName(chiseled_earthen_stonebricks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(log_goldwood).setRegistryName(log_goldwood.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(goldwood_planks).setRegistryName(goldwood_planks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(dwarven_block).setRegistryName(dwarven_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(dwarven_bricks).setRegistryName(dwarven_bricks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(dwarven_lamp).setRegistryName(dwarven_lamp.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(chiseled_dwarven_bricks).setRegistryName(chiseled_dwarven_bricks.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(dwarven_pillar).setRegistryName(dwarven_pillar.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_ore).setRegistryName(earth_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_uranium_ore).setRegistryName(earth_uranium_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_titanium_ore).setRegistryName(earth_titanium_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_iron_ore).setRegistryName(earth_iron_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_diamond_ore).setRegistryName(earth_diamond_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_emerald_ore).setRegistryName(earth_emerald_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_nickel_ore).setRegistryName(earth_nickel_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_carbon_ore).setRegistryName(earth_carbon_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_meteorite_ore).setRegistryName(earth_meteorite_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_elemental_ore).setRegistryName(earth_elemental_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_ancient_ore).setRegistryName(earth_ancient_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_magnetite_ore).setRegistryName(earth_magnetite_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_energetic_ore).setRegistryName(earth_energetic_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_superfood_ore).setRegistryName(earth_superfood_ore.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(earth_gem_block).setRegistryName(earth_gem_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(uranium_block).setRegistryName(uranium_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(titanium_block).setRegistryName(titanium_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(platinum_block).setRegistryName(platinum_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(plutonium_block).setRegistryName(plutonium_block.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(block_of_return).setRegistryName(block_of_return.getRegistryName()));
+		event.getRegistry().registerAll(new ItemBlock(dwarven_portal_block).setRegistryName(dwarven_portal_block.getRegistryName()));
 
 		VanillaEvolutionItems.tomato_seed = new ItemSeeds(VanillaEvolutionBlocks.tomato_crop, Blocks.FARMLAND).setRegistryName("tomato_seed").setUnlocalizedName("tomato_seed").setCreativeTab(VanillaEvolutionMod.seedtab);
 		event.getRegistry().register(VanillaEvolutionItems.tomato_seed);
@@ -780,8 +994,69 @@ public class VanillaEvolutionBlocks {
 		registerRender(Item.getItemFromBlock(seasonal_block));
 		registerRender(Item.getItemFromBlock(evolved_sand));
 		registerRender(Item.getItemFromBlock(evolved_sandstone));
-
+		registerRender(Item.getItemFromBlock(earth_block));
+		registerRender(Item.getItemFromBlock(water_block));
+		registerRender(Item.getItemFromBlock(air_block));
+		registerRender(Item.getItemFromBlock(fire_block));
+		registerRender(Item.getItemFromBlock(salt_block));
+		registerRender(Item.getItemFromBlock(netherrock));
+		registerRender(Item.getItemFromBlock(netherrock_bricks));
+		registerRender(Item.getItemFromBlock(chiseled_netherrock_bricks));
+		registerRender(Item.getItemFromBlock(netherrock_pillar));
+		registerRender(Item.getItemFromBlock(netherrock_lamp));
+		registerRender(Item.getItemFromBlock(earthen_dirt));
+		registerRender(Item.getItemFromBlock(earthen_stone));
+		registerRender(Item.getItemFromBlock(earthen_stonebrick));
+		registerRender(Item.getItemFromBlock(chiseled_earthen_stonebricks));
+		registerRender(Item.getItemFromBlock(log_goldwood));
+		registerRender(Item.getItemFromBlock(goldwood_planks));
+		registerRender(Item.getItemFromBlock(dwarven_block));
+		registerRender(Item.getItemFromBlock(dwarven_bricks));
+		registerRender(Item.getItemFromBlock(dwarven_lamp));
+		registerRender(Item.getItemFromBlock(chiseled_dwarven_bricks));
+		registerRender(Item.getItemFromBlock(dwarven_pillar));
+		registerRender(Item.getItemFromBlock(earth_ore));
+		registerRender(Item.getItemFromBlock(earth_uranium_ore));
+		registerRender(Item.getItemFromBlock(earth_titanium_ore));
+		registerRender(Item.getItemFromBlock(earth_iron_ore));
+		registerRender(Item.getItemFromBlock(earth_diamond_ore));
+		registerRender(Item.getItemFromBlock(earth_emerald_ore));
+		registerRender(Item.getItemFromBlock(earth_nickel_ore));
+		registerRender(Item.getItemFromBlock(earth_carbon_ore));
+		registerRender(Item.getItemFromBlock(earth_meteorite_ore));
+		registerRender(Item.getItemFromBlock(earth_elemental_ore));
+		registerRender(Item.getItemFromBlock(earth_ancient_ore));
+		registerRender(Item.getItemFromBlock(earth_magnetite_ore));
+		registerRender(Item.getItemFromBlock(earth_energetic_ore));
+		registerRender(Item.getItemFromBlock(earth_superfood_ore));
+		registerRender(Item.getItemFromBlock(earth_gem_block));
+		registerRender(Item.getItemFromBlock(uranium_block));
+		registerRender(Item.getItemFromBlock(titanium_block));
+		registerRender(Item.getItemFromBlock(platinum_block));
+		registerRender(Item.getItemFromBlock(plutonium_block));
+		registerRender(Item.getItemFromBlock(block_of_return));
+		registerRender(Item.getItemFromBlock(dwarven_portal_block));
+		
+//		for(int i = 0; i < BlockWood.EnumType.values().length; i++){
+//			registerRender(goldwood_planks, i, "planks_" + BlockWood.EnumType.values()[i].getName());
+//		}
 	}
+	
+	public static void registerBlockWithVariants(Block block, ItemBlock itemblock){
+		ForgeRegistries.BLOCKS.register(block);
+		itemblock.setRegistryName(block.getRegistryName());
+		ForgeRegistries.ITEMS.register(itemblock);
+	}
+	
+//	public static void register(){
+//		registerBlock(goldwood_planks, new ItemBlockVariants(goldwood_planks));
+//	}
+	
+	
+//	public static void registerRender(Block block, int meta, String filename){
+//		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(VanillaEvolutionMod.MODID, filename), "inventory"));
+//	}
+	
 	
 	public static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

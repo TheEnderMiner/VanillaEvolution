@@ -1,0 +1,39 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:brown_sugar",
+       "data": 0
+    },
+
+    {
+      "item": "evep:flour",
+       "data": 0
+    },
+     {
+      "item": "evep:flour",
+       "data": 0
+    },
+         {
+      "item": "minecraft:sugar",
+       "data": 0
+    },
+         {
+      "item": "minecraft:sugar",
+       "data": 0
+    },
+         {
+      "item": "minecraft:milk_bucket",
+       "data": 0
+    },
+         {
+      "item": "minecraft:egg",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:christmas_cookie_dough",
+    "data": 0,
+    "count": 3
+  }
+}

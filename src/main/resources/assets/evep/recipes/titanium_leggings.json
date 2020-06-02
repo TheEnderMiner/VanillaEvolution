@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TDT",
+    "TLT",
+    "TDT"  ],
+  "key": {
+    "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ],
+     "D": [
+      {
+        "item": "evep:dwarven_mechanism",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "evep:energetic_leggings",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:titanium_leggings",
+    "data": 0
+  }
+}

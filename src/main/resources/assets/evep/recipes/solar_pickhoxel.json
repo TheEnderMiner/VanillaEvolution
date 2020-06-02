@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:solar_pickaxe",
+      "data": 0
+    },
+     {
+      "item": "evep:solar_axe",
+      "data": 0
+    },
+    {
+      "item": "evep:solar_shovel",
+      "data": 0
+    },
+    {
+      "item": "evep:solar_hoe",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:solar_pickhoxel",
+    "data": 0,
+    "count": 1
+  }
+}

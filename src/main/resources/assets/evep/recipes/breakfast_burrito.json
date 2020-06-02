@@ -1,0 +1,27 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:tortilla",
+       "data": 0
+    },
+     {
+      "item": "evep:cheese",
+       "data": 0
+    },
+     {
+      "item": "minecraft:cooked_beef",
+       "data": 0
+    },
+      {
+      "item": "evep:bacon",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:breakfast_burrito",
+    "data": 0,
+    "count": 1
+  }
+}

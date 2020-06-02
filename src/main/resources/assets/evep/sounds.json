@@ -80,5 +80,235 @@
     "category": "entity",
     "subtitle": "entity.turkey.hurt",
     "sounds": [{ "name":"evep:mobs/turkey/hurt", "stream": true}]
+    },
+
+ "entity.krampus.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.krampus.ambient",
+    "sounds": [{ "name":"evep:mobs/krampus/ambient", "stream": true}]
+    },
+
+ "entity.krampus.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.krampus.death",
+    "sounds": [{ "name":"evep:mobs/krampus/death", "stream": true}]
+    },
+
+ "entity.krampus.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.krampus.hurt",
+    "sounds": [{ "name":"evep:mobs/krampus/hurt", "stream": true}]
+    },
+
+"entity.cactus_bug.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.cactus_bug.ambient",
+    "sounds": [{ "name":"evep:mobs/cactus_bug/ambient", "stream": true}]
+    },
+
+"entity.cactus_bug.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.cactus_bug.death",
+    "sounds": [{ "name":"evep:mobs/cactus_bug/death", "stream": true}]
+    },
+
+"entity.cactus_bug.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.cactus_bug.hurt",
+    "sounds": [{ "name":"evep:mobs/cactus_bug/hurt", "stream": true}]
+    },
+
+"entity.basilisk.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.basilisk.ambient",
+    "sounds": [{ "name":"evep:mobs/basilisk/ambient", "stream": true}]
+    },
+
+"entity.basilisk.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.basilisk.death",
+    "sounds": [{ "name":"evep:mobs/basilisk/death", "stream": true}]
+    },
+
+"entity.basilisk.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.basilisk.hurt",
+    "sounds": [{ "name":"evep:mobs/basilisk/hurt", "stream": true}]
+    },
+
+"entity.minotaur.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.minotaur.ambient",
+    "sounds": [{ "name":"evep:mobs/minotaur/ambient", "stream": true}]
+    },
+
+"entity.minotaur.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.minotaur.death",
+    "sounds": [{ "name":"evep:mobs/minotaur/death", "stream": true}]
+    },
+
+"entity.minotaur.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.minotaur.hurt",
+    "sounds": [{ "name":"evep:mobs/minotaur/hurt", "stream": true}]
+    },
+"entity.dwarf.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarf.ambient",
+    "sounds": [{ "name":"evep:mobs/dwarf/ambient", "stream": true}]
+    },
+
+"entity.dwarf.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarf.death",
+    "sounds": [{ "name":"evep:mobs/dwarf/death", "stream": true}]
+    },
+
+"entity.dwarf.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarf.hurt",
+    "sounds": [{ "name":"evep:mobs/dwarf/hurt", "stream": true}]
+    },
+"entity.dwarven_golem.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarven_golem.ambient",
+    "sounds": [{ "name":"evep:mobs/dwarven_golem/ambient", "stream": true}]
+    },
+
+"entity.dwarven_golem.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarven_golem.death",
+    "sounds": [{ "name":"evep:mobs/dwarven_golem/death", "stream": true}]
+    },
+
+"entity.dwarven_golem.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.dwarven_golem.hurt",
+    "sounds": [{ "name":"evep:mobs/dwarven_golem/hurt", "stream": true}]
+    },
+"entity.winter_squire.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.winter_squire.ambient",
+    "sounds": [{ "name":"evep:mobs/winter_squire/ambient", "stream": true}]
+    },
+
+"entity.winter_squire.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.winter_squire.death",
+    "sounds": [{ "name":"evep:mobs/winter_squire/death", "stream": true}]
+    },
+
+"entity.winter_squire.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.winter_squire.hurt",
+    "sounds": [{ "name":"evep:mobs/winter_squire/hurt", "stream": true}]
+    },
+"entity.lion.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.lion.ambient",
+    "sounds": [{ "name":"evep:mobs/lion/ambient", "stream": true}]
+    },
+
+"entity.lion.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.lion.death",
+    "sounds": [{ "name":"evep:mobs/lion/death", "stream": true}]
+    },
+
+"entity.lion.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.lion.hurt",
+    "sounds": [{ "name":"evep:mobs/lion/hurt", "stream": true}]
+    },
+"entity.lion.shed":
+    {
+    "category": "entity",
+    "subtitle": "entity.lion.shed",
+    "sounds": [{ "name":"evep:mobs/lion/shed", "stream": true}]
+    },
+"entity.direwolf.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.direwolf.ambient",
+    "sounds": [{ "name":"evep:mobs/direwolf/ambient", "stream": true}]
+    },
+
+"entity.direwolf.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.direwolf.death",
+    "sounds": [{ "name":"evep:mobs/direwolf/death", "stream": true}]
+    },
+
+"entity.direwolf.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.direwolf.hurt",
+    "sounds": [{ "name":"evep:mobs/direwolf/hurt", "stream": true}]
+    },
+"entity.immjiri_champion.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.immjiri_champion.ambient",
+    "sounds": [{ "name":"evep:mobs/immjiri_champion/ambient", "stream": true}]
+    },
+
+"entity.immjiri_champion.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.immjiri_champion.death",
+    "sounds": [{ "name":"evep:mobs/immjiri_champion/death", "stream": true}]
+    },
+
+"entity.immjiri_champion.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.immjiri_champion.hurt",
+    "sounds": [{ "name":"evep:mobs/immjiri_champion/hurt", "stream": true}]
+    },
+"entity.earth_guardian.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.earth_guardian.ambient",
+    "sounds": [{ "name":"evep:mobs/earth_guardian/ambient", "stream": true}]
+    },
+
+"entity.earth_guardian.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.earth_guardian.death",
+    "sounds": [{ "name":"evep:mobs/earth_guardian/death", "stream": true}]
+    },
+
+"entity.earth_guardian.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.earth_guardian.hurt",
+    "sounds": [{ "name":"evep:mobs/earth_guardian/hurt", "stream": true}]
     }
 }

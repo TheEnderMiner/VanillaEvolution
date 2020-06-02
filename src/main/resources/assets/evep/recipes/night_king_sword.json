@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "M",
+    "S"  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:infused_ice_shard",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:godly_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:night_king_sword",
+    "data": 0
+  }
+}

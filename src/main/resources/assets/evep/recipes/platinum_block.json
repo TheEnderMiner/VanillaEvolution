@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:platinum_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:platinum_block",
+    "data": 0
+  }
+}

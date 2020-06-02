@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:immjiri_offering"
+        },
+        "title": {
+            "translate": "advancements.evolved.immjiri_offering.title",
+         "bold": true
+        },
+        "description": {
+            "translate": "advancements.evolved.immjiri_offering.description"
+        }
+    },
+    "parent": "evep:evolved/immjiri_eye",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:immjiri_offering"
+                    }
+                ]
+            }
+        }
+    }
+}

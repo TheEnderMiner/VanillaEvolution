@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MSM",
+    "MSM"  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:earth_gem",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:dwarven_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:earthen_pickhoxel",
+    "data": 0
+  }
+}

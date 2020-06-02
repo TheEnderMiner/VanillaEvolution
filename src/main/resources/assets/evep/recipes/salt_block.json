@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"],
+  "key": {
+    "B": [
+      {
+        "item": "evep:salt",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:salt_block",
+        "count": 1
+    }
+}

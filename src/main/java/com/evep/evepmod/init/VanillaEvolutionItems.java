@@ -5,23 +5,48 @@ import java.util.List;
 
 import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.items.*;
+import com.evep.evepmod.items.armor.ItemBLocketArmor;
 import com.evep.evepmod.items.armor.ItemBeastArmor;
 import com.evep.evepmod.items.armor.ItemCAArmor;
+import com.evep.evepmod.items.armor.ItemCloakBoots;
+import com.evep.evepmod.items.armor.ItemCloakChestplate;
+import com.evep.evepmod.items.armor.ItemCloakHelmet;
+import com.evep.evepmod.items.armor.ItemCloakLeggings;
 import com.evep.evepmod.items.armor.ItemCobaltArmor;
+import com.evep.evepmod.items.armor.ItemDwarvenArmor;
+import com.evep.evepmod.items.armor.ItemEarthArmor;
+import com.evep.evepmod.items.armor.ItemEarthChestplate;
 import com.evep.evepmod.items.armor.ItemElementArmor;
 import com.evep.evepmod.items.armor.ItemElementArmor2;
 import com.evep.evepmod.items.armor.ItemEnderiteArmor;
+import com.evep.evepmod.items.armor.ItemEnergeticArmor;
 import com.evep.evepmod.items.armor.ItemExosuitArmor;
+import com.evep.evepmod.items.armor.ItemFLocketArmor;
 import com.evep.evepmod.items.armor.ItemFlashArmor;
+import com.evep.evepmod.items.armor.ItemHLocketArmor;
+import com.evep.evepmod.items.armor.ItemJediArmor;
+import com.evep.evepmod.items.armor.ItemKrampusArmor;
+import com.evep.evepmod.items.armor.ItemKyloArmor;
+import com.evep.evepmod.items.armor.ItemLionArmor;
+import com.evep.evepmod.items.armor.ItemLunarArmor;
 import com.evep.evepmod.items.armor.ItemNightsWatchArmor;
 import com.evep.evepmod.items.armor.ItemPajamaArmor;
 import com.evep.evepmod.items.armor.ItemPantherArmor;
 import com.evep.evepmod.items.armor.ItemProminentArmor;
 import com.evep.evepmod.items.armor.ItemPurgeMask;
 import com.evep.evepmod.items.armor.ItemRubyArmor;
+import com.evep.evepmod.items.armor.ItemScaleArmor;
 import com.evep.evepmod.items.armor.ItemSeleniteArmor;
+import com.evep.evepmod.items.armor.ItemShadowArmor;
 import com.evep.evepmod.items.armor.ItemSlimeArmor;
+import com.evep.evepmod.items.armor.ItemSolarArmor;
+import com.evep.evepmod.items.armor.ItemSweaterArmor;
 import com.evep.evepmod.items.armor.ItemTechArmor;
+import com.evep.evepmod.items.armor.ItemThanosArmor;
+import com.evep.evepmod.items.armor.ItemThorArmor;
+import com.evep.evepmod.items.armor.ItemTitaniumArmor;
+import com.evep.evepmod.items.armor.ItemVLocketArmor;
+import com.evep.evepmod.items.armor.ItemVaderArmor;
 import com.evep.evepmod.items.armor.ItemWarBonnet;
 import com.evep.evepmod.items.armor.ItemWolverineArmor;
 import com.evep.evepmod.items.tools.ItemAirAxe;
@@ -40,24 +65,45 @@ import com.evep.evepmod.items.tools.ItemBronzeShovel;
 import com.evep.evepmod.items.tools.ItemBronzeSword;
 import com.evep.evepmod.items.tools.ItemCAShield;
 import com.evep.evepmod.items.tools.ItemCapitalismAxe;
+import com.evep.evepmod.items.tools.ItemCatspaw;
 import com.evep.evepmod.items.tools.ItemCuriosity;
+import com.evep.evepmod.items.tools.ItemDarknessBlade;
 import com.evep.evepmod.items.tools.ItemDragonglassArakh;
 import com.evep.evepmod.items.tools.ItemDragonglassAxe;
 import com.evep.evepmod.items.tools.ItemDragonglassSpear;
+import com.evep.evepmod.items.tools.ItemDwarvenDagger;
+import com.evep.evepmod.items.tools.ItemDwarvenMace;
+import com.evep.evepmod.items.tools.ItemDwarvenPickhoxel;
+import com.evep.evepmod.items.tools.ItemDwarvenSword;
 import com.evep.evepmod.items.tools.ItemEarthPickaxe;
+import com.evep.evepmod.items.tools.ItemEarthenPickhoxel;
 import com.evep.evepmod.items.tools.ItemEnderSword;
 import com.evep.evepmod.items.tools.ItemEndericPickhoxel;
 import com.evep.evepmod.items.tools.ItemEnderitePickaxe;
 import com.evep.evepmod.items.tools.ItemEnderiteSword;
 import com.evep.evepmod.items.tools.ItemFireSword;
+import com.evep.evepmod.items.tools.ItemFrostSword;
 import com.evep.evepmod.items.tools.ItemHeartSword;
 import com.evep.evepmod.items.tools.ItemIce;
+import com.evep.evepmod.items.tools.ItemInfinityGauntlet;
+import com.evep.evepmod.items.tools.ItemLightning;
 import com.evep.evepmod.items.tools.ItemLightsaber;
+import com.evep.evepmod.items.tools.ItemLightsaberFast;
+import com.evep.evepmod.items.tools.ItemLunarAxe;
+import com.evep.evepmod.items.tools.ItemLunarHoe;
+import com.evep.evepmod.items.tools.ItemLunarPickaxe;
+import com.evep.evepmod.items.tools.ItemLunarPickhoxel;
+import com.evep.evepmod.items.tools.ItemLunarShovel;
+import com.evep.evepmod.items.tools.ItemLunarSword;
+import com.evep.evepmod.items.tools.ItemMagmaSword;
 import com.evep.evepmod.items.tools.ItemMalachiteAxe;
 import com.evep.evepmod.items.tools.ItemMalachiteHoe;
 import com.evep.evepmod.items.tools.ItemMalachitePickaxe;
 import com.evep.evepmod.items.tools.ItemMalachiteShovel;
 import com.evep.evepmod.items.tools.ItemMalachiteSword;
+import com.evep.evepmod.items.tools.ItemNeedle;
+import com.evep.evepmod.items.tools.ItemNightKingSpear;
+import com.evep.evepmod.items.tools.ItemNightKingSword;
 import com.evep.evepmod.items.tools.ItemOathkeeper;
 import com.evep.evepmod.items.tools.ItemOculus;
 import com.evep.evepmod.items.tools.ItemOnyxPickaxe;
@@ -67,6 +113,8 @@ import com.evep.evepmod.items.tools.ItemPeridotHoe;
 import com.evep.evepmod.items.tools.ItemPeridotPickaxe;
 import com.evep.evepmod.items.tools.ItemPeridotShovel;
 import com.evep.evepmod.items.tools.ItemPeridotSword;
+import com.evep.evepmod.items.tools.ItemPlatinumPickaxe;
+import com.evep.evepmod.items.tools.ItemPlatinumSword;
 import com.evep.evepmod.items.tools.ItemPulverizer;
 import com.evep.evepmod.items.tools.ItemRubyAxe;
 import com.evep.evepmod.items.tools.ItemRubyHoe;
@@ -76,8 +124,16 @@ import com.evep.evepmod.items.tools.ItemRubySword;
 import com.evep.evepmod.items.tools.ItemSelenitePickaxe;
 import com.evep.evepmod.items.tools.ItemSeleniteSword;
 import com.evep.evepmod.items.tools.ItemSlimeSword;
+import com.evep.evepmod.items.tools.ItemSolarAxe;
+import com.evep.evepmod.items.tools.ItemSolarHoe;
+import com.evep.evepmod.items.tools.ItemSolarPickaxe;
+import com.evep.evepmod.items.tools.ItemSolarPickhoxel;
+import com.evep.evepmod.items.tools.ItemSolarShovel;
+import com.evep.evepmod.items.tools.ItemSolarSword;
 import com.evep.evepmod.items.tools.ItemTechArm;
+import com.evep.evepmod.items.tools.ItemTerra;
 import com.evep.evepmod.items.tools.ItemTerrorizer;
+import com.evep.evepmod.items.tools.ItemThanosGlaive;
 import com.evep.evepmod.items.tools.ItemWaterShovel;
 import com.evep.evepmod.items.tools.ItemWidowWail;
 import com.evep.evepmod.items.tools.ItemWolverineClaws;
@@ -399,7 +455,122 @@ public class VanillaEvolutionItems {
 	public static ItemStuffing stuffing;
 	public static ItemGBC green_bean_casserole;
 	public static ItemHungerPill hunger_pill;
-//	public static ItemTimeClock time_master_clock;
+	public static ItemLightsaber saber_duo;
+	public static ItemLightsaberFast saber_kylo;
+	public static ItemLightsaber saber_yellow;
+	public static ItemLightsaberFast saber_shoto_yellow;
+	public static ItemLightsaberFast saber_shoto_green;
+	public static ItemIceShard ice_shard;
+	public static ItemKrampusCloth krampus_cloth;
+	public static ItemSeasonalGem christmas_gem;
+	public static ItemMug mug;
+	public static ItemBaking christmas_cookie_dough;
+	public static ItemEggnog eggnog;
+	public static ItemHardenedScales hardened_scales;
+	public static ItemBasiliskEye basilisk_eye;
+	public static ItemImbuedRod godly_rod;
+	public static ItemInfusedIceShard infused_ice_shard;
+	public static ItemNightKingSword night_king_sword;
+	public static ItemNightKingSpear night_king_spear;
+	public static ItemMagmaSword magma_sword;
+	public static ItemElectronSplicer electron_splicer;
+	public static ItemElectron electron;
+	public static ItemBGravitationalCompressor basic_gravitional_compressor;
+	public static ItemMinorWormhole minor_wormhole;
+	public static ItemDarkMatter dark_matter;
+	public static ItemMoonGem moon_gem;
+	public static ItemLunarSword lunar_sword;
+	public static ItemLunarPickaxe lunar_pickaxe;
+	public static ItemLunarAxe lunar_axe;
+	public static ItemLunarShovel lunar_shovel;
+	public static ItemLunarHoe lunar_hoe;
+	public static ItemLunarPickhoxel lunar_pickhoxel;
+	public static ItemSpaceMetal extraterrestrial_metal;
+	public static ItemSpaceMetal asgardian_steel;
+	public static ItemThanosGlaive thanos_glaive;
+	public static ItemBreadSlice bread_slice;
+	public static ItemBaking shortening;
+	public static ItemBatter waffle_batter;
+	public static ItemBatter pancake_batter;
+	public static ItemCooking tortilla;
+	public static ItemBaking sweet_dough;
+	public static ItemCooking sliced_potatoes;
+	public static ItemToast toast;
+	public static ItemFrenchToast french_toast;
+	public static ItemScrambledEggs scrambled_eggs;
+	public static ItemOmelette omelette;
+	public static ItemWaffle waffle;
+	public static ItemPancake pancake;
+	public static ItemBreakfastBurrito breakfast_burrito;
+	public static ItemDonut donut;
+	public static ItemHashbrowns hashbrowns;
+	public static ItemMuffin poppy_seed_muffin;
+	public static ItemUltrafood ultra_bread;
+	public static ItemGlowingTomato glowing_tomato;
+	public static ItemCarbonIngot carbon_nugget;
+	public static ItemStarWars durasteel;
+	public static ItemStarWars jedi_cloth;
+	public static ItemStarWars sith_cloth;
+	public static ItemDwarven dwarven_ingot;
+	public static ItemDwarven dwarven_nugget;
+	public static ItemDwarvenDagger dwarven_dagger;
+	public static ItemDwarvenSword dwarven_sword;
+	public static ItemDwarvenMace dwarven_mace;
+	public static ItemDwarvenPickhoxel dwarven_pickhoxel;
+	public static ItemMeteoriteShard iron_chunk;
+	public static ItemMeteoriteShard gold_chunk;
+	public static ItemMeteoriteShard silver_chunk;
+	public static ItemMeteoriteShard platinum_chunk;
+	public static ItemPlatinumIngot platinum_ingot;
+	public static ItemUraniumIngot uranium_ingot;
+	public static ItemTitaniumIngot titanium_ingot;
+	public static ItemEarthGem earth_gem;
+	public static ItemNeutronSplicer neutron_splicer;
+	public static ItemElectron neutron;
+	public static ItemPlutoniumIngot plutonium_ingot;
+	public static ItemFrostSword frost_sword;
+	public static ItemMinotaur minotaur_hide;
+	public static ItemMinotaur minotaur_horn;
+	public static ItemMinotaurHeart minotaur_heart;
+	public static ItemAncientLocket overworld_locket;
+	public static ItemAncientLocket earth_locket;
+	public static ItemBasiliskEye immjiri_eye;
+	public static ItemTechnology dwarven_mechanism;
+	public static ItemNote note;
+	public static ItemRawLion raw_lion;
+	public static ItemLionHide lion_hide;
+	public static ItemLionTooth lion_tooth;
+	public static ItemCookedLion cooked_lion;
+	public static ItemLionTooth lion_tooth_dust;
+	public static ItemManeHair mane_hair;
+	public static ItemDwarvenGem dwarven_gem;
+	public static ItemSnowLeopard snow_leopard_hide;
+	public static ItemPeltPile pelt_pile;
+	public static ItemPeltPile hide_bundle;
+	public static ItemImbuedRod dwarven_rod;
+	public static ItemStrengthCrystal1 strength_crystal_1;
+	public static ItemSolar solar_gas;
+	public static ItemSolar solar_gem;
+	public static ItemSolarSword solar_sword;
+	public static ItemSolarPickaxe solar_pickaxe;
+	public static ItemSolarAxe solar_axe;
+	public static ItemSolarShovel solar_shovel;
+	public static ItemSolarHoe solar_hoe;
+	public static ItemSolarPickhoxel solar_pickhoxel;
+	public static ItemPlatinumSword platinum_sword;
+	public static ItemPlatinumPickaxe platinum_pickaxe;
+	public static ItemDuskCloth dusk_cloth;
+	public static ItemEarthenPickhoxel earthen_pickhoxel;
+	public static ItemPopcorn popcorn;
+	public static ItemUltrafood ultra_turkey;
+	public static ItemCelestialCookie celestial_cookie;
+	public static ItemBreathtakingMint breathtaking_mint;
+	public static ItemImmjiriOffering immjiri_offering;
+	public static ItemImmjiriTear immjiri_tear;
+	public static ItemDarknessBlade darkness_blade;
+	public static ItemEarthHorn earth_horn;
+	public static ItemEarthTablet earth_tablet;
+	public static ItemTerra terra;
 	
 	public static ItemEnderiteArmor enderite_helmet;
 	public static ItemEnderiteArmor enderite_chestplate;
@@ -485,6 +656,99 @@ public class VanillaEvolutionItems {
 	public static ItemBeastArmor beast_gemstone;
 
 	public static ItemWarBonnet war_bonnet;
+
+	public static ItemKrampusArmor krampus_helmet;
+	public static ItemKrampusArmor krampus_chestplate;
+	public static ItemKrampusArmor krampus_leggings;
+	public static ItemKrampusArmor krampus_boots;
+
+	public static ItemSweaterArmor christmas_sweater_tree;
+	public static ItemSweaterArmor christmas_sweater_snowman;
+	public static ItemSweaterArmor christmas_sweater_candycane;
+
+	public static ItemScaleArmor scale_helmet;
+	public static ItemScaleArmor scale_chestplate;
+	public static ItemScaleArmor scale_leggings;
+	public static ItemScaleArmor scale_boots;
+
+	public static ItemLunarArmor lunar_helmet;
+	public static ItemLunarArmor lunar_chestplate;
+	public static ItemLunarArmor lunar_leggings;
+	public static ItemLunarArmor lunar_boots;
+
+	public static ItemEnergeticArmor energetic_helmet;
+	public static ItemEnergeticArmor energetic_chestplate;
+	public static ItemEnergeticArmor energetic_leggings;
+	public static ItemEnergeticArmor energetic_boots;
+
+	public static ItemThanosArmor thanos_helmet;
+	public static ItemThanosArmor thanos_chestplate;
+	public static ItemThanosArmor thanos_leggings;
+	public static ItemThanosArmor thanos_boots;
+
+	public static ItemThorArmor thor_chestplate;
+	public static ItemThorArmor thor_leggings;
+	public static ItemThorArmor thor_boots;
+
+	public static ItemJediArmor jedi_helmet;
+	public static ItemJediArmor jedi_chestplate;
+	public static ItemJediArmor jedi_leggings;
+	public static ItemJediArmor jedi_boots;
+
+	public static ItemJediArmor sith_helmet;
+	public static ItemJediArmor sith_chestplate;
+	public static ItemJediArmor sith_leggings;
+	public static ItemJediArmor sith_boots;
+
+	public static ItemKyloArmor kylo_helmet;
+	public static ItemKyloArmor kylo_chestplate;
+	public static ItemKyloArmor kylo_leggings;
+	public static ItemKyloArmor kylo_boots;
+
+	public static ItemVaderArmor vader_helmet;
+	public static ItemVaderArmor vader_chestplate;
+	public static ItemVaderArmor vader_leggings;
+	public static ItemVaderArmor vader_boots;
+
+	public static ItemDwarvenArmor dwarven_helmet;
+	public static ItemDwarvenArmor dwarven_chestplate;
+	public static ItemDwarvenArmor dwarven_leggings;
+	public static ItemDwarvenArmor dwarven_boots;
+
+	public static ItemVLocketArmor vanishing_locket;
+	public static ItemBLocketArmor brawns_locket;
+	public static ItemHLocketArmor healing_locket;
+	public static ItemFLocketArmor fire_warding_locket;
+
+	public static ItemLionArmor lion_helmet;
+	public static ItemLionArmor lion_chestplate;
+	public static ItemLionArmor lion_leggings;
+	public static ItemLionArmor lion_boots;
+
+	public static ItemTitaniumArmor titanium_helmet;
+	public static ItemTitaniumArmor titanium_chestplate;
+	public static ItemTitaniumArmor titanium_leggings;
+	public static ItemTitaniumArmor titanium_boots;
+
+	public static ItemSolarArmor solar_helmet;
+	public static ItemSolarArmor solar_chestplate;
+	public static ItemSolarArmor solar_leggings;
+	public static ItemSolarArmor solar_boots;
+
+	public static ItemCloakHelmet cloak_helmet;
+	public static ItemCloakChestplate cloak_chestplate;
+	public static ItemCloakLeggings cloak_leggings;
+	public static ItemCloakBoots cloak_boots;
+
+	public static ItemEarthArmor earthen_helmet;
+	public static ItemEarthChestplate earthen_chestplate;
+	public static ItemEarthArmor earthen_leggings;
+	public static ItemEarthArmor earthen_boots;
+
+	public static ItemShadowArmor shadow_helmet;
+	public static ItemShadowArmor shadow_chestplate;
+	public static ItemShadowArmor shadow_leggings;
+	public static ItemShadowArmor shadow_boots;
 	
 	public static void init(){
 		malachite_ingot = (ItemMalachiteIngot) new ItemMalachiteIngot("malachite_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -581,28 +845,28 @@ public class VanillaEvolutionItems {
 		advanced_battery = (ItemTechnology) new ItemTechnology("advanced_battery").setMaxStackSize(8).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		prominent_battery = (ItemTechnology) new ItemTechnology("prominent_battery").setMaxStackSize(8).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		tech_arm = (ItemTechArm) new ItemTechArm("tech_arm", TechTools).setCreativeTab(VanillaEvolutionMod.toolstab);
-		knife = (ItemKnife) new ItemKnife("knife").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.foodtab);
+		knife = (ItemKnife) new ItemKnife("knife").setMaxStackSize(8).setContainerItem(VanillaEvolutionItems.copper_ingot).setCreativeTab(VanillaEvolutionMod.foodtab);
 		animal_fat = (ItemAnimalFat) new ItemAnimalFat("animal_fat", 1, 0.1f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
 		grease = (ItemGrease) new ItemGrease("grease", 1, 0.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		bacon = (ItemBacon) new ItemBacon("bacon", 12, 0.8f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
-		tomato = (ItemTomato) new ItemTomato("tomato", 6, 1.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		strawberry = (ItemStrawberry) new ItemStrawberry("strawberry", 8, 1.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		blueberry = (ItemBlueberry) new ItemBlueberry("blueberry", 5, 1.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		cherry = (ItemCherry) new ItemCherry("cherry", 7, 1.0f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		corn = (ItemCorn) new ItemCorn("corn", 5, 1.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		mint = (ItemMint) new ItemMint("mint", 1, 0.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		banana = (ItemBanana) new ItemBanana("banana", 8, 1.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		vanilla = (ItemVanilla) new ItemVanilla("vanilla", 2, 0.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		maple = (ItemMaple) new ItemMaple("maple", 2, 0.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		cinnamon = (ItemCinnamon) new ItemCinnamon("cinnamon", 1, 0.0f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		barley = (ItemGrain) new ItemGrain("barley").setCreativeTab(VanillaEvolutionMod.foodtab);
-		oat = (ItemGrain) new ItemGrain("oat").setCreativeTab(VanillaEvolutionMod.foodtab);
-		rye = (ItemGrain) new ItemGrain("rye").setCreativeTab(VanillaEvolutionMod.foodtab);
-		peanut = (ItemPeanut) new ItemPeanut("peanut", 4, 1.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		pecan = (ItemPeanut) new ItemPeanut("pecan", 3, 0.8f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		walnut = (ItemPeanut) new ItemPeanut("walnut", 5, 1.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		rhubarb = (ItemRhubarb) new ItemRhubarb("rhubarb", 3, 0.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		whisk = (ItemWhisk) new ItemWhisk("whisk").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.steel_ingot).setCreativeTab(VanillaEvolutionMod.foodtab);
+		bacon = (ItemBacon) new ItemBacon("bacon", 12, 0.8f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		tomato = (ItemTomato) new ItemTomato("tomato", 6, 1.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		strawberry = (ItemStrawberry) new ItemStrawberry("strawberry", 8, 1.1f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		blueberry = (ItemBlueberry) new ItemBlueberry("blueberry", 5, 1.5f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		cherry = (ItemCherry) new ItemCherry("cherry", 7, 1.0f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		corn = (ItemCorn) new ItemCorn("corn", 5, 1.5f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		mint = (ItemMint) new ItemMint("mint", 1, 0.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		banana = (ItemBanana) new ItemBanana("banana", 8, 1.1f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		vanilla = (ItemVanilla) new ItemVanilla("vanilla", 2, 0.1f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		maple = (ItemMaple) new ItemMaple("maple", 2, 0.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		cinnamon = (ItemCinnamon) new ItemCinnamon("cinnamon", 1, 0.0f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		barley = (ItemGrain) new ItemGrain("barley").setCreativeTab(VanillaEvolutionMod.seedtab);
+		oat = (ItemGrain) new ItemGrain("oat").setCreativeTab(VanillaEvolutionMod.seedtab);
+		rye = (ItemGrain) new ItemGrain("rye").setCreativeTab(VanillaEvolutionMod.seedtab);
+		peanut = (ItemPeanut) new ItemPeanut("peanut", 4, 1.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		pecan = (ItemPeanut) new ItemPeanut("pecan", 3, 0.8f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		walnut = (ItemPeanut) new ItemPeanut("walnut", 5, 1.1f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		rhubarb = (ItemRhubarb) new ItemRhubarb("rhubarb", 3, 0.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		whisk = (ItemWhisk) new ItemWhisk("whisk").setMaxStackSize(8).setContainerItem(VanillaEvolutionItems.steel_ingot).setCreativeTab(VanillaEvolutionMod.foodtab);
 		cream = (ItemCream) new ItemCream("cream", 1, 0.1f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
 		whipped_cream = (ItemCream) new ItemCream("whipped_cream", 1, 0.2f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
 		butter = (ItemCream) new ItemCream("butter", 2, 0.2f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
@@ -651,26 +915,26 @@ public class VanillaEvolutionItems {
 		rhubarb_pie = (ItemRhubarbPie) new ItemRhubarbPie("rhubarb_pie", 9, 1.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
 		double_chocolate_cookie = (ItemDoubleChocolateCookie) new ItemDoubleChocolateCookie("double_chocolate_cookie", 6, 1.2f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
 		smore_cookie = (ItemSmoreCookie) new ItemSmoreCookie("smore_cookie", 8, 2.0f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
-		earth_shard = (ItemElements) new ItemElements("earth_shard").setCreativeTab(VanillaEvolutionMod.elementtab);
-		earth_ingot = (ItemElements) new ItemElements("earth_ingot").setCreativeTab(VanillaEvolutionMod.elementtab);
-		earth_pickaxe = (ItemEarthPickaxe) new ItemEarthPickaxe("earth_pickaxe", ElementTools, 13f, 996f).setCreativeTab(VanillaEvolutionMod.elementtab);
-		water_shard = (ItemElements) new ItemElements("water_shard").setCreativeTab(VanillaEvolutionMod.elementtab);
-		water_ingot = (ItemElements) new ItemElements("water_ingot").setCreativeTab(VanillaEvolutionMod.elementtab);
-		water_shovel = (ItemWaterShovel) new ItemWaterShovel("water_shovel", ElementTools, 10f, 996f).setCreativeTab(VanillaEvolutionMod.elementtab);
-		air_shard = (ItemElements) new ItemElements("air_shard").setCreativeTab(VanillaEvolutionMod.elementtab);
-		air_ingot = (ItemElements) new ItemElements("air_ingot").setCreativeTab(VanillaEvolutionMod.elementtab);
-		air_axe = (ItemAirAxe) new ItemAirAxe("air_axe", ElementTools, 15f, 1f).setCreativeTab(VanillaEvolutionMod.elementtab);
-		fire_shard = (ItemElements) new ItemElements("fire_shard").setCreativeTab(VanillaEvolutionMod.elementtab);
-		fire_ingot = (ItemElements) new ItemElements("fire_ingot").setCreativeTab(VanillaEvolutionMod.elementtab);
-		fire_sword = (ItemFireSword) new ItemFireSword("fire_sword", ElementTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.elementtab);
+		earth_shard = (ItemElements) new ItemElements("earth_shard").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earth_ingot = (ItemElements) new ItemElements("earth_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earth_pickaxe = (ItemEarthPickaxe) new ItemEarthPickaxe("earth_pickaxe", ElementTools, 13f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		water_shard = (ItemElements) new ItemElements("water_shard").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		water_ingot = (ItemElements) new ItemElements("water_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		water_shovel = (ItemWaterShovel) new ItemWaterShovel("water_shovel", ElementTools, 10f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		air_shard = (ItemElements) new ItemElements("air_shard").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		air_ingot = (ItemElements) new ItemElements("air_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		air_axe = (ItemAirAxe) new ItemAirAxe("air_axe", ElementTools, 15f, 1f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		fire_shard = (ItemElements) new ItemElements("fire_shard").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		fire_ingot = (ItemElements) new ItemElements("fire_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		fire_sword = (ItemFireSword) new ItemFireSword("fire_sword", ElementTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		shattered_soul = (ItemSoul) new ItemSoul("shattered_soul").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		soul = (ItemSoul) new ItemSoul("soul").setCreativeTab(VanillaEvolutionMod.resourcetab);
-		power_stone = (ItemPowerStone) new ItemPowerStone("power_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
-		space_stone = (ItemSpaceStone) new ItemSpaceStone("space_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
-		reality_stone = (ItemRealityStone) new ItemRealityStone("reality_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
-		soul_stone = (ItemSoulStone) new ItemSoulStone("soul_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
-		time_stone = (ItemTimeStone) new ItemTimeStone("time_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
-		mind_stone = (ItemMindStone) new ItemMindStone("mind_stone").setCreativeTab(VanillaEvolutionMod.toolstab);
+		power_stone = (ItemPowerStone) new ItemPowerStone("power_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		space_stone = (ItemSpaceStone) new ItemSpaceStone("space_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		reality_stone = (ItemRealityStone) new ItemRealityStone("reality_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		soul_stone = (ItemSoulStone) new ItemSoulStone("soul_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		time_stone = (ItemTimeStone) new ItemTimeStone("time_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		mind_stone = (ItemMindStone) new ItemMindStone("mind_stone").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		infinity_gauntlet = (ItemInfinityGauntlet) new ItemInfinityGauntlet("infinity_gauntlet", InfinityTools, 15f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		wolverine_claws = (ItemWolverineClaws) new ItemWolverineClaws("wolverine_claws", WClawTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		panther_claws = (ItemPantherClaws) new ItemPantherClaws("panther_claws", PClawTools, 6.5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -686,7 +950,7 @@ public class VanillaEvolutionItems {
 		assassin = (ItemAssassin) new ItemAssassin("assassin", AssassinTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		pulverizer = (ItemPulverizer) new ItemPulverizer("pulverizer", PulverizerTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
 		atomic_splicer = (ItemAtomicSplicer) new ItemAtomicSplicer("atomic_splicer").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.toolstab);
-		charged_atomic_splicer = (ItemChargedAtomicSplicer) new ItemChargedAtomicSplicer("charged_atomic_splicer").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.charged_atomic_splicer).setCreativeTab(VanillaEvolutionMod.toolstab);
+		charged_atomic_splicer = (ItemChargedAtomicSplicer) new ItemChargedAtomicSplicer("charged_atomic_splicer").setContainerItem(VanillaEvolutionItems.atomic_splicer).setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.toolstab);
 		atom = (ItemAtom) new ItemAtom("atom").setMaxStackSize(128).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		winter_gem = (ItemSeasonalGem) new ItemSeasonalGem("winter_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
 		spring_gem = (ItemSeasonalGem) new ItemSeasonalGem("spring_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
@@ -695,19 +959,19 @@ public class VanillaEvolutionItems {
 		heart_gem = (ItemHeartGem) new ItemHeartGem("heart_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
 		heart_candy = (ItemHeartCandy) new ItemHeartCandy("heart_candy", 5, 0.6f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 		heart_sword = (ItemHeartSword) new ItemHeartSword("heart_sword", HeartTools, 6f, 996f).setCreativeTab(VanillaEvolutionMod.seasontab);
-		eggplant = (ItemEggplant) new ItemEggplant("eggplant", 7, 1.2f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		peach = (ItemPeach) new ItemPeach("peach", 5, 1.6f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		pineapple = (ItemPineapple) new ItemPineapple("pineapple", 7, 1.3f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		raspberry = (ItemRaspberry) new ItemRaspberry("raspberry", 4, 1.7f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		golden_potato = (ItemGoldenPotato) new ItemGoldenPotato("golden_potato", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		golden_beetroot = (ItemGoldenBeetroot) new ItemGoldenBeetroot("golden_beetroot", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		golden_eggplant = (ItemGoldenEggplant) new ItemGoldenEggplant("golden_eggplant", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		golden_peach = (ItemGoldenPeach) new ItemGoldenPeach("golden_peach", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
-		golden_pineapple = (ItemGoldenPineapple) new ItemGoldenPineapple("golden_pineapple", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
+		eggplant = (ItemEggplant) new ItemEggplant("eggplant", 7, 1.2f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		peach = (ItemPeach) new ItemPeach("peach", 5, 1.6f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		pineapple = (ItemPineapple) new ItemPineapple("pineapple", 7, 1.3f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		raspberry = (ItemRaspberry) new ItemRaspberry("raspberry", 4, 1.7f, false).setCreativeTab(VanillaEvolutionMod.seedtab);
+		golden_potato = (ItemGoldenPotato) new ItemGoldenPotato("golden_potato", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		golden_beetroot = (ItemGoldenBeetroot) new ItemGoldenBeetroot("golden_beetroot", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		golden_eggplant = (ItemGoldenEggplant) new ItemGoldenEggplant("golden_eggplant", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		golden_peach = (ItemGoldenPeach) new ItemGoldenPeach("golden_peach", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		golden_pineapple = (ItemGoldenPineapple) new ItemGoldenPineapple("golden_pineapple", 10, 2.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
 		peach_cobbler = (ItemPeachCobbler) new ItemPeachCobbler("peach_cobbler", 16, 2.0f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
-		ultra_potato = (ItemUltrafood) new ItemUltrafood("ultra_potato", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.supertab);
-		ultra_berry = (ItemUltrafood) new ItemUltrafood("ultra_berry", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.supertab);
-		sugared_flesh = (ItemSugaredFlesh) new ItemSugaredFlesh("sugared_flesh", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.supertab);
+		ultra_potato = (ItemUltrafood) new ItemUltrafood("ultra_potato", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		ultra_berry = (ItemUltrafood) new ItemUltrafood("ultra_berry", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		sugared_flesh = (ItemSugaredFlesh) new ItemSugaredFlesh("sugared_flesh", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
 		night_steel = (ItemASSJW) new ItemASSJW("night_steel").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		enderic_alloy = (ItemASSJW) new ItemASSJW("enderic_alloy").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		charged_beryl = (ItemASSJW) new ItemASSJW("charged_beryl").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -750,7 +1014,7 @@ public class VanillaEvolutionItems {
 		wishbone = (ItemWishbone) new ItemWishbone("wishbone").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.mobtab);
 		turkey_feather = (ItemTurkeyFeather) new ItemTurkeyFeather("turkey_feather").setCreativeTab(VanillaEvolutionMod.mobtab);
 		raw_turkey = (ItemRawTurkey) new ItemRawTurkey("raw_turkey", 2, 0.3f, true).setCreativeTab(VanillaEvolutionMod.mobtab);
-		cooked_turkey = (ItemCookedTurkey) new ItemCookedTurkey("cooked_turkey", 7, 0.8f, true).setCreativeTab(CreativeTabs.FOOD);
+		cooked_turkey = (ItemCookedTurkey) new ItemCookedTurkey("cooked_turkey", 7, 0.8f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
 		green_beans = (ItemGreenBeans) new ItemGreenBeans("green_beans", 3, 0.8f, true).setCreativeTab(VanillaEvolutionMod.foodtab);
 		onion = (ItemOnion) new ItemOnion("onion", 4, 0.5f, false).setCreativeTab(VanillaEvolutionMod.foodtab);
 		masher = (ItemMasher) new ItemMasher("masher").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.steel_ingot).setCreativeTab(VanillaEvolutionMod.foodtab);
@@ -760,7 +1024,122 @@ public class VanillaEvolutionItems {
 		stuffing = (ItemStuffing) new ItemStuffing("stuffing", 12, 1.6f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 		green_bean_casserole = (ItemGBC) new ItemGBC("green_bean_casserole", 10, 1.5f, false).setCreativeTab(VanillaEvolutionMod.seasontab);
 		hunger_pill = (ItemHungerPill) new ItemHungerPill("hunger_pill", 0, 0f, false).setCreativeTab(CreativeTabs.MISC);
-//		time_master_clock = (ItemTimeClock) new ItemTimeClock("time_master_clock").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		saber_duo = (ItemLightsaber) new ItemLightsaber("saber_duo", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		saber_kylo = (ItemLightsaberFast) new ItemLightsaberFast("saber_kylo", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		saber_yellow = (ItemLightsaber) new ItemLightsaber("saber_yellow", LightsaberTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		saber_shoto_yellow = (ItemLightsaberFast) new ItemLightsaberFast("saber_shoto_yellow", LightsaberShotoTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		saber_shoto_green = (ItemLightsaberFast) new ItemLightsaberFast("saber_shoto_green", LightsaberShotoTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		ice_shard = (ItemIceShard) new ItemIceShard("ice_shard").setCreativeTab(VanillaEvolutionMod.mobtab);
+		krampus_cloth = (ItemKrampusCloth) new ItemKrampusCloth("krampus_cloth").setCreativeTab(VanillaEvolutionMod.mobtab);
+		christmas_gem = (ItemSeasonalGem) new ItemSeasonalGem("christmas_gem").setCreativeTab(VanillaEvolutionMod.seasontab);
+		mug = (ItemMug) new ItemMug("mug").setCreativeTab(VanillaEvolutionMod.foodtab);
+//		christmas_cookie_dough = (ItemBaking) new ItemBaking("christmas_cookie_dough").setCreativeTab(VanillaEvolutionMod.foodtab);
+		eggnog = (ItemEggnog) new ItemEggnog("eggnog").setCreativeTab(VanillaEvolutionMod.seasontab);
+		hardened_scales = (ItemHardenedScales) new ItemHardenedScales("hardened_scales").setCreativeTab(VanillaEvolutionMod.mobtab);
+		basilisk_eye = (ItemBasiliskEye) new ItemBasiliskEye("basilisk_eye").setCreativeTab(VanillaEvolutionMod.mobtab);
+		godly_rod = (ItemImbuedRod) new ItemImbuedRod("godly_rod").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		infused_ice_shard = (ItemInfusedIceShard) new ItemInfusedIceShard("infused_ice_shard").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		night_king_sword = (ItemNightKingSword) new ItemNightKingSword("night_king_sword", NKSwordTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		night_king_spear = (ItemNightKingSpear) new ItemNightKingSpear("night_king_spear", NKSpearTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		magma_sword = (ItemMagmaSword) new ItemMagmaSword("magma_sword", MagmaTools, 10f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		electron_splicer = (ItemElectronSplicer) new ItemElectronSplicer("electron_splicer").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.atomic_splicer).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		electron = (ItemElectron) new ItemElectron("electron").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		basic_gravitional_compressor = (ItemBGravitationalCompressor) new ItemBGravitationalCompressor("basic_gravitional_compressor").setContainerItem(VanillaEvolutionItems.prominent_battery).setMaxStackSize(4).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		minor_wormhole = (ItemMinorWormhole) new ItemMinorWormhole("minor_wormhole").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		dark_matter = (ItemDarkMatter) new ItemDarkMatter("dark_matter").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		moon_gem = (ItemMoonGem) new ItemMoonGem("moon_gem").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		lunar_sword = (ItemLunarSword) new ItemLunarSword("lunar_sword", LunarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_pickaxe = (ItemLunarPickaxe) new ItemLunarPickaxe("lunar_pickaxe", LunarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_axe = (ItemLunarAxe) new ItemLunarAxe("lunar_axe", LunarTools, 10f, 1f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_shovel = (ItemLunarShovel) new ItemLunarShovel("lunar_shovel", LunarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_hoe = (ItemLunarHoe) new ItemLunarHoe("lunar_hoe", LunarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_pickhoxel = (ItemLunarPickhoxel) new ItemLunarPickhoxel("lunar_pickhoxel", LunarTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		extraterrestrial_metal = (ItemSpaceMetal) new ItemSpaceMetal("extraterrestrial_metal").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		asgardian_steel = (ItemSpaceMetal) new ItemSpaceMetal("asgardian_steel").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		thanos_glaive = (ItemThanosGlaive) new ItemThanosGlaive("thanos_glaive", ThanosTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		bread_slice = (ItemBreadSlice) new ItemBreadSlice("bread_slice", 1, 0.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		shortening = (ItemBaking) new ItemBaking("shortening").setCreativeTab(VanillaEvolutionMod.foodtab);
+		waffle_batter = (ItemBatter) new ItemBatter("waffle_batter").setCreativeTab(VanillaEvolutionMod.foodtab);
+		pancake_batter = (ItemBatter) new ItemBatter("pancake_batter").setCreativeTab(VanillaEvolutionMod.foodtab);
+		tortilla = (ItemCooking) new ItemCooking("tortilla").setCreativeTab(VanillaEvolutionMod.foodtab);
+		sweet_dough = (ItemBaking) new ItemBaking("sweet_dough").setCreativeTab(VanillaEvolutionMod.foodtab);
+		sliced_potatoes = (ItemCooking) new ItemCooking("sliced_potatoes").setCreativeTab(VanillaEvolutionMod.foodtab);
+		toast = (ItemToast) new ItemToast("toast", 3, 0.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		french_toast = (ItemFrenchToast) new ItemFrenchToast("french_toast", 7, 1.2f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		scrambled_eggs = (ItemScrambledEggs) new ItemScrambledEggs("scrambled_eggs", 4, 0.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		omelette = (ItemOmelette) new ItemOmelette("omelette", 12, 1.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		waffle = (ItemWaffle) new ItemWaffle("waffle", 10, 1.6f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		pancake = (ItemPancake) new ItemPancake("pancake", 11, 1.0f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		breakfast_burrito = (ItemBreakfastBurrito) new ItemBreakfastBurrito("breakfast_burrito", 12, 1.6f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		donut = (ItemDonut) new ItemDonut("donut", 9, 1.2f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		hashbrowns = (ItemHashbrowns) new ItemHashbrowns("hashbrowns", 7, 0.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		poppy_seed_muffin = (ItemMuffin) new ItemMuffin("poppy_seed_muffin", 10, 1.5f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		ultra_bread = (ItemUltrafood) new ItemUltrafood("ultra_bread", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		glowing_tomato = (ItemGlowingTomato) new ItemGlowingTomato("glowing_tomato", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		carbon_nugget = (ItemCarbonIngot) new ItemCarbonIngot("carbon_nugget").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		durasteel = (ItemStarWars) new ItemStarWars("durasteel").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		jedi_cloth = (ItemStarWars) new ItemStarWars("jedi_cloth").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		sith_cloth = (ItemStarWars) new ItemStarWars("sith_cloth").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		dwarven_ingot = (ItemDwarven) new ItemDwarven("dwarven_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		dwarven_nugget = (ItemDwarven) new ItemDwarven("dwarven_nugget").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		dwarven_dagger = (ItemDwarvenDagger) new ItemDwarvenDagger("dwarven_dagger", DwarvenDaggerTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_sword = (ItemDwarvenSword) new ItemDwarvenSword("dwarven_sword", DwarvenSwordTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_mace = (ItemDwarvenMace) new ItemDwarvenMace("dwarven_mace", DwarvenMaceTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_pickhoxel = (ItemDwarvenPickhoxel) new ItemDwarvenPickhoxel("dwarven_pickhoxel", DwarvenPickhoxelTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		iron_chunk = (ItemMeteoriteShard) new ItemMeteoriteShard("iron_chunk").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		gold_chunk = (ItemMeteoriteShard) new ItemMeteoriteShard("gold_chunk").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		silver_chunk = (ItemMeteoriteShard) new ItemMeteoriteShard("silver_chunk").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		platinum_chunk = (ItemMeteoriteShard) new ItemMeteoriteShard("platinum_chunk").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		platinum_ingot = (ItemPlatinumIngot) new ItemPlatinumIngot("platinum_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		uranium_ingot = (ItemUraniumIngot) new ItemUraniumIngot("uranium_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		titanium_ingot = (ItemTitaniumIngot) new ItemTitaniumIngot("titanium_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earth_gem = (ItemEarthGem) new ItemEarthGem("earth_gem").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		neutron_splicer = (ItemNeutronSplicer) new ItemNeutronSplicer("neutron_splicer").setMaxStackSize(1).setContainerItem(VanillaEvolutionItems.atomic_splicer).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		neutron = (ItemElectron) new ItemElectron("neutron").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		plutonium_ingot = (ItemPlutoniumIngot) new ItemPlutoniumIngot("plutonium_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		frost_sword = (ItemFrostSword) new ItemFrostSword("frost_sword", FrostTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		minotaur_hide = (ItemMinotaur) new ItemMinotaur("minotaur_hide").setCreativeTab(VanillaEvolutionMod.mobtab);
+		minotaur_horn = (ItemMinotaur) new ItemMinotaur("minotaur_horn").setCreativeTab(VanillaEvolutionMod.mobtab);
+		minotaur_heart = (ItemMinotaurHeart) new ItemMinotaurHeart("minotaur_heart", 0, 0f, false).setCreativeTab(VanillaEvolutionMod.mobtab);
+		overworld_locket = (ItemAncientLocket) new ItemAncientLocket("overworld_locket").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earth_locket = (ItemAncientLocket) new ItemAncientLocket("earth_locket").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		immjiri_eye = (ItemBasiliskEye) new ItemBasiliskEye("immjiri_eye").setCreativeTab(VanillaEvolutionMod.mobtab);
+		dwarven_mechanism = (ItemTechnology) new ItemTechnology("dwarven_mechanism").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		note = (ItemNote) new ItemNote("note").setMaxStackSize(1);
+		raw_lion = (ItemRawLion) new ItemRawLion("raw_lion", 3, 0.2f, true).setCreativeTab(VanillaEvolutionMod.mobtab);
+		lion_hide = (ItemLionHide) new ItemLionHide("lion_hide").setCreativeTab(VanillaEvolutionMod.mobtab);
+		lion_tooth = (ItemLionTooth) new ItemLionTooth("lion_tooth").setCreativeTab(VanillaEvolutionMod.mobtab);
+		cooked_lion = (ItemCookedLion) new ItemCookedLion("cooked_lion", 6, 1.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		lion_tooth_dust = (ItemLionTooth) new ItemLionTooth("lion_tooth_dust").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		mane_hair = (ItemManeHair) new ItemManeHair("mane_hair").setCreativeTab(VanillaEvolutionMod.mobtab);
+		dwarven_gem = (ItemDwarvenGem) new ItemDwarvenGem("dwarven_gem").setCreativeTab(VanillaEvolutionMod.mobtab);
+		snow_leopard_hide = (ItemSnowLeopard) new ItemSnowLeopard("snow_leopard_hide").setCreativeTab(VanillaEvolutionMod.mobtab);
+		pelt_pile = (ItemPeltPile) new ItemPeltPile("pelt_pile").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		hide_bundle = (ItemPeltPile) new ItemPeltPile("hide_bundle").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		dwarven_rod = (ItemImbuedRod) new ItemImbuedRod("dwarven_rod").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		strength_crystal_1 = (ItemStrengthCrystal1) new ItemStrengthCrystal1("strength_crystal_1", 0, 0f, false).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		solar_gas = (ItemSolar) new ItemSolar("solar_gas").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		solar_gem = (ItemSolar) new ItemSolar("solar_gem").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		solar_sword = (ItemSolarSword) new ItemSolarSword("solar_sword", SolarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_pickaxe = (ItemSolarPickaxe) new ItemSolarPickaxe("solar_pickaxe", SolarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_axe = (ItemSolarAxe) new ItemSolarAxe("solar_axe", SolarTools, 10f, 1f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_shovel = (ItemSolarShovel) new ItemSolarShovel("solar_shovel", SolarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_hoe = (ItemSolarHoe) new ItemSolarHoe("solar_hoe", SolarTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_pickhoxel = (ItemSolarPickhoxel) new ItemSolarPickhoxel("solar_pickhoxel", SolarTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		platinum_sword = (ItemPlatinumSword) new ItemPlatinumSword("platinum_sword", PlatinumTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		platinum_pickaxe = (ItemPlatinumPickaxe) new ItemPlatinumPickaxe("platinum_pickaxe", PlatinumTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dusk_cloth = (ItemDuskCloth) new ItemDuskCloth("dusk_cloth").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earthen_pickhoxel = (ItemEarthenPickhoxel) new ItemEarthenPickhoxel("earthen_pickhoxel", EarthenPickhoxelTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		popcorn = (ItemPopcorn) new ItemPopcorn("popcorn", 7, 1.3f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		ultra_turkey = (ItemUltrafood) new ItemUltrafood("ultra_turkey", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		celestial_cookie = (ItemCelestialCookie) new ItemCelestialCookie("celestial_cookie", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		breathtaking_mint = (ItemBreathtakingMint) new ItemBreathtakingMint("breathtaking_mint", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		immjiri_offering = (ItemImmjiriOffering) new ItemImmjiriOffering("immjiri_offering").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		immjiri_tear = (ItemImmjiriTear) new ItemImmjiriTear("immjiri_tear").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		darkness_blade = (ItemDarknessBlade) new ItemDarknessBlade("darkness_blade", DarknessTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		earth_horn = (ItemEarthHorn) new ItemEarthHorn("earth_horn").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		earth_tablet = (ItemEarthTablet) new ItemEarthTablet("earth_tablet").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		terra = (ItemTerra) new ItemTerra("terra", TerraTools).setCreativeTab(VanillaEvolutionMod.toolstab);
 	
 		enderite_helmet = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderite_chestplate = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_chestplate", EnderiteArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -792,10 +1171,10 @@ public class VanillaEvolutionItems {
 		tech_leggings = (ItemExosuitArmor) new ItemExosuitArmor("tech_leggings", TechArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		tech_boots =  (ItemExosuitArmor)new ItemExosuitArmor("tech_boots", TechArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
-		element_helmet = (ItemElementArmor) new ItemElementArmor("element_helmet", ElementArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.elementtab);
-		element_chestplate = (ItemElementArmor) new ItemElementArmor("element_chestplate", ElementArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.elementtab);
-		element_leggings = (ItemElementArmor2) new ItemElementArmor2("element_leggings", ElementArmor2, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.elementtab);
-		element_boots =  (ItemElementArmor)new ItemElementArmor("element_boots", ElementArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.elementtab);
+		element_helmet = (ItemElementArmor) new ItemElementArmor("element_helmet", ElementArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		element_chestplate = (ItemElementArmor) new ItemElementArmor("element_chestplate", ElementArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		element_leggings = (ItemElementArmor2) new ItemElementArmor2("element_leggings", ElementArmor2, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		element_boots =  (ItemElementArmor)new ItemElementArmor("element_boots", ElementArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 		
 		ppajama_helmet = (ItemPajamaArmor) new ItemPajamaArmor("ppajama_helmet", PPajamaArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		ppajama_chestplate = (ItemPajamaArmor) new ItemPajamaArmor("ppajama_chestplate", PPajamaArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -846,6 +1225,99 @@ public class VanillaEvolutionItems {
 		beast_gemstone = (ItemBeastArmor) new ItemBeastArmor("beast_gemstone", BeastArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
 
 		war_bonnet = (ItemWarBonnet) new ItemWarBonnet("war_bonnet", BonnetArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.seasontab);
+	
+		krampus_helmet = (ItemKrampusArmor) new ItemKrampusArmor("krampus_helmet", KrampusArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.seasontab);
+		krampus_chestplate = (ItemKrampusArmor) new ItemKrampusArmor("krampus_chestplate", KrampusArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.seasontab);
+		krampus_leggings = (ItemKrampusArmor) new ItemKrampusArmor("krampus_leggings", KrampusArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.seasontab);
+		krampus_boots =  (ItemKrampusArmor)new ItemKrampusArmor("krampus_boots", KrampusArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.seasontab);
+
+		christmas_sweater_tree = (ItemSweaterArmor) new ItemSweaterArmor("christmas_sweater_tree", SweaterTArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.seasontab);
+		christmas_sweater_snowman = (ItemSweaterArmor) new ItemSweaterArmor("christmas_sweater_snowman", SweaterSArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.seasontab);
+		christmas_sweater_candycane = (ItemSweaterArmor) new ItemSweaterArmor("christmas_sweater_candycane", SweaterCArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.seasontab);
+	
+		scale_helmet = (ItemScaleArmor) new ItemScaleArmor("scale_helmet", ScaleArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		scale_chestplate = (ItemScaleArmor) new ItemScaleArmor("scale_chestplate", ScaleArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		scale_leggings = (ItemScaleArmor) new ItemScaleArmor("scale_leggings", ScaleArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		scale_boots =  (ItemScaleArmor)new ItemScaleArmor("scale_boots", ScaleArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		lunar_helmet = (ItemLunarArmor) new ItemLunarArmor("lunar_helmet", LunarArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_chestplate = (ItemLunarArmor) new ItemLunarArmor("lunar_chestplate", LunarArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_leggings = (ItemLunarArmor) new ItemLunarArmor("lunar_leggings", LunarArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lunar_boots =  (ItemLunarArmor)new ItemLunarArmor("lunar_boots", LunarArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		energetic_helmet = (ItemEnergeticArmor) new ItemEnergeticArmor("energetic_helmet", EnergeticArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		energetic_chestplate = (ItemEnergeticArmor) new ItemEnergeticArmor("energetic_chestplate", EnergeticArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		energetic_leggings = (ItemEnergeticArmor) new ItemEnergeticArmor("energetic_leggings", EnergeticArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		energetic_boots =  (ItemEnergeticArmor)new ItemEnergeticArmor("energetic_boots", EnergeticArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		thanos_helmet = (ItemThanosArmor) new ItemThanosArmor("thanos_helmet", ThanosArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		thanos_chestplate = (ItemThanosArmor) new ItemThanosArmor("thanos_chestplate", ThanosArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		thanos_leggings = (ItemThanosArmor) new ItemThanosArmor("thanos_leggings", ThanosArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		thanos_boots =  (ItemThanosArmor)new ItemThanosArmor("thanos_boots", ThanosArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+
+		thor_chestplate = (ItemThorArmor) new ItemThorArmor("thor_chestplate", ThorArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		thor_leggings = (ItemThorArmor) new ItemThorArmor("thor_leggings", ThorArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		thor_boots =  (ItemThorArmor)new ItemThorArmor("thor_boots", ThorArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		jedi_helmet = (ItemJediArmor) new ItemJediArmor("jedi_helmet", JediArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		jedi_chestplate = (ItemJediArmor) new ItemJediArmor("jedi_chestplate", JediArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		jedi_leggings = (ItemJediArmor) new ItemJediArmor("jedi_leggings", JediArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		jedi_boots =  (ItemJediArmor)new ItemJediArmor("jedi_boots", JediArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		sith_helmet = (ItemJediArmor) new ItemJediArmor("sith_helmet", SithArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		sith_chestplate = (ItemJediArmor) new ItemJediArmor("sith_chestplate", SithArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		sith_leggings = (ItemJediArmor) new ItemJediArmor("sith_leggings", SithArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		sith_boots =  (ItemJediArmor)new ItemJediArmor("sith_boots", SithArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		kylo_helmet = (ItemKyloArmor) new ItemKyloArmor("kylo_helmet", KyloArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kylo_chestplate = (ItemKyloArmor) new ItemKyloArmor("kylo_chestplate", KyloArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kylo_leggings = (ItemKyloArmor) new ItemKyloArmor("kylo_leggings", KyloArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kylo_boots =  (ItemKyloArmor)new ItemKyloArmor("kylo_boots", KyloArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		vader_helmet = (ItemVaderArmor) new ItemVaderArmor("vader_helmet", VaderArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		vader_chestplate = (ItemVaderArmor) new ItemVaderArmor("vader_chestplate", VaderArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		vader_leggings = (ItemVaderArmor) new ItemVaderArmor("vader_leggings", VaderArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		vader_boots =  (ItemVaderArmor)new ItemVaderArmor("vader_boots", VaderArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		dwarven_helmet = (ItemDwarvenArmor) new ItemDwarvenArmor("dwarven_helmet", DwarvenArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_chestplate = (ItemDwarvenArmor) new ItemDwarvenArmor("dwarven_chestplate", DwarvenArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_leggings = (ItemDwarvenArmor) new ItemDwarvenArmor("dwarven_leggings", DwarvenArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		dwarven_boots =  (ItemDwarvenArmor)new ItemDwarvenArmor("dwarven_boots", DwarvenArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+
+		vanishing_locket = (ItemVLocketArmor) new ItemVLocketArmor("vanishing_locket", VLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		brawns_locket = (ItemBLocketArmor) new ItemBLocketArmor("brawns_locket", BLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		healing_locket = (ItemHLocketArmor) new ItemHLocketArmor("healing_locket", HLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		fire_warding_locket = (ItemFLocketArmor) new ItemFLocketArmor("fire_warding_locket", FLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		lion_helmet = (ItemLionArmor) new ItemLionArmor("lion_helmet", LionArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lion_chestplate = (ItemLionArmor) new ItemLionArmor("lion_chestplate", LionArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lion_leggings = (ItemLionArmor) new ItemLionArmor("lion_leggings", LionArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lion_boots =  (ItemLionArmor)new ItemLionArmor("lion_boots", LionArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		titanium_helmet = (ItemTitaniumArmor) new ItemTitaniumArmor("titanium_helmet", TitaniumArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		titanium_chestplate = (ItemTitaniumArmor) new ItemTitaniumArmor("titanium_chestplate", TitaniumArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		titanium_leggings = (ItemTitaniumArmor) new ItemTitaniumArmor("titanium_leggings", TitaniumArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		titanium_boots =  (ItemTitaniumArmor)new ItemTitaniumArmor("titanium_boots", TitaniumArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+		
+		solar_helmet = (ItemSolarArmor) new ItemSolarArmor("solar_helmet", SolarArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_chestplate = (ItemSolarArmor) new ItemSolarArmor("solar_chestplate", SolarArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_leggings = (ItemSolarArmor) new ItemSolarArmor("solar_leggings", SolarArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		solar_boots =  (ItemSolarArmor)new ItemSolarArmor("solar_boots", SolarArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+		
+		cloak_helmet = (ItemCloakHelmet) new ItemCloakHelmet("cloak_helmet", CloakArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cloak_chestplate = (ItemCloakChestplate) new ItemCloakChestplate("cloak_chestplate", CloakArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cloak_leggings = (ItemCloakLeggings) new ItemCloakLeggings("cloak_leggings", CloakArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cloak_boots =  (ItemCloakBoots)new ItemCloakBoots("cloak_boots", CloakArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+		
+		earthen_helmet = (ItemEarthArmor) new ItemEarthArmor("earthen_helmet", EarthArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		earthen_chestplate = (ItemEarthChestplate) new ItemEarthChestplate("earthen_chestplate", EarthenArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		earthen_leggings = (ItemEarthArmor) new ItemEarthArmor("earthen_leggings", EarthArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		earthen_boots =  (ItemEarthArmor)new ItemEarthArmor("earthen_boots", EarthArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+		
+		shadow_helmet = (ItemShadowArmor) new ItemShadowArmor("shadow_helmet", ShadowArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		shadow_chestplate = (ItemShadowArmor) new ItemShadowArmor("shadow_chestplate", ShadowArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		shadow_leggings = (ItemShadowArmor) new ItemShadowArmor("shadow_leggings", ShadowArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		shadow_boots =  (ItemShadowArmor)new ItemShadowArmor("shadow_boots", ShadowArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 	}
 	
 	@SubscribeEvent
@@ -878,7 +1350,23 @@ public class VanillaEvolutionItems {
 				catspaw_dagger, mjolnir, stormbreaker, kyber_crystal, saber_blue, saber_green, saber_purple, saber_red, pexosuit_helmet, pexosuit_chestplate, pexosuit_leggings, pexosuit_boots, 
 				enderic_pickhoxel, frozen_flesh, pulsating_shard, beast_gemstone, dust_bone, peanut_butter, uncooked_caramel, caramel, fondant, jelly_bean_mold, peanut_butter_cup, 
 				caramel_chocolate_bar, peanut_chocolate_bar, candy_corn, jelly_beans, caramel_apple, raw_turkey, cooked_turkey, turkey_feather, wishbone, war_bonnet, green_beans, onion, masher, 
-				gravy, mashed_potatoes, mashed_potatoes_gravy, stuffing, green_bean_casserole, hunger_pill);
+				gravy, mashed_potatoes, mashed_potatoes_gravy, stuffing, green_bean_casserole, hunger_pill, saber_duo, saber_kylo, saber_yellow, saber_shoto_yellow, saber_shoto_green, ice_shard,
+				krampus_cloth, christmas_gem, krampus_helmet, krampus_chestplate, krampus_leggings, krampus_boots, christmas_sweater_tree, christmas_sweater_snowman, christmas_sweater_candycane,
+				mug, eggnog, hardened_scales, basilisk_eye, scale_helmet, scale_chestplate, scale_leggings, scale_boots, godly_rod, infused_ice_shard, night_king_sword, night_king_spear, 
+				magma_sword, electron_splicer, electron, basic_gravitional_compressor, minor_wormhole, dark_matter, moon_gem, lunar_sword, lunar_pickaxe, lunar_axe, lunar_shovel, lunar_hoe,
+				lunar_pickhoxel, lunar_helmet, lunar_chestplate, lunar_leggings, lunar_boots, energetic_helmet, energetic_chestplate, energetic_leggings, energetic_boots, extraterrestrial_metal, 
+				asgardian_steel, thanos_helmet, thanos_chestplate, thanos_leggings, thanos_boots, thanos_glaive, thor_chestplate, thor_leggings, thor_boots, bread_slice, shortening, waffle_batter,
+				pancake_batter, tortilla, sweet_dough, sliced_potatoes, toast, french_toast, scrambled_eggs, omelette, waffle, pancake, breakfast_burrito, donut, hashbrowns, poppy_seed_muffin,
+				ultra_bread, glowing_tomato, carbon_nugget, durasteel, jedi_cloth, jedi_helmet, jedi_chestplate, jedi_leggings, jedi_boots, sith_helmet, sith_chestplate, sith_leggings,
+				sith_boots, kylo_helmet, kylo_chestplate, kylo_leggings, kylo_boots, vader_helmet, vader_chestplate, vader_leggings, vader_boots, sith_cloth, dwarven_ingot, dwarven_nugget, 
+				dwarven_dagger, dwarven_sword, dwarven_mace, dwarven_pickhoxel, dwarven_helmet, dwarven_chestplate, dwarven_leggings, dwarven_boots, iron_chunk, gold_chunk, silver_chunk, platinum_chunk,
+				platinum_ingot, uranium_ingot, titanium_ingot, earth_gem, neutron_splicer, neutron, plutonium_ingot, frost_sword, minotaur_hide, minotaur_horn, minotaur_heart, overworld_locket, 
+				earth_locket, vanishing_locket, brawns_locket, healing_locket, fire_warding_locket, immjiri_eye, dwarven_mechanism, note, raw_lion, lion_hide, lion_tooth, cooked_lion, lion_tooth_dust,
+				mane_hair, dwarven_gem, snow_leopard_hide, pelt_pile, hide_bundle, dwarven_rod, strength_crystal_1, lion_helmet, lion_chestplate, lion_leggings, lion_boots, titanium_helmet, 
+				titanium_chestplate, titanium_leggings, titanium_boots, solar_gas, solar_gem, solar_sword, solar_pickaxe, solar_axe, solar_shovel, solar_hoe, solar_pickhoxel, solar_helmet,
+				solar_chestplate, solar_leggings, solar_boots, platinum_sword, platinum_pickaxe, cloak_helmet, cloak_chestplate, cloak_leggings, cloak_boots, dusk_cloth, earthen_helmet, 
+				earthen_chestplate, earthen_leggings, earthen_boots, earthen_pickhoxel, popcorn, ultra_turkey, celestial_cookie, breathtaking_mint, immjiri_offering, immjiri_tear, darkness_blade,
+				shadow_helmet, shadow_chestplate, shadow_leggings, shadow_boots, earth_horn, earth_tablet, terra);
 	}
 	
 	@SubscribeEvent
@@ -1157,7 +1645,122 @@ public class VanillaEvolutionItems {
 		registerRender(stuffing);
 		registerRender(green_bean_casserole);
 		registerRender(hunger_pill);
-	//	registerRender(time_master_clock);
+		registerRender(saber_duo);
+		registerRender(saber_kylo);
+		registerRender(saber_yellow);
+		registerRender(saber_shoto_yellow);
+		registerRender(saber_shoto_green);
+		registerRender(ice_shard);
+		registerRender(krampus_cloth);
+		registerRender(christmas_gem);
+		registerRender(mug);
+	//	registerRender(christmas_cookie_dough);
+		registerRender(eggnog);
+		registerRender(hardened_scales);
+		registerRender(basilisk_eye);
+		registerRender(godly_rod);
+		registerRender(infused_ice_shard);
+		registerRender(night_king_sword);
+		registerRender(night_king_spear);
+		registerRender(magma_sword);
+		registerRender(electron_splicer);
+		registerRender(electron);
+		registerRender(basic_gravitional_compressor);
+		registerRender(minor_wormhole);
+		registerRender(dark_matter);
+		registerRender(moon_gem);
+		registerRender(lunar_sword);
+		registerRender(lunar_pickaxe);
+		registerRender(lunar_axe);
+		registerRender(lunar_shovel);
+		registerRender(lunar_hoe);
+		registerRender(lunar_pickhoxel);
+		registerRender(extraterrestrial_metal);
+		registerRender(asgardian_steel);
+		registerRender(thanos_glaive);
+		registerRender(bread_slice);
+		registerRender(shortening);
+		registerRender(waffle_batter);
+		registerRender(pancake_batter);
+		registerRender(tortilla);
+		registerRender(sweet_dough);
+		registerRender(sliced_potatoes);
+		registerRender(toast);
+		registerRender(french_toast);
+		registerRender(scrambled_eggs);
+		registerRender(omelette);
+		registerRender(waffle);
+		registerRender(pancake);
+		registerRender(breakfast_burrito);
+		registerRender(donut);
+		registerRender(hashbrowns);
+		registerRender(poppy_seed_muffin);
+		registerRender(ultra_bread);
+		registerRender(glowing_tomato);
+		registerRender(carbon_nugget);
+		registerRender(durasteel);
+		registerRender(jedi_cloth);
+		registerRender(sith_cloth);
+		registerRender(dwarven_ingot);
+		registerRender(dwarven_nugget);
+		registerRender(dwarven_dagger);
+		registerRender(dwarven_sword);
+		registerRender(dwarven_mace);
+		registerRender(dwarven_pickhoxel);
+		registerRender(iron_chunk);
+		registerRender(gold_chunk);
+		registerRender(silver_chunk);
+		registerRender(platinum_chunk);
+		registerRender(platinum_ingot);
+		registerRender(uranium_ingot);
+		registerRender(titanium_ingot);
+		registerRender(earth_gem);
+		registerRender(neutron_splicer);
+		registerRender(neutron);
+		registerRender(plutonium_ingot);
+		registerRender(frost_sword);
+		registerRender(minotaur_hide);
+		registerRender(minotaur_horn);
+		registerRender(minotaur_heart);
+		registerRender(overworld_locket);
+		registerRender(earth_locket);
+		registerRender(immjiri_eye);
+		registerRender(dwarven_mechanism);
+		registerRender(note);
+		registerRender(raw_lion);
+		registerRender(lion_hide);
+		registerRender(lion_tooth);
+		registerRender(cooked_lion);
+		registerRender(lion_tooth_dust);
+		registerRender(mane_hair);
+		registerRender(dwarven_gem);
+		registerRender(snow_leopard_hide);
+		registerRender(pelt_pile);
+		registerRender(hide_bundle);
+		registerRender(dwarven_rod);
+		registerRender(strength_crystal_1);
+		registerRender(solar_gas);
+		registerRender(solar_gem);
+		registerRender(solar_sword);
+		registerRender(solar_pickaxe);
+		registerRender(solar_axe);
+		registerRender(solar_shovel);
+		registerRender(solar_hoe);
+		registerRender(solar_pickhoxel);
+		registerRender(platinum_sword);
+		registerRender(platinum_pickaxe);
+		registerRender(dusk_cloth);
+		registerRender(earthen_pickhoxel);
+		registerRender(popcorn);
+		registerRender(ultra_turkey);
+		registerRender(celestial_cookie);
+		registerRender(breathtaking_mint);
+		registerRender(immjiri_offering);
+		registerRender(immjiri_tear);
+		registerRender(darkness_blade);
+		registerRender(earth_horn);
+		registerRender(earth_tablet);
+		registerRender(terra);
 		
 		registerRender(tomato_seed);
 		registerRender(strawberry_seed);
@@ -1268,9 +1871,102 @@ public class VanillaEvolutionItems {
 		registerRender(pexosuit_boots);
 
 		registerRender(beast_gemstone);
+		
+		registerRender(krampus_helmet);
+		registerRender(krampus_chestplate);
+		registerRender(krampus_leggings);
+		registerRender(krampus_boots);
+
+		registerRender(christmas_sweater_tree);
+		registerRender(christmas_sweater_snowman);
+		registerRender(christmas_sweater_candycane);
+		
+		registerRender(scale_helmet);
+		registerRender(scale_chestplate);
+		registerRender(scale_leggings);
+		registerRender(scale_boots);
+		
+		registerRender(lunar_helmet);
+		registerRender(lunar_chestplate);
+		registerRender(lunar_leggings);
+		registerRender(lunar_boots);
+		
+		registerRender(energetic_helmet);
+		registerRender(energetic_chestplate);
+		registerRender(energetic_leggings);
+		registerRender(energetic_boots);
+		
+		registerRender(thanos_helmet);
+		registerRender(thanos_chestplate);
+		registerRender(thanos_leggings);
+		registerRender(thanos_boots);
+
+		registerRender(thor_chestplate);
+		registerRender(thor_leggings);
+		registerRender(thor_boots);
+		
+		registerRender(jedi_helmet);
+		registerRender(jedi_chestplate);
+		registerRender(jedi_leggings);
+		registerRender(jedi_boots);
+		
+		registerRender(sith_helmet);
+		registerRender(sith_chestplate);
+		registerRender(sith_leggings);
+		registerRender(sith_boots);
+		
+		registerRender(kylo_helmet);
+		registerRender(kylo_chestplate);
+		registerRender(kylo_leggings);
+		registerRender(kylo_boots);
+		
+		registerRender(vader_helmet);
+		registerRender(vader_chestplate);
+		registerRender(vader_leggings);
+		registerRender(vader_boots);
+		
+		registerRender(dwarven_helmet);
+		registerRender(dwarven_chestplate);
+		registerRender(dwarven_leggings);
+		registerRender(dwarven_boots);
+		
+		registerRender(vanishing_locket);
+		registerRender(brawns_locket);
+		registerRender(healing_locket);
+		registerRender(fire_warding_locket);
+		
+		registerRender(lion_helmet);
+		registerRender(lion_chestplate);
+		registerRender(lion_leggings);
+		registerRender(lion_boots);
+		
+		registerRender(titanium_helmet);
+		registerRender(titanium_chestplate);
+		registerRender(titanium_leggings);
+		registerRender(titanium_boots);
+		
+		registerRender(solar_helmet);
+		registerRender(solar_chestplate);
+		registerRender(solar_leggings);
+		registerRender(solar_boots);
+		
+		registerRender(cloak_helmet);
+		registerRender(cloak_chestplate);
+		registerRender(cloak_leggings);
+		registerRender(cloak_boots);
+		
+		registerRender(earthen_helmet);
+		registerRender(earthen_chestplate);
+		registerRender(earthen_leggings);
+		registerRender(earthen_boots);
+		
+		registerRender(shadow_helmet);
+		registerRender(shadow_chestplate);
+		registerRender(shadow_leggings);
+		registerRender(shadow_boots);
 	}
 	
-													//Name, Harvest Level, Durability, Efficiency, Damage, Enchantibility
+										//Name, Harvest Level, Durability, Efficiency, Damage (-4f), Enchantibility
 	public static final ToolMaterial MalachiteTools = EnumHelper.addToolMaterial("MalachiteTools", 2, 905, 7f, 2.5f, 12);
 	public static final ToolMaterial BronzeTools = EnumHelper.addToolMaterial("BronzeTools", 2, 4000, 9f, 2.5f, 20);
 	public static final ToolMaterial AmethystTools = EnumHelper.addToolMaterial("AmethystTools", 3, 1350, 9f, 4f, 18);
@@ -1279,35 +1975,52 @@ public class VanillaEvolutionItems {
 	public static final ToolMaterial OnyxTools = EnumHelper.addToolMaterial("OnyxTools", 3, -1, 5f, 4f, 25);
 	public static final ToolMaterial SlimeTools = EnumHelper.addToolMaterial("SlimeTools", 3, 2050, 11f, 7f, 20);
 	public static final ToolMaterial EnderiteTools = EnumHelper.addToolMaterial("EnderiteTools", 4, 5000, 15f, 6f, 25);
-	public static final ToolMaterial SeleniteTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 8f, 30);
-	public static final ToolMaterial SelenitePTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 20f, 6f, 30);
+	public static final ToolMaterial SeleniteTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 18f, 7f, 30);
+	public static final ToolMaterial SelenitePTools = EnumHelper.addToolMaterial("SeleniteTools", 5, 8000, 18f, 6f, 30);
 	public static final ToolMaterial TechTools = EnumHelper.addToolMaterial("TechTools", 5, 10000, 22f, 11f, 0);
-	public static final ToolMaterial ElementTools = EnumHelper.addToolMaterial("ElementTools", 5, 12000, 25f, 9f, 30);
-	public static final ToolMaterial InfinityTools = EnumHelper.addToolMaterial("InfinityTools", 3, -1, 20f, 11f, 0);
-	public static final ToolMaterial WClawTools = EnumHelper.addToolMaterial("WClawTools", 3, 4000, 10f, 5f, 0);
-	public static final ToolMaterial PClawTools = EnumHelper.addToolMaterial("PClawTools", 3, 4000, 10f, 5.5f, 0);
-	public static final ToolMaterial ShieldTools = EnumHelper.addToolMaterial("ShieldTools", 3, 5000, 10f, 6f, 0);
+	public static final ToolMaterial ElementTools = EnumHelper.addToolMaterial("ElementTools", 5, 12000, 22f, 8f, 30);
+	public static final ToolMaterial InfinityTools = EnumHelper.addToolMaterial("InfinityTools", 3, -1, 20f, 12f, 5);
+	public static final ToolMaterial WClawTools = EnumHelper.addToolMaterial("WClawTools", 3, 4000, 10f, 5f, 10);
+	public static final ToolMaterial PClawTools = EnumHelper.addToolMaterial("PClawTools", 3, 4000, 10f, 6f, 10);
+	public static final ToolMaterial ShieldTools = EnumHelper.addToolMaterial("ShieldTools", 3, 5000, 10f, 6f, 10);
 	public static final ToolMaterial EnderTools = EnumHelper.addToolMaterial("EnderTools", 4, 6500, 10f, 9f, 15);
 	public static final ToolMaterial CuriousTools = EnumHelper.addToolMaterial("CuriousTools", 3, 3250, 6f, 5f, 0);
 	public static final ToolMaterial TerrorizerTools = EnumHelper.addToolMaterial("TerrorizerTools", 3, 3000, 7f, 6.5f, 0);
 	public static final ToolMaterial AssassinTools = EnumHelper.addToolMaterial("AssassinTools", 3, 6000, 8f, 6f, 0);
 	public static final ToolMaterial PulverizerTools = EnumHelper.addToolMaterial("PulverizerTools", 3, 8000, 9f, 6f, 0);
-	public static final ToolMaterial HeartTools = EnumHelper.addToolMaterial("HeartTools", 3, -1, 9f, 6f, 20);
-	public static final ToolMaterial CapitalismTools = EnumHelper.addToolMaterial("CapitalismTools", 3, 15000, 9f, 13f, 0);
-	public static final ToolMaterial OculusTools = EnumHelper.addToolMaterial("OculusTools", 3, 17500, 9f, 11f, 0);
+	public static final ToolMaterial HeartTools = EnumHelper.addToolMaterial("HeartTools", 3, -1, 9f, 5f, 20);
+	public static final ToolMaterial CapitalismTools = EnumHelper.addToolMaterial("CapitalismTools", 3, 15000, 9f, 11f, 10);
+	public static final ToolMaterial OculusTools = EnumHelper.addToolMaterial("OculusTools", 3, 17500, 9f, 9f, 10);
 	public static final ToolMaterial LongclawTools = EnumHelper.addToolMaterial("LongclawTools", 3, 6000, 10f, 11f, 30);
 	public static final ToolMaterial IceTools = EnumHelper.addToolMaterial("IceTools", 3, 10000, 8f, 12f, 25);
 	public static final ToolMaterial OathkeeperTools = EnumHelper.addToolMaterial("OathkeeperTools", 3, 5000, 9f, 11f, 20);
 	public static final ToolMaterial WidowWailTools = EnumHelper.addToolMaterial("WidowWailTools", 3, 4000, 9f, 10f, 10);
-	public static final ToolMaterial DArakhTools = EnumHelper.addToolMaterial("DArakhTools", 3, -1, 9f, 10f, 10);
-	public static final ToolMaterial DSpearTools = EnumHelper.addToolMaterial("DSpearTools", 3, -1, 9f, 11f, 10);
-	public static final ToolMaterial DAxeTools = EnumHelper.addToolMaterial("DAxeTools", 3, -1, 9f, 12f, 10);
+	public static final ToolMaterial DArakhTools = EnumHelper.addToolMaterial("DArakhTools", 3, -1, 9f, 9f, 10);
+	public static final ToolMaterial DSpearTools = EnumHelper.addToolMaterial("DSpearTools", 3, -1, 9f, 10f, 10);
+	public static final ToolMaterial DAxeTools = EnumHelper.addToolMaterial("DAxeTools", 3, -1, 9f, 11f, 10);
 	public static final ToolMaterial NeedleTools = EnumHelper.addToolMaterial("NeedleTools", 3, 9000, 9f, 4f, 30);
 	public static final ToolMaterial CatspawTools = EnumHelper.addToolMaterial("CatspawTools", 3, -1, 9f, 11f, 30);
-	public static final ToolMaterial MjolnirTools = EnumHelper.addToolMaterial("MjolnirTools", 3, -1, 9f, 4f, 0);
-	public static final ToolMaterial StormbreakerTools = EnumHelper.addToolMaterial("StormbreakerTools", 3, -1, 9f, 5f, 0);
+	public static final ToolMaterial MjolnirTools = EnumHelper.addToolMaterial("MjolnirTools", 3, -1, 9f, 4f, 5);
+	public static final ToolMaterial StormbreakerTools = EnumHelper.addToolMaterial("StormbreakerTools", 3, -1, 9f, 5f, 5);
 	public static final ToolMaterial LightsaberTools = EnumHelper.addToolMaterial("LightsaberTools", 3, -1, 9f, 9f, 0);
-	public static final ToolMaterial EndericPhTools = EnumHelper.addToolMaterial("EndericPhTools", 5, 10000, 25f, 5f, 0);
+	public static final ToolMaterial EndericPhTools = EnumHelper.addToolMaterial("EndericPhTools", 5, 10000, 23f, 5f, 15);
+	public static final ToolMaterial LightsaberShotoTools = EnumHelper.addToolMaterial("LightsaberShotoTools", 3, -1, 9f, 8f, 0);
+	public static final ToolMaterial NKSwordTools = EnumHelper.addToolMaterial("NKSwordTools", 3, -1, 9f, 12f, 20);
+	public static final ToolMaterial NKSpearTools = EnumHelper.addToolMaterial("NKSpearTools", 3, -1, 9f, 13f, 20);
+	public static final ToolMaterial MagmaTools = EnumHelper.addToolMaterial("MagmaTools", 3, 3000, 9f, 10f, 0);
+	public static final ToolMaterial LunarTools = EnumHelper.addToolMaterial("LunarTools", 5, 12500, 25f, 12f, 20);
+	public static final ToolMaterial ThanosTools = EnumHelper.addToolMaterial("ThanosTools", 5, 13000, 10f, 10f, 20);
+	public static final ToolMaterial DwarvenDaggerTools = EnumHelper.addToolMaterial("DwarvenDaggerTools", 6, 15000, 10f, 11f, 10);
+	public static final ToolMaterial DwarvenSwordTools = EnumHelper.addToolMaterial("DwarvenSwordTools", 6, 15000, 10f, 12f, 10);
+	public static final ToolMaterial DwarvenMaceTools = EnumHelper.addToolMaterial("DwarvenMaceTools", 6, 15000, 10f, 13f, 10);
+	public static final ToolMaterial DwarvenPickhoxelTools = EnumHelper.addToolMaterial("DwarvenPickhoxelTools", 6, 15000, 24f, 6f, 10);
+	public static final ToolMaterial FrostTools = EnumHelper.addToolMaterial("FrostTools", 6, 9000, 10f, 14f, 5);
+	public static final ToolMaterial SolarTools = EnumHelper.addToolMaterial("SolarTools", 6, 15000, 27f, 13f, 25);
+	public static final ToolMaterial PlatinumTools = EnumHelper.addToolMaterial("PlatinumTools", 6, -1, 25f, 13f, 30);
+	public static final ToolMaterial StaffTools = EnumHelper.addToolMaterial("StaffTools", 1, 32, 1f, -3f, 0);
+	public static final ToolMaterial EarthenPickhoxelTools = EnumHelper.addToolMaterial("EarthenPickhoxelTools", 6, 17500, 28f, 5f, 35);
+	public static final ToolMaterial DarknessTools = EnumHelper.addToolMaterial("DarknessTools", 6, 20000, 20f, 15f, 50);
+	public static final ToolMaterial TerraTools = EnumHelper.addToolMaterial("TerraTools", 6, -1, 10f, 15f, 0);
 	
 					//Name, Texture Name, Durability, Protection: (Boots, Leggings, Chestplate, Helmet), Enchantibility, Sound, Resistance
 	public static final ArmorMaterial EnderiteArmor = EnumHelper.addArmorMaterial("enderitearmor", VanillaEvolutionMod.MODID + ":enderite_armor", 40, 
@@ -1358,14 +2071,11 @@ public class VanillaEvolutionItems {
 	public static final ArmorMaterial AExosuitArmor = EnumHelper.addArmorMaterial("aexosuitarmor", VanillaEvolutionMod.MODID + ":aexosuit_armor", 60, 
 			new int[] {6, 10, 13, 7}, 0, SoundEvents.BLOCK_PISTON_CONTRACT, 5f);
 	
-	public static final ArmorMaterial CloakArmor = EnumHelper.addArmorMaterial("cloakarmor", VanillaEvolutionMod.MODID + ":moonlightcloak_armor", 75, 
-			new int[] {9, 14, 16, 10}, 20, SoundEvents.AMBIENT_CAVE, 6f);
-	
 	public static final ArmorMaterial EnderArmor = EnumHelper.addArmorMaterial("enderarmor", VanillaEvolutionMod.MODID + ":ender_armor", 75, 
 			new int[] {10, 15, 16, 11}, 20, SoundEvents.ENTITY_ENDERMEN_AMBIENT, 5f);
 	
 	public static final ArmorMaterial NightArmor = EnumHelper.addArmorMaterial("nightarmor", VanillaEvolutionMod.MODID + ":nights_watch_armor", 100, 
-			new int[] {8, 14, 15, 9}, 16, SoundEvents.AMBIENT_CAVE, 4f);
+			new int[] {8, 13, 15, 9}, 16, SoundEvents.AMBIENT_CAVE, 4f);
 	
 	public static final ArmorMaterial PExosuitArmor = EnumHelper.addArmorMaterial("pexosuitarmor", VanillaEvolutionMod.MODID + ":pexosuit_armor", 80, 
 			new int[] {8, 12, 14, 9}, 0, SoundEvents.BLOCK_NOTE_BASS, 5f);
@@ -1374,7 +2084,82 @@ public class VanillaEvolutionItems {
 			new int[] {0, 0, 0, 0}, 0, SoundEvents.AMBIENT_CAVE, 0f);
 	
 	public static final ArmorMaterial BonnetArmor = EnumHelper.addArmorMaterial("bonnetarmor", VanillaEvolutionMod.MODID + ":war_bonnet_armor", 30, 
-			new int[] {2, 0, 0, 0}, 0, SoundEvents.BLOCK_CLOTH_BREAK, 0f);
+			new int[] {0, 0, 0, 2}, 0, SoundEvents.BLOCK_CLOTH_BREAK, 0f);
+	
+	public static final ArmorMaterial KrampusArmor = EnumHelper.addArmorMaterial("krampusarmor", VanillaEvolutionMod.MODID + ":krampus_armor", 80, 
+			new int[] {5, 6, 8, 5}, 30, SoundEvents.ENTITY_GHAST_AMBIENT, 0f);
+	
+	public static final ArmorMaterial SweaterTArmor = EnumHelper.addArmorMaterial("sweatertarmor", VanillaEvolutionMod.MODID + ":sweater_tree_armor", 40, 
+			new int[] {0, 0, 1, 0}, 30, SoundEvents.BLOCK_CLOTH_PLACE, 0f);
+	
+	public static final ArmorMaterial SweaterSArmor = EnumHelper.addArmorMaterial("sweaterSarmor", VanillaEvolutionMod.MODID + ":sweater_snowman_armor", 40, 
+			new int[] {0, 0, 1, 0}, 30, SoundEvents.BLOCK_CLOTH_PLACE, 0f);
+	
+	public static final ArmorMaterial SweaterCArmor = EnumHelper.addArmorMaterial("sweaterCarmor", VanillaEvolutionMod.MODID + ":sweater_candycane_armor", 40, 
+			new int[] {0, 0, 1, 0}, 30, SoundEvents.BLOCK_CLOTH_PLACE, 0f);
+	
+	public static final ArmorMaterial ScaleArmor = EnumHelper.addArmorMaterial("scaleArmor", VanillaEvolutionMod.MODID + ":scale_armor", -1, 
+			new int[] {3, 6, 7, 3}, 30, SoundEvents.ENTITY_SILVERFISH_AMBIENT, 3f);
+	
+	public static final ArmorMaterial LunarArmor = EnumHelper.addArmorMaterial("lunarArmor", VanillaEvolutionMod.MODID + ":lunar_armor", 75, 
+			new int[] {8, 14, 15, 9}, 25, SoundEvents.AMBIENT_CAVE, 5f);
+	
+	public static final ArmorMaterial EnergeticArmor = EnumHelper.addArmorMaterial("energeticarmor", VanillaEvolutionMod.MODID + ":energetic_armor", 90, 
+			new int[] {9, 13, 14, 10}, 0, SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE, 6f);
+	
+	public static final ArmorMaterial ThanosArmor = EnumHelper.addArmorMaterial("thanosarmor", VanillaEvolutionMod.MODID + ":thanos_armor", 60, 
+			new int[] {7, 11, 12, 8}, 15, SoundEvents.BLOCK_END_PORTAL_FRAME_FILL, 5f);
+	
+	public static final ArmorMaterial ThorArmor = EnumHelper.addArmorMaterial("thorarmor", VanillaEvolutionMod.MODID + ":thor_armor", 50, 
+			new int[] {8, 13, 14, 0}, 10, SoundEvents.ENTITY_LIGHTNING_THUNDER, 5f);
+	
+	public static final ArmorMaterial JediArmor = EnumHelper.addArmorMaterial("jediarmor", VanillaEvolutionMod.MODID + ":jedi_armor", -1, 
+			new int[] {2, 5, 7, 3}, 0, SoundEvents.BLOCK_CLOTH_PLACE, 0f);
+	
+	public static final ArmorMaterial KyloArmor = EnumHelper.addArmorMaterial("kyloarmor", VanillaEvolutionMod.MODID + ":kylo_armor", 65, 
+			new int[] {4, 8, 9, 4}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1f);
+	
+	public static final ArmorMaterial VaderArmor = EnumHelper.addArmorMaterial("vaderarmor", VanillaEvolutionMod.MODID + ":vader_armor", 75, 
+			new int[] {5, 8, 10, 5}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2f);
+	
+	public static final ArmorMaterial SithArmor = EnumHelper.addArmorMaterial("sitharmor", VanillaEvolutionMod.MODID + ":sith_armor", -1, 
+			new int[] {2, 5, 7, 3}, 0, SoundEvents.BLOCK_CLOTH_PLACE, 0f);
+	
+	public static final ArmorMaterial DwarvenArmor = EnumHelper.addArmorMaterial("dwarvenarmor", VanillaEvolutionMod.MODID + ":dwarven_armor", 100, 
+			new int[] {9, 13, 14, 10}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 5f);
+	
+	public static final ArmorMaterial VLocketArmor = EnumHelper.addArmorMaterial("vlocketarmor", VanillaEvolutionMod.MODID + ":vanishing_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial BLocketArmor = EnumHelper.addArmorMaterial("blocketarmor", VanillaEvolutionMod.MODID + ":brawns_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial HLocketArmor = EnumHelper.addArmorMaterial("hlocketarmor", VanillaEvolutionMod.MODID + ":healing_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial FLocketArmor = EnumHelper.addArmorMaterial("flocketarmor", VanillaEvolutionMod.MODID + ":fire_warding_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial LionArmor = EnumHelper.addArmorMaterial("lionarmor", VanillaEvolutionMod.MODID + ":lion_armor", 65, 
+			new int[] {3, 7, 8, 4}, 40, SoundEvents.ENTITY_WOLF_GROWL, 3f);
+	
+	public static final ArmorMaterial TitaniumArmor = EnumHelper.addArmorMaterial("titaniumarmor", VanillaEvolutionMod.MODID + ":titanium_armor", 100, 
+			new int[] {10, 13, 15, 12}, 0, SoundEvents.ENTITY_IRONGOLEM_STEP, 7f);
+	
+	public static final ArmorMaterial SolarArmor = EnumHelper.addArmorMaterial("solarArmor", VanillaEvolutionMod.MODID + ":solar_armor", 95, 
+			new int[] {10, 14, 15, 11}, 25, SoundEvents.ENTITY_BLAZE_AMBIENT, 6f);
+	
+	public static final ArmorMaterial CloakArmor = EnumHelper.addArmorMaterial("cloakArmor", VanillaEvolutionMod.MODID + ":cloak_armor", 100, 
+			new int[] {9, 12, 13, 10}, 30, SoundEvents.ENTITY_WITHER_AMBIENT, 5f);
+	
+	public static final ArmorMaterial EarthArmor = EnumHelper.addArmorMaterial("earthArmor", VanillaEvolutionMod.MODID + ":earth_armor", 120, 
+			new int[] {10, 13, 14, 10}, 30, SoundEvents.BLOCK_STONE_BREAK, 6f);
+	
+	public static final ArmorMaterial EarthenArmor = EnumHelper.addArmorMaterial("earthenArmor", VanillaEvolutionMod.MODID + ":earthen_armor", 120, 
+			new int[] {10, 13, 14, 10}, 30, SoundEvents.BLOCK_STONE_BREAK, 6f);
+	
+	public static final ArmorMaterial ShadowArmor = EnumHelper.addArmorMaterial("shadowArmor", VanillaEvolutionMod.MODID + ":shadow_armor", 130, 
+			new int[] {12, 14, 14, 12}, 50, SoundEvents.ENTITY_WITHER_SPAWN, 7f);
 	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

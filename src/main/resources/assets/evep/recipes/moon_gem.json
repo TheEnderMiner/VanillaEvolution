@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BTB",
+    "ASA",
+    "BTB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:end_stone",
+        "data": 0
+      }
+    ],
+      "A": [
+      {
+        "item": "evep:dark_matter",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "evep:basalt",
+        "data": 0
+      }
+    ],
+    "T": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:moon_gem",
+    "data": 0
+  }
+}

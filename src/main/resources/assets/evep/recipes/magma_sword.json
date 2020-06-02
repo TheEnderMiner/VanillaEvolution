@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MFM",
+    "FSF",
+    "MFM"  ],
+  "key": {
+    "M": [
+      {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      }
+    ],
+      "F": [
+      {
+        "item": "evep:fire_shard",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:slime_sword",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:magma_sword",
+    "data": 0
+  }
+}

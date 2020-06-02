@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ELE",
+    "HBH",
+    "ELE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:earth_gem",
+        "data": 0
+      }
+    ],
+     "L": [
+      {
+        "item": "evep:lion_tooth_dust",
+        "data": 0
+      }
+    ],
+     "H": [
+      {
+        "item": "evep:minotaur_heart",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:hide_bundle",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:strength_crystal_1",
+    "data": 0
+  }
+}

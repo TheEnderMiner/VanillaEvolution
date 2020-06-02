@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:hardened_scales",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:scale_chestplate",
+    "data": 0
+  }
+}

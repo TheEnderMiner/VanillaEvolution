@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:uranium_block",
+    "data": 0
+  }
+}

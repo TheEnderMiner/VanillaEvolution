@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NBN",
+    " N "  ],
+  "key": {
+     "N": [
+      {
+        "item": "evep:steel_ingot",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:extraterrestrial_metal",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:asgardian_steel",
+    "data": 0,
+    "count": 2
+  }
+}

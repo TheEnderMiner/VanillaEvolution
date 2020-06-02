@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MLD",
+    "MLD",
+    "MLD"  ],
+  "key": {
+    "L": [
+      {
+        "item": "evep:lion_hide",
+        "data": 0
+      }
+    ],
+     "M": [
+      {
+        "item": "evep:minotaur_hide",
+        "data": 0
+      }
+    ],
+    "D": [
+      {
+        "item": "evep:snow_leopard_hide",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:pelt_pile",
+    "data": 0
+  }
+}

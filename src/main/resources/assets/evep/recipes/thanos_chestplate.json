@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "LEL",
+    "LEL"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:extraterrestrial_metal",
+        "data": 0
+      }
+    ],
+      "L": [
+      {
+        "item": "minecraft:leather",
+        "data": 0
+      }
+    ],
+    "P": [
+      {
+        "item": "minecraft:dye",
+        "data": 5
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:thanos_chestplate",
+    "data": 0
+  }
+}

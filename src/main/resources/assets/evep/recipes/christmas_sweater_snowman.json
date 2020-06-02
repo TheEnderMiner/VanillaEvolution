@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STO",
+    "CGC",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "evep:christmas_gem",
+        "data": 0
+      }
+    ],
+     "T": [
+      {
+        "item": "minecraft:carrot",
+        "data": 0
+      }
+    ],
+     "S": [
+      {
+        "item": "minecraft:snowball",
+        "data": 0
+      }
+    ],
+     "O": [
+      {
+        "item": "minecraft:coal",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:christmas_sweater_snowman",
+    "data": 0
+  }
+}

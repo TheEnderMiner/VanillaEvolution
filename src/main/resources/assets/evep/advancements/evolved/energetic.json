@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:energetic_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.energetic.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.energetic.description"
+        }
+    },
+   "parent": "evep:evolved/phelmet",
+    "criteria": {
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:energetic_helmet"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:energetic_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:energetic_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:energetic_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

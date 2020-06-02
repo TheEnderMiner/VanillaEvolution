@@ -23,12 +23,13 @@
        "data": 0
     },
     {
-      "item": "evep:zinc_ingot",
-       "data": 0
+        "type": "forge:ore_dict",
+      "ore": "ingotZinc"
     }
   ],
   "result": {
     "item": "evep:control_panel",
-    "data": 0
+    "data": 0,
+    "count": 2
   }
 }

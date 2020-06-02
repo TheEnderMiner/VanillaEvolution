@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "evep:blocks/dwarven_pillar",
+        "end": "evep:blocks/dwarven_pillar_top"
+    }
+}

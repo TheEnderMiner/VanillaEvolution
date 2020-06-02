@@ -12,7 +12,7 @@ public class FoodTab extends CreativeTabs{
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(VanillaEvolutionItems.blueberry);
+		return new ItemStack(VanillaEvolutionItems.knife);
 	}
 
 }

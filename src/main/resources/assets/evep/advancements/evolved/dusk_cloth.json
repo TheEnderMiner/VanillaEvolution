@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:dusk_cloth"
+        },
+        "title": {
+            "translate": "advancements.evolved.dusk_cloth.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.dusk_cloth.description"
+        }
+    },
+    "parent": "evep:evolved/kill_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:dusk_cloth"
+                    }
+                ]
+            }
+        }
+    }
+}

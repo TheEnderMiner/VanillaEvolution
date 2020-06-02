@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ESE",
+    " E "  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:ice_shard",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:infused_ice_shard",
+    "data": 0
+  }
+}

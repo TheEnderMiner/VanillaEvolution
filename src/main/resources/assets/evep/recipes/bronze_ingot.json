@@ -2,25 +2,25 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "evep:copper_ingot",
-      "data": 0
+         "type": "forge:ore_dict",
+      "ore": "ingotCopper"
     },
      {
-      "item": "evep:copper_ingot",
-      "data": 0
+       "type": "forge:ore_dict",
+      "ore": "ingotCopper"
     },
      {
-      "item": "evep:copper_ingot",
-      "data": 0
+        "type": "forge:ore_dict",
+      "ore": "ingotCopper"
     },
     {
-      "item": "evep:tin_ingot",
-      "data": 0
+     "type": "forge:ore_dict",
+      "ore": "ingotTin"
     }
   ],
   "result": {
     "item": "evep:bronze_ingot",
     "data": 0,
-    "count": 1
+    "count": 4
   }
 }

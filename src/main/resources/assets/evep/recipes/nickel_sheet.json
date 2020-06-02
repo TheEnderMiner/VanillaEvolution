@@ -3,16 +3,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "evep:nickel_ingot",
-       "data": 0
+      "type": "forge:ore_dict",
+      "ore": "ingotNickel"
     },
     {
-      "item": "evep:nickel_ingot",
-       "data": 0
+       "type": "forge:ore_dict",
+      "ore": "ingotNickel"
     },
     {
-      "item": "evep:nickel_ingot",
-       "data": 0
+       "type": "forge:ore_dict",
+      "ore": "ingotNickel"
     }
   ],
   "result": {

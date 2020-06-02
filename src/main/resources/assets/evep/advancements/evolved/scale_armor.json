@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:scale_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.scale_armor.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.scale_armor.description"
+        }
+    },
+    "parent": "evep:evolved/advanced_miner",
+    "criteria": {
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:scale_helmet"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:scale_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:scale_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:scale_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+        "type": "forge:ore_dict",
+      "ore": "ingotCarbon"
+    },
+
+    {
+      "item": "minecraft:obsidian",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:durasteel",
+    "data": 0,
+    "count": 2
+  }
+}

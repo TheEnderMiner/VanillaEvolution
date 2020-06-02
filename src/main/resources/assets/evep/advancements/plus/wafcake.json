@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:waffle"
+        },
+        "title": {
+            "translate": "advancements.plus.wafcake.title"
+        },
+        "description": {
+            "translate": "advancements.plus.wafcake.description"
+        }
+    },
+    "parent": "evep:plus/butter",
+    "criteria": {
+       
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:pancake"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:waffle"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:minor_wormhole"
+        },
+        "title": {
+            "translate": "advancements.evolved.mwormhole.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.mwormhole.description"
+        }
+    },
+    "parent": "evep:evolved/electron",
+    "criteria": {
+        "minor_wormhole": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:minor_wormhole"
+                    }
+                ]
+            }
+        }
+    }
+}

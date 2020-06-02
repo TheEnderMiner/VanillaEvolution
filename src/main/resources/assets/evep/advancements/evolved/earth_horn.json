@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earth_horn"
+        },
+        "title": {
+            "translate": "advancements.evolved.earth_horn.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.earth_horn.description"
+        }
+    },
+    "parent": "evep:evolved/kill_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:earth_horn"
+                    }
+                ]
+            }
+        }
+    }
+}

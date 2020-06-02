@@ -1,0 +1,129 @@
+{
+    "pools": [
+        {
+	    "name": "gemsword",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "evep:dwarven_sword",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 0,
+                                "max": 30
+                            },
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "evep:dwarven_gem"
+                }
+            ]
+        },
+        {
+	    "name": "armor",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "evep:dwarven_helmet",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "evep:dwarven_chestplate",
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "evep:dwarven_leggings",
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 15,
+                                "max": 30
+                            },
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "evep:dwarven_boots",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 30
+                            },
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

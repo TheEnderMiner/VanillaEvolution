@@ -2,8 +2,6 @@ package com.evep.evepmod.items;
 
 import java.util.List;
 
-import com.evep.evepmod.init.VanillaEvolutionItems;
-
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

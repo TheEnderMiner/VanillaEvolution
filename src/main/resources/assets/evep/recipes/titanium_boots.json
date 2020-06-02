@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TUT",
+    "DBD",
+    "TUT"  ],
+  "key": {
+    "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ],
+     "U": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ],
+     "D": [
+      {
+        "item": "evep:dwarven_mechanism",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:energetic_boots",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:titanium_boots",
+    "data": 0
+  }
+}

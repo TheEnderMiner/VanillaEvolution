@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:netherrock"
+        },
+        "title": {
+            "translate": "advancements.enhanced.netherrock.title"
+        },
+        "description": {
+            "translate": "advancements.enhanced.netherrock.description"
+        }
+    },
+    "parent": "evep:enhanced/root",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:netherrock"
+                    }
+                ]
+            }
+        }
+    }
+}

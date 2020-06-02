@@ -7,14 +7,14 @@
   "key": {
     "Z": [
       {
-        "item": "evep:zinc_ingot",
-        "data": 0
+        "type": "forge:ore_dict",
+      "ore": "ingotZinc"
       }
     ],
      "C": [
       {
-        "item": "evep:cobalt_ingot",
-        "data": 0
+          "type": "forge:ore_dict",
+      "ore": "ingotCobalt"
       }
     ],
     "G": [

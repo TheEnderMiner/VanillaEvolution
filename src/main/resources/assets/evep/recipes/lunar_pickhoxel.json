@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:lunar_pickaxe",
+      "data": 0
+    },
+     {
+      "item": "evep:lunar_axe",
+      "data": 0
+    },
+    {
+      "item": "evep:lunar_shovel",
+      "data": 0
+    },
+    {
+      "item": "evep:lunar_hoe",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:lunar_pickhoxel",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:minotaur_heart"
+        },
+        "title": {
+            "translate": "advancements.evolved.minotaur_heart.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.minotaur_heart.description"
+        }
+    },
+    "parent": "evep:evolved/kill_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:minotaur_heart"
+                    }
+                ]
+            }
+        }
+    }
+}

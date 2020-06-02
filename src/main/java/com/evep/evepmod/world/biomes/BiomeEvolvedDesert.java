@@ -1,6 +1,8 @@
 package com.evep.evepmod.world.biomes;
 
 import com.evep.evepmod.entity.EntityAridSkeleton;
+import com.evep.evepmod.entity.EntityBasilisk;
+import com.evep.evepmod.entity.EntityCactusBug;
 import com.evep.evepmod.entity.EntityTurkey;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 
@@ -36,18 +38,18 @@ public class BiomeEvolvedDesert extends Biome{
 		this.spawnableMonsterList.clear();
 		this.spawnableWaterCreatureList.clear();
 		
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityCreeper.class, 20, 1, 1));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityEvoker.class, 30, 1, 2));
-		this.spawnableCreatureList.add(new SpawnListEntry(EntityDonkey.class, 15, 1, 3));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityIllusionIllager.class, 20, 1, 4));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntitySpellcasterIllager.class, 40, 1, 1));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityCreeper.class, 25, 1, 2));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityEvoker.class, 10, 1, 1));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityBlaze.class, 50, 3, 5));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityGhast.class, 30, 1, 3));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityPigZombie.class, 70, 5, 7));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityPigZombie.class, 65, 5, 7));
 		this.spawnableMonsterList.add(new SpawnListEntry(EntityWitherSkeleton.class, 40, 2, 3));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityHusk.class, 90, 3, 10));
-		this.spawnableMonsterList.add(new SpawnListEntry(EntityAridSkeleton.class, 95, 4, 8));
-		this.spawnableCreatureList.add(new SpawnListEntry(EntityTurkey.class, 25, 3, 8));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityHusk.class, 80, 3, 10));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityAridSkeleton.class, 85, 4, 8));
+		this.spawnableCreatureList.add(new SpawnListEntry(EntityTurkey.class, 20, 3, 8));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityCactusBug.class, 65, 5, 8));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityCactusBug.class, 55, 3, 6));
+		this.spawnableMonsterList.add(new SpawnListEntry(EntityBasilisk.class, 8, 1, 1));
 	}
 
 }

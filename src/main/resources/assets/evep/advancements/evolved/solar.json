@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:solar_gas"
+        },
+        "title": {
+            "translate": "advancements.evolved.solar.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.solar.description"
+        }
+    },
+    "parent": "evep:evolved/mwormhole",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:solar_gas"
+                    }
+                ]
+            }
+        }
+    }
+}

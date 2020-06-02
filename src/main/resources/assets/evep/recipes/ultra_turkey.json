@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CMC",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:ultrafood_gem",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:cooked_turkey",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ultra_turkey",
+    "data": 0
+  }
+}

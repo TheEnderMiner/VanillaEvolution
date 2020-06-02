@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"],
+  "key": {
+    "B": [
+      {
+        "item": "evep:air_ingot",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:air_block",
+        "count": 1
+    }
+}

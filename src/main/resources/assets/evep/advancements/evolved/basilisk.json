@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:basilisk_eye"
+        },
+        "title": {
+            "translate": "advancements.evolved.basilisk.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.basilisk.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "evep:evolved/root",
+    "rewards": {
+    "experience": 100
+    },
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:basilisk"
+                }
+            }
+        }
+    }
+}

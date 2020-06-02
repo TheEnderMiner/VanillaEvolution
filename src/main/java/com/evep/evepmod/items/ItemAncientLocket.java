@@ -3,6 +3,7 @@ package com.evep.evepmod.items;
 import java.util.List;
 
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -21,4 +22,9 @@ public class ItemAncientLocket extends Item{
 
 	     tooltip.add("Could harness near infinite power");
 	}
+	
+	 public EnumRarity getRarity(ItemStack stack)
+	    {
+	        return stack.getMetadata() == 0 ? EnumRarity.EPIC : EnumRarity.EPIC;
+	    }
 }

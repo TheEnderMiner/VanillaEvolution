@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OCO",
+    "EPE",
+    "OBO"  ],
+  "key": {
+    "O": [
+      {
+        "item": "evep:energetic_orb",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:control_panel",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "evep:electron",
+        "data": 0
+      }
+    ],
+ "P": [
+      {
+        "item": "minecraft:piston",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:prominent_battery",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:basic_gravitional_compressor",
+    "data": 0
+  }
+}

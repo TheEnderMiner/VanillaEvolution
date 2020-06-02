@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "MKM",
+    " N "  ],
+  "key": {
+    "K": [
+      {
+        "item": "evep:krampus_cloth",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:night_steel",
+        "data": 0
+      }
+    ],
+    "M": [
+      {
+        "item": "evep:minotaur_hide",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dusk_cloth",
+    "data": 0
+  }
+}

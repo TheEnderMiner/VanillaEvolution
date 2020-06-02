@@ -1,0 +1,84 @@
+{
+    "pools": [
+        {
+            "name": "lion",
+            "rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "bonus_rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "evep:raw_lion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "limit": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "evep:lion_hide",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "evep:lion_tooth",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

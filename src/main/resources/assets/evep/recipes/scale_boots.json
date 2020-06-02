@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:hardened_scales",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:scale_boots",
+    "data": 0
+  }
+}

@@ -58,7 +58,7 @@ public class ItemProminentArmor extends ItemArmor implements IHasModel{
 			{
 				if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.pexosuit_chestplate)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 10, 0));
 				}
 			}
 			{

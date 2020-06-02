@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:carbon_nugget",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:carbon_ingot",
+    "data": 0
+  }
+}

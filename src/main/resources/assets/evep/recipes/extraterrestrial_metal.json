@@ -1,0 +1,32 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LNL",
+    "NBN",
+    "LNL"  ],
+  "key": {
+    "L": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "evep:meteorite_shard",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:extraterrestrial_metal",
+    "data": 0,
+    "count": 4
+  }
+}

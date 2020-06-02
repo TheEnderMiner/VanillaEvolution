@@ -12,7 +12,7 @@ public class DessertTab extends CreativeTabs{
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(VanillaEvolutionItems.cupcake);
+		return new ItemStack(VanillaEvolutionItems.omelette);
 	}
 
 }

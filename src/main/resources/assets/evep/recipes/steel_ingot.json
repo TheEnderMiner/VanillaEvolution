@@ -1,14 +1,14 @@
 { 
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " A ",
-    "ALA",
-    " A "  ],
+    "LLL",
+    "AAA",
+    "LLL"  ],
   "key": {
     "A": [
       {
-        "item": "evep:carbon_ingot",
-        "data": 0
+         "type": "forge:ore_dict",
+      "ore": "nuggetCarbon"
       }
     ],
     "L": [
@@ -20,6 +20,7 @@
   },
   "result": {
     "item": "evep:steel_ingot",
-    "data": 0
+    "data": 0,
+    "count": 1
   }
 }

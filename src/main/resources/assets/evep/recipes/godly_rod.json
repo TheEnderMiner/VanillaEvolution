@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HEH",
+    "ESE",
+    "HEH"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:selenite",
+        "data": 0
+      }
+    ], 
+    "H": [
+      {
+        "item": "evep:hardened_scales",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:imbued_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:godly_rod",
+    "data": 0
+  }
+}

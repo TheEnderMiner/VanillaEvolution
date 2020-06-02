@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "HEH",
+    "PHP"  ],
+  "key": {
+    "P": [
+      {
+        "item": "evep:platinum_block",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "evep:immjiri_eye",
+        "data": 0
+      }
+    ],
+    "H": [
+      {
+        "item": "evep:hide_bundle",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:immjiri_offering",
+    "data": 0
+  }
+}

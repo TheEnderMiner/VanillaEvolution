@@ -36,7 +36,7 @@ public class ItemLightsaber extends ItemSword{
 
 		if (slot == EntityEquipmentSlot.MAINHAND) {
 			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 1);
-			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.2);
+			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.9);
 		}
 
 		return modifiers;

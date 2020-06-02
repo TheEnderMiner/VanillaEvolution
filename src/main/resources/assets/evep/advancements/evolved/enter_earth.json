@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earthen_stone"
+        },
+        "title": {
+            "translate": "advancements.evolved.enter_earth.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.enter_earth.description"
+        }
+    },
+    "parent": "evep:evolved/earth_locket",
+ "criteria": {
+        "entered_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "Earth"
+            }
+        }
+    }
+}

@@ -13,7 +13,7 @@ public class BlocksTab extends CreativeTabs{
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(Item.getItemFromBlock(VanillaEvolutionBlocks.selenite_block));
+		return new ItemStack(Item.getItemFromBlock(VanillaEvolutionBlocks.earth_block));
 	}
 
 }

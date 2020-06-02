@@ -12,7 +12,7 @@
     },
     "parent": "evep:evolved/above_diamond",
     "criteria": {
-        "iron": {
+        "soul": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -21,6 +21,69 @@
                     }
                 ]
             }
+        },
+ "space": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:space_stone"
+                    }
+                ]
+            }
+        },
+ "time": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:time_stone"
+                    }
+                ]
+            }
+        },
+        "reality": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:reality_stone"
+                    }
+                ]
+            }
+        },
+        "mind": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:mind_stone"
+                    }
+                ]
+            }
+        },
+        "power": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:power_stone"
+                    }
+                ]
+            }
         }
+    },
+    "requirements": [
+        [
+            "soul",
+            "space",
+            "mind",
+            "time",
+            "reality",
+            "power"
+        ]
+    ]
+}
     }
 }
+

@@ -1,0 +1,197 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:kylo_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.swarmor.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.swarmor.description"
+        }
+    },
+    "parent": "evep:evolved/lightsaber",
+    "criteria": {
+        "jedih": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:jedi_helmet"
+                    }
+                ]
+            }
+        },
+        "jedic": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:jedi_chestplate"
+                    }
+                ]
+            }
+        },
+        "jedil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:jedi_leggings"
+                    }
+                ]
+            }
+        },
+          "jedib": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:jedi_boots"
+                    }
+                ]
+            }
+        },
+          "sithh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:sith_helmet"
+                    }
+                ]
+            }
+        },
+          "sithc": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:sith_chestplate"
+                    }
+                ]
+            }
+        },
+          "sithl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:sith_leggings"
+                    }
+                ]
+            }
+        },
+          "sithb": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:sith_boots"
+                    }
+                ]
+            }
+        },
+        "kyloh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kylo_helmet"
+                    }
+                ]
+            }
+        },
+        "kyloc": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kylo_chestplate"
+                    }
+                ]
+            }
+        },
+        "kylol": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kylo_leggings"
+                    }
+                ]
+            }
+        },
+        "kylob": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kylo_boots"
+                    }
+                ]
+            }
+        },
+        "vaderh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vader_helmet"
+                    }
+                ]
+            }
+        },
+        "vaderc": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vader_chestplate"
+                    }
+                ]
+            }
+        },
+        "vaderl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vader_leggings"
+                    }
+                ]
+            }
+        },
+        "vaderb": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:vader_boots"
+                    }
+                ]
+            }
+        }
+        
+    },
+    "requirements": [
+        [
+            "jedih",
+            "jedic",
+            "jedil",
+            "jedib",
+            "sithh",
+            "sithc",
+            "sithl",
+            "sithb",
+            "kyloh",
+            "kyloc",
+            "kylol",
+            "kylob",
+            "vaderh",
+            "vaderc",
+            "vaderl",
+            "vaderb"
+        ]
+    ]
+}

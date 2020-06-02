@@ -1,0 +1,38 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "LPL",
+    "GEG"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:electron",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      }
+    ],
+     "P": [
+      {
+        "item": "evep:minor_wormhole",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:lava_bucket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:solar_gas",
+    "data": 0,
+    "count": 32
+  }
+}

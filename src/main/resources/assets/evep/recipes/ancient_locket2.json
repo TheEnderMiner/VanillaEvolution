@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:enderite",
+       "data": 0
+    },
+
+    {
+      "item": "evep:healing_locket",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:ancient_locket",
+    "data": 0
+  }
+}

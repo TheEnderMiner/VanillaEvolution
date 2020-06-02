@@ -2,6 +2,7 @@ package com.evep.evepmod.entity;
 
 import javax.annotation.Nullable;
 
+import com.evep.evepmod.init.VanillaEvolutionItems;
 import com.evep.evepmod.util.handlers.LootTableHandler;
 import com.evep.evepmod.util.handlers.SoundsHandler;
 
@@ -21,9 +22,13 @@ import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
 
@@ -32,6 +37,7 @@ public class EntityFrostZombie extends EntityZombie{
 	public EntityFrostZombie(World worldIn) {
 		super(worldIn);
 	     this.setSize(0.6F, 1.95F);
+	     this.experienceValue = 10;
 	}
 	
 	@Override

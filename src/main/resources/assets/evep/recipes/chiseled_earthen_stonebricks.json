@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "B"],
+  "key": {
+    "B": [
+      {
+        "item": "evep:earthen_stonebrick",
+        "data": 0
+      }
+    ]
+  },
+   "result": {
+        "item": "evep:chiseled_earthen_stonebricks",
+        "count": 2
+    }
+}

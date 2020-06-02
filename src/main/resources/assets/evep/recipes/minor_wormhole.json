@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "CBC",
+    "ECE"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:basilisk_eye",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:basic_gravitional_compressor",
+        "data": 0
+      }
+    ],
+    "E": [
+      {
+        "item": "evep:electron",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:minor_wormhole",
+    "data": 0
+  }
+}

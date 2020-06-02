@@ -7,8 +7,8 @@
   "key": {
     "S": [
       {
-        "item": "evep:silver_ingot",
-        "data": 0
+         "type": "forge:ore_dict",
+      "ore": "ingotSilver"
       }
     ],
      "C": [

@@ -1,0 +1,75 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:shadow_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.shadow_darkness.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.shadow_darkness.description"
+        }
+    },
+    "parent": "evep:evolved/immjiri_champion",
+    "criteria": {
+      "darkness_blade": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:darkness_blade"
+                    }
+                ]
+            }
+        },
+        "shadow_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:shadow_helmet"
+                    }
+                ]
+            }
+        },
+        "shadow_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:shadow_chestplate"
+                    }
+                ]
+            }
+        },
+        "shadow_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:shadow_leggings"
+                    }
+                ]
+            }
+        },
+        "shadow_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:shadow_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "darkness_blade",
+            "shadow_helmet",
+            "shadow_chestplate",
+            "shadow_leggings",
+            "shadow_boots"
+        ]
+    ]
+}

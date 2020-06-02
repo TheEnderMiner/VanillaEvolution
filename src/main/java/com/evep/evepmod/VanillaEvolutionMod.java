@@ -5,18 +5,17 @@ import org.apache.logging.log4j.Logger;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
 import com.evep.evepmod.init.VanillaEvolutionCrafting;
 import com.evep.evepmod.init.VanillaEvolutionItems;
+import com.evep.evepmod.items.armor.ItemCloakBoots;
 import com.evep.evepmod.proxy.CommonProxy;
 import com.evep.evepmod.tabs.BlocksTab;
 import com.evep.evepmod.tabs.BuildingTab;
 import com.evep.evepmod.tabs.DessertTab;
-import com.evep.evepmod.tabs.ElementTab;
 import com.evep.evepmod.tabs.FoodTab;
 import com.evep.evepmod.tabs.MobTab;
 import com.evep.evepmod.tabs.OresTab;
 import com.evep.evepmod.tabs.ResourceTab;
 import com.evep.evepmod.tabs.SeasonTab;
 import com.evep.evepmod.tabs.SeedTab;
-import com.evep.evepmod.tabs.SuperTab;
 import com.evep.evepmod.tabs.ToolsTab;
 import com.evep.evepmod.util.handlers.FuelHandler;
 import com.evep.evepmod.util.handlers.RegistryHandler;
@@ -32,6 +31,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = VanillaEvolutionMod.MODID, name = VanillaEvolutionMod.NAME, version = VanillaEvolutionMod.VERSION, acceptedMinecraftVersions = VanillaEvolutionMod.ACCEPTED_MINECRAFT_VERSIONS)
@@ -45,13 +45,11 @@ public class VanillaEvolutionMod{
 	
 	public static final CreativeTabs resourcetab = new ResourceTab("resourcetab");
 	public static final CreativeTabs toolstab = new ToolsTab("toolstab");
-	public static final CreativeTabs elementtab = new ElementTab("elementtab");
 	public static final CreativeTabs seasontab = new SeasonTab("seasontab");
 	public static final CreativeTabs mobtab = new MobTab("mobtab");
 	public static final CreativeTabs foodtab = new FoodTab("foodtab");
 	public static final CreativeTabs seedtab = new SeedTab("seedtab");
 	public static final CreativeTabs dessertab = new DessertTab("dessertab");
-	public static final CreativeTabs supertab = new SuperTab("supertab");
 	public static final CreativeTabs orestab = new OresTab("orestab");
 	public static final CreativeTabs buildingtab = new BuildingTab("buildingtab");
 	public static final CreativeTabs blockstab = new BlocksTab("blockstab");
@@ -61,7 +59,7 @@ public class VanillaEvolutionMod{
 	
     public static final String MODID = "evep";
     public static final String NAME = "Vanilla Evolution";
-    public static final String VERSION = "1.2";
+    public static final String VERSION = "1.5";
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "[1.12.2]";
    
 	public static final String CLIENT_PROXY_CLASS = "com.evep.evepmod.proxy.ClientProxy";
@@ -71,7 +69,20 @@ public class VanillaEvolutionMod{
 	public static final int ENTITY_BEAST = 2;
 	public static final int ENTITY_ARID_SKELETON = 3;
 	public static final int ENTITY_TURKEY = 4;
-
+	public static final int ENTITY_KRAMPUS = 5;
+	public static final int ENTITY_CACTUS_BUG = 6;
+	public static final int ENTITY_BASILISK = 7;
+	public static final int ENTITY_MINOTAUR = 8;
+	public static final int ENTITY_DWARVEN_MINER = 9;
+	public static final int ENTITY_DWARVEN_HUNTER = 10;
+	public static final int ENTITY_DWARVEN_GUARD = 11;
+	public static final int ENTITY_DWARVEN_GOLEM = 12;
+	public static final int ENTITY_WINTER_SQUIRE = 13;
+	public static final int ENTITY_LION = 14;
+	public static final int ENTITY_DIREWOLF = 15;
+	public static final int ENTITY_IMMJIRI_CHAMPION = 16;
+	public static final int ENTITY_EARTH_GUARDIAN = 17;
+	
     private static Logger logger;
 
     @EventHandler
@@ -80,7 +91,7 @@ public class VanillaEvolutionMod{
         System.out.println(VanillaEvolutionMod.MODID + ":preInit");
         VanillaEvolutionItems.init();
         VanillaEvolutionBlocks.init();
-        RegistryHandler.preInitRegistries();
+        RegistryHandler.preInitRegistries(event);
         proxy.preInit();
     }
 
@@ -121,7 +132,6 @@ public class VanillaEvolutionMod{
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.elemental_ore, 6, 1, 20, 1), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.selenite_ore, 8, 1, 24, 1), 0);
 		
-
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.beryl_ore, 6, 0, 255, 8, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.magnetite_ore, 8, 0, 255, 6, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.nickel_ore, 8, 0, 255, 10, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
@@ -129,10 +139,27 @@ public class VanillaEvolutionMod{
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.lead_ore, 6, 0, 255, 11, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.onyx_ore, 4, 0, 255, 7, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.amber_ore, 7, 0, 255, 8, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
+	
 		
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.enderite_ore, 5, 0, 255, 10, 1, BlockMatcher.forBlock(Blocks.END_STONE)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.zinc_ore, 8, 0, 255, 12, 1, BlockMatcher.forBlock(Blocks.END_STONE)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.dwarf_star_alloy_ore, 4, 0, 255, 11, 1, BlockMatcher.forBlock(Blocks.END_STONE)), 0);
+
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_ore, 8, 0, 255, 8, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_uranium_ore, 5, 0, 255, 8, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_titanium_ore, 5, 0, 255, 7, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_iron_ore, 10, 0, 255, 13, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_diamond_ore, 8, 0, 255, 7, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_emerald_ore, 3, 0, 255, 6, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_nickel_ore, 10, 0, 255, 14, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_carbon_ore, 6, 0, 255, 9, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_meteorite_ore, 5, 0, 255, 11, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_elemental_ore, 4, 0, 255, 7, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_ancient_ore, 3, 0, 255, 7, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_magnetite_ore, 6, 0, 255, 8, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_energetic_ore, 5, 0, 255, 7, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.earth_superfood_ore, 3, 0, 255, 8, 2, BlockMatcher.forBlock(VanillaEvolutionBlocks.earthen_stone)), 0);
+
 	}
     
     
@@ -142,6 +169,9 @@ public class VanillaEvolutionMod{
 		System.out.println(VanillaEvolutionMod.MODID + ":postInit");
 		RegistryHandler.postInitRegistries();
 	}
+    
+    @EventHandler
+    public static void serverInt(FMLServerStartingEvent event) {RegistryHandler.serverRegistries(event);}
     
    @Instance
    public static VanillaEvolutionMod instance;

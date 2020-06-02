@@ -1,0 +1,20 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "G G",
+    "GGG"  ],
+  "key": {
+    "G": [
+      {
+        "item": "minecraft:glass_pane",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:mug",
+    "data": 0,
+    "count": 5
+  }
+}

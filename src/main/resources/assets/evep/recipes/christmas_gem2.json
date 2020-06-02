@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "GWG",
+    "IRI"  ],
+  "key": {
+    "W": [
+      {
+        "item": "evep:winter_gem",
+        "data": 0
+      }
+    ],
+      "I": [
+      {
+        "item": "evep:ice_shard",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:wool",
+        "data": 14
+      }
+    ],
+     "G": [
+      {
+        "item": "minecraft:wool",
+        "data": 13
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:christmas_gem",
+    "data": 0
+  }
+}

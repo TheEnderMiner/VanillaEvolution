@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ETE",
+    "WNW",
+    "EBE"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:beryl_block",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:pexosuit_leggings",
+        "data": 0
+      }
+    ],
+     "W": [
+      {
+        "item": "evep:prominent_wire",
+        "data": 0
+      }
+    ],
+     "N": [
+      {
+        "item": "minecraft:nether_star",
+        "data": 0
+      }
+    ],
+    "E": [
+      {
+        "item": "evep:energetic_orb",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:energetic_leggings",
+    "data": 0
+  }
+}

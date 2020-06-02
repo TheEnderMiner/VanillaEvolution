@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:earth_tablet"
+        },
+        "title": {
+            "translate": "advancements.evolved.earth_guardian.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.earth_guardian.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "evep:evolved/earth_horn",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:earth_guardian"
+                }
+            }
+        }
+    }
+}

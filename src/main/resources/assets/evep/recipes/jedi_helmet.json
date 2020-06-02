@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:jedi_cloth",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:jedi_helmet",
+    "data": 0
+  }
+}

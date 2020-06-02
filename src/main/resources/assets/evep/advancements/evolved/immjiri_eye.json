@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:immjiri_eye"
+        },
+        "title": {
+            "translate": "advancements.evolved.immjiri_eye.title",
+	     "obfuscated": true
+        },
+        "description": {
+            "translate": "advancements.evolved.immjiri_eye.description"
+        }
+    },
+    "parent": "evep:evolved/kill_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:immjiri_eye"
+                    }
+                ]
+            }
+        }
+    }
+}

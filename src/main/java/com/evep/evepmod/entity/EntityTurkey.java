@@ -45,6 +45,7 @@ public class EntityTurkey extends EntityChicken{
 	public EntityTurkey(World worldIn) {
 		super(worldIn);
 	     this.setSize(0.4F, 0.7F);
+	     this.experienceValue = 1;
 	      this.timeUntilNextEgg = this.rand.nextInt(6000) + 6000;
 	}
 	

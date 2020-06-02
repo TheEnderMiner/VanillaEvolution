@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:dusk_cloth",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cloak_leggings",
+    "data": 0
+  }
+}

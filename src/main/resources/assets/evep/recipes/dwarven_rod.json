@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DED",
+    "GRG",
+    "DPD"  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dwarven_ingot",
+        "data": 0
+      }
+    ],
+     "E": [
+      {
+        "item": "evep:earth_gem",
+        "data": 0
+      }
+    ],
+     "G": [
+      {
+        "item": "evep:goldwood_planks",
+        "data": 0
+      }
+    ],
+     "R": [
+      {
+        "item": "evep:godly_rod",
+        "data": 0
+      }
+    ],
+    "P": [
+      {
+        "item": "evep:lion_tooth_dust",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dwarven_rod",
+    "data": 0
+  }
+}

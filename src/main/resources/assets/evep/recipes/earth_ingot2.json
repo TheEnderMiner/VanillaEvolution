@@ -1,0 +1,15 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:water_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:water_ingot",
+    "data": 0,
+    "count": 4
+  }
+}

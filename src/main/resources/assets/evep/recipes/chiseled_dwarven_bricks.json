@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "N"  ],
+  "key": {
+    "N": [
+      {
+        "item": "evep:dwarven_bricks",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:chiseled_dwarven_bricks",
+    "data": 0,
+    "count": 2
+  }
+}

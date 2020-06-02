@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:titanium_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.titanium.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.titanium.description"
+        }
+    },
+    "parent": "evep:evolved/enter_earth",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:titanium_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "UEU",
+    "TTT"  ],
+  "key": {
+    "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ],
+     "U": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ],
+    "E": [
+      {
+        "item": "evep:energetic_helmet",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:titanium_helmet",
+    "data": 0
+  }
+}

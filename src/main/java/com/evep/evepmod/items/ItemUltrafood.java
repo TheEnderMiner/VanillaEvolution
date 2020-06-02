@@ -3,6 +3,7 @@ package com.evep.evepmod.items;
 import java.util.List;
 
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
@@ -21,4 +22,9 @@ public class ItemUltrafood extends ItemCustomFood {
 	     tooltip.add("It also saturates you for quite a while");
 	}
 
+	 public EnumRarity getRarity(ItemStack stack)
+	    {
+	        return stack.getMetadata() == 0 ? EnumRarity.UNCOMMON : EnumRarity.EPIC;
+	    }
+	
 }

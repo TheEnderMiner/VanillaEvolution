@@ -1,0 +1,24 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "S"  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:dwarven_ingot",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:dwarven_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:dwarven_dagger",
+    "data": 0
+  }
+}

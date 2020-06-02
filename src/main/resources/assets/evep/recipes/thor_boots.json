@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"],
+  "key": {
+    "E": [
+      {
+        "item": "evep:asgardian_steel",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:thor_boots",
+    "data": 0
+  }
+}

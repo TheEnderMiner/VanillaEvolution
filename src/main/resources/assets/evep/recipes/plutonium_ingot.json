@@ -1,0 +1,19 @@
+
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "evep:uranium_ingot",
+       "data": 0
+    },
+
+    {
+      "item": "evep:neutron",
+       "data": 0
+    }
+  ],
+  "result": {
+    "item": "evep:plutonium_ingot",
+    "data": 0
+  }
+}

@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ALA",
+    " A "  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:pulsating_shard",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "evep:amber_locket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:healing_locket",
+    "data": 0
+  }
+}

@@ -1,0 +1,32 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "SRS",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:superfood_gem",
+        "data": 0
+      }
+    ],
+      "R": [
+      {
+        "item": "evep:mint",
+        "data": 0
+      }
+    ],
+
+    "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:breathtaking_mint",
+    "data": 0
+  }
+}

@@ -7,8 +7,8 @@
   "key": {
     "I": [
       {
-        "item": "evep:iridium_ingot",
-        "data": 0
+          "type": "forge:ore_dict",
+      "ore": "ingotIridium"
       }
     ],
      "N": [

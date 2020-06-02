@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "ECE",
+    "EEE"  ],
+  "key": {
+    "E": [
+      {
+        "item": "evep:durasteel",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "evep:control_panel",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:vader_chestplate",
+    "data": 0
+  }
+}

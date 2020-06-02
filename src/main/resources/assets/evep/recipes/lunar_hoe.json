@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM",
+    "S ",
+    "S "  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:moon_gem",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:godly_rod",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:lunar_hoe",
+    "data": 0
+  }
+}

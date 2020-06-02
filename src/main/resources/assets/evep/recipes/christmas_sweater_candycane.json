@@ -1,0 +1,43 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RSW",
+    "CGC",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:cotton",
+        "data": 0
+      }
+    ],
+    "G": [
+      {
+        "item": "evep:christmas_gem",
+        "data": 0
+      }
+    ],    
+    "S": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    ],
+     "R": [
+      {
+        "item": "minecraft:wool",
+        "data": 14
+      }
+    ],
+      "W": [
+      {
+        "item": "minecraft:wool",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:christmas_sweater_candycane",
+    "data": 0
+  }
+}

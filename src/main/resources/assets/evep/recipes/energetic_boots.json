@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BOB",
+    "OTO",
+    "BOB"  ],
+  "key": {
+    "B": [
+      {
+        "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:pexosuit_boots",
+        "data": 0
+      }
+    ],
+    "O": [
+      {
+        "item": "evep:energetic_orb",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:energetic_boots",
+    "data": 0
+  }
+}

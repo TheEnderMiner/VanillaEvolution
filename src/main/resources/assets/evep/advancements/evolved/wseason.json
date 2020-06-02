@@ -12,7 +12,17 @@
     },
     "parent": "evep:evolved/season",
     "criteria": {
-        "iron": {
+        "summer": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:summer_gem"
+                    }
+                ]
+            }
+        },
+        "winter": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -21,6 +31,34 @@
                     }
                 ]
             }
+        },
+        "spring": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:spring_gem"
+                    }
+                ]
+            }
+        },
+        "fall": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:autumn_gem"
+                    }
+                ]
+            }
         }
-    }
+    },
+    "requirements": [
+        [
+            "summer",
+            "winter",
+            "spring",
+            "fall"
+        ]
+    ]
 }

@@ -1,0 +1,45 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LGL",
+    "LLL"  ],
+  "key": {
+    "L": [
+      {
+        "item": "minecraft:log",
+        "data": 0
+      },
+      {
+        "item": "minecraft:log",
+        "data": 1
+      },
+      {
+        "item": "minecraft:log",
+        "data": 2
+      },
+      {
+        "item": "minecraft:log",
+        "data": 3
+      },
+      {
+        "item": "minecraft:log2",
+        "data": 0
+      },
+      {
+        "item": "minecraft:log2",
+        "data": 1
+      }
+    ],
+    "G": [
+      {
+        "item": "evep:gold_chunk",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:log_goldwood",
+        "count": 8
+  }
+}

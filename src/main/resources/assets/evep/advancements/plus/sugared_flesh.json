@@ -12,7 +12,7 @@
     },
     "parent": "evep:plus/superfood_gem",
    "criteria": {
-        "iron": {
+        "vision": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -21,6 +21,44 @@
                     }
                 ]
             }
+        },
+"haste": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:celestial_cookie"
+                    }
+                ]
+            }
+        },
+"jump": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:breathtaking_mint"
+                    }
+                ]
+            }
+        },
+ "fire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:glowing_tomato"
+                    }
+                ]
+            }
         }
-    }
+    },
+"requirements": [
+        [
+            "vision",
+            "haste",
+            "jump",
+            "fire"
+        ]
+    ]
 }

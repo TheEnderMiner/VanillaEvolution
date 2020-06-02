@@ -1,0 +1,32 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "USU",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:blaze_powder",
+        "data": 0
+      }
+    ],
+      "U": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ],
+    
+    "S": [
+      {
+        "item": "evep:solar_gas",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:solar_gem",
+    "data": 0
+  }
+}

@@ -19,8 +19,8 @@
     ],
      "A": [
       {
-        "item": "evep:cobalt_ingot",
-        "data": 0
+         "type": "forge:ore_dict",
+      "ore": "ingotCobalt"
       }
     ]
   },
