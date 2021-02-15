@@ -12,6 +12,7 @@ import com.evep.evepmod.entity.EntityDwarvenMiner;
 import com.evep.evepmod.entity.EntityEarthGuardian;
 import com.evep.evepmod.entity.EntityFrostZombie;
 import com.evep.evepmod.entity.EntityImmjiriChampion;
+import com.evep.evepmod.entity.EntityKnowledgeLord;
 import com.evep.evepmod.entity.EntityKrampus;
 import com.evep.evepmod.entity.EntityLion;
 import com.evep.evepmod.entity.EntityMinotaur;
@@ -29,6 +30,7 @@ import com.evep.evepmod.entity.render.RenderDwarvenMiner;
 import com.evep.evepmod.entity.render.RenderEarthGuardian;
 import com.evep.evepmod.entity.render.RenderFrostZombie;
 import com.evep.evepmod.entity.render.RenderImmjiriChampion;
+import com.evep.evepmod.entity.render.RenderKnowledgeLord;
 import com.evep.evepmod.entity.render.RenderKrampus;
 import com.evep.evepmod.entity.render.RenderLion;
 import com.evep.evepmod.entity.render.RenderMinotaur;
@@ -160,6 +162,13 @@ public class RenderHandler {
 			@Override
 			public Render<? super EntityEarthGuardian> createRenderFor(RenderManager manager){
 				return new RenderEarthGuardian(manager);
+			}
+			});
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityKnowledgeLord.class, new IRenderFactory<EntityKnowledgeLord>(){
+			@Override
+			public Render<? super EntityKnowledgeLord> createRenderFor(RenderManager manager){
+				return new RenderKnowledgeLord(manager);
 			}
 			});
 	}

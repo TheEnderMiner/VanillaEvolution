@@ -26,10 +26,10 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 1,
+                                "min": 0,
                                 "max": 2
                             },
-                            "limit": 6
+                            "limit": 4
                         }
                     ]
                 },
@@ -42,16 +42,16 @@
                             "function": "set_count",
                             "count": {
                                 "min": 0,
-                                "max": 4
+                                "max": 3
                             }
                         },
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 2,
-                                "max": 3
+                                "min": 0,
+                                "max": 1
                             },
-                            "limit": 6
+                            "limit": 2
                         }
                     ]
                 },
@@ -70,10 +70,10 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 1,
+                                "min": 0,
                                 "max": 2
                             },
-                            "limit": 5
+                            "limit": 4
                         }
                     ]
                 },
@@ -92,7 +92,7 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 1,
+                                "min": 0,
                                 "max": 2
                             },
                             "limit": 4
@@ -114,10 +114,10 @@
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 2,
+                                "min": 0,
                                 "max": 3
                             },
-                            "limit": 10
+                            "limit": 4
                         }
                     ]
                 },
@@ -130,16 +130,16 @@
                             "function": "set_count",
                             "count": {
                                 "min": 0,
-                                "max": 3
+                                "max": 2
                             }
                         },
                         {
                             "function": "looting_enchant",
                             "count": {
-                                "min": 2,
-                                "max": 6
+                                "min": 0,
+                                "max": 3
                             },
-                            "limit": 12
+                            "limit": 5
                         }
                     ]
                 },
@@ -203,7 +203,7 @@
                                 "min": 0,
                                 "max": 2
                             },
-                            "limit": 7
+                            "limit": 4
                         }
                     ]
                 }

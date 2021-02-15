@@ -53,7 +53,7 @@ public class ItemNightsWatchArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.nights_watch_leggings && 
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.nights_watch_chestplate)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 60*20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 			}
 		  }
 		}

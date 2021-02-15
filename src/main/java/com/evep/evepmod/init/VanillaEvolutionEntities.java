@@ -13,6 +13,7 @@ import com.evep.evepmod.entity.EntityDwarvenMiner;
 import com.evep.evepmod.entity.EntityEarthGuardian;
 import com.evep.evepmod.entity.EntityFrostZombie;
 import com.evep.evepmod.entity.EntityImmjiriChampion;
+import com.evep.evepmod.entity.EntityKnowledgeLord;
 import com.evep.evepmod.entity.EntityKrampus;
 import com.evep.evepmod.entity.EntityLion;
 import com.evep.evepmod.entity.EntityMinotaur;
@@ -43,6 +44,7 @@ public class VanillaEvolutionEntities {
 		registerEntities("direwolf", EntityDirewolf.class, VanillaEvolutionMod.ENTITY_DIREWOLF, 65, 15595775, 6605564);
 		registerEntities("immjiri_champion", EntityImmjiriChampion.class, VanillaEvolutionMod.ENTITY_IMMJIRI_CHAMPION, 45, 2886, 15335461);
 		registerEntities("earth_guardian", EntityEarthGuardian.class, VanillaEvolutionMod.ENTITY_EARTH_GUARDIAN, 50, 2100736, 10114560);
+		registerEntities("knowledge_lord", EntityKnowledgeLord.class, VanillaEvolutionMod.ENTITY_KNOWLEDGE_LORD, 100, 2293788, 2296320);
 		//registerEntities("lizard", EntityLizard.class, VanillaEvolutionMod.ENTITY_LIZARD, 50, 16777199, 8519424);
 	}
 	

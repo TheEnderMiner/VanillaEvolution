@@ -310,5 +310,25 @@
     "category": "entity",
     "subtitle": "entity.earth_guardian.hurt",
     "sounds": [{ "name":"evep:mobs/earth_guardian/hurt", "stream": true}]
+    },
+"entity.knowledge_lord.ambient":
+    {
+    "category": "entity",
+    "subtitle": "entity.knowledge_lord.ambient",
+    "sounds": [{ "name":"evep:mobs/knowledge_lord/ambient", "stream": true}]
+    },
+
+"entity.knowledge_lord.death":
+    {
+    "category": "entity",
+    "subtitle": "entity.knowledge_lord.death",
+    "sounds": [{ "name":"evep:mobs/knowledge_lord/death", "stream": true}]
+    },
+
+"entity.knowledge_lord.hurt":
+    {
+    "category": "entity",
+    "subtitle": "entity.knowledge_lord.hurt",
+    "sounds": [{ "name":"evep:mobs/knowledge_lord/hurt", "stream": true}]
     }
 }

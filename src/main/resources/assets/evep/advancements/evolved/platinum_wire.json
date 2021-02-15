@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:platinum_wire"
+        },
+        "title": {
+            "translate": "advancements.evolved.platinum_wire.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.platinum_wire.description"
+        }
+    },
+    "parent": "evep:evolved/prominent_wiring",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:platinum_wire"
+                    }
+                ]
+            }
+        }
+    }
+}

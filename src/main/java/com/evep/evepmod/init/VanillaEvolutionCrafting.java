@@ -11,7 +11,7 @@ public class VanillaEvolutionCrafting {
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.malachite_ore, new ItemStack(VanillaEvolutionItems.malachite_ingot, 1), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.bauxite_ore, new ItemStack(VanillaEvolutionBlocks.aluminum_ore, 1), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.nickel_ore, new ItemStack(VanillaEvolutionItems.nickel_ingot, 1), 1f);
-		GameRegistry.addSmelting(VanillaEvolutionBlocks.aluminum_ore, new ItemStack(VanillaEvolutionItems.aluminum_ingot, 1), 0.8f);
+		GameRegistry.addSmelting(VanillaEvolutionBlocks.aluminum_ore, new ItemStack(VanillaEvolutionItems.aluminum_ingot, 2), 0.8f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.silver_ore, new ItemStack(VanillaEvolutionItems.silver_ingot, 1), 0.3f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.lead_ore, new ItemStack(VanillaEvolutionItems.lead_ingot, 1), 0.7f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.zinc_ore, new ItemStack(VanillaEvolutionItems.zinc_ingot, 1), 1f);
@@ -30,6 +30,7 @@ public class VanillaEvolutionCrafting {
 		GameRegistry.addSmelting(Blocks.CONCRETE_POWDER, new ItemStack(VanillaEvolutionItems.concrete_dust, 2), 0.8f);
 		GameRegistry.addSmelting(Items.MILK_BUCKET, new ItemStack(VanillaEvolutionItems.cheese), 0.3f);
 		GameRegistry.addSmelting(Items.EGG, new ItemStack(VanillaEvolutionItems.scrambled_eggs), 0.1f);
+		GameRegistry.addSmelting(Items.CARROT, new ItemStack(VanillaEvolutionItems.roast_carrot), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.reinforced_sand, new ItemStack(VanillaEvolutionItems.silicon_chunk, 1), 0.8f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.silicon_chunk, new ItemStack(VanillaEvolutionItems.silicon, 1), 1f);
 		GameRegistry.addSmelting(VanillaEvolutionItems.meteorite_shard, new ItemStack(VanillaEvolutionItems.iridium_ingot, 1), 0.8f);

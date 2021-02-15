@@ -1,0 +1,48 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BTB",
+    "TMT",
+    "BTB"  ],
+  "key": {
+ "B": [
+      {
+        "item": "evep:iridium_block",
+        "data": 0
+      },
+      {
+        "item": "evep:platinum_block",
+        "data": 0
+      },
+      {
+        "item": "evep:silver_block",
+        "data": 0
+      },
+      {
+        "item": "minecraft:iron_block",
+        "data": 0
+      },
+      {
+        "item": "minecraft:gold_block",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:immjiri_tear",
+        "data": 0
+      }
+    ],
+    
+    "M": [
+      {
+        "item": "evep:minor_wormhole",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:asteroid_ingot",
+    "data": 0
+  }
+}

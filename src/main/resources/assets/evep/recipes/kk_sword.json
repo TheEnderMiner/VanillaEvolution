@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "ALA",
+    "BAB"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:piston",
+        "data": 0
+      }
+    ],
+     "B": [
+      {
+        "item": "minecraft:dye",
+        "data": 4
+      }
+    ],
+    "L": [
+      {
+        "item": "evep:vacuous_sword",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:kk_sword",
+    "data": 0
+  }
+}

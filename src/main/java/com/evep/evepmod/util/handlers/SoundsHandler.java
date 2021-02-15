@@ -23,7 +23,8 @@ public class SoundsHandler {
 	ENTITY_LION_AMBIENT, ENTITY_LION_DEATH, ENTITY_LION_HURT, ENTITY_LION_SHED,
 	ENTITY_DIREWOLF_AMBIENT, ENTITY_DIREWOLF_DEATH, ENTITY_DIREWOLF_HURT,
 	ENTITY_IMMJIRI_CHAMPION_AMBIENT, ENTITY_IMMJIRI_CHAMPION_DEATH, ENTITY_IMMJIRI_CHAMPION_HURT,
-	ENTITY_EARTH_GUARDIAN_AMBIENT, ENTITY_EARTH_GUARDIAN_DEATH, ENTITY_EARTH_GUARDIAN_HURT;
+	ENTITY_EARTH_GUARDIAN_AMBIENT, ENTITY_EARTH_GUARDIAN_DEATH, ENTITY_EARTH_GUARDIAN_HURT,
+	ENTITY_KNOWLEDGE_LORD_AMBIENT, ENTITY_KNOWLEDGE_LORD_DEATH, ENTITY_KNOWLEDGE_LORD_HURT;
 	
 	public static void registerSounds(){
 		ENTITY_FROZEN_ZOMBIE_AMBIENT = registerSound("entity.frozen_zombie.ambient");
@@ -86,6 +87,10 @@ public class SoundsHandler {
 		ENTITY_EARTH_GUARDIAN_AMBIENT = registerSound("entity.earth_guardian.ambient");
 		ENTITY_EARTH_GUARDIAN_HURT = registerSound("entity.earth_guardian.hurt");
 		ENTITY_EARTH_GUARDIAN_DEATH = registerSound("entity.earth_guardian.death");
+		
+		ENTITY_KNOWLEDGE_LORD_AMBIENT = registerSound("entity.knowledge_lord.ambient");
+		ENTITY_KNOWLEDGE_LORD_HURT = registerSound("entity.knowledge_lord.hurt");
+		ENTITY_KNOWLEDGE_LORD_DEATH = registerSound("entity.knowledge_lord.death");
 	}
 	
 	private static SoundEvent registerSound(String name){

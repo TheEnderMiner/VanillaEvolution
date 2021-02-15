@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:nuclear_battery"
+        },
+        "title": {
+            "translate": "advancements.evolved.battery4.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.battery4.description"
+        }
+    },
+    "parent": "evep:evolved/battery3",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nuclear_battery"
+                    }
+                ]
+            }
+        }
+    }
+}

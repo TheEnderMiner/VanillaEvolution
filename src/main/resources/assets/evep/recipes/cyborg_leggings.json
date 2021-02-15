@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TDT",
+    "T T",
+    "T T"  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dwarf_star_alloy",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cyborg_leggings",
+    "data": 0
+  }
+}

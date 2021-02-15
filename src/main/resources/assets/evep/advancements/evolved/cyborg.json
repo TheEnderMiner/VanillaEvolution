@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:cyborg_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.cyborg.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.cyborg.description"
+        }
+    },
+    "parent": "evep:evolved/hero",
+    "criteria": {
+           "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cyborg_helmet"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cyborg_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cyborg_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cyborg_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

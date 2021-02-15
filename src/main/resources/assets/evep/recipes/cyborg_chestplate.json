@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TDT",
+    "TCT",
+    "TTT"  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dwarf_star_alloy",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ],
+     "C": [
+      {
+        "item": "evep:computer_chip",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cyborg_chestplate",
+    "data": 0
+  }
+}

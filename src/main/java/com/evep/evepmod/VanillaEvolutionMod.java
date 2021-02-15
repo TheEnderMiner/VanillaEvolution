@@ -59,7 +59,7 @@ public class VanillaEvolutionMod{
 	
     public static final String MODID = "evep";
     public static final String NAME = "Vanilla Evolution";
-    public static final String VERSION = "1.5";
+    public static final String VERSION = "1.6";
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "[1.12.2]";
    
 	public static final String CLIENT_PROXY_CLASS = "com.evep.evepmod.proxy.ClientProxy";
@@ -82,6 +82,7 @@ public class VanillaEvolutionMod{
 	public static final int ENTITY_DIREWOLF = 15;
 	public static final int ENTITY_IMMJIRI_CHAMPION = 16;
 	public static final int ENTITY_EARTH_GUARDIAN = 17;
+	public static final int ENTITY_KNOWLEDGE_LORD = 18;
 	
     private static Logger logger;
 

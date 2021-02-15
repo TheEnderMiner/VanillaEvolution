@@ -28,7 +28,7 @@ public class ItemOmelette extends ItemCustomFood {
 	{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
-	     tooltip.add("Great in Belgium");
+	     tooltip.add("Chives not included");
 	}
 
 }

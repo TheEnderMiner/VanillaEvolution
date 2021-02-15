@@ -51,9 +51,9 @@ public class ItemJediArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.jedi_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.jedi_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 2));
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 2));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 			}
 		  }
 		if(player.inventory.armorInventory.get(0) != null &&
@@ -66,9 +66,9 @@ public class ItemJediArmor extends ItemArmor implements IHasModel{
 					player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.sith_chestplate &&
 					player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.sith_helmet)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 2));
-					player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 0));
-					player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 2));
+					player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 				}
 			  }
 		}

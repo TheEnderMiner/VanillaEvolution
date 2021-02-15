@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:ancient_locket"
+        },
+        "title": {
+            "translate": "advancements.evolved.knowledge_lord.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.knowledge_lord.description"
+        },
+        "frame": "challenge"
+    },
+    "parent": "evep:evolved/ancient_book",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:player_killed_entity",
+           "conditions": {
+                "entity": {
+                    "type": "evep:knowledge_lord"
+                }
+            }
+        }
+    }
+}

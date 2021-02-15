@@ -56,8 +56,8 @@ public class ItemShadowArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.shadow_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.shadow_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 20, 0));
-				player.addPotionEffect(new PotionEffect(VanillaEvolutionPotions.MINOTAUR_EFFECT, 20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
+				player.addPotionEffect(new PotionEffect(VanillaEvolutionPotions.MINOTAUR_EFFECT, 12*20, 0));
 			}
 		  }
 		}

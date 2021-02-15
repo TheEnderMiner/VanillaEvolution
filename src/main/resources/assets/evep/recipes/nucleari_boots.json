@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BDB",
+    "ITI",
+    "BDB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:titanium_boots",
+        "data": 0
+      }
+    ],
+      "D": [
+      {
+        "item": "evep:dwarven_mechanism",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "evep:platinum_wire",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:nucleari_boots",
+    "data": 0
+  }
+}

@@ -4,7 +4,7 @@
             "name": "lion",
             "rolls": {
                 "min": 0,
-                "max": 3
+                "max": 2
             },
             "bonus_rolls": {
                 "min": 1,
@@ -29,7 +29,7 @@
                                 "min": 0,
                                 "max": 2
                             },
-                            "limit": 6
+                            "limit": 5
                         }
                     ]
                 },

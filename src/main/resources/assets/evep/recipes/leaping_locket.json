@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ALA",
+    " A "  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:rabbit_foot",
+        "data": 0
+      }
+    ],
+    "L": [
+      {
+        "item": "evep:amber_locket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:leaping_locket",
+    "data": 0
+  }
+}

@@ -50,12 +50,12 @@ public class ItemLionArmor extends ItemArmor implements IHasModel{
 			player.inventory.armorInventory.get(2) != null &&
 			player.inventory.armorInventory.get(3) != null)
 		{
-			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.dwarven_boots &&
-				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.dwarven_leggings && 
-				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.dwarven_chestplate &&
-				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.dwarven_helmet)
+			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.lion_boots &&
+				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.lion_leggings && 
+				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.lion_chestplate &&
+				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.lion_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
 				//player.capabilities.allowFlying = true;
 			}//else player.capabilities.allowFlying = false;
 		  }

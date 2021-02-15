@@ -54,7 +54,7 @@ public class ItemTechArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.aexosuit_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.aexosuit_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 			}
 		  }
 		}

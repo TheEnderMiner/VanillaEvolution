@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:nucleari_helmet"
+        },
+        "title": {
+            "translate": "advancements.evolved.nuclear1_suit.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.nuclear1_suit.description"
+        }
+    },
+   "parent": "evep:evolved/titanium_suit",
+    "criteria": {
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nucleari_helmet"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nucleari_chestplate"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nucleari_leggings"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nucleari_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

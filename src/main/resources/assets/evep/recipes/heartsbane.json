@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "M",
+    "S"  ],
+  "key": {
+    "M": [
+      {
+        "item": "evep:valyrian_steel",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:goldwood_planks",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:heartsbane",
+    "data": 0
+  }
+}

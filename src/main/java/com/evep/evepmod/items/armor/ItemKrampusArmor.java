@@ -55,8 +55,8 @@ public class ItemKrampusArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.krampus_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.krampus_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 1));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 1));
 			}
 		  }
 		}

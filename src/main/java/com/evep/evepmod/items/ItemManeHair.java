@@ -20,7 +20,7 @@ public class ItemManeHair extends Item{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
 	     tooltip.add("A piece of hair that has some mystical uses");
-	     tooltip.add("Lions shed this every 10-20 minutes");
+	     tooltip.add("Lions shed this every 10-15 minutes");
 	}
 
 }

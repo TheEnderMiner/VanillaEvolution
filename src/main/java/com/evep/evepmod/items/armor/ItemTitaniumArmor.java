@@ -37,7 +37,7 @@ public class ItemTitaniumArmor extends ItemArmor implements IHasModel{
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
-		tooltip.add(I18n.format("A suit powerful suit reinforced with titanium"));
+		tooltip.add(I18n.format("A powerful suit reinforced with titanium"));
 
 	}
 
@@ -47,24 +47,24 @@ public class ItemTitaniumArmor extends ItemArmor implements IHasModel{
 		{
 			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.titanium_boots)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 2));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 2));
 			}
 			{
 				if(player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.titanium_leggings)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 10, 1));
+					player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 1));
 				}
 			}
 			{
 				if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.titanium_chestplate)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 12*20, 0));
 				}
 			}
 			{
 				if(player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.titanium_helmet)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 15*20, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 				}
 			}
 		  }
@@ -78,8 +78,8 @@ public class ItemTitaniumArmor extends ItemArmor implements IHasModel{
 					player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.titanium_chestplate &&
 					player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.titanium_helmet)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 1));
-					player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 1));
+					player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 				}
 			  }
 			}

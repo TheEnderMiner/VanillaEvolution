@@ -24,6 +24,7 @@ import com.evep.evepmod.blocks.BlockCobaltOre;
 import com.evep.evepmod.blocks.BlockCopperOre;
 import com.evep.evepmod.blocks.BlockCornCrop;
 import com.evep.evepmod.blocks.BlockCottonCrop;
+import com.evep.evepmod.blocks.BlockDoorBase;
 import com.evep.evepmod.blocks.BlockDwarfStarAlloyOre;
 import com.evep.evepmod.blocks.BlockEAncientOre;
 import com.evep.evepmod.blocks.BlockECarbonOre;
@@ -227,8 +228,6 @@ public class VanillaEvolutionBlocks {
 	public static Block earth_elemental_ore, earth_ancient_ore, earth_magnetite_ore, earth_energetic_ore, earth_superfood_ore;
 	public static Block earth_gem_block, uranium_block, titanium_block, platinum_block, plutonium_block;
 	public static Block block_of_return, dwarven_portal_block;
-//	public static Block log_goldwood;
-//	public static Block goldwood_planks;
 	
 	static Block tomato_crop;
 	static Block strawberry_crop;
@@ -630,6 +629,9 @@ public class VanillaEvolutionBlocks {
 	
 		dwarven_portal_block = new BlockTeleporter("dwarven_portal_block", Material.ROCK).setHardness(10f).setResistance(2000f).setLightLevel(1f).setCreativeTab(VanillaEvolutionMod.blockstab);
 		dwarven_portal_block.setHarvestLevel("pickaxe", 3);
+	
+//		goldwood_door = new BlockDoorBase("goldwood_door", Material.WOOD).setHardness(5f).setResistance(25f).setCreativeTab(VanillaEvolutionMod.blockstab);
+//		goldwood_door.setHarvestLevel("axe", -1);
 		
 		magenta_lamp = new BlockLamp("magenta_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);
 		red_lamp = new BlockLamp("red_lamp", Material.REDSTONE_LIGHT).setHardness(2f).setResistance(5f).setLightLevel(1f).setLightOpacity(1).setCreativeTab(VanillaEvolutionMod.buildingtab);

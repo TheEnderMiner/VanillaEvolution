@@ -45,7 +45,7 @@ public class ItemFLocketArmor extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.fire_warding_locket)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 40, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 12*20, 0));
 					}
 				}
 			  }

@@ -7,6 +7,7 @@ import javax.annotation.Nullable;
 
 import com.evep.evepmod.init.VanillaEvolutionBiomes;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
+import com.evep.evepmod.init.VanillaEvolutionDimensionBiomes;
 import com.evep.evepmod.world.gen.generators.WorldGenStructureDwarvenShrine;
 
 import net.minecraft.block.BlockFalling;
@@ -282,7 +283,7 @@ public class ChunkGeneratorEarth implements IChunkGenerator
 
         for (int i = 0; i < abyte.length; ++i)
         {
-            abyte[i] = (byte)Biome.getIdForBiome(VanillaEvolutionBiomes.WILDLANDS);
+            abyte[i] = (byte)Biome.getIdForBiome(VanillaEvolutionDimensionBiomes.WILDLANDS);
         }
 
         chunk.resetRelightChecks();
@@ -392,6 +393,13 @@ public class ChunkGeneratorEarth implements IChunkGenerator
             for (int k = 0; k < 8; ++k) { this.hellSpringGen.generate(this.world, this.rand, blockpos.add(this.rand.nextInt(16) + 8, this.rand.nextInt(120) + 4, this.rand.nextInt(16) + 8)); }
         }
         
+        if (net.minecraftforge.event.terraingen.TerrainGen.populate(this, this.world, this.rand, x, z, false, net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.NETHER_LAVA2))
+            for (int j2 = 0; j2 < 16; ++j2)
+            {
+                int offset = net.minecraftforge.common.ForgeModContainer.fixVanillaCascading ? 8 : 0; // MC-117810
+                this.hellSpringGen.generate(this.world, this.rand, blockpos.add(this.rand.nextInt(16) + offset, this.rand.nextInt(108) + 10, this.rand.nextInt(16) + offset));
+            }
+        
         if(generateStructures)
         {
         }
@@ -402,6 +410,7 @@ public class ChunkGeneratorEarth implements IChunkGenerator
         MinecraftForge.EVENT_BUS.post(new DecorateBiomeEvent.Post(this.world, this.rand, blockpos));
         BlockFalling.fallInstantly = false;
     }
+    
 
     public boolean generateStructures(Chunk chunkIn, int x, int z)
     {

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "evep:blocks/goldwood_door_bottom",
+        "top": "evep:blocks/goldwood_door_top"
+    }
+}

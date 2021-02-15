@@ -21,6 +21,7 @@ public class ItemAncientLocket extends Item{
 	     super.addInformation(stack, worldIn, tooltip, flagIn);
 
 	     tooltip.add("Could harness near infinite power");
+	     tooltip.add("Can be mined or looted from the Lord of Knowledge");
 	}
 	
 	 public EnumRarity getRarity(ItemStack stack)

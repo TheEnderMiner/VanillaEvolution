@@ -1,0 +1,37 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "RD ",
+    "T  "  ],
+  "key": {
+    "D": [
+      {
+        "item": "evep:dwarf_star_alloy",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:titanium_ingot",
+        "data": 0
+      }
+    ],
+      "R": [
+      {
+        "item": "minecraft:stained_glass",
+        "data": 14
+      }
+    ],
+      "C": [
+      {
+        "item": "evep:control_panel",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cyborg_helmet",
+    "data": 0
+  }
+}

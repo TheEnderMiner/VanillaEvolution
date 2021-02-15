@@ -1,0 +1,64 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:vacuous_sword"
+        },
+        "title": {
+            "translate": "advancements.evolved.knowledge_swords.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.knowledge_swords.description"
+        }
+    },
+    "parent": "evep:evolved/knowledge_lord",
+    "criteria": {
+ "kk": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kk_sword"
+                    }
+                ]
+            }
+        },
+        "kl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kl_sword"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ks_sword"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:kf_sword"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kk",
+            "kl",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
+}

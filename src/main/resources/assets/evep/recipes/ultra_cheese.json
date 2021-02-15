@@ -1,0 +1,25 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "FFF",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:ultrafood_gem",
+        "data": 0
+      }
+    ],
+     "F": [
+      {
+        "item": "evep:cheese",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ultra_cheese",
+    "data": 0
+  }
+}

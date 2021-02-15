@@ -46,24 +46,24 @@ public class ItemEnergeticArmor extends ItemArmor implements IHasModel{
 		{
 			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.energetic_boots)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 1));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 1));
 			}
 			{
 				if(player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.energetic_leggings)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 10, 1));
+					player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 1));
 				}
 			}
 			{
 				if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.energetic_chestplate)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 12*20, 0));
 				}
 			}
 			{
 				if(player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.energetic_helmet)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 15*20, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 				}
 			}
 		  }
@@ -77,7 +77,7 @@ public class ItemEnergeticArmor extends ItemArmor implements IHasModel{
 					player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.energetic_chestplate &&
 					player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.energetic_helmet)
 				{
-					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 0));
+					player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 0));
 				}
 			  }
 			}

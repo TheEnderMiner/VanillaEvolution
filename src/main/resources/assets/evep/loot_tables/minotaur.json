@@ -42,7 +42,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 3,
                     "name": "evep:minotaur_heart",
                     "quality": 4,
                     "conditions": [

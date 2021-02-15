@@ -55,7 +55,7 @@ public class ItemCloakChestplate extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.cloak_chestplate)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 40, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.INVISIBILITY, 12*20, 0));
 					}
 				}
 			  }

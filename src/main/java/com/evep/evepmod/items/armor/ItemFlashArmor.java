@@ -54,7 +54,7 @@ public class ItemFlashArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.flash_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.flash_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 2));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 2));
 			}
 		  }
 		}

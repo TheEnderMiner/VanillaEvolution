@@ -1,0 +1,24 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "R"  ],
+  "key": {
+    "A": [
+      {
+        "item": "evep:cheese",
+        "data": 0
+      }
+    ],
+    "R": [
+      {
+        "item": "evep:graham_cracker",
+        "data": 0
+      }
+     ]
+  },
+   "result": {
+        "item": "evep:cheese_cracker",
+        "count": 1
+    }
+}

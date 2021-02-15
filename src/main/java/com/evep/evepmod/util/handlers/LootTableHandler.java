@@ -25,5 +25,6 @@ public class LootTableHandler {
 	public static final ResourceLocation DIREWOLF = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "direwolf"));
 	public static final ResourceLocation IMMJIRI_CHAMPION = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "immjiri_champion"));
 	public static final ResourceLocation EARTH_GUARDIAN = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "earth_guardian"));
+	public static final ResourceLocation KNOWLEDGE_LORD = LootTableList.register(new ResourceLocation(VanillaEvolutionMod.MODID, "knowledge_lord"));
 
 }

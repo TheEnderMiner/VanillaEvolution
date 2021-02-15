@@ -45,7 +45,7 @@ public class ItemHLocketArmor extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.healing_locket)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 40, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 					}
 				}
 			  }

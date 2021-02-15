@@ -55,7 +55,7 @@ public class ItemCloakBoots extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.cloak_boots)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 2*20, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
 					}
 				}
 			  }

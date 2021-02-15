@@ -42,6 +42,16 @@
                 ]
             }
         },
+"cheese": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ultra_cheese"
+                    }
+                ]
+            }
+        },
    "bread": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -58,6 +68,7 @@
             "berry",
             "bread",
 	    "turkey",
+	    "cheese",
             "potato"
         ]
     ]

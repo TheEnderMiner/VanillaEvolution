@@ -42,6 +42,16 @@
                 ]
             }
         },
+"invis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cured_spider_eye"
+                    }
+                ]
+            }
+        },
  "fire": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -58,6 +68,7 @@
             "vision",
             "haste",
             "jump",
+            "invis",
             "fire"
         ]
     ]

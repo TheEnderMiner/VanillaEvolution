@@ -55,8 +55,8 @@ public class ItemWarBonnet extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.war_bonnet)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 1000, 0));
-						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 10, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
 					}
 				}
 			  }

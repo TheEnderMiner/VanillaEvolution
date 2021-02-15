@@ -55,7 +55,7 @@ public class ItemEarthArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.earthen_leggings && 
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.earthen_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 20, 3));
+				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 3));
 			}
 		  }
 		}

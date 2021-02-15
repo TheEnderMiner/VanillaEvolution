@@ -53,8 +53,8 @@ public class ItemThorArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.thor_leggings && 
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.thor_chestplate)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 1));
-				player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 12*20, 1));
+				player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 12*20, 0));
 			}
 		  }
 		}

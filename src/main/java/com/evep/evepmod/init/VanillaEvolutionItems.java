@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.items.*;
+import com.evep.evepmod.items.armor.ItemAsteroidArmor;
 import com.evep.evepmod.items.armor.ItemBLocketArmor;
 import com.evep.evepmod.items.armor.ItemBeastArmor;
 import com.evep.evepmod.items.armor.ItemCAArmor;
@@ -13,6 +14,7 @@ import com.evep.evepmod.items.armor.ItemCloakChestplate;
 import com.evep.evepmod.items.armor.ItemCloakHelmet;
 import com.evep.evepmod.items.armor.ItemCloakLeggings;
 import com.evep.evepmod.items.armor.ItemCobaltArmor;
+import com.evep.evepmod.items.armor.ItemCyborgArmor;
 import com.evep.evepmod.items.armor.ItemDwarvenArmor;
 import com.evep.evepmod.items.armor.ItemEarthArmor;
 import com.evep.evepmod.items.armor.ItemEarthChestplate;
@@ -21,15 +23,20 @@ import com.evep.evepmod.items.armor.ItemElementArmor2;
 import com.evep.evepmod.items.armor.ItemEnderiteArmor;
 import com.evep.evepmod.items.armor.ItemEnergeticArmor;
 import com.evep.evepmod.items.armor.ItemExosuitArmor;
+import com.evep.evepmod.items.armor.ItemFELocketArmor;
+import com.evep.evepmod.items.armor.ItemFFLocketArmor;
 import com.evep.evepmod.items.armor.ItemFLocketArmor;
 import com.evep.evepmod.items.armor.ItemFlashArmor;
 import com.evep.evepmod.items.armor.ItemHLocketArmor;
 import com.evep.evepmod.items.armor.ItemJediArmor;
 import com.evep.evepmod.items.armor.ItemKrampusArmor;
 import com.evep.evepmod.items.armor.ItemKyloArmor;
+import com.evep.evepmod.items.armor.ItemLLocketArmor;
 import com.evep.evepmod.items.armor.ItemLionArmor;
 import com.evep.evepmod.items.armor.ItemLunarArmor;
+import com.evep.evepmod.items.armor.ItemMLocketArmor;
 import com.evep.evepmod.items.armor.ItemNightsWatchArmor;
+import com.evep.evepmod.items.armor.ItemNuclearIArmor;
 import com.evep.evepmod.items.armor.ItemPajamaArmor;
 import com.evep.evepmod.items.armor.ItemPantherArmor;
 import com.evep.evepmod.items.armor.ItemProminentArmor;
@@ -57,6 +64,8 @@ import com.evep.evepmod.items.tools.ItemAmethystPickhoxel;
 import com.evep.evepmod.items.tools.ItemAmethystShovel;
 import com.evep.evepmod.items.tools.ItemAmethystSword;
 import com.evep.evepmod.items.tools.ItemAssassin;
+import com.evep.evepmod.items.tools.ItemAsteroidPickaxe;
+import com.evep.evepmod.items.tools.ItemAsteroidSword;
 import com.evep.evepmod.items.tools.ItemBronzeAxe;
 import com.evep.evepmod.items.tools.ItemBronzeHoe;
 import com.evep.evepmod.items.tools.ItemBronzePickaxe;
@@ -84,8 +93,13 @@ import com.evep.evepmod.items.tools.ItemEnderiteSword;
 import com.evep.evepmod.items.tools.ItemFireSword;
 import com.evep.evepmod.items.tools.ItemFrostSword;
 import com.evep.evepmod.items.tools.ItemHeartSword;
+import com.evep.evepmod.items.tools.ItemHeartsbane;
 import com.evep.evepmod.items.tools.ItemIce;
 import com.evep.evepmod.items.tools.ItemInfinityGauntlet;
+import com.evep.evepmod.items.tools.ItemKFSword;
+import com.evep.evepmod.items.tools.ItemKKSword;
+import com.evep.evepmod.items.tools.ItemKLSword;
+import com.evep.evepmod.items.tools.ItemKSSword;
 import com.evep.evepmod.items.tools.ItemLightning;
 import com.evep.evepmod.items.tools.ItemLightsaber;
 import com.evep.evepmod.items.tools.ItemLightsaberFast;
@@ -134,6 +148,7 @@ import com.evep.evepmod.items.tools.ItemTechArm;
 import com.evep.evepmod.items.tools.ItemTerra;
 import com.evep.evepmod.items.tools.ItemTerrorizer;
 import com.evep.evepmod.items.tools.ItemThanosGlaive;
+import com.evep.evepmod.items.tools.ItemVacuousSword;
 import com.evep.evepmod.items.tools.ItemWaterShovel;
 import com.evep.evepmod.items.tools.ItemWidowWail;
 import com.evep.evepmod.items.tools.ItemWolverineClaws;
@@ -571,6 +586,23 @@ public class VanillaEvolutionItems {
 	public static ItemEarthHorn earth_horn;
 	public static ItemEarthTablet earth_tablet;
 	public static ItemTerra terra;
+	public static ItemTechnology lead_lining;
+	public static ItemTechnology platinum_wire;
+	public static ItemTechnology nuclear_battery;
+	public static ItemAsteroidIngot asteroid_ingot;
+	public static ItemAsteroidSword asteroid_sword;
+	public static ItemAsteroidPickaxe asteroid_pickaxe;
+	public static ItemHeartsbane heartsbane;
+	public static ItemCheeseCracker cheese_cracker;
+	public static ItemUltrafood ultra_cheese;
+	public static ItemCuredSpiderEye cured_spider_eye;
+	public static ItemAncientBook ancient_book;
+	public static ItemVacuousSword vacuous_sword;
+	public static ItemKKSword kk_sword;
+	public static ItemKLSword kl_sword;
+	public static ItemKSSword ks_sword;
+	public static ItemKFSword kf_sword;
+	public static ItemRoastCarrot roast_carrot;
 	
 	public static ItemEnderiteArmor enderite_helmet;
 	public static ItemEnderiteArmor enderite_chestplate;
@@ -749,6 +781,26 @@ public class VanillaEvolutionItems {
 	public static ItemShadowArmor shadow_chestplate;
 	public static ItemShadowArmor shadow_leggings;
 	public static ItemShadowArmor shadow_boots;
+
+	public static ItemFFLocketArmor fast_fighting_locket;
+	public static ItemMLocketArmor mining_locket;
+	public static ItemLLocketArmor leaping_locket;
+	public static ItemFELocketArmor feeding_locket;
+
+	public static ItemNuclearIArmor nucleari_helmet;
+	public static ItemNuclearIArmor nucleari_chestplate;
+	public static ItemNuclearIArmor nucleari_leggings;
+	public static ItemNuclearIArmor nucleari_boots;
+
+	public static ItemAsteroidArmor asteroid_helmet;
+	public static ItemAsteroidArmor asteroid_chestplate;
+	public static ItemAsteroidArmor asteroid_leggings;
+	public static ItemAsteroidArmor asteroid_boots;
+
+	public static ItemCyborgArmor cyborg_helmet;
+	public static ItemCyborgArmor cyborg_chestplate;
+	public static ItemCyborgArmor cyborg_leggings;
+	public static ItemCyborgArmor cyborg_boots;
 	
 	public static void init(){
 		malachite_ingot = (ItemMalachiteIngot) new ItemMalachiteIngot("malachite_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
@@ -1140,6 +1192,23 @@ public class VanillaEvolutionItems {
 		earth_horn = (ItemEarthHorn) new ItemEarthHorn("earth_horn").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.resourcetab);
 		earth_tablet = (ItemEarthTablet) new ItemEarthTablet("earth_tablet").setCreativeTab(VanillaEvolutionMod.resourcetab);
 		terra = (ItemTerra) new ItemTerra("terra", TerraTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		lead_lining = (ItemTechnology) new ItemTechnology("lead_lining").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		platinum_wire = (ItemTechnology) new ItemTechnology("platinum_wire").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		nuclear_battery = (ItemTechnology) new ItemTechnology("nuclear_battery").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		asteroid_ingot = (ItemAsteroidIngot) new ItemAsteroidIngot("asteroid_ingot").setCreativeTab(VanillaEvolutionMod.resourcetab);
+		asteroid_sword = (ItemAsteroidSword) new ItemAsteroidSword("asteroid_sword", AsteroidTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		asteroid_pickaxe = (ItemAsteroidPickaxe) new ItemAsteroidPickaxe("asteroid_pickaxe", AsteroidTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		heartsbane = (ItemHeartsbane) new ItemHeartsbane("heartsbane", HeartsbaneTools).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cheese_cracker = (ItemCheeseCracker) new ItemCheeseCracker("cheese_cracker", 5, 1.0f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		ultra_cheese = (ItemUltrafood) new ItemUltrafood("ultra_cheese", 20, 2.8f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
+		cured_spider_eye = (ItemCuredSpiderEye) new ItemCuredSpiderEye("cured_spider_eye", 20, 3.2f, true).setCreativeTab(VanillaEvolutionMod.dessertab);
+		ancient_book = (ItemAncientBook) new ItemAncientBook("ancient_book").setMaxStackSize(1).setCreativeTab(VanillaEvolutionMod.resourcetab);
+		vacuous_sword = (ItemVacuousSword) new ItemVacuousSword("vacuous_sword", VacuousTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kk_sword = (ItemKKSword) new ItemKKSword("kk_sword", KnowledgeTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kl_sword = (ItemKLSword) new ItemKLSword("kl_sword", KnowledgeTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		ks_sword = (ItemKSSword) new ItemKSSword("ks_sword", KnowledgeTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		kf_sword = (ItemKFSword) new ItemKFSword("kf_sword", KnowledgeTools, 5f, 996f).setCreativeTab(VanillaEvolutionMod.toolstab);
+		roast_carrot = (ItemRoastCarrot) new ItemRoastCarrot("roast_carrot", 8, 4.0f, false).setCreativeTab(VanillaEvolutionMod.dessertab);
 	
 		enderite_helmet = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
 		enderite_chestplate = (ItemEnderiteArmor) new ItemEnderiteArmor("enderite_chestplate", EnderiteArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
@@ -1318,6 +1387,26 @@ public class VanillaEvolutionItems {
 		shadow_chestplate = (ItemShadowArmor) new ItemShadowArmor("shadow_chestplate", ShadowArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
 		shadow_leggings = (ItemShadowArmor) new ItemShadowArmor("shadow_leggings", ShadowArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
 		shadow_boots =  (ItemShadowArmor)new ItemShadowArmor("shadow_boots", ShadowArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+
+		fast_fighting_locket = (ItemFFLocketArmor) new ItemFFLocketArmor("fast_fighting_locket", FFLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		mining_locket = (ItemMLocketArmor) new ItemMLocketArmor("mining_locket", MLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		leaping_locket = (ItemLLocketArmor) new ItemLLocketArmor("leaping_locket", LLocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		feeding_locket = (ItemFELocketArmor) new ItemFELocketArmor("feeding_locket", FELocketArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		nucleari_helmet = (ItemNuclearIArmor) new ItemNuclearIArmor("nucleari_helmet", NuclearIArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		nucleari_chestplate = (ItemNuclearIArmor) new ItemNuclearIArmor("nucleari_chestplate", NuclearIArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		nucleari_leggings = (ItemNuclearIArmor) new ItemNuclearIArmor("nucleari_leggings", NuclearIArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		nucleari_boots =  (ItemNuclearIArmor)new ItemNuclearIArmor("nucleari_boots", NuclearIArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		asteroid_helmet = (ItemAsteroidArmor) new ItemAsteroidArmor("asteroid_helmet", AsteroidArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		asteroid_chestplate = (ItemAsteroidArmor) new ItemAsteroidArmor("asteroid_chestplate", AsteroidArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		asteroid_leggings = (ItemAsteroidArmor) new ItemAsteroidArmor("asteroid_leggings", AsteroidArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		asteroid_boots =  (ItemAsteroidArmor)new ItemAsteroidArmor("asteroid_boots", AsteroidArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
+	
+		cyborg_helmet = (ItemCyborgArmor) new ItemCyborgArmor("cyborg_helmet", CyborgArmor, 1, EntityEquipmentSlot.HEAD).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cyborg_chestplate = (ItemCyborgArmor) new ItemCyborgArmor("cyborg_chestplate", CyborgArmor, 1, EntityEquipmentSlot.CHEST).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cyborg_leggings = (ItemCyborgArmor) new ItemCyborgArmor("cyborg_leggings", CyborgArmor, 2, EntityEquipmentSlot.LEGS).setCreativeTab(VanillaEvolutionMod.toolstab);
+		cyborg_boots =  (ItemCyborgArmor)new ItemCyborgArmor("cyborg_boots", CyborgArmor, 1, EntityEquipmentSlot.FEET).setCreativeTab(VanillaEvolutionMod.toolstab);
 	}
 	
 	@SubscribeEvent
@@ -1366,7 +1455,10 @@ public class VanillaEvolutionItems {
 				titanium_chestplate, titanium_leggings, titanium_boots, solar_gas, solar_gem, solar_sword, solar_pickaxe, solar_axe, solar_shovel, solar_hoe, solar_pickhoxel, solar_helmet,
 				solar_chestplate, solar_leggings, solar_boots, platinum_sword, platinum_pickaxe, cloak_helmet, cloak_chestplate, cloak_leggings, cloak_boots, dusk_cloth, earthen_helmet, 
 				earthen_chestplate, earthen_leggings, earthen_boots, earthen_pickhoxel, popcorn, ultra_turkey, celestial_cookie, breathtaking_mint, immjiri_offering, immjiri_tear, darkness_blade,
-				shadow_helmet, shadow_chestplate, shadow_leggings, shadow_boots, earth_horn, earth_tablet, terra);
+				shadow_helmet, shadow_chestplate, shadow_leggings, shadow_boots, earth_horn, earth_tablet, terra, fast_fighting_locket, mining_locket, leaping_locket, feeding_locket,
+				lead_lining, platinum_wire, nuclear_battery, nucleari_helmet, nucleari_chestplate, nucleari_leggings, nucleari_boots, asteroid_ingot, asteroid_sword, asteroid_pickaxe,
+				asteroid_helmet, asteroid_chestplate, asteroid_leggings, asteroid_boots, cyborg_helmet, cyborg_chestplate, cyborg_leggings, cyborg_boots, heartsbane, cheese_cracker,
+				ultra_cheese, cured_spider_eye, ancient_book, vacuous_sword, kk_sword, kl_sword, ks_sword, kf_sword, roast_carrot);
 	}
 	
 	@SubscribeEvent
@@ -1761,6 +1853,23 @@ public class VanillaEvolutionItems {
 		registerRender(earth_horn);
 		registerRender(earth_tablet);
 		registerRender(terra);
+		registerRender(lead_lining);
+		registerRender(platinum_wire);
+		registerRender(nuclear_battery);
+		registerRender(asteroid_ingot);
+		registerRender(asteroid_sword);
+		registerRender(asteroid_pickaxe);
+		registerRender(heartsbane);
+		registerRender(cheese_cracker);
+		registerRender(ultra_cheese);
+		registerRender(cured_spider_eye);
+		registerRender(ancient_book);
+		registerRender(vacuous_sword);
+		registerRender(kk_sword);
+		registerRender(kl_sword);
+		registerRender(ks_sword);
+		registerRender(kf_sword);
+		registerRender(roast_carrot);
 		
 		registerRender(tomato_seed);
 		registerRender(strawberry_seed);
@@ -1964,6 +2073,26 @@ public class VanillaEvolutionItems {
 		registerRender(shadow_chestplate);
 		registerRender(shadow_leggings);
 		registerRender(shadow_boots);
+		
+		registerRender(fast_fighting_locket);
+		registerRender(mining_locket);
+		registerRender(leaping_locket);
+		registerRender(feeding_locket);
+		
+		registerRender(nucleari_helmet);
+		registerRender(nucleari_chestplate);
+		registerRender(nucleari_leggings);
+		registerRender(nucleari_boots);
+		
+		registerRender(asteroid_helmet);
+		registerRender(asteroid_chestplate);
+		registerRender(asteroid_leggings);
+		registerRender(asteroid_boots);
+		
+		registerRender(cyborg_helmet);
+		registerRender(cyborg_chestplate);
+		registerRender(cyborg_leggings);
+		registerRender(cyborg_boots);
 	}
 	
 										//Name, Harvest Level, Durability, Efficiency, Damage (-4f), Enchantibility
@@ -2010,17 +2139,21 @@ public class VanillaEvolutionItems {
 	public static final ToolMaterial MagmaTools = EnumHelper.addToolMaterial("MagmaTools", 3, 3000, 9f, 10f, 0);
 	public static final ToolMaterial LunarTools = EnumHelper.addToolMaterial("LunarTools", 5, 12500, 25f, 12f, 20);
 	public static final ToolMaterial ThanosTools = EnumHelper.addToolMaterial("ThanosTools", 5, 13000, 10f, 10f, 20);
-	public static final ToolMaterial DwarvenDaggerTools = EnumHelper.addToolMaterial("DwarvenDaggerTools", 6, 15000, 10f, 11f, 10);
-	public static final ToolMaterial DwarvenSwordTools = EnumHelper.addToolMaterial("DwarvenSwordTools", 6, 15000, 10f, 12f, 10);
-	public static final ToolMaterial DwarvenMaceTools = EnumHelper.addToolMaterial("DwarvenMaceTools", 6, 15000, 10f, 13f, 10);
+	public static final ToolMaterial DwarvenDaggerTools = EnumHelper.addToolMaterial("DwarvenDaggerTools", 6, 15000, 10f, 12f, 10);
+	public static final ToolMaterial DwarvenSwordTools = EnumHelper.addToolMaterial("DwarvenSwordTools", 6, 15000, 10f, 13f, 10);
+	public static final ToolMaterial DwarvenMaceTools = EnumHelper.addToolMaterial("DwarvenMaceTools", 6, 15000, 10f, 14f, 10);
 	public static final ToolMaterial DwarvenPickhoxelTools = EnumHelper.addToolMaterial("DwarvenPickhoxelTools", 6, 15000, 24f, 6f, 10);
-	public static final ToolMaterial FrostTools = EnumHelper.addToolMaterial("FrostTools", 6, 9000, 10f, 14f, 5);
-	public static final ToolMaterial SolarTools = EnumHelper.addToolMaterial("SolarTools", 6, 15000, 27f, 13f, 25);
-	public static final ToolMaterial PlatinumTools = EnumHelper.addToolMaterial("PlatinumTools", 6, -1, 25f, 13f, 30);
+	public static final ToolMaterial FrostTools = EnumHelper.addToolMaterial("FrostTools", 6, 9000, 10f, 15f, 5);
+	public static final ToolMaterial SolarTools = EnumHelper.addToolMaterial("SolarTools", 6, 15000, 27f, 14f, 25);
+	public static final ToolMaterial PlatinumTools = EnumHelper.addToolMaterial("PlatinumTools", 6, -1, 25f, 14f, 30);
 	public static final ToolMaterial StaffTools = EnumHelper.addToolMaterial("StaffTools", 1, 32, 1f, -3f, 0);
 	public static final ToolMaterial EarthenPickhoxelTools = EnumHelper.addToolMaterial("EarthenPickhoxelTools", 6, 17500, 28f, 5f, 35);
-	public static final ToolMaterial DarknessTools = EnumHelper.addToolMaterial("DarknessTools", 6, 20000, 20f, 15f, 50);
-	public static final ToolMaterial TerraTools = EnumHelper.addToolMaterial("TerraTools", 6, -1, 10f, 15f, 0);
+	public static final ToolMaterial DarknessTools = EnumHelper.addToolMaterial("DarknessTools", 6, 20000, 20f, 16f, 50);
+	public static final ToolMaterial TerraTools = EnumHelper.addToolMaterial("TerraTools", 6, -1, 10f, 16f, 0);
+	public static final ToolMaterial AsteroidTools = EnumHelper.addToolMaterial("AsteroidTools", 6, 18000, 10f, 17f, 30);
+	public static final ToolMaterial HeartsbaneTools = EnumHelper.addToolMaterial("HeartsbaneTools", 6, 8000, 10f, 13f, -1);
+	public static final ToolMaterial VacuousTools = EnumHelper.addToolMaterial("VacuousTools", 5, 500, 5f, 4f, 0);
+	public static final ToolMaterial KnowledgeTools = EnumHelper.addToolMaterial("KnowledgeTools", 5, 10000, 20f, 12f, 0);
 	
 					//Name, Texture Name, Durability, Protection: (Boots, Leggings, Chestplate, Helmet), Enchantibility, Sound, Resistance
 	public static final ArmorMaterial EnderiteArmor = EnumHelper.addArmorMaterial("enderitearmor", VanillaEvolutionMod.MODID + ":enderite_armor", 40, 
@@ -2160,6 +2293,27 @@ public class VanillaEvolutionItems {
 	
 	public static final ArmorMaterial ShadowArmor = EnumHelper.addArmorMaterial("shadowArmor", VanillaEvolutionMod.MODID + ":shadow_armor", 130, 
 			new int[] {12, 14, 14, 12}, 50, SoundEvents.ENTITY_WITHER_SPAWN, 7f);
+	
+	public static final ArmorMaterial FFLocketArmor = EnumHelper.addArmorMaterial("felocketarmor", VanillaEvolutionMod.MODID + ":fast_fighting_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial MLocketArmor = EnumHelper.addArmorMaterial("mlocketarmor", VanillaEvolutionMod.MODID + ":mining_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial LLocketArmor = EnumHelper.addArmorMaterial("llocketarmor", VanillaEvolutionMod.MODID + ":leaping_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial FELocketArmor = EnumHelper.addArmorMaterial("felocketarmor", VanillaEvolutionMod.MODID + ":feeding_armor", -1, 
+			new int[] {0, 0, 0, 0}, 0, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0f);
+	
+	public static final ArmorMaterial NuclearIArmor = EnumHelper.addArmorMaterial("nucleariarmor", VanillaEvolutionMod.MODID + ":nucleari_armor", 120, 
+			new int[] {11, 14, 15, 12}, 0, SoundEvents.BLOCK_REDSTONE_TORCH_BURNOUT, 7f);
+	
+	public static final ArmorMaterial AsteroidArmor = EnumHelper.addArmorMaterial("asteroidArmor", VanillaEvolutionMod.MODID + ":asteroid_armor", 130, 
+			new int[] {11, 14, 16, 11}, 30, SoundEvents.ENTITY_BLAZE_SHOOT, 7f);
+	
+	public static final ArmorMaterial CyborgArmor = EnumHelper.addArmorMaterial("cyborgArmor", VanillaEvolutionMod.MODID + ":cyborg_armor", 120, 
+			new int[] {10, 13, 14, 11}, 0, SoundEvents.BLOCK_PISTON_CONTRACT, 7f);
 	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));

@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "HFH",
+    "CCC"  ],
+  "key": {
+    "C": [
+      {
+        "item": "evep:superfood_gem",
+        "data": 0
+      }
+    ],
+       "H": [
+      {
+        "item": "evep:hardened_scales",
+        "data": 0
+      }
+    ],
+     "F": [
+      {
+        "item": "minecraft:fermented_spider_eye",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:cured_spider_eye",
+    "data": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+    "pools": [
+        {
+	    "name": "dagger",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "evep:dwarven_dagger",
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+	    "name": "pelts",
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "evep:minotaur_hide",
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            },
+                            "limit": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "evep:lion_hide",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "limit": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 11,
+                    "name": "evep:raw_lion",
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            },
+                            "limit": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "evep:turkey_feather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            },
+                            "limit": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 16,
+                    "name": "evep:cooked_turkey",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "evep:immjiri_eye",
+                    "quality": 3,
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "evep:snow_leopard_hide"
+                }
+            ]
+        }
+    ]
+}

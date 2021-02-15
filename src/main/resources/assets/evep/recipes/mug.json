@@ -3,7 +3,7 @@
   "pattern": [
     "G G",
     "G G",
-    "GGG"  ],
+    " G "  ],
   "key": {
     "G": [
       {
@@ -15,6 +15,6 @@
   "result": {
     "item": "evep:mug",
     "data": 0,
-    "count": 5
+    "count": 4
   }
 }

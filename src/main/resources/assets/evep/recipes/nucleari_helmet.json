@@ -1,0 +1,31 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "ITI",
+    "BBB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "evep:uranium_ingot",
+        "data": 0
+      }
+    ],
+      "T": [
+      {
+        "item": "evep:titanium_helmet",
+        "data": 0
+      }
+    ],
+    "I": [
+      {
+        "item": "evep:platinum_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:nucleari_helmet",
+    "data": 0
+  }
+}

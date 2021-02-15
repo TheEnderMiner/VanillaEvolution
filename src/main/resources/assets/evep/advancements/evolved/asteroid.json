@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:asteroid_ingot"
+        },
+        "title": {
+            "translate": "advancements.evolved.asteroid.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.asteroid.description"
+        }
+    },
+    "parent": "evep:evolved/solar",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:asteroid_ingot"
+                    }
+                ]
+            }
+        }
+    }
+}

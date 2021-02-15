@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:ancient_book"
+        },
+        "title": {
+            "translate": "advancements.evolved.ancient_book.title"
+        },
+        "description": {
+            "translate": "advancements.evolved.ancient_book.description"
+        }
+    },
+    "parent": "evep:evolved/not_the_end",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:ancient_book"
+                    }
+                ]
+            }
+        }
+    }
+}

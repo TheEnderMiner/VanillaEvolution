@@ -45,7 +45,7 @@ public class ItemBLocketArmor extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.brawns_locket)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 40, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
 					}
 				}
 			  }

@@ -36,7 +36,7 @@ public class EntityLion extends EntityMob{
 		super(worldIn);
 		 this.setSize(0.9F, 0.9F);
 	     this.experienceValue = 10;
-	     this.timeUntilNextDrop = this.rand.nextInt(12000) + 12000;
+	     this.timeUntilNextDrop = this.rand.nextInt(12000) + 6000;
 	}
 	
 	@Override
@@ -95,7 +95,7 @@ public class EntityLion extends EntityMob{
         {
             this.playSound(SoundsHandler.ENTITY_LION_SHED, 2.0F, (this.rand.nextFloat() - this.rand.nextFloat()) * 0.2F + 1.0F);
             this.dropItem(VanillaEvolutionItems.mane_hair, 1);
-            this.timeUntilNextDrop = this.rand.nextInt(12000) + 12000;
+            this.timeUntilNextDrop = this.rand.nextInt(12000) + 6000;
         }
     }
 

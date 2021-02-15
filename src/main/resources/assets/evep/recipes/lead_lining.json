@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL",
+    "LL"  ],
+  "key": {
+    "L": [
+      {
+         "type": "forge:ore_dict",
+      "ore": "ingotLead"
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:lead_lining",
+    "data": 0,
+    "count": 4
+  }
+}

@@ -42,8 +42,8 @@ public class ItemBeastArmor extends ItemArmor implements IHasModel{
 		{
 			if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.beast_gemstone)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 10, 1));
-				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 10*20, 1));
+				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 1));
+				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 1));
 			}
 			
 		  }

@@ -47,8 +47,8 @@ public class WorldGenHunterCamp implements IWorldGenerator{
 	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes){
 		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
 		
-		int x = (chunkX * 16) + random.nextInt(15);
-		int z = (chunkZ * 16) + random.nextInt(15);
+		int x = (chunkX * 8) + random.nextInt(8);
+		int z = (chunkZ * 8) + random.nextInt(8);
 		int y = calculateGenerationHeight(world, x, z, topBlock);
 		BlockPos pos = new BlockPos(x,y,z);
 		

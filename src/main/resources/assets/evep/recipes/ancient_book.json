@@ -1,0 +1,53 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "BIB",
+    "EBE"  ],
+  "key": {
+    "I": [
+      {
+        "item": "evep:basilisk_eye",
+        "data": 0
+      },
+      {
+        "item": "evep:pulsating_shard",
+        "data": 0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "data": 0
+      }
+    ],
+     "B": [
+      {
+        "item": "evep:ruby_block",
+        "data": 0
+      },
+      {
+        "item": "evep:peridot_block",
+        "data": 0
+      },
+      {
+        "item": "minecraft:diamond_block",
+        "data": 0
+      }
+    ],
+    "S": [
+      {
+        "item": "evep:selenite_block",
+        "data": 0
+      }
+    ],
+      "E": [
+      {
+        "item": "evep:elemental_block",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "evep:ancient_book",
+    "data": 0
+  }
+}

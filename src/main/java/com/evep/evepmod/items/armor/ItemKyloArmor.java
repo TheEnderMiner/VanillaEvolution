@@ -55,7 +55,7 @@ public class ItemKyloArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.kylo_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.kylo_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
 			}
 		  }
 		}

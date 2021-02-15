@@ -55,8 +55,8 @@ public class ItemThanosArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.thanos_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.thanos_helmet)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 10, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 10, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, 12*20, 0));
 			}
 		  }
 		}

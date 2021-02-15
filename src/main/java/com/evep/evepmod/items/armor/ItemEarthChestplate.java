@@ -53,7 +53,7 @@ public class ItemEarthChestplate extends ItemArmor implements IHasModel{
 		{
 			if(player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.earthen_chestplate)
 			{
-				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 20, 2));
+				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 2));
 			}
 		  }
 		}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "evep:cheese_cracker"
+        },
+        "title": {
+            "translate": "advancements.plus.cheesecracker.title"
+        },
+        "description": {
+            "translate": "advancements.plus.cheesecracker.description"
+        }
+    },
+    "parent": "evep:plus/root",
+   "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:cheese_cracker"
+                    }
+                ]
+            }
+        }
+    }
+}

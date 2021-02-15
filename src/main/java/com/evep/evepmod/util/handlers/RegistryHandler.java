@@ -1,16 +1,19 @@
 package com.evep.evepmod.util.handlers;
 
+import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.commands.CommandDimensionTeleport;
 import com.evep.evepmod.init.VanillaEvolutionBiomes;
 import com.evep.evepmod.init.VanillaEvolutionBlocks;
+import com.evep.evepmod.init.VanillaEvolutionDimensionBiomes;
 import com.evep.evepmod.init.VanillaEvolutionDimensions;
 import com.evep.evepmod.init.VanillaEvolutionItems;
 import com.evep.evepmod.init.VanillaEvolutionPotions;
 import com.evep.evepmod.util.IHasModel;
 import com.evep.evepmod.util.compat.OreDictionaryCompat;
-import com.evep.evepmod.world.gen.WorldGenHunterCamp;
 import com.evep.evepmod.world.gen.WorldGenDwarvenShrine;
 import com.evep.evepmod.world.gen.WorldGenDwarvenTemple;
+import com.evep.evepmod.world.gen.WorldGenDwarvenVillage;
+import com.evep.evepmod.world.gen.WorldGenHunterCamp;
 import com.evep.evepmod.world.gen.WorldGenIceTemple;
 import com.evep.evepmod.world.types.WorldTypeEvolvedDesert;
 
@@ -24,6 +27,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
@@ -39,6 +43,7 @@ public class RegistryHandler
 	public static void registerBlocks(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(VanillaEvolutionBlocks.BLOCKS.toArray(new Block[0]));
+		TileEntityHandler.registerTileEntities();
 	}
 	
 	@SubscribeEvent
@@ -70,12 +75,14 @@ public class RegistryHandler
 	
 	public static void preInitRegistries(FMLPreInitializationEvent event){
 		VanillaEvolutionBiomes.registerBiomes();
+		VanillaEvolutionDimensionBiomes.registerBiomes();
 		VanillaEvolutionDimensions.registerDimensions();
 		VanillaEvolutionPotions.registerPotions();
 		GameRegistry.registerWorldGenerator(new WorldGenDwarvenShrine(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenIceTemple(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenDwarvenTemple(), 0);
 		GameRegistry.registerWorldGenerator(new WorldGenHunterCamp(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenDwarvenVillage(), 0);
 	}
 	
 	 public static void registerEntitySpawning() {
@@ -110,6 +117,7 @@ public class RegistryHandler
 	{
 		SoundsHandler.registerSounds();
 		OreDictionaryCompat.registerOres();
+		NetworkRegistry.INSTANCE.registerGuiHandler(VanillaEvolutionMod.instance, new GuiHandler());
 	}
 	
 	
