@@ -38,7 +38,7 @@ public class ItemKyloArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("I will finish what you started"));
-		tooltip.add(I18n.format("Full Set Bonus: Strength"));
+		tooltip.add(I18n.format("Full Set Bonus: Strength I"));
 
 	}
 	

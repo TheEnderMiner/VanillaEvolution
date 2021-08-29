@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemLunarShovel extends ItemSpade{
 	
-	public ItemLunarShovel(String name, ToolMaterial material, float damage, float speed) {
+	public ItemLunarShovel(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

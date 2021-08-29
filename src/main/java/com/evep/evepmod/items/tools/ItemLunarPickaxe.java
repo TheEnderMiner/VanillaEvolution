@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemLunarPickaxe extends ItemPickaxe{
 	
-	public ItemLunarPickaxe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemLunarPickaxe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
@@ -33,7 +33,7 @@ public class ItemLunarPickaxe extends ItemPickaxe{
 		final Multimap<String, AttributeModifier> modifiers = super.getAttributeModifiers(slot, stack);
 
 		if (slot == EntityEquipmentSlot.MAINHAND) {
-			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, .5);
+			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 0.5);
 			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.1);
 		}
 

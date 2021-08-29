@@ -21,7 +21,7 @@ import net.minecraft.world.World;
 
 public class ItemCuriosity extends ItemSword{
 
-	public ItemCuriosity(String name, ToolMaterial material, float damage, float speed) {
+	public ItemCuriosity(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

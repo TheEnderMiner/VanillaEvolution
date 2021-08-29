@@ -16,7 +16,7 @@ import net.minecraft.item.ItemSword;
 
 public class ItemBronzeSword extends ItemSword{
 
-	public ItemBronzeSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemBronzeSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

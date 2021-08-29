@@ -32,7 +32,7 @@ public class ItemLunarArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A Suit of Armor Infused with the Strength of the Moon"));
-		tooltip.add(I18n.format("Full Set Bonus: Speed, Jump Boost, & Night Vision"));
+		tooltip.add(I18n.format("Full Set Bonus: Speed I, Jump Boost I, & Night Vision"));
 
 	}
 	

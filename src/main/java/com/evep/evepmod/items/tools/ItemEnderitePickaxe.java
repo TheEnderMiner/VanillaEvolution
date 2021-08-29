@@ -17,15 +17,10 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemEnderitePickaxe extends ItemPickaxe{
 	
-	public ItemEnderitePickaxe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemEnderitePickaxe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
-	}
-	
-	@Override
-	public boolean getIsRepairable(ItemStack armor, ItemStack stack){
-		return stack.getItem() == VanillaEvolutionItems.enderite;
 	}
 	
 	@Override
@@ -34,7 +29,7 @@ public class ItemEnderitePickaxe extends ItemPickaxe{
 
 		if (slot == EntityEquipmentSlot.MAINHAND) {
 			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 1);
-			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, -10);
+			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.1);
 		}
 
 		return modifiers;

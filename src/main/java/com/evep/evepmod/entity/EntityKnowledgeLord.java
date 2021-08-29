@@ -35,7 +35,7 @@ public class EntityKnowledgeLord extends EntityMob{
 	
 	public EntityKnowledgeLord(World worldIn){
 		super(worldIn);
-		 this.setSize(2.5F, 4.5F);
+		 this.setSize(1.8F, 4.5F);
 	     this.experienceValue = 50;
 	      this.setHealth(this.getMaxHealth());
 		 

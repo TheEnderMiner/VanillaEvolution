@@ -1,7 +1,7 @@
 { 
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "EGE",
+    "SGS",
     "GIG",
     "SGS"  ],
   "key": {
@@ -22,16 +22,11 @@
         "item": "evep:infused_slime_gem",
         "data": 0
       }
-    ],
-     "E": [
-      {
-        "item": "minecraft:emerald",
-        "data": 0
-      }
     ]
   },
   "result": {
     "item": "evep:magical_slime_gem",
-    "data": 0
+    "data": 0,
+    "count": 2
   }
 }

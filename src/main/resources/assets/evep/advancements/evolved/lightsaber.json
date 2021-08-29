@@ -92,6 +92,56 @@
                 ]
             }
         },
+  "white": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_white"
+                    }
+                ]
+            }
+        },
+ "sidious": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_sidious"
+                    }
+                ]
+            }
+        },
+"dark": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:darksaber"
+                    }
+                ]
+            }
+        },
+"dooku": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_dooku"
+                    }
+                ]
+            }
+        },
+"inquisitor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:saber_inquisitor"
+                    }
+                ]
+            }
+        },
         "red": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -114,6 +164,11 @@
             "kylo",
             "yellow",
             "shotoy",
+            "white",
+            "sidious",
+            "dark",
+            "dooku",
+            "inquisitor",
             "shotog"
         ]
     ]

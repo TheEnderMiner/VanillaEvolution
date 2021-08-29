@@ -21,7 +21,7 @@ import net.minecraft.world.World;
 
 public class ItemAssassin extends ItemSword{
 
-	public ItemAssassin(String name, ToolMaterial material, float damage, float speed) {
+	public ItemAssassin(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

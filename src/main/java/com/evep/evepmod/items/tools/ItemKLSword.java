@@ -23,7 +23,7 @@ import net.minecraft.world.World;
 
 public class ItemKLSword extends ItemSword{
 
-	public ItemKLSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemKLSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

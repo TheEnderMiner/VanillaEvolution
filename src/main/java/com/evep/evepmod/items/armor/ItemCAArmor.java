@@ -38,7 +38,7 @@ public class ItemCAArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A patriotic armor"));
-		tooltip.add(I18n.format("Full Set Bonus: Strength & Speed"));
+		tooltip.add(I18n.format("Full Set Bonus: Strength I & Speed I"));
 
 	}
 	

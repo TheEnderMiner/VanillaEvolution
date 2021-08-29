@@ -22,7 +22,7 @@ import net.minecraft.world.World;
 
 public class ItemEnderSword extends ItemSword{
 
-	public ItemEnderSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemEnderSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

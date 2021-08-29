@@ -23,7 +23,7 @@ import net.minecraft.world.World;
 
 public class ItemMagmaSword extends ItemSword{
 
-	public ItemMagmaSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemMagmaSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

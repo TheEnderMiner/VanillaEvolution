@@ -37,6 +37,7 @@ public class ItemWarBonnet extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("The hat of a Native American tribe"));
+		tooltip.add(I18n.format("Gives you Strength I & Night Vision"));
 
 	}
 
@@ -55,8 +56,8 @@ public class ItemWarBonnet extends ItemArmor implements IHasModel{
 				{
 					if(player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.war_bonnet)
 					{
-						player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 						player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 12*20, 0));
+						player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 					}
 				}
 			  }

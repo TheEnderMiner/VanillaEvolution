@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 
 public class ItemFireSword extends ItemSword{
 
-	public ItemFireSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemFireSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

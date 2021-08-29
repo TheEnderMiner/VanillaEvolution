@@ -4,7 +4,7 @@ item.malachite_pickaxe.name=Malachite Pickaxe
 item.malachite_axe.name=Malachite Axe
 item.malachite_shovel.name=Malachite Shovel
 item.malachite_hoe.name=Malachite Hoe
-item.meteorite_shard.name=Meteorite Shard
+item.meteorite_shard.name=Iridium Chunk
 item.nickel_ingot.name=Nickel Ingot
 item.aluminum_ingot.name=Aluminum Ingot
 item.silver_ingot.name=Silver Ingot
@@ -421,6 +421,10 @@ item.nuclear_battery.name=Nuclear Battery
 item.asteroid_ingot.name=Asteroid Ingot
 item.asteroid_sword.name=Asteroid Sword
 item.asteroid_pickaxe.name=Asteroid Pickaxe
+item.asteroid_helmet.name=Asteroid Helmet
+item.asteroid_chestplate.name=Asteroid Chestplate
+item.asteroid_leggings.name=Asteroid Leggings
+item.asteroid_boots.name=Asteroid Boots
 item.heartsbane.name=Heartsbane
 item.cheese_cracker.name=Cheese and Crackers
 item.ultra_cheese.name=Ultra Cheese
@@ -432,6 +436,16 @@ item.kl_sword.name=Knowledgeable Sword of Looting
 item.ks_sword.name=Knowledgeable Sword of Sweeping Edge
 item.kf_sword.name=Knowledgeable Sword of Fire Aspect
 item.roast_carrot.name=Roast Carrot
+item.saber_white.name=White Lightsaber
+item.saber_sidious.name=Darth Sidious' Lightsaber
+item.darksaber.name=Darksaber
+item.saber_dooku.name=Count Dooku's Lightsaber
+item.saber_inquisitor.name=Inquisitor's Lightsaber
+item.nickel_chunk.name=Nickel Chunk
+item.cobalt_chunk.name=Cobalt Chunk
+item.carbon_chunk.name=Carbon Chunk
+item.titanium_bow.name=Titanium Bow
+item.tech_arrow.name=Tech Arrow
 
 item.enderite_helmet.name=Enderite Helmet
 item.enderite_chestplate.name=Enderite Chestplate
@@ -629,6 +643,11 @@ item.nucleari_chestplate.name=Nuclear Chestplate MKI
 item.nucleari_leggings.name=Nuclear Leggings MKI
 item.nucleari_boots.name=Nuclear Boots MKI
 
+item.asteroid_helmet.name=Asteroid Helmet
+item.asteroid_chestplate.name=Asteroid Chestplate
+item.asteroid_leggings.name=Asteroid Leggings
+item.asteroid_boots.name=Asteroid Boots
+
 item.cyborg_helmet.name=Cyborg Helmet
 item.cyborg_chestplate.name=Cyborg Chestplate
 item.cyborg_leggings.name=Cyborg Leggings
@@ -667,7 +686,7 @@ tile.vibranium_ore.name=Vibranium Ore
 tile.dwarf_star_alloy_ore.name=Dwarf Star Alloy Ore
 tile.slime_ore.name=Slime Ore
 tile.energetic_ore.name=Energetic Ore
-tile.ancient_ore.name=Ancient Ore
+tile.ancient_ore.name=Mysterious Sand
 tile.elemental_ore.name=Elemental Ore
 tile.selenite_ore.name=Selenite Ore
 tile.marble.name=Marble
@@ -799,7 +818,7 @@ advancements.story.bronze_age.title=Bronze Age
 advancements.story.bronze_age.description=Craft a Bronze Ingot
 
 advancements.story.advanced_miner.title=Advanced Miner
-advancements.story.advanced_miner.description=Mine Carbon Ore
+advancements.story.advanced_miner.description=Mine Meteorite Ore
 
 advancements.story.above_diamond.title=Above Diamond
 advancements.story.above_diamond.description=Mine Ruby
@@ -814,7 +833,7 @@ advancements.story.powerful_gem.title=Powerful Gem
 advancements.story.powerful_gem.description=Mine Selenite Ore with an Enderite Pickaxe
 
 advancements.story.strange_power.title=Strange Power
-advancements.story.strange_power.description=Mine Ancient Ore with an Enderite Pickaxe
+advancements.story.strange_power.description=Obtain an Ancient Locket
 
 advancements.story.nether_stop_mining.title=Nether Stop Mining
 advancements.story.nether_stop_mining.description=Mine Beryl in the Nether

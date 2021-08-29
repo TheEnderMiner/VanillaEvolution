@@ -38,7 +38,7 @@ public class ItemThorArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("Become the Lord of Thunder"));
-		tooltip.add(I18n.format("Full Set Bonus: Jump Boost II + Resistance"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost II & Resistance I"));
 
 	}
 	

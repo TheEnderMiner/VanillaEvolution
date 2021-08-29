@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 
 public class ItemWolverineClaws extends ItemSword{
 
-	public ItemWolverineClaws(String name, ToolMaterial material, float damage, float speed) {
+	public ItemWolverineClaws(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

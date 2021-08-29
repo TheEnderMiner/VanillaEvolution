@@ -34,7 +34,7 @@ public class ItemJediArmor extends ItemArmor implements IHasModel{
 
 	//	tooltip.add(I18n.format("Embrace the Order and Power of the Light Side"));
 		tooltip.add(I18n.format("Robes of a Master of the Force"));
-		tooltip.add(I18n.format("Full Set Bonus: Jump Boost, Speed, Regeneration"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost III, Speed I, & Regeneration I"));
 
 	}
 	

@@ -38,7 +38,7 @@ public class ItemPantherArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("The armor of a king"));
-		tooltip.add(I18n.format("Full Set Bonus: Jump Boost & Swiftness"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost III & Speed I"));
 
 	}
 	

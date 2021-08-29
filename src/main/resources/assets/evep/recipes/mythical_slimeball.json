@@ -1,19 +1,13 @@
 { 
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " M ",
+    " D ",
     "GGG",
     " D "  ],
   "key": {
     "G": [
       {
         "item": "minecraft:gold_ingot",
-        "data": 0
-      }
-    ],
-    "M": [
-      {
-        "item": "minecraft:diamond",
         "data": 0
       }
     ],
@@ -26,6 +20,7 @@
   },
   "result": {
     "item": "evep:mythical_slimeball",
-    "data": 0
+    "data": 0,
+    "count": 2
   }
 }

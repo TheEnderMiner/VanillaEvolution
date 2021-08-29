@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 
 public class ItemVacuousSword extends ItemSword{
 
-	public ItemVacuousSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemVacuousSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

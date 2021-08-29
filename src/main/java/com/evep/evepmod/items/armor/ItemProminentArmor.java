@@ -38,6 +38,8 @@ public class ItemProminentArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A prominent suit that has many effects!"));
+		tooltip.add(I18n.format("Each piece gives a unique bonus"));
+		tooltip.add(I18n.format("Helmet : Night Vision | Chestplate: Fire Resistance | Leggings: Haste II | Boots: Speed II"));
 
 	}
 

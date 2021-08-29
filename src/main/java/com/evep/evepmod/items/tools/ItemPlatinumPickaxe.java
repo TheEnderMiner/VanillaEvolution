@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemPlatinumPickaxe extends ItemPickaxe{
 	
-	public ItemPlatinumPickaxe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemPlatinumPickaxe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

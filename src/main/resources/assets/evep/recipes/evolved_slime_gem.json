@@ -7,8 +7,8 @@
   "key": {
     "N": [
       {
-       "type": "forge:ore_dict",
-      "ore": "ingotNickel"
+        "item": "minecraft:slime_ball",
+        "data": 0
       }
     ],
     "D": [

@@ -37,7 +37,7 @@ public class ItemCyborgArmor extends ItemArmor implements IHasModel{
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
-		tooltip.add(I18n.format("Full Set Bonus: Water Breathing"));
+		tooltip.add(I18n.format("Full Set Bonus: Haste I, Speed I, & Night Vision"));
 	//	tooltip.add(I18n.format("Warning: Crashes Servers but not Singelplayer"));
 
 	}
@@ -50,14 +50,14 @@ public class ItemCyborgArmor extends ItemArmor implements IHasModel{
 			player.inventory.armorInventory.get(2) != null &&
 			player.inventory.armorInventory.get(3) != null)
 		{
-			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.asteroid_boots &&
-				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.asteroid_leggings && 
-				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.asteroid_chestplate &&
-				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.asteroid_helmet)
+			if(player.inventory.armorInventory.get(0).getItem() == VanillaEvolutionItems.cyborg_boots &&
+				player.inventory.armorInventory.get(1).getItem() == VanillaEvolutionItems.cyborg_leggings && 
+				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.cyborg_chestplate &&
+				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.cyborg_helmet)
 			{
 				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 				player.addPotionEffect(new PotionEffect(MobEffects.SPEED, 12*20, 0));
+				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
 			}
 		  }
 		}

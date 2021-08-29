@@ -17,6 +17,8 @@ public class CommonProxy
 		VanillaEvolutionEntities.registerEntities();
 	}
 	
+	public void registerItemRenderer(Item item, int meta, String id){}
+	
 //	public void init(FMLInitializationEvent e){
 //		NetworkRegistry.INSTANCE.registerGuiHandler(VanillaEvolutionMod.instance, new GuiHandler());
 //	}

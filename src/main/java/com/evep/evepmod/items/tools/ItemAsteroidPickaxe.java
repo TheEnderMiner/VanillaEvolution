@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemAsteroidPickaxe extends ItemPickaxe{
 	
-	public ItemAsteroidPickaxe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemAsteroidPickaxe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

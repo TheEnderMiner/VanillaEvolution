@@ -26,11 +26,6 @@ public class ItemSweaterArmor extends ItemArmor implements IHasModel{
 	}
 	
 	@Override
-	public boolean getIsRepairable(ItemStack armor, ItemStack stack){
-		return stack.getItem() == VanillaEvolutionItems.cotton;
-	}
-
-	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 

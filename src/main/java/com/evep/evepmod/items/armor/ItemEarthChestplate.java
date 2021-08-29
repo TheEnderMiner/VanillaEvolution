@@ -42,7 +42,8 @@ public class ItemEarthChestplate extends ItemArmor implements IHasModel{
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
-		tooltip.add(I18n.format("Crafted from pure Earth Element."));
+		tooltip.add(I18n.format("Crafted from pure Earth Element"));
+		tooltip.add(I18n.format("Gives you Haste III"));
 
 	}
 	

@@ -32,7 +32,7 @@ public class ItemSolarArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("Armor powered by the Sun itself"));
-		tooltip.add(I18n.format("Full Set Bonus: Speed, Jump Boost, Night Vision, & Fire Resistance"));
+		tooltip.add(I18n.format("Full Set Bonus: Speed II, Jump Boost II, Night Vision, & Fire Resistance"));
 
 	}
 	

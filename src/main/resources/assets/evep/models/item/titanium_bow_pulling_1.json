@@ -1,0 +1,6 @@
+{
+    "parent": "evep:item/titanium_bow",
+    "textures": {
+        "layer0": "evep:items/titanium_bow_pulling_1"
+    }
+}

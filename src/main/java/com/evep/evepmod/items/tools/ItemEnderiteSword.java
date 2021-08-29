@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemEnderiteSword extends ItemSword{
 
-	public ItemEnderiteSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemEnderiteSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

@@ -38,7 +38,7 @@ public class ItemDwarvenArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("Armor crafted by dwarves that is good for fighting and mining"));
-		tooltip.add(I18n.format("Full Set Bonus: Haste, Fire Resistance, & Night Vision"));
+		tooltip.add(I18n.format("Full Set Bonus: Haste I, Fire Resistance, & Night Vision"));
 
 	}
 	
@@ -55,9 +55,9 @@ public class ItemDwarvenArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.dwarven_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.dwarven_helmet)
 			{
+				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 1));
 				player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 12*20, 0));
 				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.HASTE, 12*20, 1));
 			}
 		  }
 		}

@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemLunarHoe extends ItemHoe{
 	
-	public ItemLunarHoe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemLunarHoe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

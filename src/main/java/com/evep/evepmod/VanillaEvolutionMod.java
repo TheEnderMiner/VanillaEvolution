@@ -59,12 +59,13 @@ public class VanillaEvolutionMod{
 	
     public static final String MODID = "evep";
     public static final String NAME = "Vanilla Evolution";
-    public static final String VERSION = "1.6";
+    public static final String VERSION = "1.6.3";
     public static final String ACCEPTED_MINECRAFT_VERSIONS = "[1.12.2]";
    
 	public static final String CLIENT_PROXY_CLASS = "com.evep.evepmod.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.evep.evepmod.proxy.CommonProxy";
 	
+	//Mob Id
 	public static final int ENTITY_FROST_ZOMBIE = 1;
 	public static final int ENTITY_BEAST = 2;
 	public static final int ENTITY_ARID_SKELETON = 3;
@@ -83,6 +84,9 @@ public class VanillaEvolutionMod{
 	public static final int ENTITY_IMMJIRI_CHAMPION = 16;
 	public static final int ENTITY_EARTH_GUARDIAN = 17;
 	public static final int ENTITY_KNOWLEDGE_LORD = 18;
+	
+	//Projectile ID
+	public static final int ENTITY_TECH_ARROW = 100;
 	
     private static Logger logger;
 
@@ -114,11 +118,9 @@ public class VanillaEvolutionMod{
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.gneiss, 12, 16, 35, 5), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.shale, 12, 36, 49, 5), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.bauxite_ore, 4, 1, 28, 5), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.carbon_ore, 5, 1, 20, 2), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.tin_ore, 8, 1, 40, 4), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.copper_ore, 12, 4, 52, 6), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.cobalt_ore, 8, 1, 48, 6), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.meteorite_ore, 4, 1, 100, 8), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.meteorite_ore, 6, 1, 100, 9), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.ultrafood_ore, 8, 1, 20, 4), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.superfood_ore, 3, 1, 12, 3), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.seasonal_ore, 8, 1, 32, 5), 0);
@@ -129,13 +131,11 @@ public class VanillaEvolutionMod{
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.vibranium_ore, 3, 1, 15, 3), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.slime_ore, 9, 1, 28, 5), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.energetic_ore, 4, 1, 20, 1), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.ancient_ore, 2, 1, 12, 2), 1);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.elemental_ore, 6, 1, 20, 1), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.selenite_ore, 8, 1, 24, 1), 0);
 		
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.beryl_ore, 6, 0, 255, 8, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.magnetite_ore, 8, 0, 255, 6, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.nickel_ore, 8, 0, 255, 10, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.silver_ore, 6, 0, 255, 12, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.lead_ore, 6, 0, 255, 11, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);
 		GameRegistry.registerWorldGenerator(new OreGen(VanillaEvolutionBlocks.onyx_ore, 4, 0, 255, 7, -1, BlockMatcher.forBlock(Blocks.NETHERRACK)), 0);

@@ -18,7 +18,7 @@ import net.minecraft.world.World;
 
 public class ItemInfinityGauntlet extends ItemSword{
 
-	public ItemInfinityGauntlet(String name, ToolMaterial material, float damage, float speed) {
+	public ItemInfinityGauntlet(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

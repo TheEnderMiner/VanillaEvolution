@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "evep:carbon_ore"
+            "item": "evep:meteorite_ore"
         },
         "title": {
             "translate": "advancements.story.advanced_miner.title"
@@ -12,15 +12,64 @@
     },
     "parent": "evep:evolved/root",
     "criteria": {
-        "iron": {
+        "scale_helmet": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:meteorite_shard"
+                    }
+                ]
+            }
+        },
+    "12": {
+           "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:carbon_chunk"
+                    }
+                ]
+            }
+        },
+        "scale_chestplate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "evep:carbon_ore"
+                        "item": "evep:cobalt_chunk"
+                    }
+                ]
+            }
+        },
+        "scale_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:nickel_chunk"
+                    }
+                ]
+            }
+        },
+        "scale_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "evep:silicon_chunk"
                     }
                 ]
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "scale_helmet",
+	    "12",
+            "scale_chestplate",
+            "scale_leggings",
+            "scale_boots"
+        ]
+    ]
 }

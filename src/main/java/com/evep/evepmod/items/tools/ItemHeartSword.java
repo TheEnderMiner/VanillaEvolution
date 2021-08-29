@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 
 public class ItemHeartSword extends ItemSword{
 
-	public ItemHeartSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemHeartSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

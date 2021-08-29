@@ -34,7 +34,7 @@ public class ItemShadowArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("The Shield of the Demon"));
-		tooltip.add(I18n.format("Full Set Bonus: Speed & Quick Attack"));
+		tooltip.add(I18n.format("Full Set Bonus: Speed I & Quick Attack I"));
 
 	}
 	

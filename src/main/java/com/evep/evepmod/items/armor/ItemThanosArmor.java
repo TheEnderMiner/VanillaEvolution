@@ -38,7 +38,7 @@ public class ItemThanosArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A Perfectly Balanced Suit of Armor"));
-		tooltip.add(I18n.format("Full Set Bonus: Strength + Resistance"));
+		tooltip.add(I18n.format("Full Set Bonus: Strength I & Resistance I"));
 
 	}
 	

@@ -38,6 +38,9 @@ public class ItemNuclearIArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("An extremely useful exosuit with a minature nuclear reactor"));
+		tooltip.add(I18n.format("Each piece gives a unique bonus"));
+		tooltip.add(I18n.format("Helmet: Night Vision | Chestplate: Fire Resistance | Leggings: Haste III | Boots: Speed III"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost III & Regeneration I"));
 
 	}
 

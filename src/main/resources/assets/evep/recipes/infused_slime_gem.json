@@ -1,7 +1,7 @@
 { 
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "MEM",
+    "SES",
     "DED",
     "SES"  ],
   "key": {
@@ -22,16 +22,11 @@
         "item": "evep:enchanted_slime_gem",
         "data": 0
       }
-    ],
-     "M": [
-      {
-        "item": "evep:malachite_ingot",
-        "data": 0
-      }
     ]
   },
   "result": {
     "item": "evep:infused_slime_gem",
-    "data": 0
+    "data": 0,
+    "count": 2
   }
 }

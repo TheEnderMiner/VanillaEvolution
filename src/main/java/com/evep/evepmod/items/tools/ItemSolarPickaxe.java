@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemSolarPickaxe extends ItemPickaxe{
 	
-	public ItemSolarPickaxe(String name, ToolMaterial material, float damage, float speed) {
+	public ItemSolarPickaxe(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

@@ -43,6 +43,7 @@
   },
   "result": {
     "item": "evep:asteroid_ingot",
-    "data": 0
+    "data": 0,
+    "count": 15
   }
 }

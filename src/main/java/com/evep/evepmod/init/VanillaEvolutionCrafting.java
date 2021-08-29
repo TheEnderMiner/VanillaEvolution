@@ -9,9 +9,8 @@ public class VanillaEvolutionCrafting {
 	
 	public static void init(){
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.malachite_ore, new ItemStack(VanillaEvolutionItems.malachite_ingot, 1), 0.5f);
-		GameRegistry.addSmelting(VanillaEvolutionBlocks.bauxite_ore, new ItemStack(VanillaEvolutionBlocks.aluminum_ore, 1), 0.5f);
+		GameRegistry.addSmelting(VanillaEvolutionBlocks.bauxite_ore, new ItemStack(VanillaEvolutionItems.aluminum_ingot, 1), 0.5f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.nickel_ore, new ItemStack(VanillaEvolutionItems.nickel_ingot, 1), 1f);
-		GameRegistry.addSmelting(VanillaEvolutionBlocks.aluminum_ore, new ItemStack(VanillaEvolutionItems.aluminum_ingot, 2), 0.8f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.silver_ore, new ItemStack(VanillaEvolutionItems.silver_ingot, 1), 0.3f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.lead_ore, new ItemStack(VanillaEvolutionItems.lead_ingot, 1), 0.7f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.zinc_ore, new ItemStack(VanillaEvolutionItems.zinc_ingot, 1), 1f);
@@ -62,6 +61,9 @@ public class VanillaEvolutionCrafting {
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.marble, new ItemStack(VanillaEvolutionBlocks.refined_marble, 1), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.shale, new ItemStack(VanillaEvolutionBlocks.refined_shale, 1), 0.2f);
 		GameRegistry.addSmelting(VanillaEvolutionBlocks.evolved_sand, new ItemStack(Blocks.GLASS, 1), 0.2f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.nickel_chunk, new ItemStack(VanillaEvolutionItems.nickel_ingot), 1.5f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.cobalt_chunk, new ItemStack(VanillaEvolutionItems.cobalt_ingot), 1.5f);
+		GameRegistry.addSmelting(VanillaEvolutionItems.carbon_chunk, new ItemStack(VanillaEvolutionItems.carbon_ingot), 1.5f);
 	}
 
 }

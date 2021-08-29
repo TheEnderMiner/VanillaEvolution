@@ -19,6 +19,7 @@ import com.evep.evepmod.entity.EntityLion;
 import com.evep.evepmod.entity.EntityMinotaur;
 import com.evep.evepmod.entity.EntityTurkey;
 import com.evep.evepmod.entity.EntityWinterSquire;
+import com.evep.evepmod.entity.projectiles.EntityTechArrow;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
@@ -27,6 +28,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 public class VanillaEvolutionEntities {
 	
 	public static void registerEntities(){
+		//Mobs
 		registerEntities("frost_zombie", EntityFrostZombie.class, VanillaEvolutionMod.ENTITY_FROST_ZOMBIE, 75, 3112322, 53376);
 		registerEntities("beast", EntityBeast.class, VanillaEvolutionMod.ENTITY_BEAST, 100, 3124991, 16729905);
 		registerEntities("arid_skeleton", EntityAridSkeleton.class, VanillaEvolutionMod.ENTITY_ARID_SKELETON, 75, 7426863, 15785306);
@@ -46,6 +48,13 @@ public class VanillaEvolutionEntities {
 		registerEntities("earth_guardian", EntityEarthGuardian.class, VanillaEvolutionMod.ENTITY_EARTH_GUARDIAN, 50, 2100736, 10114560);
 		registerEntities("knowledge_lord", EntityKnowledgeLord.class, VanillaEvolutionMod.ENTITY_KNOWLEDGE_LORD, 100, 2293788, 2296320);
 		//registerEntities("lizard", EntityLizard.class, VanillaEvolutionMod.ENTITY_LIZARD, 50, 16777199, 8519424);
+		
+		//Projectiles
+		registerArrow("tech_arrow", EntityTechArrow.class, VanillaEvolutionMod.ENTITY_TECH_ARROW);
+	}
+	
+	private static void registerArrow(String name, Class<? extends Entity> entity, int id){
+		EntityRegistry.registerModEntity(new ResourceLocation(VanillaEvolutionMod.MODID + ":" + name), entity, name, id, VanillaEvolutionMod.instance, 64, 20, true);
 	}
 	
 	private static void registerEntities(String name, Class<? extends Entity> entity, int id, int range, int color1, int color2){

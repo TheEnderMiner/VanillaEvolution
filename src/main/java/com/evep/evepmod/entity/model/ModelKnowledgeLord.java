@@ -13,7 +13,7 @@ public class ModelKnowledgeLord extends ModelBase {
         this.textureWidth = 64;
         this.textureHeight = 64;
         this.Head = new ModelRenderer(this, 0, 0);
-        this.Head.setRotationPoint(0.0F, -35.0F, 0.0F);
+        this.Head.setRotationPoint(0.0F, -30.0F, 0.0F);
         this.Head.addBox(-4.0F, -8.0F, -4.0F, 8, 8, 8, 6.0F);
     }
 

@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemSlimeSword extends ItemSword{
 
-	public ItemSlimeSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemSlimeSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

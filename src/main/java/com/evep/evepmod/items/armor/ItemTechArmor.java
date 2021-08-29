@@ -37,6 +37,7 @@ public class ItemTechArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("An advanced suit that has many effects!"));
+		tooltip.add(I18n.format("Full Set Bonus: Regeneration I"));
 	//	tooltip.add(I18n.format("Warning: Crashes Servers but not Singelplayer"));
 
 	}

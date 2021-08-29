@@ -38,7 +38,7 @@ public class ItemKrampusArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("The Robes of a Christmas Demon"));
-		tooltip.add(I18n.format("Full Set Bonus: Swiftness & Jump Boost"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost II & Speed I"));
 
 	}
 

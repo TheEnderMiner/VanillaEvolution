@@ -38,7 +38,7 @@ public class ItemVaderArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("You don't know the power of the dark side"));
-		tooltip.add(I18n.format("Full Set Bonus: Fire Resistance, Night Vision, Regeneration"));
+		tooltip.add(I18n.format("Full Set Bonus: Regeneration I, Fire Resistance, & Night Vision"));
 
 	}
 	
@@ -55,9 +55,9 @@ public class ItemVaderArmor extends ItemArmor implements IHasModel{
 				player.inventory.armorInventory.get(2).getItem() == VanillaEvolutionItems.vader_chestplate &&
 				player.inventory.armorInventory.get(3).getItem() == VanillaEvolutionItems.vader_helmet)
 			{
+				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 				player.addPotionEffect(new PotionEffect(MobEffects.FIRE_RESISTANCE, 12*20, 0));
 				player.addPotionEffect(new PotionEffect(MobEffects.NIGHT_VISION, 12*20, 0));
-				player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 12*20, 0));
 			}
 		  }
 		}

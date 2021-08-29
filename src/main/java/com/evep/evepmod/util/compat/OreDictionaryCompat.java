@@ -11,7 +11,7 @@ public class OreDictionaryCompat {
 		OreDictionary.registerOre("oreCopper", VanillaEvolutionBlocks.copper_ore);
 		OreDictionary.registerOre("oreLead", VanillaEvolutionBlocks.lead_ore);
 		OreDictionary.registerOre("oreNickel", VanillaEvolutionBlocks.nickel_ore);
-		OreDictionary.registerOre("oreAluminum", VanillaEvolutionBlocks.aluminum_ore);
+		OreDictionary.registerOre("oreAluminum", VanillaEvolutionBlocks.bauxite_ore);
 		OreDictionary.registerOre("oreSilver", VanillaEvolutionBlocks.silver_ore);
 		OreDictionary.registerOre("oreZinc", VanillaEvolutionBlocks.zinc_ore);
 		OreDictionary.registerOre("oreCarbon", VanillaEvolutionBlocks.carbon_ore);

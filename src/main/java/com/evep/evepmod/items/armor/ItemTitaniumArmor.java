@@ -38,6 +38,9 @@ public class ItemTitaniumArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A powerful suit reinforced with titanium"));
+		tooltip.add(I18n.format("Each piece gives a unique bonus"));
+		tooltip.add(I18n.format("Helmet: Night Vision | Chestplate: Fire Resistance | Leggings: Haste II | Boots III"));
+		tooltip.add(I18n.format("Full Set Bonus: Jump Boost II & Regeneration I"));
 
 	}
 

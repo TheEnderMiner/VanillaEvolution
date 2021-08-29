@@ -18,7 +18,7 @@ import net.minecraft.item.ItemStack;
 
 public class ItemMalachiteShovel extends ItemSpade{
 	
-	public ItemMalachiteShovel(String name, ToolMaterial material, float damage, float speed) {
+	public ItemMalachiteShovel(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
@@ -35,7 +35,7 @@ public class ItemMalachiteShovel extends ItemSpade{
 
 		if (slot == EntityEquipmentSlot.MAINHAND) {
 			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 1);
-			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, -10);
+			replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.1);
 		}
 
 		return modifiers;

@@ -38,7 +38,7 @@ public class ItemLionArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("Armor that makes you as tough as a lion"));
-		tooltip.add(I18n.format("Full Set Bonus: Strength"));
+		tooltip.add(I18n.format("Full Set Bonus: Strength I"));
 
 	}
 	

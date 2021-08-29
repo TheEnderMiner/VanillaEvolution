@@ -17,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 
 public class ItemSolarSword extends ItemSword{
 
-	public ItemSolarSword(String name, ToolMaterial material, float damage, float speed) {
+	public ItemSolarSword(String name, ToolMaterial material) {
 		super(material);
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);

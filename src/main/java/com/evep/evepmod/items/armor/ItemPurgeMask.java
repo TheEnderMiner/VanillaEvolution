@@ -33,6 +33,7 @@ public class ItemPurgeMask extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("For those who want to murder freely"));
+		tooltip.add(I18n.format("Gives you Night Vision"));
 
 	}
 	

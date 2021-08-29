@@ -18,6 +18,7 @@ import com.evep.evepmod.entity.EntityLion;
 import com.evep.evepmod.entity.EntityMinotaur;
 import com.evep.evepmod.entity.EntityTurkey;
 import com.evep.evepmod.entity.EntityWinterSquire;
+import com.evep.evepmod.entity.projectiles.EntityTechArrow;
 import com.evep.evepmod.entity.render.RenderAridSkeleton;
 import com.evep.evepmod.entity.render.RenderBasilisk;
 import com.evep.evepmod.entity.render.RenderBeast;
@@ -36,6 +37,7 @@ import com.evep.evepmod.entity.render.RenderLion;
 import com.evep.evepmod.entity.render.RenderMinotaur;
 import com.evep.evepmod.entity.render.RenderTurkey;
 import com.evep.evepmod.entity.render.RenderWinterSquire;
+import com.evep.evepmod.entity.render.projectiles.RenderTechArrow;
 
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -46,6 +48,7 @@ public class RenderHandler {
 	
 	public static void registerEntityRenders(){
 		
+		//Mobs
 		RenderingRegistry.registerEntityRenderingHandler(EntityFrostZombie.class, new IRenderFactory<EntityFrostZombie>(){
 		@Override
 		public Render<? super EntityFrostZombie> createRenderFor(RenderManager manager){
@@ -169,6 +172,14 @@ public class RenderHandler {
 			@Override
 			public Render<? super EntityKnowledgeLord> createRenderFor(RenderManager manager){
 				return new RenderKnowledgeLord(manager);
+			}
+			});
+		
+		//Projectiles
+		RenderingRegistry.registerEntityRenderingHandler(EntityTechArrow.class, new IRenderFactory<EntityTechArrow>(){
+			@Override
+			public Render<? super EntityTechArrow> createRenderFor(RenderManager manager){
+				return new RenderTechArrow(manager);
 			}
 			});
 	}

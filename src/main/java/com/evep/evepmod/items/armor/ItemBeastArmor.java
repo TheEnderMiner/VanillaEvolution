@@ -33,6 +33,7 @@ public class ItemBeastArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("A gemstone that makes the enemies of its wearer flee"));
+		tooltip.add(I18n.format("Gives you Strength II & Regeneration II"));
 
 	}
 

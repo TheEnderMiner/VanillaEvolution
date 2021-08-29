@@ -5,7 +5,6 @@ import java.util.List;
 
 import com.evep.evepmod.VanillaEvolutionMod;
 import com.evep.evepmod.blocks.BlockAdamantiumOre;
-import com.evep.evepmod.blocks.BlockAluminumOre;
 import com.evep.evepmod.blocks.BlockAmberOre;
 import com.evep.evepmod.blocks.BlockAmethystOre;
 import com.evep.evepmod.blocks.BlockAncientOre;
@@ -129,7 +128,6 @@ public class VanillaEvolutionBlocks {
 	public static Block marble;
 	public static Block nickel_ore;
 	public static Block bauxite_ore;
-	public static Block aluminum_ore;
 	public static Block silver_ore;
 	public static Block lead_ore;
 	public static Block zinc_ore;
@@ -293,9 +291,6 @@ public class VanillaEvolutionBlocks {
 		
 		bauxite_ore = new BlockBauxiteOre("bauxite_ore", Material.ROCK).setHardness(1f).setResistance(10f).setCreativeTab(VanillaEvolutionMod.orestab);
 		bauxite_ore.setHarvestLevel("pickaxe", 2);
-		
-		aluminum_ore = new BlockAluminumOre("aluminum_ore", Material.ROCK).setHardness(1f).setResistance(10f).setCreativeTab(VanillaEvolutionMod.orestab);
-		aluminum_ore.setHarvestLevel("pickaxe", 2);
 		
 		silver_ore = new BlockSilverOre("silver_ore", Material.ROCK).setHardness(1f).setResistance(10f).setCreativeTab(VanillaEvolutionMod.orestab);
 		silver_ore.setHarvestLevel("pickaxe", 2);
@@ -673,7 +668,7 @@ public class VanillaEvolutionBlocks {
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(malachite_ore, bacon_ore, torch_ore, wood_ore, limestone, basalt, gneiss, shale, nickel_ore, bauxite_ore, aluminum_ore, silver_ore, lead_ore,
+		event.getRegistry().registerAll(malachite_ore, bacon_ore, torch_ore, wood_ore, limestone, basalt, gneiss, shale, nickel_ore, bauxite_ore, silver_ore, lead_ore,
 				zinc_ore, carbon_ore, tin_ore, copper_ore, cobalt_ore, meteorite_ore, enderite_ore, ultrafood_ore, superfood_ore, amber_ore, onyx_ore, seasonal_ore, ruby_ore,
 				peridot_ore, amethyst_ore, adamantium_ore, vibranium_ore, dwarf_star_alloy_ore, slime_ore, energetic_ore, ancient_ore, elemental_ore, selenite_ore, marble,
 				beryl_ore, magnetite_ore, refined_basalt, refined_gneiss, refined_marble, refined_shale, basalt_bricks, gneiss_bricks, marble_bricks, shale_bricks, adamantium_block,
@@ -702,7 +697,6 @@ public class VanillaEvolutionBlocks {
 		event.getRegistry().registerAll(new ItemBlock(shale).setRegistryName(shale.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(nickel_ore).setRegistryName(nickel_ore.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(bauxite_ore).setRegistryName(bauxite_ore.getRegistryName()));
-		event.getRegistry().registerAll(new ItemBlock(aluminum_ore).setRegistryName(aluminum_ore.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(silver_ore).setRegistryName(silver_ore.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(lead_ore).setRegistryName(lead_ore.getRegistryName()));
 		event.getRegistry().registerAll(new ItemBlock(zinc_ore).setRegistryName(zinc_ore.getRegistryName()));
@@ -916,7 +910,6 @@ public class VanillaEvolutionBlocks {
 		registerRender(Item.getItemFromBlock(shale));
 		registerRender(Item.getItemFromBlock(nickel_ore));
 		registerRender(Item.getItemFromBlock(bauxite_ore));
-		registerRender(Item.getItemFromBlock(aluminum_ore));
 		registerRender(Item.getItemFromBlock(silver_ore));
 		registerRender(Item.getItemFromBlock(lead_ore));
 		registerRender(Item.getItemFromBlock(zinc_ore));

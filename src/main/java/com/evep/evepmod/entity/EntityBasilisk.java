@@ -82,7 +82,7 @@ public class EntityBasilisk extends EntityZombie{
 	        if (flag && this.getHeldItemMainhand().isEmpty() && entityIn instanceof EntityLivingBase)
 	        {
 	            float f = this.world.getDifficultyForLocation(new BlockPos(this)).getAdditionalDifficulty();
-	            ((EntityLivingBase)entityIn).addPotionEffect(new PotionEffect(MobEffects.POISON, 200 * (int)f));
+	            ((EntityLivingBase)entityIn).addPotionEffect(new PotionEffect(MobEffects.POISON, 100 * (int)f));
 	        }
 
 	        return flag;

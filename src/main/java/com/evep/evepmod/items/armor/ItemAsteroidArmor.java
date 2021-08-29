@@ -32,6 +32,7 @@ public class ItemAsteroidArmor extends ItemArmor implements IHasModel{
 		super.addInformation(stack, worldIn, tooltip, flagIn);
 
 		tooltip.add(I18n.format("Armor forged with shards of an asteroid"));
+		tooltip.add(I18n.format("Full Set Bonus: Speed II, Jump Boost II, Haste I, Night Vision, & Fire Resistance"));
 
 	}
 	
